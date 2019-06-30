@@ -1,6 +1,7 @@
 import L from 'leaflet'
 // import 'leaflet-rastercoords'
 import 'leaflet-draw'
+import bbox from '@turf/bbox'
 import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
 
 const TILES = '/tiles/{z}/{x}/{y}.png'
@@ -84,12 +85,17 @@ export function initMap (history) {
 // }
 
 let geojsonLayers = []
+const collection = {
+  "type": "FeatureCollection",
+  "features": []
+}
 
 export function clearGeoJsons () {
   while (geojsonLayers.length) {
     const layer = geojsonLayers.pop()
     layer.clearLayers()
   }
+  collection.features = []
 }
 
 export function drawGeo (geojson, name) {
@@ -100,4 +106,16 @@ export function drawGeo (geojson, name) {
       weight: 0
     }
   }).bindPopup(name).addTo(map))
+  collection.features.push(geojson)
+}
+
+// Zoom to bounds
+export function zoomToGeoBounds () {
+  // WSEN order (west, south, east, north)
+  const bounds = bbox(collection)
+
+  // southwest latlng, northeast latlng
+  map.fitBounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]],  {
+    padding: [20, 20]
+  })
 }

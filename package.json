@@ -10,6 +10,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@turf/bbox": "6.0.1",
     "downshift": "3.2.10",
     "leaflet": "1.5.1",
     "leaflet-draw": "1.0.4",

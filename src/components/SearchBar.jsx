@@ -3,7 +3,7 @@ import Downshift from 'downshift'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
-import { drawGeo, clearGeoJsons } from '../map'
+import { drawGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
 import { showInfoBox, hideInfoBox } from '../infobox.js';
 
@@ -77,10 +77,12 @@ function SearchBar (props) {
               }
             })
             showInfoBox(selection.type, DEMONS[selection.index])
+            zoomToGeoBounds()
             break
           case 'area':
             drawGeo(AREAS[selection.index].geo, AREAS[selection.index].name[locale])
             showInfoBox(selection.type, AREAS[selection.index])
+            zoomToGeoBounds()
             break
           case 'shard': {
             const shard = SHARDS[selection.index]
@@ -101,6 +103,7 @@ function SearchBar (props) {
               drawGeo(AREAS[1].geo, AREAS[1].name[locale])
             }
             showInfoBox(selection.type, SHARDS[selection.index])
+            zoomToGeoBounds()
             break
           }
           // do nothing
