@@ -3,6 +3,7 @@ import Downshift from 'downshift'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
+import ITEMS from '../data/items.json'
 import { drawGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
 import { showInfoBox, hideInfoBox } from '../infobox.js';
@@ -37,6 +38,15 @@ function assembleSearchTerms () {
       type: 'shard',
       index: index,
       disambiguate: shard.disambiguate || false
+    })
+  })
+  
+  ITEMS.forEach((item, index) => {
+    items.push({
+      name: item.name[locale],
+      type: 'item',
+      index: index,
+      disambiguate: item.disambiguate || false
     })
   })
 
@@ -111,6 +121,11 @@ function SearchBar (props) {
             zoomToGeoBounds()
             break
           }
+          case 'item': {
+            const item = ITEMS[selection.index]
+            showInfoBox(selection.type, item)
+            break
+          }
           // do nothing
           default:
             break
@@ -130,7 +145,7 @@ function SearchBar (props) {
       }) => (
         <div className="search">
           <label {...getLabelProps()}>What are you looking for?</label>
-          <input {...getInputProps({ spellcheck: 'false' })} ref={textInput} />
+          <input {...getInputProps({ spellCheck: 'false' })} ref={textInput} />
           <ul {...getMenuProps()}>
             {isOpen
               ? items

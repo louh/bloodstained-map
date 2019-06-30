@@ -1,0 +1,3867 @@
+[
+  {
+    "name": {
+      "en": "Potion"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "High Potion"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ex Potion"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ether"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "High Ether"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ex Ether"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mithridate"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Holy Water"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Stonethaw"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Poison"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Waystone"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Panacea"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Medicine"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Elixir"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Allheal"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Panacea"
+    },
+    "type": "Supplies",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rice Ball"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Uni Rice Bowl"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Apple Risotto"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Egg on Rice"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Omurice"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chicken Casserole"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Curry & Rice"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Beef Curry"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Pork Curry"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chicken Curry"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Seafood Curry"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Macaroni Gratin"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Classic Spaghetti"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Pasta Carbonara"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Pasta Vongole"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Sea Urchin Pasta"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Berry Spaghetti"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Shiruko Spaghetti"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Salt Ramen"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Soy Ramen"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Tonkotsu Ramen"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Miso Ramen"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Corn Chowder"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Steak"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Exquisite Steak"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Sukiyaki"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chicken Sauté"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Garlic Chicken"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Pork Cutlet"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Miso Cutlet"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Ginger Pork"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Meat Hot Pot"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Fried Potatoes"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Pizza"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Rice"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flour"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Egg"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Egg"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sugar"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Soy Sauce"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Miso"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Black Pepper"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ginger"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Garlic"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cinnamon"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Moco Oil"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rennet"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Milk"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Beast Milk"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Corn"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Potato"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tomato"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Moco Leek"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fey Leaf"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fell Leaf"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Clam"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sea Urchin"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Red Bean"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cacao Bean"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Forneus Filet"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Aquatic Filet"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "G-Bone Steak"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Plume Pork"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Beast Beef"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flying Beef"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Strawberry"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Apple"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lemon"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ambrosia"
+    },
+    "type": "Ingredient",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Alkahest"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sulfur"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Saltpeter"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mercury"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sulfate"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gunpowder"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ectoplasm"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bronze"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Iron"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Obsidian"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Steel"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Damascus"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mithril"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Platinum"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crystal"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gold"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crimsonite"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Orichalcum"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cotton"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hemp"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Wool"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silk"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cashmere"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Halite"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Elm"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Oak"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Walnut"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mahogany"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cypress"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ruby"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sapphire"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Emerald"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Diamond"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bixbite"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Alexandrite"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "8-bit Coin"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "16-bit Coin"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "32-bit Coin"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "8-bit Nightmare"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Writhing Limb"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sharp Razor"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tome Scrap"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sword Fragment"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Chair Remnants"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Bird Tear"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Witch's Tears"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Queen's Tears"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rat Teeth"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bat Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Dog Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fiend Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Imbrued Fang"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lycan Claw"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Talons"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Claw"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Horn"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Horn"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hellhorse Hoof"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Water Horse Hoof"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Melting Bone"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Bone"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Bone"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Imbrued Bone"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Melting Skull"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Skull"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fiend Skull"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Imbrued Skull"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Grotesque Shell"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Inhuman Carapace"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cannon Scrap"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gargoyle Stone"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hellhorse Mane"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Water Horse Mane"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lion Mane"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lion Lord's Mane"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Bird Hair"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Thunderbird Plume"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flight Feather"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bovine Plume"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Small Webbing"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Toad Webbing"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Wing"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rat Tail"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Tail"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lili Tail"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Queen's Tail"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lili Ears"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Wing"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Vespine Wing"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Dust"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Vespine Stinger"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Scale"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon's Wrath"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dreadful Rag"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Durable Rag"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Rag"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Eastern Fabric"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Houndskin"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Fur"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Leonine Pelt"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Pelt"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Durable Leather"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Strange Leather"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Slimy Leather"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Pelt"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fiend Pelt"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Toad Eye"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Eye"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Eye"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fiend Eye"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Toad Heart"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sinister Heart"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Heart"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Heart"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fiend Heart"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Monster Blood"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Aquatic Blood"
+    },
+    "type": "Material",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Kung Fu Shoes"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Battle Boots"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Lethal Boots"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Toy Shoes"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Steam Boots"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Bunny Boots"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Dragon Shoes"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Hermes Shoes"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Hell's Knells"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Knife"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Baselard"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Kukri"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Poison Kukri"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Swordbreaker"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Main Gauche"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Carnwennan"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Mandau Pasir"
+    },
+    "type": "Weapon",
+    "subtype": "Dagger"
+  },
+  {
+    "name": {
+      "en": "Rapier"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Epée"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Stinger"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Misericorde"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Kazikli"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Joyeuse"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Short Sword"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Long Sword"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Ulfberht Sword"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Invisible Blade"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Harpé"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Murgleis"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Red Umbrella"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Blutgang"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Fragarach"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Hofud"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Dainsleif"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Florenberg"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Almace"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Caladbolg"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Ridill"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Bandit Blade"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Blue Rose"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Sword Whip"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Bloodbringer"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Valkyrie Sword"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Mace"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Morgenstern"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Macuahuitl"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Yagrush"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Ayamur"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Sharur"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Mistilteinn"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Flying Edge"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Oracle Blade"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Rhava Bùral"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Rhava Velar"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Schedar"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Steel Lightning"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Kaladanda"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Durandal"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Dies Irae"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Ukonvasara"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Eternal Blue"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Dull Blade"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Nodachi"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Tsurumaru"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Honebami"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Raikiri"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Swordfish"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Dojigiri"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Zangetsuto"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Mikazuki"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Grand Izayoi"
+    },
+    "type": "Weapon",
+    "subtype": "Katana"
+  },
+  {
+    "name": {
+      "en": "Spear"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Lance"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Partisan"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Shovel"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Sanjiegun"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Gondo-Shizunori"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Leng Yan Ju"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Areadbhar"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Niflheim"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Gungnir"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Gae Assail"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Whip"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Thorn Whip"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Flame Whip"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Black Cords"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Snakebite"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Beast Killer"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Albireo"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Andromeda"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Musketoon"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Blunderbuss"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Tanegashima"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Toradar"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Culverin"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Betelgeuse"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Verethragna"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Adrasteia"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Dawn Blade"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Blue Skies"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Boreal Rime Boots"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Oleanders"
+    },
+    "type": "Weapon",
+    "subtype": "Shoes"
+  },
+  {
+    "name": {
+      "en": "Shield Weapon"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Encrypted Orchid"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Hikari"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Moonwake"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "God Cross"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Eu's Sword"
+    },
+    "type": "Weapon",
+    "subtype": "Sword"
+  },
+  {
+    "name": {
+      "en": "Redbeast's Edge"
+    },
+    "type": "Weapon",
+    "subtype": "Rapier"
+  },
+  {
+    "name": {
+      "en": "Prismatic Heart"
+    },
+    "type": "Weapon",
+    "subtype": "Club"
+  },
+  {
+    "name": {
+      "en": "Deathbringer"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Claw of Onmoraki"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Blood Grinder"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Silent Calamity"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Sculptor's Chisel"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Black Dragon's Ode"
+    },
+    "type": "Weapon",
+    "subtype": "Spear"
+  },
+  {
+    "name": {
+      "en": "Renee's Requiem"
+    },
+    "type": "Weapon",
+    "subtype": "Firearm"
+  },
+  {
+    "name": {
+      "en": "Ambivalence"
+    },
+    "type": "Weapon",
+    "subtype": "Whip"
+  },
+  {
+    "name": {
+      "en": "Infinite Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "SP Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "HP Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "AP Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flame Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ice Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Thunder Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver Bullets"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Weaponbane Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Shieldbane Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Poison Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Petrifying Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Curse Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Scattershot"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Critical Rounds"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Diamond Bullets"
+    },
+    "type": "Bullets",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Aries' Horns"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hairband"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Pirate Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dullahammer Helm"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Circlet"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Garbo Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Santa Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Beast Beret"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cat Ears"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cowboy Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Wolf Hood"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flame Circlet"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ice Circlet"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Thunder Circlet"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Feather Crown"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Beret of Bravery"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crow Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gadget Band"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver Tiara"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Witch's Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cute Beast Beret"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bunny Ears"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Diabolist's Cap"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Maid's Hairband"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gunslinger's Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ribbon"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Traveler's Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hermit's Beret"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Kitsune Mask"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Horns"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ancient Tiara"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Recycle Hat"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Pleiades"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Valkyrie Tiara"
+    },
+    "type": "Head Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tunic"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Leather Chestguard"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Country Dress"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bronze Chestguard"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Chemise"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Scale Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Iron Breastplate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Brigandine"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Apron"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Kung Fu Vest"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tea Dress"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Chainmail"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hound Vest"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mantua"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ex Shovel Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lamellar Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crusader's Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Steel Breastplate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Riding Habit"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Duelist's Guard"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver Breastplate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Assassin's Vest"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Feather Robe"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Polonaise"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Knight's Cuirass"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crystal Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Aegis Plate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dragon Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gold Breastplate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Spiked Breastplate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silk Dress"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Majestic Plate"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flame Mail"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Shinobi Garb"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Kalasiris"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Scarlet Dress"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Imperial Armor"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tatenashi"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Coronation Gown"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Valkyrie Dress"
+    },
+    "type": "Body Armor",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Elf Ears"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Eyeglasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Convex Glasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Eye of Horus"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sunglasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Thick Glasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gauge Glasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gebel's Glasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Stone Mask"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crow Mask"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dance Mask"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hyperventilator"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Nose Glasses"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Voice Changer"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ofuda Talisman"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rusted Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Necklace"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Safe Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Unicorn Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flame Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ice Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Thunder Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Critical Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Assassin's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Lethality Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Traverser's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cursed Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Strider Belt"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver Power Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Rose Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Skull Necklace"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Moon Belt"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Weighted Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Speed Belt"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cutpurse's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Plunderer's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gold Power Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Risk Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Demon Necklace"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Adversity Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Black Belt"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gambler's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Warlock's Necklace"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Solomon's Ring"
+    },
+    "type": "Accessory",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tattered Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bat Wings"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gunman's Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Order-made Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Bunny Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fangshi Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Flame Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Talisman Scarf"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Over the Rainbow"
+    },
+    "type": "Scarf",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Might Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sage's Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sentinel Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Believer's Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fortune Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Coldstave Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Heatstave Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Shockstave Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Empyreal Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Obscurity Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Corporeity Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Immunity Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Blessed Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Prowess Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ancillary Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Deadeye Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tailwind Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tactician's Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Mastery Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Godsend Tome"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Tome of Conquest"
+    },
+    "type": "Tome",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Galleon Map"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Passplate"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Identification"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Silver Bromide"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Carpenter's Key"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Warhorse's Key"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Millionaire's Key"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Celeste's Key"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent I"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent III"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent III"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent IV"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent V"
+    },
+    "type": "Nonexistent",
+    "subtype": "",
+    "note": "This item does not exist!"
+  },
+  {
+    "name": {
+      "en": "Hair Apparent VI"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent VII"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent VIII"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent IX"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent X"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent XI"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Hair Apparent XII"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Village Key"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fine Healing Item/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ultimate Healing Item/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Faerie Healing Item/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Elemental Ammunition/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Special Ammunition/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Potent Ammunition/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ultimate Ammunition/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Steel Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Obsidian Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Damascus Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Gold Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Crimsonite Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cashmere Equipment"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fine Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Very Fine Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Legendary Equipment/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ramen/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Curry Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Pasta Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Meat Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Fish Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Sweets/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cookies/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Cake/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Drink/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Ultimate Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Supreme Dish/R"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Discount Card"
+    },
+    "type": "Key Item",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Benjamin"
+    },
+    "type": "NPC",
+    "subtype": "Quest"
+  },
+  {
+    "name": {
+      "en": "Lindsay"
+    },
+    "type": "NPC",
+    "subtype": "Quest"
+  },
+  {
+    "name": {
+      "en": "Susie"
+    },
+    "type": "NPC",
+    "subtype": "Quest"
+  },
+  {
+    "name": {
+      "en": "Harry"
+    },
+    "type": "NPC",
+    "subtype": "Quest"
+  },
+  {
+    "name": {
+      "en": "Abigail"
+    },
+    "type": "NPC",
+    "subtype": "Quest"
+  },
+  {
+    "name": {
+      "en": "Anne"
+    },
+    "type": "NPC",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Dominique"
+    },
+    "type": "NPC",
+    "subtype": "Shop"
+  },
+  {
+    "name": {
+      "en": "Johannes"
+    },
+    "type": "NPC",
+    "subtype": "Alchemy"
+  },
+  {
+    "name": {
+      "en": "O.D."
+    },
+    "type": "NPC",
+    "subtype": "Librarian"
+  },
+  {
+    "name": {
+      "en": "Todd"
+    },
+    "type": "NPC",
+    "subtype": "Hairstylist"
+  },
+  {
+    "name": {
+      "en": "Blue Chests"
+    },
+    "type": "Chest",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Green Chests"
+    },
+    "type": "Chest",
+    "subtype": ""
+  }
+]

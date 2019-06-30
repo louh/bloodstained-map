@@ -108,6 +108,21 @@ export function showInfoBox (type, object) {
 
       break
     }
+    case 'item': {
+      const typeEl = document.createElement('h4')
+      typeEl.textContent = object.type + (object.subtype ? ' – ' + object.subtype : '')
+      el.appendChild(typeEl)
+
+      const nameEl = document.createElement('h3')
+      nameEl.textContent = object.name[locale]
+      el.appendChild(nameEl)
+
+      const pEl = document.createElement('p')
+      pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
+      el.appendChild(pEl)
+
+      break
+    }
     default:
       break
   }
