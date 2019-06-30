@@ -16,21 +16,17 @@ export function showInfoBox (type, object) {
 
   switch (type) {
     case 'area': {
-      const nameEl = document.createElement('h3')
-      nameEl.textContent = object.name[locale]
-      el.appendChild(nameEl)
-
       const typeEl = document.createElement('h4')
       typeEl.textContent = ((object.type || '') + ' ' + type.toUpperCase()).trim()
       el.appendChild(typeEl)
 
-      break
-    }
-    case 'demon': {
       const nameEl = document.createElement('h3')
       nameEl.textContent = object.name[locale]
       el.appendChild(nameEl)
 
+      break
+    }
+    case 'demon': {
       const typeEl = document.createElement('h4')
       typeEl.textContent = (
         (object.dlc ? 'DLC' : '') + ' '
@@ -38,6 +34,14 @@ export function showInfoBox (type, object) {
         + type.toUpperCase()
       ).trim()
       el.appendChild(typeEl)
+
+      const nameEl = document.createElement('h3')
+      nameEl.textContent = object.name[locale]
+      const numEl = document.createElement('span')
+      numEl.className = 'demon-number'
+      numEl.textContent = ' – #' + object.number.toString().padStart(3, '0')
+      nameEl.appendChild(numEl)
+      el.appendChild(nameEl)
 
       const titleEl = document.createElement('strong')
       titleEl.textContent = 'Spawn locations'
@@ -49,20 +53,30 @@ export function showInfoBox (type, object) {
         el.appendChild(pEl)
       })
 
+      if (object.dlc) {
+        const titleEl2 = document.createElement('strong')
+        titleEl2.textContent = 'DLC'
+        el.appendChild(titleEl2)
+  
+        const pEl2 = document.createElement('p')
+        pEl2.textContent = object.dlc
+        el.appendChild(pEl2)
+      }
+
       break
     }
     case 'shard':{
-      const nameEl = document.createElement('h3')
-      nameEl.textContent = object.name[locale]
-      el.appendChild(nameEl)
-
       const typeEl = document.createElement('h4')
       typeEl.textContent = object.type + ' ' + type.toUpperCase()
       el.appendChild(typeEl)
 
+      const nameEl = document.createElement('h3')
+      nameEl.textContent = object.name[locale]
+      el.appendChild(nameEl)
+
       if (object.demons) {
         const titleEl = document.createElement('strong')
-        titleEl.textContent = 'Drops from'
+        titleEl.textContent = 'Obtained by defeating'
         el.appendChild(titleEl)
 
         object.demons.forEach((index) => {
