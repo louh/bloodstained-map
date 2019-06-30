@@ -18,7 +18,8 @@ function assembleSearchTerms () {
     items.push({
       name: demon.name[locale],
       type: 'demon',
-      index: index
+      index: index,
+      disambiguate: demon.disambiguate || false
     })
   })
 
@@ -34,7 +35,8 @@ function assembleSearchTerms () {
     items.push({
       name: shard.name[locale],
       type: 'shard',
-      index: index
+      index: index,
+      disambiguate: shard.disambiguate || false
     })
   })
 
@@ -127,7 +129,7 @@ function SearchBar (props) {
         selectedItem,
       }) => (
         <div className="search">
-          <label {...getLabelProps()}>Search</label>
+          <label {...getLabelProps()}>What are you looking for?</label>
           <input {...getInputProps({ spellcheck: 'false' })} ref={textInput} />
           <ul {...getMenuProps()}>
             {isOpen
@@ -146,7 +148,7 @@ function SearchBar (props) {
                         ].join(' ')
                       })}
                     >
-                      {item.name}
+                      {(item.disambiguate) ? `${item.name} (${item.type.toLowerCase()})` : item.name}
                     </li>
                   ))
               : null}

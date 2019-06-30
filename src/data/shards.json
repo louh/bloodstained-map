@@ -1023,6 +1023,7 @@
     "name": {
       "en": "Carabosse"
     },
+    "disambiguate": true,
     "type": "FAMILIAR",
     "demons": [
       17
@@ -1032,6 +1033,7 @@
     "name": {
       "en": "Buer"
     },
+    "disambiguate": true,
     "type": "FAMILIAR",
     "demons": [
       57, 92
@@ -1041,6 +1043,7 @@
     "name": {
       "en": "Bloodbringer"
     },
+    "disambiguate": true,
     "type": "FAMILIAR",
     "demons": [
       54
@@ -1050,6 +1053,7 @@
     "name": {
       "en": "Dantalion"
     },
+    "disambiguate": true,
     "type": "FAMILIAR",
     "demons": [
       33
@@ -1059,6 +1063,7 @@
     "name": {
       "en": "Dullahammer Head"
     },
+    "disambiguate": true,
     "type": "FAMILIAR",
     "demons": [
       28

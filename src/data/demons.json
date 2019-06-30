@@ -148,6 +148,7 @@
     "name": {
       "en": "Carabosse"
     },
+    "disambiguate": true,
     "areas": [ 3 ],
     "rooms": [],
     "coordinates": []
@@ -220,6 +221,7 @@
     "name": {
       "en": "Buer"
     },
+    "disambiguate": true,
     "areas": [ 4, 7, 9 ],
     "rooms": [],
     "coordinates": []
@@ -247,6 +249,7 @@
     "name": {
       "en": "Dullahammer Head"
     },
+    "disambiguate": true,
     "areas": [ 4, 5 ],
     "rooms": [],
     "coordinates": []
@@ -292,6 +295,7 @@
     "name": {
       "en": "Dantalion"
     },
+    "disambiguate": true,
     "areas": [ 6 ],
     "rooms": [],
     "coordinates": []
@@ -481,6 +485,7 @@
     "name": {
       "en": "Bloodbringer"
     },
+    "disambiguate": true,
     "areas": [ 2, 4, 14 ],
     "rooms": [],
     "coordinates": []
