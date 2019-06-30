@@ -20,13 +20,20 @@ html {
   left: 0;
   width: 300px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
+  overflow-y: auto;
   background-color: #242121;
   border-right: 1px solid #302c2c;
   padding: 20px;
   color: white;
   font-size: 13px;
   line-height: 1.4;
+}
+
+.left-main {
+  flex-grow: 1;
 }
 
 .right-pane {
@@ -47,12 +54,10 @@ html {
 }
 
 .notice {
-  position: absolute;
-  bottom: 20px;
-  background-color: #1b1919;
   padding: 1em;
+  margin-top: 1em;
+  background-color: #1b1919;
   border-radius: 3px;
-  width: calc(100% - 38px);
 }
 
 .notice h4 {
