@@ -5,8 +5,31 @@ import AREAS from '../data/areas.json'
 import { drawGeo, clearGeoJsons } from '../map'
 import './SearchBar.scss'
 
-const items = DEMONS
 const locale = 'en'
+
+const items = assembleSearchTerms()
+
+function assembleSearchTerms () {
+  const items = []
+
+  DEMONS.forEach((demon, index) => {
+    items.push({
+      name: demon.name[locale],
+      type: 'demon',
+      index: index
+    })
+  })
+
+  AREAS.forEach((area, index) => {
+    items.push({
+      name: area.name[locale],
+      type: 'area',
+      index: index
+    })
+  })
+
+  return items
+}
 
 function SearchBar (props) {
   const textInput = React.createRef()
@@ -19,14 +42,25 @@ function SearchBar (props) {
     <Downshift
       onChange={selection => {
         clearGeoJsons()
-        selection.areas.forEach((area) => {
-          const geo = AREAS[area].geo
-          if (geo) {
-            drawGeo(geo, AREAS[area].name[locale])
-          }
-        })
+
+        switch (selection.type) {
+          case 'demon':
+            DEMONS[selection.index].areas.forEach((area) => {
+              const geo = AREAS[area].geo
+              if (geo) {
+                drawGeo(geo, AREAS[area].name[locale])
+              }
+            })
+            break
+          case 'area':
+            drawGeo(AREAS[selection.index].geo, AREAS[selection.index].name[locale])
+            break
+          // do nothing
+          default:
+            break
+        }
       }}
-      itemToString={item => (item ? item.name[locale] : '')}
+      itemToString={item => (item ? item.name : '')}
     >
       {({
         getInputProps,
@@ -44,10 +78,10 @@ function SearchBar (props) {
           <ul {...getMenuProps()}>
             {isOpen
               ? items
-                  .filter(item => !inputValue || item.name[locale].toLowerCase().includes(inputValue.toLowerCase()))
+                  .filter(item => !inputValue || item.name.toLowerCase().includes(inputValue.toLowerCase()))
                   .sort(function (a, b) {
-                    const a1 = a.name[locale]
-                    const b1 = b.name[locale]
+                    const a1 = a.name
+                    const b1 = b.name
                     const nameA = a1.toLowerCase()
                     const nameB = b1.toLowerCase()
                     if (nameA < nameB) {
@@ -59,7 +93,7 @@ function SearchBar (props) {
                   .map((item, index) => (
                     <li
                       {...getItemProps({
-                        key: item.number,
+                        key: `${item.type}-${item.index}`,
                         index,
                         item,
                         className: [
@@ -68,7 +102,7 @@ function SearchBar (props) {
                         ].join(' ')
                       })}
                     >
-                      {item.name[locale]}
+                      {item.name}
                     </li>
                   ))
               : null}
