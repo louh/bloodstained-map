@@ -81,7 +81,7 @@ export function showInfoBox (type, object) {
 
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
-          pEl.textContent =  DEMONS[index - 1].name[locale]
+          pEl.textContent = DEMONS[index - 1].name[locale]
           el.appendChild(pEl)
         })
       }
@@ -117,6 +117,40 @@ export function showInfoBox (type, object) {
       nameEl.textContent = object.name[locale]
       el.appendChild(nameEl)
 
+      if (object.chests || object.shop) {
+        const titleEl = document.createElement('strong')
+        if ((object.chests && object.chests.length || 0) + (object.shop) === 1) {
+          titleEl.textContent = 'Location'
+        } else {
+          titleEl.textContent = 'Locations'
+        }
+        el.appendChild(titleEl)
+
+        if (object.chests) {
+          object.chests.forEach((chest) => {
+            const pEl = document.createElement('p')
+            pEl.textContent = `Obtained from a chest in ${AREAS[chest.area].name[locale]}.`
+            el.appendChild(pEl)
+          })
+        }
+
+        if (object.shop) {
+          const pEl = document.createElement('p')
+          pEl.textContent = `Can be purchased from Dominique.`
+          el.appendChild(pEl)
+        }
+      }
+
+      if (object.quest) {
+        const titleEl = document.createElement('strong')
+        titleEl.textContent = 'Quest reward item'
+        el.appendChild(titleEl)
+
+        const pEl = document.createElement('p')
+        pEl.textContent = `Obtained from ${object.quest.npc} for completing ${object.quest.name}.`
+        el.appendChild(pEl)
+      }
+
       if (object.demons) {
         const titleEl = document.createElement('strong')
         titleEl.textContent = 'Drops from'
@@ -124,10 +158,12 @@ export function showInfoBox (type, object) {
 
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
-          pEl.textContent =  DEMONS[index - 1].name[locale]
+          pEl.textContent = DEMONS[index - 1].name[locale]
           el.appendChild(pEl)
         })
-      } else {
+      }
+
+      if (!object.chests && !object.demons && !object.quest && !object.shop) {
         const pEl = document.createElement('p')
         pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
         el.appendChild(pEl)

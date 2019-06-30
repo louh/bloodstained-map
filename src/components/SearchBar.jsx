@@ -123,7 +123,21 @@ function SearchBar (props) {
           }
           case 'item': {
             const item = ITEMS[selection.index]
-            if (item.demons) {
+            if (item.chests) {
+              item.chests.forEach((chest) => {
+                const geo = AREAS[chest.area].geo
+                if (geo) {
+                  drawGeo(geo, AREAS[chest.area].name[locale])
+                }
+              })
+            }
+            if (item.quest || item.shop) {
+              // Quests are in Arvantville
+              const geo = AREAS[1].geo
+              if (geo) {
+                drawGeo(geo, AREAS[1].name[locale])
+              }
+            }            if (item.demons) {
               const demons = item.demons
               demons.forEach((number) => {
                 // Demons are indexed at 1, so we need to subtract 1 to look up by array index

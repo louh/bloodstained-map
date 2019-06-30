@@ -599,245 +599,379 @@
       "en": "Alkahest"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "demons": [
+      5,
+      20,
+      68
+    ]
   },
   {
     "name": {
       "en": "Sulfur"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "Saltpeter"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "Mercury"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "Sulfate"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "Gunpowder"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "demons": [
+      47,
+      53,
+      90
+    ]
   },
   {
     "name": {
       "en": "Ectoplasm"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "demons": [
+      5,
+      68
+    ]
   },
   {
     "name": {
       "en": "Bronze"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "demons": [
+      6
+    ]
   },
   {
     "name": {
       "en": "Iron"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      6,
+      11,
+      32
+    ]
   },
   {
     "name": {
       "en": "Obsidian"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      12,
+      22,
+      49
+    ]
   },
   {
     "name": {
       "en": "Steel"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      11,
+      12,
+      29,
+      36
+    ]
   },
   {
     "name": {
       "en": "Silver"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      39,
+      54,
+      55
+    ]
   },
   {
     "name": {
       "en": "Damascus"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      40,
+      48,
+      55,
+      60
+    ]
   },
   {
     "name": {
       "en": "Mithril"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      60
+    ]
   },
   {
     "name": {
       "en": "Platinum"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      44,
+      60,
+      80
+    ]
   },
   {
     "name": {
       "en": "Crystal"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      71
+    ]
   },
   {
     "name": {
       "en": "Gold"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      "Alchemy"
+    ]
   },
   {
     "name": {
       "en": "Crimsonite"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      86
+    ]
   },
   {
     "name": {
       "en": "Orichalcum"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      101
+    ]
   },
   {
     "name": {
       "en": "Cotton"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      "Shop",
+      13
+    ]
   },
   {
     "name": {
       "en": "Hemp"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      16
+    ]
   },
   {
     "name": {
       "en": "Wool"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      30,
+      58,
+      69
+    ]
   },
   {
     "name": {
       "en": "Silk"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      69,
+      72,
+      85
+    ]
   },
   {
     "name": {
       "en": "Cashmere"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      92
+    ]
   },
   {
     "name": {
       "en": "Halite"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "demons": [
+      2
+    ]
   },
   {
     "name": {
       "en": "Elm"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      3
+    ]
   },
   {
     "name": {
       "en": "Oak"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      20,
+      32
+    ]
   },
   {
     "name": {
       "en": "Walnut"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      52
+    ]
   },
   {
     "name": {
       "en": "Mahogany"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      81
+    ]
   },
   {
     "name": {
       "en": "Cypress"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      81,
+      90,
+      100
+    ]
   },
   {
     "name": {
       "en": "Ruby"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      29,
+      34,
+      77
+    ]
   },
   {
     "name": {
       "en": "Sapphire"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      36,
+      98
+    ]
   },
   {
     "name": {
       "en": "Emerald"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      31
+    ]
   },
   {
     "name": {
       "en": "Diamond"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      49,
+      73,
+      98
+    ]
   },
   {
     "name": {
       "en": "Bixbite"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      77
+    ]
   },
   {
     "name": {
@@ -845,588 +979,853 @@
     },
     "type": "Material",
     "subtype": "",
-    "demons": [ 98 ]
+    "demons": [
+      98
+    ]
   },
   {
     "name": {
       "en": "8-bit Coin"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "16-bit Coin"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "32-bit Coin"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   },
   {
     "name": {
       "en": "8-bit Nightmare"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      106
+    ]
   },
   {
     "name": {
       "en": "Writhing Limb"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      2
+    ]
   },
   {
     "name": {
       "en": "Sharp Razor"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      23
+    ]
   },
   {
     "name": {
       "en": "Tome Scrap"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      33
+    ]
   },
   {
     "name": {
       "en": "Sword Fragment"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      54
+    ]
   },
   {
     "name": {
       "en": "Chair Remnants"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      52
+    ]
   },
   {
     "name": {
       "en": "Monster Bird Tear"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      4,
+      50
+    ]
   },
   {
     "name": {
       "en": "Witch's Tears"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      51
+    ]
   },
   {
     "name": {
       "en": "Queen's Tears"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      56,
+      74
+    ]
   },
   {
     "name": {
       "en": "Rat Teeth"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      7
+    ]
   },
   {
     "name": {
       "en": "Bat Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      9
+    ]
   },
   {
     "name": {
       "en": "Demon Dog Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      10
+    ]
   },
   {
     "name": {
       "en": "Monster Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      29,
+      34,
+      77
+    ]
   },
   {
     "name": {
       "en": "Sinister Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      24,
+      40
+    ]
   },
   {
     "name": {
       "en": "Demon Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      67,
+      72,
+      88
+    ]
   },
   {
     "name": {
       "en": "Fiend Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      94,
+      95
+    ]
   },
   {
     "name": {
       "en": "Imbrued Fang"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      109
+    ]
   },
   {
     "name": {
       "en": "Lycan Claw"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      30
+    ]
   },
   {
     "name": {
       "en": "Dragon Talons"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      43
+    ]
   },
   {
     "name": {
       "en": "Demon Claw"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      79
+    ]
   },
   {
     "name": {
       "en": "Monster Horn"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      19
+    ]
   },
   {
     "name": {
       "en": "Demon Horn"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      83
+    ]
   },
   {
     "name": {
       "en": "Hellhorse Hoof"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      58
+    ]
   },
   {
     "name": {
       "en": "Water Horse Hoof"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      65
+    ]
   },
   {
     "name": {
       "en": "Melting Bone"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      8,
+      39
+    ]
   },
   {
     "name": {
       "en": "Dragon Bone"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      71
+    ]
   },
   {
     "name": {
       "en": "Demon Bone"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      78
+    ]
   },
   {
     "name": {
       "en": "Imbrued Bone"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      107
+    ]
   },
   {
     "name": {
       "en": "Melting Skull"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      8
+    ]
   },
   {
     "name": {
       "en": "Sinister Skull"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      39
+    ]
   },
   {
     "name": {
       "en": "Fiend Skull"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      101
+    ]
   },
   {
     "name": {
       "en": "Imbrued Skull"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      108
+    ]
   },
   {
     "name": {
       "en": "Grotesque Shell"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      27,
+      48,
+      76
+    ]
   },
   {
     "name": {
       "en": "Inhuman Carapace"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      76
+    ]
   },
   {
     "name": {
       "en": "Cannon Scrap"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      3
+    ]
   },
   {
     "name": {
       "en": "Gargoyle Stone"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      22
+    ]
   },
   {
     "name": {
       "en": "Hellhorse Mane"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      58
+    ]
   },
   {
     "name": {
       "en": "Water Horse Mane"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      65
+    ]
   },
   {
     "name": {
       "en": "Lion Mane"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      12
+    ]
   },
   {
     "name": {
       "en": "Lion Lord's Mane"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      94
+    ]
   },
   {
     "name": {
       "en": "Monster Bird Hair"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      38
+    ]
   },
   {
     "name": {
       "en": "Thunderbird Plume"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      38
+    ]
   },
   {
     "name": {
       "en": "Flight Feather"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      50
+    ]
   },
   {
     "name": {
       "en": "Bovine Plume"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      84
+    ]
   },
   {
     "name": {
       "en": "Small Webbing"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      9
+    ]
   },
   {
     "name": {
       "en": "Toad Webbing"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      64
+    ]
   },
   {
     "name": {
       "en": "Demon Wing"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      83,
+      88
+    ]
   },
   {
     "name": {
       "en": "Rat Tail"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      7
+    ]
   },
   {
     "name": {
       "en": "Demon Tail"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      67
+    ]
   },
   {
     "name": {
       "en": "Lili Tail"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      41
+    ]
   },
   {
     "name": {
       "en": "Queen's Tail"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      74
+    ]
   },
   {
     "name": {
       "en": "Lili Ears"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      41
+    ]
   },
   {
     "name": {
       "en": "Faerie Wing"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      46
+    ]
   },
   {
     "name": {
       "en": "Vespine Wing"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      59
+    ]
   },
   {
     "name": {
       "en": "Faerie Dust"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      17,
+      59
+    ]
   },
   {
     "name": {
       "en": "Vespine Stinger"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      27,
+      46
+    ]
   },
   {
     "name": {
       "en": "Dragon Scale"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      43
+    ]
   },
   {
     "name": {
       "en": "Dragon's Wrath"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      96
+    ]
   },
   {
     "name": {
       "en": "Dreadful Rag"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      16
+    ]
   },
   {
     "name": {
       "en": "Durable Rag"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      42
+    ]
   },
   {
     "name": {
       "en": "Sinister Rag"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      51,
+      53
+    ]
   },
   {
     "name": {
       "en": "Eastern Fabric"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      86
+    ]
   },
   {
     "name": {
       "en": "Houndskin"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      10
+    ]
   },
   {
     "name": {
       "en": "Monster Fur"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      18
+    ]
   },
   {
     "name": {
       "en": "Leonine Pelt"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      25
+    ]
   },
   {
     "name": {
       "en": "Sinister Pelt"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      30
+    ]
   },
   {
     "name": {
       "en": "Durable Leather"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      35
+    ]
   },
   {
     "name": {
       "en": "Strange Leather"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      33
+    ]
   },
   {
     "name": {
       "en": "Slimy Leather"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      63
+    ]
   },
   {
     "name": {
       "en": "Demon Pelt"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      75,
+      82
+    ]
   },
   {
     "name": {
       "en": "Fiend Pelt"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      95
+    ]
   },
   {
     "name": {
       "en": "Toad Eye"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      14
+    ]
   },
   {
     "name": {
       "en": "Sinister Eye"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      45
+    ]
   },
   {
     "name": {
       "en": "Demon Eye"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      66,
+      89
+    ]
   },
   {
     "name": {
       "en": "Fiend Eye"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      99
+    ]
   },
   {
     "name": {
       "en": "Toad Heart"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      14,
+      45,
+      64
+    ]
   },
   {
     "name": {
       "en": "Sinister Heart"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      24
+    ]
   },
   {
     "name": {
       "en": "Demon Heart"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      67,
+      89
+    ]
   },
   {
     "name": {
       "en": "Dragon Heart"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      96
+    ]
   },
   {
     "name": {
       "en": "Fiend Heart"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      102
+    ]
   },
   {
     "name": {
@@ -1434,14 +1833,20 @@
     },
     "type": "Material",
     "subtype": "",
-    "demons": [ 18 ]
+    "demons": [
+      18
+    ]
   },
   {
     "name": {
       "en": "Aquatic Blood"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      61,
+      63
+    ]
   },
   {
     "name": {
@@ -3499,28 +3904,46 @@
       "en": "Hair Apparent I"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 4
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Hair Apparent II"
+    },
+    "type": "Key Item",
+    "subtype": "",
+    "chests": [
+      {
+        "area": 4
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent III"
     },
     "type": "Key Item",
-    "subtype": ""
-  },
-  {
-    "name": {
-      "en": "Hair Apparent III"
-    },
-    "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Dan!"
+    }
   },
   {
     "name": {
       "en": "Hair Apparent IV"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Classic Sweet"
+    }
   },
   {
     "name": {
@@ -3535,49 +3958,83 @@
       "en": "Hair Apparent VI"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 5
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent VII"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 5
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent VIII"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 13
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent IX"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Edith"
+    }
   },
   {
     "name": {
       "en": "Hair Apparent X"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 4
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent XI"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 14
+      }
+    ]
   },
   {
     "name": {
       "en": "Hair Apparent XII"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 0
+      }
+    ]
   },
   {
     "name": {
