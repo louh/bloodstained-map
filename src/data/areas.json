@@ -105,6 +105,7 @@
     "name": {
       "en": "8-bit Nightmare"
     },
+    "type": "secret",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[204.373169,77.293806],[204.373169,77.937787],[209.551163,77.937787],[209.551163,77.293806],[204.373169,77.293806]]]}}
   }
 ]

@@ -21,7 +21,7 @@ export function showInfoBox (type, object) {
       el.appendChild(nameEl)
 
       const typeEl = document.createElement('h4')
-      typeEl.textContent = type.toUpperCase()
+      typeEl.textContent = ((object.type || '') + ' ' + type.toUpperCase()).trim()
       el.appendChild(typeEl)
 
       break
@@ -32,7 +32,11 @@ export function showInfoBox (type, object) {
       el.appendChild(nameEl)
 
       const typeEl = document.createElement('h4')
-      typeEl.textContent = type.toUpperCase()
+      typeEl.textContent = (
+        (object.dlc ? 'DLC' : '') + ' '
+        + (object.type || '') + ' '
+        + type.toUpperCase()
+      ).trim()
       el.appendChild(typeEl)
 
       const titleEl = document.createElement('strong')

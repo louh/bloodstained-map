@@ -949,6 +949,7 @@
     "name": {
       "en": "Eight Bit Overlord"
     },
+    "type": "secret boss",
     "areas": [ 17 ],
     "rooms": [],
     "coordinates": []
@@ -958,6 +959,7 @@
     "name": {
       "en": "Master Carpenter"
     },
+    "type": "secret boss",
     "areas": [ 13 ],
     "rooms": [],
     "coordinates": []
@@ -967,6 +969,7 @@
     "name": {
       "en": "Revenant"
     },
+    "type": "secret boss",
     "areas": [ 3 ],
     "rooms": [],
     "coordinates": []
@@ -976,6 +979,7 @@
     "name": {
       "en": "Millionaire's Bane"
     },
+    "type": "secret boss",
     "areas": [ 14 ],
     "rooms": [],
     "coordinates": []
@@ -985,6 +989,7 @@
     "name": {
       "en": "Vepar"
     },
+    "type": "boss",
     "areas": [ 0 ],
     "rooms": [],
     "coordinates": []
@@ -994,6 +999,7 @@
     "name": {
       "en": "Zangetsu"
     },
+    "type": "boss",
     "areas": [ 2 ],
     "rooms": [],
     "coordinates": []
@@ -1003,6 +1009,7 @@
     "name": {
       "en": "Craftwork"
     },
+    "type": "boss",
     "areas": [ 4 ],
     "rooms": [],
     "coordinates": []
@@ -1012,6 +1019,7 @@
     "name": {
       "en": "Andrealphus"
     },
+    "type": "boss",
     "areas": [ 6 ],
     "rooms": [],
     "coordinates": []
@@ -1021,6 +1029,7 @@
     "name": {
       "en": "Valac"
     },
+    "type": "boss",
     "areas": [ 5 ],
     "rooms": [],
     "coordinates": []
@@ -1030,6 +1039,7 @@
     "name": {
       "en": "Glutton Train"
     },
+    "type": "boss",
     "areas": [ 7 ],
     "rooms": [],
     "coordinates": []
@@ -1039,6 +1049,7 @@
     "name": {
       "en": "Bathin"
     },
+    "type": "boss",
     "areas": [ 8 ],
     "rooms": [],
     "coordinates": []
@@ -1048,6 +1059,7 @@
     "name": {
       "en": "Gebel"
     },
+    "type": "boss",
     "areas": [ 14 ],
     "rooms": [],
     "coordinates": []
@@ -1057,6 +1069,7 @@
     "name": {
       "en": "Bloodless"
     },
+    "type": "boss",
     "areas": [ 4 ],
     "rooms": [],
     "coordinates": []
@@ -1066,6 +1079,7 @@
     "name": {
       "en": "Alfred"
     },
+    "type": "boss",
     "areas": [ 10 ],
     "rooms": [],
     "coordinates": []
@@ -1075,6 +1089,7 @@
     "name": {
       "en": "Doppelganger"
     },
+    "type": "boss",
     "areas": [ 11 ],
     "rooms": [],
     "coordinates": []
@@ -1084,6 +1099,7 @@
     "name": {
       "en": "Orobas"
     },
+    "type": "boss",
     "areas": [ 12 ],
     "rooms": [],
     "coordinates": []
@@ -1093,6 +1109,7 @@
     "name": {
       "en": "True Zangetsu"
     },
+    "type": "boss",
     "areas": [ 13 ],
     "rooms": [],
     "coordinates": []
@@ -1102,6 +1119,7 @@
     "name": {
       "en": "Valefar"
     },
+    "type": "boss",
     "areas": [ 15 ],
     "rooms": [],
     "coordinates": []
@@ -1111,6 +1129,7 @@
     "name": {
       "en": "Gremory"
     },
+    "type": "boss",
     "areas": [ 16 ],
     "rooms": [],
     "coordinates": []
@@ -1120,6 +1139,7 @@
     "name": {
       "en": "Dominique"
     },
+    "type": "boss",
     "areas": [ 16 ],
     "rooms": [],
     "coordinates": []
@@ -1138,6 +1158,7 @@
     "name": {
       "en": "Orlok Dracule"
     },
+    "type": "secret boss",
     "areas": [ 16 ],
     "rooms": [],
     "coordinates": []
@@ -1147,6 +1168,7 @@
     "name": {
       "en": "IGA"
     },
+    "type": "boss",
     "areas": [ 14 ],
     "rooms": [],
     "coordinates": [],
