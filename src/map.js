@@ -111,6 +111,9 @@ export function drawGeo (geojson, name) {
 
 // Zoom to bounds
 export function zoomToGeoBounds () {
+  // Bail if nothing to zoom to
+  if (collection.features.length === 0) return
+
   // WSEN order (west, south, east, north)
   const bounds = bbox(collection)
 

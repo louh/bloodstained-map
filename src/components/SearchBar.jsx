@@ -123,7 +123,21 @@ function SearchBar (props) {
           }
           case 'item': {
             const item = ITEMS[selection.index]
+            if (item.demons) {
+              const demons = item.demons
+              demons.forEach((number) => {
+                // Demons are indexed at 1, so we need to subtract 1 to look up by array index
+                // Same as drawing selected demon
+                DEMONS[number - 1].areas.forEach((area) => {
+                  const geo = AREAS[area].geo
+                  if (geo) {
+                    drawGeo(geo, AREAS[area].name[locale])
+                  }
+                })
+              })
+            }
             showInfoBox(selection.type, item)
+            zoomToGeoBounds()
             break
           }
           // do nothing

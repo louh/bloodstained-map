@@ -117,9 +117,21 @@ export function showInfoBox (type, object) {
       nameEl.textContent = object.name[locale]
       el.appendChild(nameEl)
 
-      const pEl = document.createElement('p')
-      pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
-      el.appendChild(pEl)
+      if (object.demons) {
+        const titleEl = document.createElement('strong')
+        titleEl.textContent = 'Drops from'
+        el.appendChild(titleEl)
+
+        object.demons.forEach((index) => {
+          const pEl = document.createElement('p')
+          pEl.textContent =  DEMONS[index - 1].name[locale]
+          el.appendChild(pEl)
+        })
+      } else {
+        const pEl = document.createElement('p')
+        pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
+        el.appendChild(pEl)
+      }
 
       break
     }

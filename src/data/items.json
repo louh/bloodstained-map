@@ -844,7 +844,8 @@
       "en": "Alexandrite"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [ 98 ]
   },
   {
     "name": {
@@ -1432,7 +1433,8 @@
       "en": "Monster Blood"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "demons": [ 18 ]
   },
   {
     "name": {
