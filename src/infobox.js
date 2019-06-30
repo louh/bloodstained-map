@@ -158,7 +158,11 @@ export function showInfoBox (type, object) {
 
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
-          pEl.textContent = DEMONS[index - 1].name[locale]
+          if (Array.isArray(index)) {
+            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100).toFixed(2) + '%)'
+          } else {
+            pEl.textContent = DEMONS[index - 1].name[locale]
+          }
           el.appendChild(pEl)
         })
       }

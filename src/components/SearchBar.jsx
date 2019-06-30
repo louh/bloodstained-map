@@ -137,9 +137,18 @@ function SearchBar (props) {
               if (geo) {
                 drawGeo(geo, AREAS[1].name[locale])
               }
-            }            if (item.demons) {
+            }
+            if (item.demons) {
               const demons = item.demons
-              demons.forEach((number) => {
+              demons.forEach((demon) => {
+                // demons can have a 2nd number for drop rate, we need to do this for all of them eventually
+                let number
+                if (Array.isArray(demon)) {
+                  number = demon[0]
+                } else {
+                  number = demon
+                }
+
                 // Demons are indexed at 1, so we need to subtract 1 to look up by array index
                 // Same as drawing selected demon
                 DEMONS[number - 1].areas.forEach((area) => {

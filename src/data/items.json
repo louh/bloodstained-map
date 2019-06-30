@@ -796,7 +796,7 @@
     "type": "Material",
     "subtype": "",
     "demons": [
-      101
+      [ 101, 0.02 ]
     ]
   },
   {
