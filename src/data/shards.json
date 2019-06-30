@@ -1,0 +1,1108 @@
+[
+  {
+    "name": {
+      "en": "Thrashing Tentacle"
+    },
+    "type": "CONJURE",
+    "demons": [
+      110
+    ]
+  },
+  {
+    "name": {
+      "en": "Bloodsteal"
+    },
+    "type": "CONJURE",
+    "demons": [
+      118
+    ]
+  },
+  {
+    "name": {
+      "en": "Draconic Rage"
+    },
+    "type": "CONJURE",
+    "demons": [
+      43
+    ]
+  },
+  {
+    "name": {
+      "en": "Cerulean Splash"
+    },
+    "type": "CONJURE",
+    "demons": [
+      2
+    ]
+  },
+  {
+    "name": {
+      "en": "Gale Crawler"
+    },
+    "type": "CONJURE",
+    "demons": [
+      4
+    ]
+  },
+  {
+    "name": {
+      "en": "Head Flail"
+    },
+    "type": "CONJURE",
+    "demons": [
+      6
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Rat"
+    },
+    "type": "CONJURE",
+    "demons": [
+      7
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Ghost"
+    },
+    "type": "CONJURE",
+    "demons": [
+      5
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Bat"
+    },
+    "type": "CONJURE",
+    "demons": [
+      9, 88
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Simian"
+    },
+    "type": "CONJURE",
+    "demons": [
+      18
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Gieremund"
+    },
+    "type": "CONJURE",
+    "demons": [
+      10
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Shovel Armor"
+    },
+    "type": "CONJURE",
+    "demons": [
+      36
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Water Leaper"
+    },
+    "type": "CONJURE",
+    "demons": [
+      64
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Buer"
+    },
+    "type": "CONJURE",
+    "demons": [
+      25, 29
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Insect"
+    },
+    "type": "CONJURE",
+    "demons": [
+      27
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Chair"
+    },
+    "type": "CONJURE",
+    "demons": [
+      52
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Tracer"
+    },
+    "type": "CONJURE",
+    "demons": [
+      99
+    ]
+  },
+  {
+    "name": {
+      "en": "Shuriken"
+    },
+    "type": "CONJURE",
+    "demons": [
+      86
+    ]
+  },
+  {
+    "name": {
+      "en": "Throw Spear"
+    },
+    "type": "CONJURE",
+    "demons": [
+      80
+    ]
+  },
+  {
+    "name": {
+      "en": "Flytrap"
+    },
+    "type": "CONJURE",
+    "demons": [
+      13, 87
+    ]
+  },
+  {
+    "name": {
+      "en": "Welcome Company"
+    },
+    "type": "CONJURE",
+    "demons": [
+      20
+    ]
+  },
+  {
+    "name": {
+      "en": "Throwing Axe"
+    },
+    "type": "CONJURE",
+    "demons": [
+      60
+    ]
+  },
+  {
+    "name": {
+      "en": "Axe Strike"
+    },
+    "type": "CONJURE",
+    "demons": [
+      101
+    ]
+  },
+  {
+    "name": {
+      "en": "Death Cry"
+    },
+    "type": "CONJURE",
+    "demons": [
+      51
+    ]
+  },
+  {
+    "name": {
+      "en": "Upbeat Heat"
+    },
+    "type": "CONJURE",
+    "demons": [
+      56
+    ]
+  },
+  {
+    "name": {
+      "en": "Toxic Storm"
+    },
+    "type": "CONJURE",
+    "demons": [
+      75
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Hellhound"
+    },
+    "type": "CONJURE",
+    "demons": [
+      79
+    ]
+  },
+  {
+    "name": {
+      "en": "Jackpot"
+    },
+    "type": "CONJURE",
+    "demons": [
+      109
+    ]
+  },
+  {
+    "name": {
+      "en": "Riga Storæma"
+    },
+    "type": "CONJURE",
+    "demons": [
+      26
+    ]
+  },
+  {
+    "name": {
+      "en": "Va Ischa"
+    },
+    "type": "CONJURE",
+    "demons": [
+      62
+    ]
+  },
+  {
+    "name": {
+      "en": "Va Schia"
+    },
+    "type": "CONJURE",
+    "alchemy": "Va Ischa"
+  },
+  {
+    "name": {
+      "en": "Teps Salrenda"
+    },
+    "type": "CONJURE",
+    "alchemy": "Teps Oceus"
+  },
+  {
+    "name": {
+      "en": "Tis Raiff"
+    },
+    "type": "CONJURE",
+    "demons": [
+      70
+    ]
+  },
+  {
+    "name": {
+      "en": "Insatiable"
+    },
+    "type": "CONJURE",
+    "demons": [
+      128
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon 8-bit Zombie"
+    },
+    "type": "CONJURE",
+    "demons": [
+      103
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon 8-bit Ghost"
+    },
+    "type": "CONJURE",
+    "demons": [
+      104
+    ]
+  },
+  {
+    "name": {
+      "en": "8-bit Flame"
+    },
+    "type": "CONJURE",
+    "demons": [
+      106
+    ]
+  },
+  {
+    "name": {
+      "en": "Craftwork"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      112
+    ]
+  },
+  {
+    "name": {
+      "en": "Accelerator"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      97
+    ]
+  },
+  {
+    "name": {
+      "en": "Standstill"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      127
+    ]
+  },
+  {
+    "name": {
+      "en": "Beast Guardian"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      30
+    ]
+  },
+  {
+    "name": {
+      "en": "Feral Claws"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      95
+    ]
+  },
+  {
+    "name": {
+      "en": "Shadow Tracer"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      120
+    ]
+  },
+  {
+    "name": {
+      "en": "Bunnymorphosis"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      41
+    ]
+  },
+  {
+    "name": {
+      "en": "Healing"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      46
+    ]
+  },
+  {
+    "name": {
+      "en": "Sacred Shade"
+    },
+    "type": "MANIPULATIVE",
+    "demons": [
+      34
+    ]
+  },
+  {
+    "name": {
+      "en": "Summon Plume Parma"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      15
+    ]
+  },
+  {
+    "name": {
+      "en": "Reflector Ray"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      116
+    ]
+  },
+  {
+    "name": {
+      "en": "Aqua Stream"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      63
+    ]
+  },
+  {
+    "name": {
+      "en": "Dimension Shift"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      124
+    ]
+  },
+  {
+    "name": {
+      "en": "Inferno Breath"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      114
+    ]
+  },
+  {
+    "name": {
+      "en": "Hammer Knuckle"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      115
+    ]
+  },
+  {
+    "name": {
+      "en": "Gold Bullet"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      123
+    ]
+  },
+  {
+    "name": {
+      "en": "Flame Cannon"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      3, 90
+    ]
+  },
+  {
+    "name": {
+      "en": "Bone Toss"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      8
+    ]
+  },
+  {
+    "name": {
+      "en": "True Arrow"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      16
+    ]
+  },
+  {
+    "name": {
+      "en": "Release Toad"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      14, 89
+    ]
+  },
+  {
+    "name": {
+      "en": "Chaser Arrow"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      53
+    ]
+  },
+  {
+    "name": {
+      "en": "Directed Shield"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      39
+    ]
+  },
+  {
+    "name": {
+      "en": "Heretical Grinder"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      11
+    ]
+  },
+  {
+    "name": {
+      "en": "Lethargy"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      68
+    ]
+  },
+  {
+    "name": {
+      "en": "Petra Ray"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      22
+    ]
+  },
+  {
+    "name": {
+      "en": "Void Ray"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      96
+    ]
+  },
+  {
+    "name": {
+      "en": "Petra Breath"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      84
+    ]
+  },
+  {
+    "name": {
+      "en": "Acid Jet"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      21
+    ]
+  },
+  {
+    "name": {
+      "en": "Venom Mist"
+    },
+    "type": "DIRECTIONAL",
+    "alchemy": "Petra Breath"
+  },
+  {
+    "name": {
+      "en": "Circular Ripper"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      35
+    ]
+  },
+  {
+    "name": {
+      "en": "Flying Dagger"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      42
+    ]
+  },
+  {
+    "name": {
+      "en": "Bolid Blast"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      47
+    ]
+  },
+  {
+    "name": {
+      "en": "Tornado Slicer"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      85
+    ]
+  },
+  {
+    "name": {
+      "en": "Flamethrower"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      78
+    ]
+  },
+  {
+    "name": {
+      "en": "Chisel Barrage"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      107
+    ]
+  },
+  {
+    "name": {
+      "en": "Ruinous Rood"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      108
+    ]
+  },
+  {
+    "name": {
+      "en": "Riga Dohin"
+    },
+    "type": "DIRECTIONAL",
+    "alchemy": "Riga Storæma"
+  },
+  {
+    "name": {
+      "en": "Teps Oceus"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      38
+    ]
+  },
+  {
+    "name": {
+      "en": "Tis Rozain"
+    },
+    "type": "DIRECTIONAL",
+    "alchemy": "Tis Raiff"
+  },
+  {
+    "name": {
+      "en": "Fald Ciu"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      102
+    ]
+  },
+  {
+    "name": {
+      "en": "Fald Taiab"
+    },
+    "type": "DIRECTIONAL",
+    "alchemy": "Fald Ciu"
+  },
+  {
+    "name": {
+      "en": "8-bit Fire Ball"
+    },
+    "type": "DIRECTIONAL",
+    "demons": [
+      105
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment STR"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      83
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment CON"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      69
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment INT"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      24
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment MND"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      59
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment LCK"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      81
+    ]
+  },
+  {
+    "name": {
+      "en": "Augment Gold"
+    },
+    "type": "PASSIVE",
+    "alchemy": "Augment LCK"
+  },
+  {
+    "name": {
+      "en": "Kick Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      58
+    ]
+  },
+  {
+    "name": {
+      "en": "Dagger Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      23
+    ]
+  },
+  {
+    "name": {
+      "en": "Sword Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      12
+    ]
+  },
+  {
+    "name": {
+      "en": "Spear Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      55
+    ]
+  },
+  {
+    "name": {
+      "en": "Whip Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      74
+    ]
+  },
+  {
+    "name": {
+      "en": "Firearm Expertise"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      32, 93, 100
+    ]
+  },
+  {
+    "name": {
+      "en": "Greatsword Expertise"
+    },
+    "type": "PASSIVE",
+    "alchemy": "Sword Expertise"
+  },
+  {
+    "name": {
+      "en": "Katana Expertise"
+    },
+    "type": "PASSIVE",
+    "alchemy": "Sword Expertise"
+  },
+  {
+    "name": {
+      "en": "Alchemic Bounty"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      19
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Slash"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      61
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Thrust"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      71
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Strike"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      40, 72
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Fire"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      77
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Ice"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      98
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Thunder"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      31
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Light"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      49
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Darkness"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      73
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Poison"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      45
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Curses"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      44
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Petrification"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      37
+    ]
+  },
+  {
+    "name": {
+      "en": "Resist Magic"
+    },
+    "type": "PASSIVE",
+    "alchemy": "Resist Fire/Ice/Thunder"
+  },
+  {
+    "name": {
+      "en": "Money is Power"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      48
+    ]
+  },
+  {
+    "name": {
+      "en": "Red Remembrance"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      76
+    ]
+  },
+  {
+    "name": {
+      "en": "Pickpocket"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      82
+    ]
+  },
+  {
+    "name": {
+      "en": "Optimizer"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      50
+    ]
+  },
+  {
+    "name": {
+      "en": "Words of Wisdom"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      67
+    ]
+  },
+  {
+    "name": {
+      "en": "Regenerate"
+    },
+    "type": "PASSIVE",
+    "alchemy": "Healing"
+  },
+  {
+    "name": {
+      "en": "Amphibian Speed"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      65
+    ]
+  },
+  {
+    "name": {
+      "en": "Drain"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      94
+    ]
+  },
+  {
+    "name": {
+      "en": "Detective's Eye"
+    },
+    "type": "PASSIVE",
+    "demons": [
+      66
+    ]
+  },
+  {
+    "name": {
+      "en": "Silver Knight"
+    },
+    "type": "FAMILIAR",
+    "special": "Green Shard Statues"
+  },
+  {
+    "name": {
+      "en": "Carabosse"
+    },
+    "type": "FAMILIAR",
+    "demons": [
+      17
+    ]
+  },
+  {
+    "name": {
+      "en": "Buer"
+    },
+    "type": "FAMILIAR",
+    "demons": [
+      57, 92
+    ]
+  },
+  {
+    "name": {
+      "en": "Bloodbringer"
+    },
+    "type": "FAMILIAR",
+    "demons": [
+      54
+    ]
+  },
+  {
+    "name": {
+      "en": "Dantalion"
+    },
+    "type": "FAMILIAR",
+    "demons": [
+      33
+    ]
+  },
+  {
+    "name": {
+      "en": "Dullahammer Head"
+    },
+    "type": "FAMILIAR",
+    "demons": [
+      28
+    ]
+  },
+  {
+    "name": {
+      "en": "Shortcut"
+    },
+    "type": "SKILL",
+    "special": "White Shard Statues"
+  },
+  {
+    "name": {
+      "en": "Double Jump"
+    },
+    "type": "SKILL",
+    "demons": [
+      113
+    ]
+  },
+  {
+    "name": {
+      "en": "Deep Sinker"
+    },
+    "type": "SKILL",
+    "demons": [
+      119
+    ]
+  },
+  {
+    "name": {
+      "en": "Invert"
+    },
+    "type": "SKILL",
+    "demons": [
+      121
+    ]
+  },
+  {
+    "name": {
+      "en": "High Jump"
+    },
+    "type": "SKILL",
+    "alchemy": "Double Jump"
+  }
+]

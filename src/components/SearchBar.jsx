@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Downshift from 'downshift'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
+import SHARDS from '../data/shards.json'
 import { drawGeo, clearGeoJsons } from '../map'
 import './SearchBar.scss'
 
@@ -28,7 +29,29 @@ function assembleSearchTerms () {
     })
   })
 
+  SHARDS.forEach((shard, index) => {
+    items.push({
+      name: shard.name[locale],
+      type: 'shard',
+      index: index
+    })
+  })
+
   return items
+}
+
+function alphabetize (a, b) {
+  const a1 = a.name
+  const b1 = b.name
+  const nameA = a1.toLowerCase()
+  const nameB = b1.toLowerCase()
+  if (nameA < nameB) {
+    return -1
+  }
+  if (nameA > nameB) {
+    return 1
+  }
+  return 0
 }
 
 function SearchBar (props) {
@@ -55,6 +78,26 @@ function SearchBar (props) {
           case 'area':
             drawGeo(AREAS[selection.index].geo, AREAS[selection.index].name[locale])
             break
+          case 'shard': {
+            const shard = SHARDS[selection.index]
+            if (shard.demons) {
+              const demons = shard.demons
+              demons.forEach((number) => {
+                // Demons are indexed at 1, so we need to subtract 1 to look up by array index
+                // Same as drawing selected demon
+                DEMONS[number - 1].areas.forEach((area) => {
+                  const geo = AREAS[area].geo
+                  if (geo) {
+                    drawGeo(geo, AREAS[area].name[locale])
+                  }
+                })
+              })
+            } else if (shard.alchemy) {
+              // Arvantville (Johannes)
+              drawGeo(AREAS[1].geo, AREAS[1].name[locale])
+            }
+            break
+          }
           // do nothing
           default:
             break
@@ -79,17 +122,7 @@ function SearchBar (props) {
             {isOpen
               ? items
                   .filter(item => !inputValue || item.name.toLowerCase().includes(inputValue.toLowerCase()))
-                  .sort(function (a, b) {
-                    const a1 = a.name
-                    const b1 = b.name
-                    const nameA = a1.toLowerCase()
-                    const nameB = b1.toLowerCase()
-                    if (nameA < nameB) {
-                      return -1
-                    } else {
-                      return 1
-                    }
-                  })
+                  .sort(alphabetize)
                   .map((item, index) => (
                     <li
                       {...getItemProps({

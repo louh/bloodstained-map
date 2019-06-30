@@ -1141,5 +1141,15 @@
     "areas": [ 16 ],
     "rooms": [],
     "coordinates": []
+  },
+  {
+    "number": 128,
+    "name": {
+      "en": "IGA"
+    },
+    "areas": [ 14 ],
+    "rooms": [],
+    "coordinates": [],
+    "dlc": "IGA's Back Pack"
   }
 ]
