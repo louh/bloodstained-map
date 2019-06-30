@@ -68,6 +68,9 @@ function SearchBar (props) {
         clearGeoJsons()
         hideInfoBox()
 
+        // handle lack of selection
+        if (!selection) return
+
         switch (selection.type) {
           case 'demon':
             DEMONS[selection.index].areas.forEach((area) => {
