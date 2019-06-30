@@ -5,6 +5,7 @@ import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
 import { drawGeo, clearGeoJsons } from '../map'
 import './SearchBar.scss'
+import { showInfoBox, hideInfoBox } from '../infobox.js';
 
 const locale = 'en'
 
@@ -65,6 +66,7 @@ function SearchBar (props) {
     <Downshift
       onChange={selection => {
         clearGeoJsons()
+        hideInfoBox()
 
         switch (selection.type) {
           case 'demon':
@@ -74,9 +76,11 @@ function SearchBar (props) {
                 drawGeo(geo, AREAS[area].name[locale])
               }
             })
+            showInfoBox(selection.type, DEMONS[selection.index])
             break
           case 'area':
             drawGeo(AREAS[selection.index].geo, AREAS[selection.index].name[locale])
+            showInfoBox(selection.type, AREAS[selection.index])
             break
           case 'shard': {
             const shard = SHARDS[selection.index]
@@ -96,6 +100,7 @@ function SearchBar (props) {
               // Arvantville (Johannes)
               drawGeo(AREAS[1].geo, AREAS[1].name[locale])
             }
+            showInfoBox(selection.type, SHARDS[selection.index])
             break
           }
           // do nothing

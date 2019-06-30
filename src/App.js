@@ -1,6 +1,7 @@
 import React from 'react'
 import Map from './components/Map'
 import SearchBar from './components/SearchBar'
+import InfoBox from './components/InfoBox'
 import GitHubCorner from './components/GitHubCorner'
 import './App.css'
 
@@ -11,6 +12,7 @@ function App() {
         <img src="/logo_bloodstained_large.png" className="logo-img" alt="Bloodstained: Ritual of the Night" />
         <h3>Interactive map (Unofficial/Alpha)</h3>
         <SearchBar />
+        <InfoBox />
         <div className="notice">
           <h4>What’s this?</h4>
           <p>
