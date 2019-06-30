@@ -1,0 +1,1145 @@
+[
+  {
+    "number": 1,
+    "name": {
+      "en": "Morte"
+    },
+    "areas": [ 0, 1, 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 2,
+    "name": {
+      "en": "Seama"
+    },
+    "areas": [ 0 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 3,
+    "name": {
+      "en": "Cannon Morte"
+    },
+    "areas": [ 0 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 4,
+    "name": {
+      "en": "Aello"
+    },
+    "areas": [ 0, 1, 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 5,
+    "name": {
+      "en": "Ghost"
+    },
+    "areas": [ 0, 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 6,
+    "name": {
+      "en": "Dullahammer"
+    },
+    "areas": [ 0 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 7,
+    "name": {
+      "en": "Giant Rat"
+    },
+    "areas": [ 1 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 8,
+    "name": {
+      "en": "Bone Morte"
+    },
+    "areas": [ 1, 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 9,
+    "name": {
+      "en": "Bat"
+    },
+    "areas": [ 1, 2, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 10,
+    "name": {
+      "en": "Gieremund"
+    },
+    "areas": [ 2, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 11,
+    "name": {
+      "en": "Blood Grinder Knight"
+    },
+    "areas": [ 2, 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 12,
+    "name": {
+      "en": "Sabnock"
+    },
+    "areas": [ 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 13,
+    "name": {
+      "en": "Moco Weed"
+    },
+    "areas": [ 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 14,
+    "name": {
+      "en": "Toad"
+    },
+    "areas": [ 3, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 15,
+    "name": {
+      "en": "Plume Parma"
+    },
+    "areas": [ 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 16,
+    "name": {
+      "en": "Barbatos"
+    },
+    "areas": [ 2, 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 17,
+    "name": {
+      "en": "Carabosse"
+    },
+    "areas": [ 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 18,
+    "name": {
+      "en": "Simian"
+    },
+    "areas": [ 3, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 19,
+    "name": {
+      "en": "Zagan"
+    },
+    "areas": [ 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 20,
+    "name": {
+      "en": "Poltergeist"
+    },
+    "areas": [ 0, 4, 5, 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 21,
+    "name": {
+      "en": "Ordog"
+    },
+    "areas": [ 3, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 22,
+    "name": {
+      "en": "Gargoyle"
+    },
+    "areas": [ 3, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 23,
+    "name": {
+      "en": "Killer Barber"
+    },
+    "areas": [ 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 24,
+    "name": {
+      "en": "Demon"
+    },
+    "areas": [ 4, 6, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 25,
+    "name": {
+      "en": "Buer"
+    },
+    "areas": [ 4, 7, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 26,
+    "name": {
+      "en": "Nyabon"
+    },
+    "areas": [ 2, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 27,
+    "name": {
+      "en": "Scythe Mite"
+    },
+    "areas": [ 5 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 28,
+    "name": {
+      "en": "Dullahammer Head"
+    },
+    "areas": [ 4, 5 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 29,
+    "name": {
+      "en": "Buer Armor"
+    },
+    "areas": [ 3, 5, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 30,
+    "name": {
+      "en": "Wolfman"
+    },
+    "areas": [ 5 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 31,
+    "name": {
+      "en": "Thunder Elemental"
+    },
+    "areas": [ 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 32,
+    "name": {
+      "en": "Carriage Morte"
+    },
+    "areas": [ 6, 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 33,
+    "name": {
+      "en": "Dantalion"
+    },
+    "areas": [ 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 34,
+    "name": {
+      "en": "Rul'sha"
+    },
+    "areas": [ 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 35,
+    "name": {
+      "en": "Decarabia"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 36,
+    "name": {
+      "en": "Shovel Armor"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 37,
+    "name": {
+      "en": "Malediction"
+    },
+    "areas": [ 4, 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 38,
+    "name": {
+      "en": "Celaeno"
+    },
+    "areas": [ 5, 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 39,
+    "name": {
+      "en": "Shield Outsider"
+    },
+    "areas": [ 4, 5 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 40,
+    "name": {
+      "en": "Puppy"
+    },
+    "areas": [ 7, 8 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 41,
+    "name": {
+      "en": "Lili"
+    },
+    "areas": [ 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 42,
+    "name": {
+      "en": "Assassin"
+    },
+    "areas": [ 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 43,
+    "name": {
+      "en": "Dragon"
+    },
+    "areas": [ 6, 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 44,
+    "name": {
+      "en": "Kunekune"
+    },
+    "areas": [ 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 45,
+    "name": {
+      "en": "Poison Toad"
+    },
+    "areas": [ 5, 8, 9, 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 46,
+    "name": {
+      "en": "Sidhe"
+    },
+    "areas": [ 8 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 47,
+    "name": {
+      "en": "Bomber Morte"
+    },
+    "areas": [ 8 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 48,
+    "name": {
+      "en": "Mimic"
+    },
+    "areas": [ 6, 8 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 49,
+    "name": {
+      "en": "Light Elemental"
+    },
+    "areas": [ 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 50,
+    "name": {
+      "en": "Ocypete"
+    },
+    "areas": [ 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 51,
+    "name": {
+      "en": "Cyhyraeth"
+    },
+    "areas": [ 2, 3, 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 52,
+    "name": {
+      "en": "Chair Mimic"
+    },
+    "areas": [ 6, 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 53,
+    "name": {
+      "en": "Leraje"
+    },
+    "areas": [ 4, 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 54,
+    "name": {
+      "en": "Bloodbringer"
+    },
+    "areas": [ 2, 4, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 55,
+    "name": {
+      "en": "Lance Armor"
+    },
+    "areas": [ 4, 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 56,
+    "name": {
+      "en": "Tamako-Death"
+    },
+    "areas": [ 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 57,
+    "name": {
+      "en": "Triwheel Buer"
+    },
+    "areas": [ 6, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 58,
+    "name": {
+      "en": "Gamigin"
+    },
+    "areas": [ 4, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 59,
+    "name": {
+      "en": "Titania"
+    },
+    "areas": [ 6, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 60,
+    "name": {
+      "en": "Axe Outsider"
+    },
+    "areas": [ 6, 9, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 61,
+    "name": {
+      "en": "Scylla"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 62,
+    "name": {
+      "en": "Forneus"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 63,
+    "name": {
+      "en": "Deeseama"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 64,
+    "name": {
+      "en": "Water Leaper"
+    },
+    "areas": [ 9, 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 65,
+    "name": {
+      "en": "Glashtyn"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 66,
+    "name": {
+      "en": "Seeker"
+    },
+    "areas": [ 9 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 67,
+    "name": {
+      "en": "Archdemon"
+    },
+    "areas": [ 4, 9, 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 68,
+    "name": {
+      "en": "Amy"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 69,
+    "name": {
+      "en": "Allocer"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 70,
+    "name": {
+      "en": "Vul'sha"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 71,
+    "name": {
+      "en": "Living Fossil"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 72,
+    "name": {
+      "en": "Rocky"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 73,
+    "name": {
+      "en": "Dark Elemental"
+    },
+    "areas": [ 11 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 74,
+    "name": {
+      "en": "Lamashtu"
+    },
+    "areas": [ 11 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 75,
+    "name": {
+      "en": "Maracon"
+    },
+    "areas": [ 8, 9, 11 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 76,
+    "name": {
+      "en": "Blood Bug"
+    },
+    "areas": [ 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 77,
+    "name": {
+      "en": "Fire Elemental"
+    },
+    "areas": [ 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 78,
+    "name": {
+      "en": "Volcano Morte"
+    },
+    "areas": [ 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 79,
+    "name": {
+      "en": "Hellhound"
+    },
+    "areas": [ 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 80,
+    "name": {
+      "en": "Zepar"
+    },
+    "areas": [ 10, 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 81,
+    "name": {
+      "en": "Deathtrap"
+    },
+    "areas": [ 12, 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 82,
+    "name": {
+      "en": "Gusion"
+    },
+    "areas": [ 6, 8, 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 83,
+    "name": {
+      "en": "Gaap"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 84,
+    "name": {
+      "en": "Haagenti"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 85,
+    "name": {
+      "en": "Kamikaze"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 86,
+    "name": {
+      "en": "Ninja"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 87,
+    "name": {
+      "en": "Giant Moco"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 88,
+    "name": {
+      "en": "Giant Bat"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 89,
+    "name": {
+      "en": "Giant Toad"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 90,
+    "name": {
+      "en": "Giant Cannon"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 91,
+    "name": {
+      "en": "Giant Morte"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 92,
+    "name": {
+      "en": "Giant Buer"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 93,
+    "name": {
+      "en": "Chariot Buer"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 94,
+    "name": {
+      "en": "Marbas"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 95,
+    "name": {
+      "en": "Silver Wolfman"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 96,
+    "name": {
+      "en": "Abyssal Guardian"
+    },
+    "areas": [ 6, 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 97,
+    "name": {
+      "en": "Harrier"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 98,
+    "name": {
+      "en": "Ice Elemental"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 99,
+    "name": {
+      "en": "Tracer"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 100,
+    "name": {
+      "en": "Gusion Cannon"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 101,
+    "name": {
+      "en": "G Axe Outsider"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 102,
+    "name": {
+      "en": "Demon Lord"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 103,
+    "name": {
+      "en": "Eight Bit Zombie"
+    },
+    "areas": [ 17 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 104,
+    "name": {
+      "en": "Eight Bit Ghost"
+    },
+    "areas": [ 17 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 105,
+    "name": {
+      "en": "Eight Bit Skull"
+    },
+    "areas": [ 17 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 106,
+    "name": {
+      "en": "Eight Bit Overlord"
+    },
+    "areas": [ 17 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 107,
+    "name": {
+      "en": "Master Carpenter"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 108,
+    "name": {
+      "en": "Revenant"
+    },
+    "areas": [ 3 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 109,
+    "name": {
+      "en": "Millionaire's Bane"
+    },
+    "areas": [ 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 110,
+    "name": {
+      "en": "Vepar"
+    },
+    "areas": [ 0 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 111,
+    "name": {
+      "en": "Zangetsu"
+    },
+    "areas": [ 2 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 112,
+    "name": {
+      "en": "Craftwork"
+    },
+    "areas": [ 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 113,
+    "name": {
+      "en": "Andrealphus"
+    },
+    "areas": [ 6 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 114,
+    "name": {
+      "en": "Valac"
+    },
+    "areas": [ 5 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 115,
+    "name": {
+      "en": "Glutton Train"
+    },
+    "areas": [ 7 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 116,
+    "name": {
+      "en": "Bathin"
+    },
+    "areas": [ 8 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 117,
+    "name": {
+      "en": "Gebel"
+    },
+    "areas": [ 14 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 118,
+    "name": {
+      "en": "Bloodless"
+    },
+    "areas": [ 4 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 119,
+    "name": {
+      "en": "Alfred"
+    },
+    "areas": [ 10 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 120,
+    "name": {
+      "en": "Doppelganger"
+    },
+    "areas": [ 11 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 121,
+    "name": {
+      "en": "Orobas"
+    },
+    "areas": [ 12 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 122,
+    "name": {
+      "en": "True Zangetsu"
+    },
+    "areas": [ 13 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 123,
+    "name": {
+      "en": "Valefar"
+    },
+    "areas": [ 15 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 124,
+    "name": {
+      "en": "Gremory"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 125,
+    "name": {
+      "en": "Dominique"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 126,
+    "name": {
+      "en": "Bael"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  },
+  {
+    "number": 127,
+    "name": {
+      "en": "Orlok Dracule"
+    },
+    "areas": [ 16 ],
+    "rooms": [],
+    "coordinates": []
+  }
+]
