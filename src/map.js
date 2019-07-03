@@ -106,11 +106,15 @@ export function clearGeoJsons () {
 }
 
 export function drawGeo (geojson, name) {
-  // Convert raw pixel values to latlng
-  geojson.geometry.coordinates = geojson.geometry.coordinates.map((i) => i.map((j) => {
-    var { lng, lat } = rc.unproject(j)
-    return [ lng, lat ]
-  }))
+  // Convert raw pixel values to latlng once
+  // This modifies the original geojson!
+  if (!geojson.properties.converted) {
+    geojson.geometry.coordinates = geojson.geometry.coordinates.map((i) => i.map((j) => {
+      var { lng, lat } = rc.unproject(j)
+      return [ lng, lat ]
+    }))
+    geojson.properties.converted = true
+  }
 
   geojsonLayers.push(L.geoJSON(geojson, {
     style: {
