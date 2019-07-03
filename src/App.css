@@ -12,44 +12,61 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
+  background-color: #101010;
 }
 
 .left-pane {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 330px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  font-size: 13px;
+  line-height: 1.4;
+
+  border-image-source: url('/box.png');
+  border-image-slice: calc(100% / 3) calc(100% / 3) fill;
+  border-image-width: 48px;
+  border-image-outset: 1px;
+  border-image-repeat: repeat;
+  z-index: 2000; /* Shadow overlaps map */
+  box-shadow: 1 0 30px 10px rgba(0,0,0,0.25);
+}
+
+.left-main {
+}
+
+.left-info {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   overflow-y: auto;
-  background-color: #242121;
-  border-right: 1px solid #302c2c;
-  padding: 20px;
-  color: white;
-  font-size: 13px;
-  line-height: 1.4;
-}
-
-.left-main {
-  flex-grow: 1;
+  margin-top: 1em;
 }
 
 .right-pane {
   position: absolute;
   top: 0;
   right: 0;
-  left: 300px;
+  left: calc(330px - 4px); /* Overlap left pane border */
   height: 100%;
   overflow: hidden;
   background-image: url('/bg.jpg');
   background-size: cover;
+  background-position: center;
   box-shadow: inset 0 0 60px 20px black;
 }
 
 .logo-img {
-  width: 100%;
+  width: 300px;
+  margin-left: -10px;
+  margin-top: -10px;
 }
 
 .logo-img + h3 {
@@ -58,7 +75,7 @@ html {
 
 .notice {
   padding: 1em;
-  margin-top: 1em;
+  margin-top: auto; /* aligns to bottom */
   background-color: #1b1919;
   border-radius: 3px;
 }
