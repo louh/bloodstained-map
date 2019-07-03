@@ -33,6 +33,11 @@ function addDrawLayer (map) {
     console.log(JSON.stringify(layer.toGeoJSON()))
   })
 
+  map.on(L.Draw.Event.EDITED, function (event) {
+    const layers = event.layers
+    console.log(JSON.stringify(layers.toGeoJSON().features[0]))
+  })
+
   map.addControl(drawControl)
 }
 
@@ -67,7 +72,7 @@ export function initMap (history) {
     // Expose globally for debugging
     window.map = map
 
-    map.addEventListener('click', (e) => console.log(e))
+    // map.addEventListener('click', (e) => console.log(e))
 
     resolve(map)
   })
