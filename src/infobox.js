@@ -167,7 +167,7 @@ export function showInfoBox (type, object) {
         })
       }
 
-      if (!object.chests && !object.demons && !object.quest && !object.shop) {
+      if (!object.chests && !object.demons && !object.quest && !object.shop && !object.rooms) {
         const pEl = document.createElement('p')
         pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
         el.appendChild(pEl)

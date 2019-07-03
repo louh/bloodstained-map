@@ -4302,7 +4302,8 @@
       "en": "O.D."
     },
     "type": "NPC",
-    "subtype": "Librarian"
+    "subtype": "Librarian",
+    "rooms": [ "library" ]
   },
   {
     "name": {

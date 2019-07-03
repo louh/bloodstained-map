@@ -1,0 +1,13 @@
+{
+  "library": {
+    "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4485, 1883 ],
+        [ 4444, 1883 ],
+        [ 4444, 1860 ],
+        [ 4485, 1860 ],
+        [ 4485, 1883 ]
+      ]
+    ]}}
+  }
+}

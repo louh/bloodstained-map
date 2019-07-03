@@ -4,6 +4,7 @@ import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
 import ITEMS from '../data/items.json'
+import ROOMS from '../data/rooms.json'
 import { drawGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
 import { showInfoBox, hideInfoBox } from '../infobox.js';
@@ -149,6 +150,17 @@ function SearchBar (props) {
                 })
               })
             }
+
+            // test roooms
+            if (item.rooms) {
+              item.rooms.forEach((room) => {
+                const geo = ROOMS[room].geo
+                if (geo) {
+                  drawGeo(geo, '')
+                }
+              })
+            }
+
             showInfoBox(selection.type, item)
             zoomToGeoBounds()
             break
