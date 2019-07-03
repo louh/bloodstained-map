@@ -172,7 +172,7 @@ function SearchBar (props) {
       }) => (
         <div className="search">
           <label {...getLabelProps()}>What are you looking for?</label>
-          <input {...getInputProps({ spellCheck: 'false' })} ref={textInput} />
+          <input {...getInputProps({ spellCheck: 'false', placeholder: 'Enter search term' })} ref={textInput} />
           <ul {...getMenuProps()}>
             {isOpen
               ? items

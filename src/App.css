@@ -71,6 +71,16 @@ html {
 
 .logo-img + h3 {
   margin-top: 0;
+  text-align: center;
+  margin-top: -0.5em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: rgba(184, 153, 119, 0.23);
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .notice {
@@ -82,9 +92,11 @@ html {
 
 .notice h4 {
   margin-top: 0;
+  margin-bottom: 0.65em;
 }
 
 .notice p {
+  margin-top: 0.65em;
   margin-bottom: 0;
 }
 

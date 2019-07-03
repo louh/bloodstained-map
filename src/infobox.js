@@ -136,7 +136,7 @@ export function showInfoBox (type, object) {
 
         if (object.shop) {
           const pEl = document.createElement('p')
-          pEl.textContent = `Can be purchased from Dominique.`
+          pEl.textContent = `Purchased from Dominique.`
           el.appendChild(pEl)
         }
       }

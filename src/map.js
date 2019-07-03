@@ -10,7 +10,7 @@ const RASTER_IMAGE_SIZE = [
   8192, // original width of image
   4096  // original height of image
 ]
-const INITIAL_VIEW = {lat: 66.54006404811358, lng: -8.15666198730469}
+const INITIAL_VIEW = { lat: 66.5, lng: -6.5 }
 const INITIAL_ZOOM = 1
 const INITIAL_ZOOM_MOBILE = 1
 
@@ -64,18 +64,23 @@ export function initMap (history) {
       noWrap: true
     }).addTo(map)
   
-    // Proof of concept markers
     // Use leaflet-rastercoords to convert pixel coordinates to map coordinates
     // This also automatically sets a boundary to the image
     rc = new L.RasterCoords(map, RASTER_IMAGE_SIZE)
-    // const allMarkers = drawMarkers(map, rc, history)
-    console.log(rc.unproject([0 * 2, 0 * 2]))
-    console.log(rc.unproject([RASTER_IMAGE_SIZE[1] * 2, RASTER_IMAGE_SIZE[0] * 2]))
   
     // Expose globally for debugging
     window.map = map
 
-    map.addEventListener('click', (e) => console.log(e))
+    // map.addEventListener('click', (e) => {
+    //   console.log(e)
+    //   console.log(rc.project(e.latlng))
+    // })
+
+    var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgElement.setAttribute('xmlns', "http://www.w3.org/2000/svg");
+    svgElement.setAttribute('viewBox', "0 0 741 243");
+    svgElement.innerHTML = '<path d="M741,27H648V0H148V30H0V96H100v88h48v59H648V184h48V66h45ZM345,148v29H204V148H154V126H394v22Zm246,29H499V148H451V126H642v22H591Z" style="fill:#ff0"/>';
+    window.svgElement = svgElement
 
     resolve(map)
   })
@@ -107,6 +112,12 @@ export function clearGeoJsons () {
 }
 
 export function drawGeo (geojson, name) {
+  // Convert raw pixel values to latlng
+  geojson.geometry.coordinates = geojson.geometry.coordinates.map((i) => i.map((j) => {
+    var { lng, lat } = rc.unproject(j)
+    return [ lng, lat ]
+  }))
+
   geojsonLayers.push(L.geoJSON(geojson, {
     style: {
       fillColor: 'yellow',
