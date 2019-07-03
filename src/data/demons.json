@@ -1015,6 +1015,7 @@
       "en": "Craftwork"
     },
     "type": "boss",
+    "disambiguate": true,
     "areas": [ 4 ],
     "rooms": [],
     "coordinates": []

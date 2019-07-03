@@ -12,42 +12,32 @@ const locale = 'en'
 
 const items = assembleSearchTerms()
 
+function makeSearchTerm (item, index, type) {
+  return {
+    name: item.name[locale],
+    type: type,
+    index: index,
+    disambiguate: item.disambiguate || false
+  }
+}
+
 function assembleSearchTerms () {
   const items = []
 
-  DEMONS.forEach((demon, index) => {
-    items.push({
-      name: demon.name[locale],
-      type: 'demon',
-      index: index,
-      disambiguate: demon.disambiguate || false
-    })
+  DEMONS.forEach((item, index) => {
+    items.push(makeSearchTerm(item, index, 'demon'))
   })
 
-  AREAS.forEach((area, index) => {
-    items.push({
-      name: area.name[locale],
-      type: 'area',
-      index: index
-    })
+  AREAS.forEach((item, index) => {
+    items.push(makeSearchTerm(item, index, 'area'))
   })
 
-  SHARDS.forEach((shard, index) => {
-    items.push({
-      name: shard.name[locale],
-      type: 'shard',
-      index: index,
-      disambiguate: shard.disambiguate || false
-    })
+  SHARDS.forEach((item, index) => {
+    items.push(makeSearchTerm(item, index, 'shard'))
   })
   
   ITEMS.forEach((item, index) => {
-    items.push({
-      name: item.name[locale],
-      type: 'item',
-      index: index,
-      disambiguate: item.disambiguate || false
-    })
+    items.push(makeSearchTerm(item, index, 'item'))
   })
 
   return items

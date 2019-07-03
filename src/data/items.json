@@ -1013,6 +1013,7 @@
     },
     "type": "Material",
     "subtype": "",
+    "disambiguate": true,
     "demons": [
       106
     ]
@@ -2140,7 +2141,8 @@
       "en": "Bloodbringer"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "disambiguate": true
   },
   {
     "name": {

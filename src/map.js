@@ -10,7 +10,7 @@ const RASTER_IMAGE_SIZE = [
   2304, // original width of image
   768  // original height of image
 ]
-const INITIAL_VIEW = {lat: 41.03793062246529, lng: 200.7188415527344}
+const INITIAL_VIEW = {lat: 1.4980897753593954, lng: 169.25125122070315}
 const INITIAL_ZOOM = 1
 const INITIAL_ZOOM_MOBILE = 1
 
@@ -54,7 +54,7 @@ export function initMap (history) {
   
     L.tileLayer(window.devicePixelRatio > 1 ? TILES_RETINA : TILES, {
       attribution: false,
-      maxZoom: 3,
+      maxZoom: 4,
       minZoom: 2,
       noWrap: true
     }).addTo(map)
@@ -67,7 +67,7 @@ export function initMap (history) {
     // Expose globally for debugging
     window.map = map
 
-    // map.addEventListener('click', (e) => console.log(e))
+    map.addEventListener('click', (e) => console.log(e))
 
     resolve(map)
   })
