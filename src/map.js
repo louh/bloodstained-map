@@ -1,5 +1,5 @@
 import L from 'leaflet'
-// import 'leaflet-rastercoords'
+import 'leaflet-rastercoords'
 import 'leaflet-draw'
 import bbox from '@turf/bbox'
 import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
@@ -7,14 +7,14 @@ import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
 const TILES = '/tiles/{z}/{x}/{y}.png'
 const TILES_RETINA = '/tiles/{z}/{x}/{y}.png'
 const RASTER_IMAGE_SIZE = [
-  2304, // original width of image
-  768  // original height of image
+  8192, // original width of image
+  4096  // original height of image
 ]
-const INITIAL_VIEW = {lat: 1.4980897753593954, lng: 169.25125122070315}
+const INITIAL_VIEW = {lat: 66.54006404811358, lng: -8.15666198730469}
 const INITIAL_ZOOM = 1
 const INITIAL_ZOOM_MOBILE = 1
 
-let map
+let map, rc
 
 function addDrawLayer (map) {
   // FeatureGroup is to store editable layers
@@ -59,20 +59,23 @@ export function initMap (history) {
   
     L.tileLayer(window.devicePixelRatio > 1 ? TILES_RETINA : TILES, {
       attribution: false,
-      maxZoom: 4,
-      minZoom: 2,
+      maxZoom: 5,
+      minZoom: 3,
       noWrap: true
     }).addTo(map)
   
     // Proof of concept markers
     // Use leaflet-rastercoords to convert pixel coordinates to map coordinates
-    // rc = new L.RasterCoords(map, RASTER_IMAGE_SIZE)
+    // This also automatically sets a boundary to the image
+    rc = new L.RasterCoords(map, RASTER_IMAGE_SIZE)
     // const allMarkers = drawMarkers(map, rc, history)
+    console.log(rc.unproject([0 * 2, 0 * 2]))
+    console.log(rc.unproject([RASTER_IMAGE_SIZE[1] * 2, RASTER_IMAGE_SIZE[0] * 2]))
   
     // Expose globally for debugging
     window.map = map
 
-    // map.addEventListener('click', (e) => console.log(e))
+    map.addEventListener('click', (e) => console.log(e))
 
     resolve(map)
   })
