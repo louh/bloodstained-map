@@ -3703,147 +3703,192 @@
       "en": "Might Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Sage's Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Sentinel Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Believer's Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Fortune Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Coldstave Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Heatstave Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Shockstave Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Empyreal Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Obscurity Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Corporeity Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Immunity Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Blessed Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Prowess Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Ancillary Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Deadeye Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Tailwind Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Tactician's Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Mastery Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Godsend Tome"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true
   },
   {
     "name": {
       "en": "Tome of Conquest"
     },
     "type": "Tome",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [ "library" ],
+    "librarian": true,
+    "prerequisites": {
+      "en": "Reach 99% map completion."
+    }
   },
   {
     "name": {

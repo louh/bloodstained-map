@@ -117,9 +117,9 @@ export function showInfoBox (type, object) {
       nameEl.textContent = object.name[locale]
       el.appendChild(nameEl)
 
-      if (object.chests || object.shop) {
+      if (object.chests || object.shop || object.librarian) {
         const titleEl = document.createElement('strong')
-        if ((object.chests && object.chests.length || 0) + (object.shop) === 1) {
+        if (((object.chests && object.chests.length) || 0) + (object.shop) + (object.librarian )=== 1) {
           titleEl.textContent = 'Location'
         } else {
           titleEl.textContent = 'Locations'
@@ -137,6 +137,12 @@ export function showInfoBox (type, object) {
         if (object.shop) {
           const pEl = document.createElement('p')
           pEl.textContent = `Purchased from Dominique.`
+          el.appendChild(pEl)
+        }
+
+        if (object.librarian) {
+          const pEl = document.createElement('p')
+          pEl.textContent = `Borrow from O.D.`
           el.appendChild(pEl)
         }
       }
@@ -170,6 +176,16 @@ export function showInfoBox (type, object) {
       if (!object.chests && !object.demons && !object.quest && !object.shop && !object.rooms) {
         const pEl = document.createElement('p')
         pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
+        el.appendChild(pEl)
+      }
+
+      if (object.prerequisites) {
+        const titleEl = document.createElement('strong')
+        titleEl.textContent = 'Prerequisites'
+        el.appendChild(titleEl)
+
+        const pEl = document.createElement('p')
+        pEl.textContent = object.prerequisites[locale]
         el.appendChild(pEl)
       }
 

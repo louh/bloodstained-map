@@ -76,12 +76,6 @@ export function initMap (history) {
     //   console.log(rc.project(e.latlng))
     // })
 
-    var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svgElement.setAttribute('xmlns', "http://www.w3.org/2000/svg");
-    svgElement.setAttribute('viewBox', "0 0 741 243");
-    svgElement.innerHTML = '<path d="M741,27H648V0H148V30H0V96H100v88h48v59H648V184h48V66h45ZM345,148v29H204V148H154V126H394v22Zm246,29H499V148H451V126H642v22H591Z" style="fill:#ff0"/>';
-    window.svgElement = svgElement
-
     resolve(map)
   })
 }
@@ -137,7 +131,7 @@ export function zoomToGeoBounds () {
   const bounds = bbox(collection)
 
   // southwest latlng, northeast latlng
-  map.fitBounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]],  {
+  map.fitBounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]], {
     padding: [20, 20]
   })
 }
