@@ -9,5 +9,181 @@
         [ 4485, 1883 ]
       ]
     ]}}
+  },
+  "secret01": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 1688, 2245 ],
+        [ 1634, 2245 ],
+        [ 1634, 2209 ],
+        [ 1688, 2209 ],
+        [ 1688, 2245 ]
+      ]
+    ]}}
+  },
+  "secret02": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 2375, 2154 ],
+        [ 2320, 2154 ],
+        [ 2320, 2118 ],
+        [ 2375, 2118 ],
+        [ 2375, 2154 ]
+      ]
+    ]}}
+  },
+  "secret03": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 3410, 2568 ],
+        [ 3353, 2568 ],
+        [ 3353, 2532 ],
+        [ 3410, 2532 ],
+        [ 3410, 2568 ]
+      ]
+    ]}}
+  },
+  "secret04": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4147, 2775 ],
+        [ 4093, 2775 ],
+        [ 4093, 2739 ],
+        [ 4147, 2739 ],
+        [ 4147, 2775 ]
+      ]
+    ]}}
+  },
+  "secret05": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4789, 2391 ],
+        [ 4731, 2391 ],
+        [ 4731, 2355 ],
+        [ 4789, 2355 ],
+        [ 4789, 2391 ]
+      ]
+    ]}}
+  },
+  "secret06": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4789, 2479 ],
+        [ 4731, 2479 ],
+        [ 4731, 2443 ],
+        [ 4789, 2443 ],
+        [ 4789, 2479 ]
+      ]
+    ]}}
+  },
+  "secret07": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4641, 2095 ],
+        [ 4584, 2095 ],
+        [ 4584, 2059 ],
+        [ 4641, 2059 ],
+        [ 4641, 2095 ]
+      ]
+    ]}}
+  },
+  "secret08": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 3704, 1977 ],
+        [ 3650, 1977 ],
+        [ 3650, 1940 ],
+        [ 3704, 1940 ],
+        [ 3704, 1977 ]
+      ]
+    ]}}
+  },
+  "secret09": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 3016, 1712 ],
+        [ 2960, 1712 ],
+        [ 2960, 1675 ],
+        [ 3016, 1675 ],
+        [ 3016, 1712 ]
+      ]
+    ]}}
+  },
+  "secret10": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4050, 1476 ],
+        [ 3995, 1476 ],
+        [ 3995, 1438 ],
+        [ 4050, 1438 ],
+        [ 4050, 1476 ]
+      ]
+    ]}}
+  },
+  "secret11": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4050, 1358 ],
+        [ 3895, 1358 ],
+        [ 3895, 1321 ],
+        [ 4050, 1321 ],
+        [ 4050, 1358 ]
+      ]
+    ]}}
+  },
+  "secret12": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4492, 1565 ],
+        [ 4438, 1565 ],
+        [ 4438, 1527 ],
+        [ 4492, 1527 ],
+        [ 4492, 1565 ]
+      ]
+    ]}}
+  },
+  "secret13": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4688, 1535 ],
+        [ 4634, 1535 ],
+        [ 4634, 1498 ],
+        [ 4688, 1498 ],
+        [ 4688, 1535 ]
+      ]
+    ]}}
+  },
+  "secret14": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 4789, 1800 ],
+        [ 4731, 1800 ],
+        [ 4731, 1764 ],
+        [ 4789, 1764 ],
+        [ 4789, 1800 ]
+      ]
+    ]}}
+  },
+  "secret15": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 5971, 2214 ],
+        [ 5914, 2214 ],
+        [ 5914, 2177 ],
+        [ 5971, 2177 ],
+        [ 5971, 2214 ]
+      ]
+    ]}}
+  },
+  "secret16": {
+    "geo": {"type":"Feature","properties":{"style":{"color":"#ff0000", "weight":"2"}},"geometry":{"type":"Polygon","coordinates":[
+      [
+        [ 6313, 2184 ],
+        [ 6258, 2184 ],
+        [ 6258, 2148 ],
+        [ 6313, 2148 ],
+        [ 6313, 2184 ]
+      ]
+    ]}}
   }
 }

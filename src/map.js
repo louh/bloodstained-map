@@ -116,13 +116,27 @@ export function drawGeo (geojson, name) {
     geojson.properties.converted = true
   }
 
-  geojsonLayers.push(L.geoJSON(geojson, {
-    style: {
-      fillColor: 'yellow',
-      fillOpacity: 0.5,
-      weight: 0
-    }
-  }).bindPopup(name).addTo(map))
+  console.log(geojson.properties.style)
+  const style = {
+    fillColor: 'yellow',
+    fillOpacity: 0.5,
+    weight: 0,
+    ...geojson.properties.style
+  }
+  console.log(style)
+
+  const layer = L.geoJSON(geojson, {
+    style
+  })
+
+  // Don't bind a popup if there isn't a name
+  if (name) {
+    layer.bindPopup(name)
+  }
+
+  layer.addTo(map)
+
+  geojsonLayers.push(layer)
   collection.features.push(geojson)
 }
 

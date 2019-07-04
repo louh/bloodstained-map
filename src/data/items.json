@@ -4359,16 +4359,40 @@
   },
   {
     "name": {
-      "en": "Blue Chests"
+      "en": "Blue chests"
     },
     "type": "Chest",
     "subtype": ""
   },
   {
     "name": {
-      "en": "Green Chests"
+      "en": "Green chests"
     },
     "type": "Chest",
     "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Secret rooms"
+    },
+    "note": "Hunting for 100% map completion? You might have missed these spots. See map for locations.",
+    "rooms": [
+      "secret01",
+      "secret02",
+      "secret03",
+      "secret04",
+      "secret05",
+      "secret06",
+      "secret07",
+      "secret08",
+      "secret09",
+      "secret10",
+      "secret11",
+      "secret12",
+      "secret13",
+      "secret14",
+      "secret15",
+      "secret16"
+    ]
   }
 ]

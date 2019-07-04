@@ -109,17 +109,25 @@ export function showInfoBox (type, object) {
       break
     }
     case 'item': {
-      const typeEl = document.createElement('h4')
-      typeEl.textContent = object.type + (object.subtype ? ' – ' + object.subtype : '')
-      el.appendChild(typeEl)
+      if (object.type) {
+        const typeEl = document.createElement('h4')
+        typeEl.textContent = object.type + (object.subtype ? ' – ' + object.subtype : '')
+        el.appendChild(typeEl)
+      }
 
       const nameEl = document.createElement('h3')
       nameEl.textContent = object.name[locale]
       el.appendChild(nameEl)
 
+      if (object.note) {
+        const pEl = document.createElement('p')
+        pEl.textContent = object.note
+        el.appendChild(pEl)
+      }
+
       if (object.chests || object.shop || object.librarian) {
         const titleEl = document.createElement('strong')
-        if (((object.chests && object.chests.length) || 0) + (object.shop) + (object.librarian )=== 1) {
+        if (((object.chests && object.chests.length) || 0) + (object.shop && 1) + (object.librarian && 1) === 1) {
           titleEl.textContent = 'Location'
         } else {
           titleEl.textContent = 'Locations'
@@ -145,6 +153,12 @@ export function showInfoBox (type, object) {
           pEl.textContent = `Borrow from O.D.`
           el.appendChild(pEl)
         }
+      } else {
+        // if (object.rooms) {
+        //   const pEl = document.createElement('p')
+        //   pEl.textContent = 'See map for locations.'
+        //   el.appendChild(pEl)
+        // }
       }
 
       if (object.quest) {
@@ -173,9 +187,9 @@ export function showInfoBox (type, object) {
         })
       }
 
-      if (!object.chests && !object.demons && !object.quest && !object.shop && !object.rooms) {
+      if (!object.chests && !object.demons && !object.quest && !object.shop && !object.rooms && !object.note) {
         const pEl = document.createElement('p')
-        pEl.innerHTML = object.note || `Location information will be added soon! Please come back later.`
+        pEl.textContent = `Location information will be added soon! Please come back later.`
         el.appendChild(pEl)
       }
 
@@ -191,7 +205,8 @@ export function showInfoBox (type, object) {
 
       break
     }
-    default:
+    default: {
       break
+    }
   }
 }
