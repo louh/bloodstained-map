@@ -1029,10 +1029,7 @@
       "en": "Gold"
     },
     "type": "Material",
-    "subtype": "",
-    "demons": [
-      "Alchemy"
-    ]
+    "subtype": ""
   },
   {
     "name": {
