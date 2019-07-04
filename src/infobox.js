@@ -139,7 +139,7 @@ export function showInfoBox (type, object) {
         el.appendChild(pEl)
       }
 
-      if (object.chests || object.shop || object.librarian) {
+      if (object.chests || object.shop || object.alchemy || object.librarian) {
         const titleEl = document.createElement('strong')
         if (((object.chests && object.chests.length) || 0) + (object.shop && 1) + (object.librarian && 1) === 1) {
           titleEl.textContent = 'Location'
@@ -154,6 +154,12 @@ export function showInfoBox (type, object) {
             pEl.textContent = `Obtained from a chest in ${AREAS[chest.area].name[locale]}.`
             el.appendChild(pEl)
           })
+        }
+
+        if (object.alchemy) {
+          const pEl = document.createElement('p')
+          pEl.innerHTML = `Crafted by Johannes.`
+          el.appendChild(pEl)
         }
 
         if (object.shop) {
@@ -193,7 +199,9 @@ export function showInfoBox (type, object) {
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
           if (Array.isArray(index)) {
-            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100) + '%)'
+            // Third item in the array is if item drops in multiples.
+            const multiples = index[2] ? ' ×' + index[2] : ''
+            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100) + '%)' + multiples
           } else {
             pEl.textContent = DEMONS[index - 1].name[locale]
           }
@@ -201,7 +209,7 @@ export function showInfoBox (type, object) {
         })
       }
 
-      if (!object.chests && !object.demons && !object.quest && !object.shop && !object.rooms && !object.note) {
+      if (!object.chests && !object.demons && !object.quest && !object.shop && !object.alchemy && !object.rooms && !object.note) {
         const pEl = document.createElement('p')
         pEl.textContent = `Location information will be added soon! Please come back later.`
         el.appendChild(pEl)

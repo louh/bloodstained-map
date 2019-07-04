@@ -393,6 +393,249 @@
   },
   {
     "name": {
+      "en": "Fried Fish"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Fish & Chips"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Simmered Forneus"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Forneus Meunière"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Forneus in Garlic"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Fish Hot Pot"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Flan"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Manju"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Apple Pie"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Lemon Cream Pie"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Strawberry Pie"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Strawberry Crepe"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chocolate Crepe"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Cookies"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chocolate Cookies"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Cinnamon Cookies"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Sponge Cake"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chiffon Cake"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Cheesecake"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Chocolate Cake"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Strawberry Cake"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Scrambled Eggs"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Rolled Omelette"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Fried Egg"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Egg Soufflé"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Apple Juice"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Strawberry Au Lait"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Lemonade"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Smoothie"
+    },
+    "type": "Supplies",
+    "subtype": "Food",
+    "demons": [
+      [
+        56,
+        0.04
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Fruit Juice"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Nectar"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
+      "en": "Dark Matter"
+    },
+    "type": "Supplies",
+    "subtype": "Food",
+    "demons": [
+      [
+        73,
+        0.01
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Macaroni & Cheese"
+    },
+    "type": "Supplies",
+    "subtype": "Food"
+  },
+  {
+    "name": {
       "en": "Rice"
     },
     "type": "Ingredient",
@@ -422,6 +665,11 @@
       [
         43,
         0.05
+      ],
+      [
+        96,
+        0.1,
+        2
       ]
     ]
   },
@@ -484,6 +732,11 @@
       [
         13,
         0.12
+      ],
+      [
+        87,
+        0.12,
+        4
       ]
     ]
   },
@@ -557,6 +810,11 @@
       [
         13,
         0.12
+      ],
+      [
+        87,
+        0.1,
+        4
       ]
     ]
   },
@@ -764,6 +1022,222 @@
   },
   {
     "name": {
+      "en": "Baking Soda"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "shop": true
+  },
+  {
+    "name": {
+      "en": "Butter"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Cheese"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "demons": [
+      [
+        7,
+        0.12
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Soda Water"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Consommé"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Salt Broth"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Soy Broth"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Tonkotsu Broth"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Miso Broth"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Heavy Cream"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Red Bean Paste"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Cocoa"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true,
+    "demons": [
+      [
+        25,
+        0.02
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Chinese Noodles"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Pasta"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Bread"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Pie Dough"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Pizza Dough"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Crepe Dough"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Curry Powder"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "demons": [
+      [
+        21,
+        0.03
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Curry Sauce"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "White Sauce"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Vongole Sauce"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "alchemy": true
+  },
+  {
+    "name": {
+      "en": "Corn Seed"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "shop": true
+  },
+  {
+    "name": {
+      "en": "Rice Seed"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "shop": true
+  },
+  {
+    "name": {
+      "en": "Potato Seed"
+    },
+    "type": "Ingredient",
+    "subtype": "",
+    "shop": true
+  },
+  {
+    "name": {
       "en": "Alkahest"
     },
     "type": "Material",
@@ -778,7 +1252,11 @@
         20,
         0.1
       ],
-      68
+      [
+        68,
+        0.12,
+        2
+      ]
     ]
   },
   {
@@ -829,7 +1307,11 @@
         53,
         0.1
       ],
-      90
+      [
+        90,
+        0.1,
+        5
+      ]
     ]
   },
   {
@@ -2921,6 +3403,88 @@
   },
   {
     "name": {
+      "en": "Claymore"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Pelekus"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Flamberge"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Spiral Sword"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword",
+    "demons": [
+      [
+        11,
+        0.02
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Berdiche"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword",
+    "demons": [
+      [
+        60,
+        0.04
+      ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Carnot's Rebuke"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Gram"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Gambanteinn"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Lohengrin"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
+      "en": "Schedar"
+    },
+    "type": "Weapon",
+    "subtype": "G Sword"
+  },
+  {
+    "name": {
       "en": "Steel Lightning"
     },
     "type": "Weapon",
@@ -3021,7 +3585,10 @@
       "en": "Zangetsuto"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "prerequisites": {
+      "en": "Defeat Zangetsu."
+    }
   },
   {
     "name": {
@@ -3414,21 +3981,47 @@
       "en": "SP Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      [
+        3,
+        0.1,
+        3
+      ]
+    ]
   },
   {
     "name": {
       "en": "HP Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      [
+        3,
+        0.03,
+        3
+      ],
+      [
+        16,
+        0.12,
+        3
+      ]
+    ]
   },
   {
     "name": {
       "en": "AP Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "demons": [
+      [
+        16,
+        0.03,
+        3
+      ]
+    ]
   },
   {
     "name": {

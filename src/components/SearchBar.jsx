@@ -130,7 +130,7 @@ function SearchBar (props) {
                 }
               })
             }
-            if (item.quest || item.shop) {
+            if (item.quest || item.shop || item.alchemy) {
               // Quests are in Arvantville
               const geo = AREAS[1].geo
               if (geo) {
