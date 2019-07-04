@@ -81,7 +81,11 @@ export function showInfoBox (type, object) {
 
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
-          pEl.textContent = DEMONS[index - 1].name[locale]
+          if (Array.isArray(index)) {
+            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100) + '%)'
+          } else {
+            pEl.textContent = DEMONS[index - 1].name[locale]
+          }
           el.appendChild(pEl)
         })
       }
@@ -103,6 +107,16 @@ export function showInfoBox (type, object) {
 
         const pEl = document.createElement('p')
         pEl.innerHTML = `Obtained from <strong>${object.special}</strong>.`
+        el.appendChild(pEl)
+      }
+
+      if (object.prerequisites) {
+        const titleEl = document.createElement('strong')
+        titleEl.textContent = 'Prerequisites'
+        el.appendChild(titleEl)
+
+        const pEl = document.createElement('p')
+        pEl.textContent = object.prerequisites[locale]
         el.appendChild(pEl)
       }
 
@@ -179,7 +193,7 @@ export function showInfoBox (type, object) {
         object.demons.forEach((index) => {
           const pEl = document.createElement('p')
           if (Array.isArray(index)) {
-            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100).toFixed(2) + '%)'
+            pEl.textContent = DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100) + '%)'
           } else {
             pEl.textContent = DEMONS[index - 1].name[locale]
           }
