@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Downshift from 'downshift'
+import deburr from 'lodash/deburr'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
@@ -196,7 +197,7 @@ function SearchBar (props) {
           <ul {...getMenuProps()}>
             {isOpen
               ? items
-                  .filter(item => !inputValue || item.name.toLowerCase().includes(inputValue.toLowerCase()))
+                  .filter(item => !inputValue || deburr(item.name).toLowerCase().includes(deburr(inputValue).toLowerCase()))
                   .sort(alphabetize)
                   .map((item, index) => (
                     <li
