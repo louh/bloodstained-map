@@ -1,10 +1,11 @@
-# Bloodstained: Ritual of the Moon interactive map
+# Bloodstained: Ritual of the Night interactive map
 
 This is a work in progress! Please join the [Bloodstained Discord](https://discord.gg/yKKQhzS) and contact me (saikofish#0306) or file an issue here if you have comments, suggestions, etc!
 
 ## Special thanks to
 
 - **LadyNyaako** for the map and graphics!
+- **the team at ArtPlay and 505 Games** for making [Bloodstained: Ritual of the Night](https://playbloodstained.com)!
 
 ## References
 
