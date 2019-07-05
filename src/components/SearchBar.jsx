@@ -59,6 +59,56 @@ function alphabetize (a, b) {
   return 0
 }
 
+/**
+ * Search filtering function. The first parameter is the item normally passed
+ * to an Array.prototype.filter function, the second parameter is the input
+ * value provided by Downshift. Compares input value with item and returns
+ * true if it matches, false otherwise.
+ *
+ * @param {Object} item
+ * @param {string} inputValue
+ * @returns {Boolean}
+ */
+function searchFilter (item, inputValue = '') {
+  // False if input value isn't provided
+  if (!inputValue.trim()) return false
+
+  // When comparing strings, both the compare name and input value are modified
+  // to make easier comparisons. For instance:
+  //  - Deburred (remove accent marks, etc) - matches "Rhava Bural", "Dian Cecht"
+  //  - Whitespaces removed - matches "fireball" to "Fire Ball", "snake bite" to "Snakebite"
+  //  - Dashes removed - matches "32 bit" to "32-bit Coin", "tamako death" to "Tamako-Death"
+  //  - Periods removed - matches "OD" to "O.D."
+  //  - Apostrophes removed - matches "dragons wrath", or "aries horns" to "Aries' Horns"
+  //  - Lowercase - makes search case insensitive
+  let compareName = deburr(item.name).replace(/\s|-|\.|'/g, '').toLowerCase()
+  let compareInput = deburr(inputValue).replace(/\s|-|\.|'/g, '').toLowerCase()
+
+  // Special cases: certain symbols are replaced with full words to be allowed
+  // them to be spelled out.
+  // --------------------------------------------------------------------------
+
+  // Special case: replace the number 8 with the word 'eight'
+  // Matches inconsistent use of "8" or "eight" in "8-bit" or "Eight Bit"
+  // TODO: locale?
+  compareName = compareName.replace('8', 'eight')
+  compareInput = compareInput.replace('8', 'eight')
+
+  // Ampersands are "and"
+  // Matches "fish and chips" to "Fish & Chips"
+  // or "macaroni and cheese" to "Macaroni & Cheese"
+  compareName = compareName.replace('&', 'and')
+  compareInput = compareInput.replace('&', 'and')
+
+  // '/R' is "recipe"
+  // the lowercase is because it's already been converted to lowercase
+  // compare name uses the plural to allow plural form to be searched
+  compareName = compareName.replace(/\/r$/, 'recipes')
+  compareInput = compareInput.replace(/\/r$/, 'recipe')
+
+  return compareName.includes(compareInput)
+}
+
 function SearchBar (props) {
   const textInput = React.createRef()
 
@@ -197,7 +247,7 @@ function SearchBar (props) {
           <ul {...getMenuProps()}>
             {isOpen
               ? items
-                  .filter(item => !inputValue || deburr(item.name).toLowerCase().includes(deburr(inputValue).toLowerCase()))
+                  .filter((item) => searchFilter(item, inputValue))
                   .sort(alphabetize)
                   .map((item, index) => (
                     <li
