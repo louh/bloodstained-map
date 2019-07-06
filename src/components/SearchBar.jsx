@@ -8,7 +8,6 @@ import ITEMS from '../data/items.json'
 import ROOMS from '../data/rooms.json'
 import { drawGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
-import { showInfoBox, hideInfoBox } from '../infobox.js';
 
 const locale = 'en'
 
@@ -120,7 +119,6 @@ function SearchBar (props) {
     <Downshift
       onChange={selection => {
         clearGeoJsons()
-        hideInfoBox()
 
         // handle lack of selection
         if (!selection) return
@@ -133,12 +131,18 @@ function SearchBar (props) {
                 drawGeo(geo, AREAS[area].name[locale])
               }
             })
-            showInfoBox(selection.type, DEMONS[selection.index])
+            props.onSelect({
+              type: selection.type,
+              info: DEMONS[selection.index]
+            })
             zoomToGeoBounds()
             break
           case 'area':
             drawGeo(AREAS[selection.index].geo, AREAS[selection.index].name[locale])
-            showInfoBox(selection.type, AREAS[selection.index])
+            props.onSelect({
+              type: selection.type,
+              info: AREAS[selection.index]
+            })
             zoomToGeoBounds()
             break
           case 'shard': {
@@ -167,7 +171,10 @@ function SearchBar (props) {
               // Arvantville (Johannes)
               drawGeo(AREAS[1].geo, AREAS[1].name[locale])
             }
-            showInfoBox(selection.type, SHARDS[selection.index])
+            props.onSelect({
+              type: selection.type,
+              info: SHARDS[selection.index]
+            })
             zoomToGeoBounds()
             break
           }
@@ -220,7 +227,10 @@ function SearchBar (props) {
               })
             }
 
-            showInfoBox(selection.type, item)
+            props.onSelect({
+              type: selection.type,
+              info: item
+            })
             zoomToGeoBounds()
             break
           }

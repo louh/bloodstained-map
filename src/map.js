@@ -116,17 +116,13 @@ export function drawGeo (geojson, name) {
     geojson.properties.converted = true
   }
 
-  console.log(geojson.properties.style)
-  const style = {
-    fillColor: 'yellow',
-    fillOpacity: 0.5,
-    weight: 0,
-    ...geojson.properties.style
-  }
-  console.log(style)
-
   const layer = L.geoJSON(geojson, {
-    style
+    style: {
+      fillColor: 'yellow',
+      fillOpacity: 0.5,
+      weight: 0,
+      ...geojson.properties.style
+    }
   })
 
   // Don't bind a popup if there isn't a name

@@ -5414,7 +5414,7 @@
       "en": "Hair Apparent I"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 4
@@ -5426,7 +5426,7 @@
       "en": "Hair Apparent II"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 4
@@ -5438,7 +5438,7 @@
       "en": "Hair Apparent III"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "quest": {
       "npc": "Lindsay",
       "name": "Avenge the death of Dan!"
@@ -5449,7 +5449,7 @@
       "en": "Hair Apparent IV"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "quest": {
       "npc": "Susie",
       "name": "Craving a Classic Sweet"
@@ -5468,7 +5468,7 @@
       "en": "Hair Apparent VI"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 5
@@ -5480,7 +5480,7 @@
       "en": "Hair Apparent VII"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 5
@@ -5492,7 +5492,7 @@
       "en": "Hair Apparent VIII"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 13
@@ -5504,7 +5504,7 @@
       "en": "Hair Apparent IX"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Edith"
@@ -5515,7 +5515,7 @@
       "en": "Hair Apparent X"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 4
@@ -5527,7 +5527,7 @@
       "en": "Hair Apparent XI"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 14
@@ -5539,7 +5539,7 @@
       "en": "Hair Apparent XII"
     },
     "type": "Key Item",
-    "subtype": "",
+    "subtype": "Hairstyle",
     "chests": [
       {
         "area": 0
@@ -5558,189 +5558,189 @@
       "en": "Fine Healing Item/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Recipe"
   },
   {
     "name": {
       "en": "Ultimate Healing Item/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Recipe"
   },
   {
     "name": {
       "en": "Faerie Healing Item/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Recipe"
   },
   {
     "name": {
       "en": "Elemental Ammunition/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Special Ammunition/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Potent Ammunition/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Ultimate Ammunition/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Steel Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Obsidian Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Damascus Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Gold Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Crimsonite Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
-      "en": "Cashmere Equipment"
+      "en": "Cashmere Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Fine Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Very Fine Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Legendary Equipment/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Equipment Recipe"
   },
   {
     "name": {
       "en": "Ramen/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Curry Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Pasta Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Meat Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Fish Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Sweets/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Cookies/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Cake/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Drink/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Ultimate Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {
       "en": "Supreme Dish/R"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "Food Recipe"
   },
   {
     "name": {

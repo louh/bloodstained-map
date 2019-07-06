@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Map from './components/Map'
 import SearchBar from './components/SearchBar'
 import InfoBox from './components/InfoBox'
 import GitHubCorner from './components/GitHubCorner'
 import './App.css'
 
-function App() {
+function App () {
+  const [ state, setState ] = useState({ type: '', info: {} })
+
   return (
     <div className="app">
       <div className="left-pane">
@@ -13,10 +15,10 @@ function App() {
           <img src="/logo_bloodstained_large.png" className="logo-img" alt="Bloodstained: Ritual of the Night" />
           <h3>Interactive map (ALPHA)</h3>
           <hr />
-          <SearchBar />
+          <SearchBar onSelect={data => setState(data)} />
         </div>
         <div className="left-info">
-          <InfoBox />
+          <InfoBox type={state.type} info={state.info} />
           <div className="notice">
             <h4>What’s this?</h4>
             <p>
