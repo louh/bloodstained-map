@@ -2,7 +2,6 @@ import React from 'react'
 import './InfoBox.scss'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
-import SHARDS from '../data/shards.json'
 
 const locale = 'en'
 
@@ -68,13 +67,11 @@ function InfoBox (props) {
           {librarian && <p>Borrow from O.D.</p>}
           {special && <p>Obtained from {special}.</p>}
         </>
-      ) : (
-        (rooms) && <p>See map for locations.</p>
-      )}
+      ) : null}
 
       {areas && (
         <>
-          <strong>Spawn locations</strong>
+          <strong>Spawn areas</strong>
           {areas.map(index => <p key={index}>{AREAS[index].name[locale]}</p>)}
         </>
       )}
@@ -86,9 +83,15 @@ function InfoBox (props) {
       {prerequisites && (
         <>
           <strong>Prerequisites</strong>
-          <p>
-            {prerequisites[locale]}
-          </p>
+          {
+            (typeof prerequisites[locale] === 'string' ? (
+              <p>
+                {prerequisites[locale]}
+              </p>
+            ) : (
+              prerequisites[locale].map(p => <p key={p}>{p}</p>)
+            ))
+          }
         </>
       )}
 
@@ -117,6 +120,7 @@ function getType (type, info) {
       ).trim()
     case 'shard':
       return info.type + ' ' + type
+    case 'misc':
     case 'item':
       // Not all items have types?
       if (info.type) {

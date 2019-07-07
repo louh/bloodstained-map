@@ -136,6 +136,43 @@ export function drawGeo (geojson, name) {
   collection.features.push(geojson)
 }
 
+const GRID_BASE_X = 1192.5
+const GRID_BASE_Y = 1324.5
+const GRID_WIDTH = 49.212 // 50
+const GRID_HEIGHT = 29.531 // 30
+
+const getActualX = (x) => GRID_BASE_X + (x * GRID_WIDTH)
+const getActualY = (y) => GRID_BASE_Y + (y * GRID_HEIGHT)
+
+export function drawRoomGeo ([x, y], label) {
+  // Coords
+  const leftX = getActualX(x)
+  const rightX = getActualX(x + 1)
+  const topY = getActualY(y)
+  const bottomY = getActualY(y + 1)
+
+  // Create geojson object of the room
+  const geoTemplate = {
+    "type":"Feature",
+    "properties": {},
+    "geometry": {
+      "type":"Polygon",
+      "coordinates": [
+        [
+          [ leftX, bottomY ],
+          [ rightX, bottomY ],
+          [ rightX, topY ],
+          [ leftX, topY ],
+          [ leftX, bottomY ]
+        ]
+      ]
+    }
+  }
+
+  // Draw!
+  drawGeo(geoTemplate, label)
+}
+
 // Zoom to bounds
 export function zoomToGeoBounds () {
   // Bail if nothing to zoom to

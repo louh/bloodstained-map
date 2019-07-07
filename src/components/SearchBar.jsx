@@ -5,8 +5,8 @@ import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
 import ITEMS from '../data/items.json'
-import ROOMS from '../data/rooms.json'
-import { drawGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
+import MISC from '../data/misc.json'
+import { drawGeo, drawRoomGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
 
 const locale = 'en'
@@ -39,6 +39,11 @@ function assembleSearchTerms () {
   
   ITEMS.forEach((item, index) => {
     items.push(makeSearchTerm(item, index, 'item'))
+  })
+
+  // TODO: re-categorize type
+  MISC.forEach((item, index) => {
+    items.push(makeSearchTerm(item, index, 'misc'))
   })
 
   return items
@@ -78,7 +83,7 @@ function searchFilter (item, inputValue = '') {
   //  - Whitespaces removed - matches "fireball" to "Fire Ball", "snake bite" to "Snakebite"
   //  - Dashes removed - matches "32 bit" to "32-bit Coin", "tamako death" to "Tamako-Death"
   //  - Periods removed - matches "OD" to "O.D."
-  //  - Apostrophes removed - matches "dragons wrath", or "aries horns" to "Aries' Horns"
+  //  - Apostrophes removed - matches "dragons wrath", or "aries horns" to "Aries' Horns", "vulsha" to "Vul'Sha"
   //  - Lowercase - makes search case insensitive
   let compareName = deburr(item.name).replace(/\s|-|\.|'/g, '').toLowerCase()
   let compareInput = deburr(inputValue).replace(/\s|-|\.|'/g, '').toLowerCase()
@@ -125,12 +130,21 @@ function SearchBar (props) {
 
         switch (selection.type) {
           case 'demon':
-            DEMONS[selection.index].areas.forEach((area) => {
-              const geo = AREAS[area].geo
-              if (geo) {
-                drawGeo(geo, AREAS[area].name[locale])
-              }
-            })
+            // ROOMS override AREAS
+            // test roooms
+            if (DEMONS[selection.index].rooms && DEMONS[selection.index].rooms.length > 0) {
+              DEMONS[selection.index].rooms.forEach((room) => {
+                // TODO: mark room with area name
+                drawRoomGeo(room, DEMONS[selection.index].name[locale])
+              })
+            } else {
+              DEMONS[selection.index].areas.forEach((area) => {
+                const geo = AREAS[area].geo
+                if (geo) {
+                  drawGeo(geo, AREAS[area].name[locale])
+                }
+              })
+            }
             props.onSelect({
               type: selection.type,
               info: DEMONS[selection.index]
@@ -160,17 +174,32 @@ function SearchBar (props) {
 
                 // Demons are indexed at 1, so we need to subtract 1 to look up by array index
                 // Same as drawing selected demon
-                DEMONS[number - 1].areas.forEach((area) => {
-                  const geo = AREAS[area].geo
-                  if (geo) {
-                    drawGeo(geo, AREAS[area].name[locale])
-                  }
-                })
+                if (DEMONS[number - 1].rooms && DEMONS[number - 1].rooms.length > 0) {
+                  DEMONS[number - 1].rooms.forEach((room) => {
+                    // TODO: mark room with area name
+                    drawRoomGeo(room, DEMONS[number - 1].name[locale])
+                  })
+                } else {
+                  DEMONS[number - 1].areas.forEach((area) => {
+                    const geo = AREAS[area].geo
+                    if (geo) {
+                      drawGeo(geo, AREAS[area].name[locale])
+                    }
+                  })
+                }
               })
             } else if (shard.alchemy) {
               // Arvantville (Johannes)
               drawGeo(AREAS[1].geo, AREAS[1].name[locale])
             }
+
+            // test roooms
+            if (shard.rooms) {
+              shard.rooms.forEach((room) => {
+                drawRoomGeo(room, shard.name[locale])
+              })
+            }
+
             props.onSelect({
               type: selection.type,
               info: SHARDS[selection.index]
@@ -178,8 +207,9 @@ function SearchBar (props) {
             zoomToGeoBounds()
             break
           }
+          case 'misc':
           case 'item': {
-            const item = ITEMS[selection.index]
+            const item = (selection.type === 'item') ? ITEMS[selection.index] : MISC[selection.index]
             if (item.chests) {
               item.chests.forEach((chest) => {
                 const geo = AREAS[chest.area].geo
@@ -220,10 +250,7 @@ function SearchBar (props) {
             // test roooms
             if (item.rooms) {
               item.rooms.forEach((room) => {
-                const geo = ROOMS[room].geo
-                if (geo) {
-                  drawGeo(geo, '')
-                }
+                drawRoomGeo(room, item.name[locale])
               })
             }
 

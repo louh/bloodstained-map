@@ -1459,7 +1459,11 @@
     "type": "SKILL",
     "prerequisites": {
       "en": "Defeat Alfred. The room containing the Deep Sinker shard will become accessible."
-    }
+    },
+    "rooms": [
+      [ 77, 42 ],
+      [ 77, 43 ]
+    ]
   },
   {
     "name": {

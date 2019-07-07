@@ -1,0 +1,184 @@
+[
+  {
+    "name": {
+      "en": "Benjamin Judd (part I)"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 45, 22 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Benjamin Judd (part II)"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 72, 35 ]
+    ],
+    "prerequisites": {
+      "en": [
+        "Complete “The Stranded Man” quest.",
+        "Obtain Invert shard. (you may be able to get here earlier with other abilities.)"
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Benjamin Judd (part III)"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 36, 14 ]
+    ],
+    "prerequisites": {
+      "en": [
+        "Complete “The Still Stranded Man” quest.",
+        "Obtain Dimension Shift shard."
+      ]
+    }
+  },
+  {
+    "name": {
+      "en": "Lindsay"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 20, 27 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Susie"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 18, 27 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Harry Benson"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 19, 26 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Abigail"
+    },
+    "type": "NPC",
+    "subtype": "Quest",
+    "rooms": [
+      [ 18, 26 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Anne Knowles"
+    },
+    "type": "NPC",
+    "subtype": "",
+    "rooms": [
+      [ 19, 27 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Dominique"
+    },
+    "type": "NPC",
+    "subtype": "Shop",
+    "rooms": [
+      [ 19, 27 ]
+    ],
+    "disambiguate": true
+  },
+  {
+    "name": {
+      "en": "Johannes"
+    },
+    "type": "NPC",
+    "subtype": "Alchemy",
+    "rooms": [
+      [ 21, 27 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "O.D."
+    },
+    "type": "NPC",
+    "subtype": "Librarian",
+    "rooms": [
+      [ 66, 18 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Todd"
+    },
+    "type": "NPC",
+    "subtype": "Hairstylist",
+    "rooms": [
+      [ 44, 15 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "Blue chests"
+    },
+    "type": "Chest",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Green chests"
+    },
+    "type": "Chest",
+    "subtype": ""
+  },
+  {
+    "name": {
+      "en": "Secret rooms"
+    },
+    "note": "Hunting for 100% map completion? You might have missed these spots. See map for locations.",
+    "rooms": [
+      [ 9, 30 ],
+      [ 23, 27 ],
+      [ 36, 12 ],
+      [ 44, 41 ],
+      [ 50, 21 ],
+      [ 55, 0 ],
+      [ 56, 0 ],
+      [ 57, 0 ],
+      [ 57, 4 ],
+      [ 59, 48 ],
+      [ 66, 7 ],
+      [ 69, 25 ],
+      [ 70, 6 ],
+      [ 72, 15 ],
+      [ 72, 35 ],
+      [ 72, 38 ],
+      [ 96, 29 ],
+      [ 103, 28 ] 
+    ]
+  },
+  {
+    "name": {
+      "en": "Celeste's Room"
+    },
+    "type": "Bonus room",
+    "rooms": [
+      [ 67, 7 ]
+    ]
+  }
+]

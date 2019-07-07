@@ -865,7 +865,12 @@
       "en": "Abyssal Guardian"
     },
     "areas": [ 6, 15 ],
-    "rooms": [],
+    "rooms-temp": [
+      [ 65, 4 ],
+      [ 65, 5 ],
+      [ 66, 4 ],
+      [ 66, 5 ]
+    ],
     "coordinates": []
   },
   {
@@ -966,8 +971,13 @@
     },
     "type": "secret boss",
     "areas": [ 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 33, 5 ]
+    ],
+    "coordinates": [],
+    "prerequisites": {
+      "en": "Obtain Carpenter's Key."
+    }
   },
   {
     "number": 108,
@@ -976,8 +986,13 @@
     },
     "type": "secret boss",
     "areas": [ 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 56, 25 ]
+    ],
+    "coordinates": [],
+    "prerequisites": {
+      "en": "Obtain Warhorse's Key."
+    }
   },
   {
     "number": 109,
@@ -986,8 +1001,13 @@
     },
     "type": "secret boss",
     "areas": [ 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 59, 3]
+    ],
+    "coordinates": [],
+    "prerequisites": {
+      "en": "Obtain Millionaire's Key."
+    }
   },
   {
     "number": 110,
@@ -996,7 +1016,10 @@
     },
     "type": "boss",
     "areas": [ 0 ],
-    "rooms": [],
+    "rooms": [ 
+      [ 13, 26 ],
+      [ 14, 26 ]
+    ],
     "coordinates": []
   },
   {
@@ -1006,7 +1029,10 @@
     },
     "type": "boss",
     "areas": [ 2 ],
-    "rooms": [],
+    "rooms": [
+      [ 45, 21 ],
+      [ 46, 21 ]
+    ],
     "coordinates": []
   },
   {
@@ -1017,7 +1043,12 @@
     "type": "boss",
     "disambiguate": true,
     "areas": [ 4 ],
-    "rooms": [],
+    "rooms": [
+      [ 53, 15 ],
+      [ 53, 16 ],
+      [ 54, 15 ],
+      [ 54, 16 ]
+    ],
     "coordinates": []
   },
   {
@@ -1027,7 +1058,10 @@
     },
     "type": "boss",
     "areas": [ 6 ],
-    "rooms": [],
+    "rooms": [
+      [ 65, 19 ],
+      [ 65, 20 ]
+    ],
     "coordinates": []
   },
   {
@@ -1037,7 +1071,36 @@
     },
     "type": "boss",
     "areas": [ 5 ],
-    "rooms": [],
+    "rooms": [
+      [ 81, 17 ],
+      [ 81, 18 ],
+      [ 81, 19 ],
+      [ 81, 20 ],
+      [ 81, 21 ],
+      [ 81, 22 ],
+      [ 81, 23 ],
+      [ 82, 17 ],
+      [ 82, 18 ],
+      [ 82, 19 ],
+      [ 82, 20 ],
+      [ 82, 21 ],
+      [ 82, 22 ],
+      [ 82, 23 ],
+      [ 83, 17 ],
+      [ 83, 18 ],
+      [ 83, 19 ],
+      [ 83, 20 ],
+      [ 83, 21 ],
+      [ 83, 22 ],
+      [ 83, 23 ],
+      [ 84, 17 ],
+      [ 84, 18 ],
+      [ 84, 19 ],
+      [ 84, 20 ],
+      [ 84, 21 ],
+      [ 84, 22 ],
+      [ 84, 23 ]
+    ],
     "coordinates": []
   },
   {
@@ -1047,7 +1110,10 @@
     },
     "type": "boss",
     "areas": [ 7 ],
-    "rooms": [],
+    "rooms": [
+      [ 103, 24 ],
+      [ 103, 25 ]
+    ],
     "coordinates": []
   },
   {
@@ -1057,7 +1123,10 @@
     },
     "type": "boss",
     "areas": [ 8 ],
-    "rooms": [],
+    "rooms": [
+      [ 98, 28 ],
+      [ 99, 28 ]
+    ],
     "coordinates": []
   },
   {
@@ -1067,7 +1136,9 @@
     },
     "type": "boss",
     "areas": [ 14 ],
-    "rooms": [],
+    "rooms": [
+      [ 61, 0 ]
+    ],
     "coordinates": []
   },
   {
@@ -1077,7 +1148,10 @@
     },
     "type": "boss",
     "areas": [ 4 ],
-    "rooms": [],
+    "rooms": [
+      [ 57, 11 ],
+      [ 58, 11]
+    ],
     "coordinates": []
   },
   {
@@ -1087,7 +1161,10 @@
     },
     "type": "boss",
     "areas": [ 10 ],
-    "rooms": [],
+    "rooms": [
+      [ 77, 40 ],
+      [ 77, 41 ]
+    ],
     "coordinates": []
   },
   {
@@ -1097,7 +1174,10 @@
     },
     "type": "boss",
     "areas": [ 11 ],
-    "rooms": [],
+    "rooms": [
+      [ 30, 39 ],
+      [ 31, 39 ]
+    ],
     "coordinates": []
   },
   {
@@ -1107,7 +1187,10 @@
     },
     "type": "boss",
     "areas": [ 12 ],
-    "rooms": [],
+    "rooms": [
+      [ 46, 48 ],
+      [ 47, 48 ]
+    ],
     "coordinates": []
   },
   {
@@ -1117,7 +1200,10 @@
     },
     "type": "boss",
     "areas": [ 13 ],
-    "rooms": [],
+    "rooms": [
+      [ 32, 3 ],
+      [ 33, 3 ]
+    ],
     "coordinates": []
   },
   {
@@ -1127,7 +1213,12 @@
     },
     "type": "boss",
     "areas": [ 15 ],
-    "rooms": [],
+    "rooms": [
+      [ 112, 19 ],
+      [ 112, 20 ],
+      [ 113, 19 ],
+      [ 113, 20 ]
+    ],
     "coordinates": []
   },
   {
@@ -1137,7 +1228,10 @@
     },
     "type": "boss",
     "areas": [ 16 ],
-    "rooms": [],
+    "rooms": [
+      [ 111, 37 ],
+      [ 112, 37 ]
+    ],
     "coordinates": []
   },
   {
@@ -1147,8 +1241,12 @@
     },
     "type": "boss",
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 105, 37 ],
+      [ 106, 37 ]
+    ],
+    "coordinates": [],
+    "disambiguate": true
   },
   {
     "number": 126,
@@ -1156,7 +1254,10 @@
       "en": "Bael"
     },
     "areas": [ 16 ],
-    "rooms": [],
+    "rooms": [
+      [ 105, 37 ],
+      [ 106, 37 ]
+    ],
     "coordinates": []
   },
   {
@@ -1166,8 +1267,13 @@
     },
     "type": "secret boss",
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 115, 31]
+    ],
+    "coordinates": [],
+    "prerequisites": {
+      "en": "Enter this room while possessing the Tome of Conquest."
+    }
   },
   {
     "number": 128,
@@ -1176,8 +1282,13 @@
     },
     "type": "boss",
     "areas": [ 14 ],
-    "rooms": [],
+    "rooms": [
+      [ 61, 0 ]
+    ],
     "coordinates": [],
-    "dlc": "IGA's Back Pack"
+    "dlc": "IGA's Back Pack",
+    "prerequisites": {
+      "en": "???"
+    }
   }
 ]

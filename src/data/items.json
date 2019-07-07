@@ -750,6 +750,10 @@
       [
         19,
         0.15
+      ],
+      [
+        84,
+        0.12
       ]
     ]
   },
@@ -926,6 +930,10 @@
       [
         38,
         0.05
+      ],
+      [
+        50,
+        0.05
       ]
     ]
   },
@@ -1004,6 +1012,10 @@
       [
         4,
         0.04
+      ],
+      [
+        34,
+        0.08
       ]
     ]
   },
@@ -3586,8 +3598,12 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "rooms": [
+      [ 32, 3 ],
+      [ 33, 3 ]
+    ],
     "prerequisites": {
-      "en": "Defeat Zangetsu."
+      "en": "Defeat True Zangetsu."
     }
   },
   {
@@ -5126,7 +5142,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5137,7 +5153,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5148,7 +5164,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5159,7 +5175,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5170,7 +5186,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5181,7 +5197,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5192,7 +5208,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5203,7 +5219,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5214,7 +5230,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5225,7 +5241,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5236,7 +5252,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5247,7 +5263,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5258,7 +5274,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5269,7 +5285,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5280,7 +5296,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5291,7 +5307,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5302,7 +5318,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5313,7 +5329,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5324,7 +5340,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5335,7 +5351,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true
   },
@@ -5346,7 +5362,7 @@
     "type": "Tome",
     "subtype": "",
     "rooms": [
-      "library"
+      [ 66, 18 ]
     ],
     "librarian": true,
     "prerequisites": {
@@ -5407,7 +5423,10 @@
       "en": "Celeste's Key"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 57, 0 ]
+    ]
   },
   {
     "name": {
@@ -5748,116 +5767,5 @@
     },
     "type": "Key Item",
     "subtype": ""
-  },
-  {
-    "name": {
-      "en": "Benjamin"
-    },
-    "type": "NPC",
-    "subtype": "Quest"
-  },
-  {
-    "name": {
-      "en": "Lindsay"
-    },
-    "type": "NPC",
-    "subtype": "Quest"
-  },
-  {
-    "name": {
-      "en": "Susie"
-    },
-    "type": "NPC",
-    "subtype": "Quest"
-  },
-  {
-    "name": {
-      "en": "Harry"
-    },
-    "type": "NPC",
-    "subtype": "Quest"
-  },
-  {
-    "name": {
-      "en": "Abigail"
-    },
-    "type": "NPC",
-    "subtype": "Quest"
-  },
-  {
-    "name": {
-      "en": "Anne"
-    },
-    "type": "NPC",
-    "subtype": ""
-  },
-  {
-    "name": {
-      "en": "Dominique"
-    },
-    "type": "NPC",
-    "subtype": "Shop"
-  },
-  {
-    "name": {
-      "en": "Johannes"
-    },
-    "type": "NPC",
-    "subtype": "Alchemy"
-  },
-  {
-    "name": {
-      "en": "O.D."
-    },
-    "type": "NPC",
-    "subtype": "Librarian",
-    "rooms": [
-      "library"
-    ]
-  },
-  {
-    "name": {
-      "en": "Todd"
-    },
-    "type": "NPC",
-    "subtype": "Hairstylist"
-  },
-  {
-    "name": {
-      "en": "Blue chests"
-    },
-    "type": "Chest",
-    "subtype": ""
-  },
-  {
-    "name": {
-      "en": "Green chests"
-    },
-    "type": "Chest",
-    "subtype": ""
-  },
-  {
-    "name": {
-      "en": "Secret rooms"
-    },
-    "note": "Hunting for 100% map completion? You might have missed these spots. See map for locations.",
-    "rooms": [
-      "secret01",
-      "secret02",
-      "secret03",
-      "secret04",
-      "secret05",
-      "secret06",
-      "secret07",
-      "secret08",
-      "secret09",
-      "secret10",
-      "secret11",
-      "secret12",
-      "secret13",
-      "secret14",
-      "secret15",
-      "secret16"
-    ]
   }
 ]
