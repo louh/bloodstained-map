@@ -468,7 +468,10 @@
         97,
         1
       ]
-    ]
+    ],
+    "prerequisites": {
+      "en": "Defeat Harrier by outrunning him in a race through this room."
+    }
   },
   {
     "name": {
