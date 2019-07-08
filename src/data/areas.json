@@ -1,7 +1,8 @@
 [
   {
     "name": {
-      "en": "Galleon Minerva"
+      "en": "Galleon Minerva",
+      "de": "Die Galeone Minerva"
     },
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [

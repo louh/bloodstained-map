@@ -2,37 +2,66 @@
   {
     "number": 1,
     "name": {
-      "en": "Morte"
+      "en": "Morte",
+      "de": "Morte"
     },
     "areas": [ 0, 1, 2 ],
-    "rooms": [],
+    "rooms": [
+      [ 3, 27 ],
+      [ 5, 27 ],
+      [ 6, 27 ],
+      [ 4, 28 ],
+      [ 7, 28 ],
+      [ 2, 28 ],
+      [ 2, 29 ],
+      [ 2, 30 ],
+      [ 7, 31 ],
+      [ 7, 32 ]
+    ],
     "coordinates": []
   },
   {
     "number": 2,
     "name": {
-      "en": "Seama"
+      "en": "Seama",
+      "de": "Meermo"
     },
     "areas": [ 0 ],
-    "rooms": [],
+    "rooms": [
+      [ 0, 27 ],
+      [ 4, 25 ],
+      [ 5, 26 ],
+      [ 6, 26 ],
+      [ 7, 26 ],
+      [ 8, 26 ],
+      [ 3, 31 ]
+    ],
     "coordinates": []
   },
   {
     "number": 3,
     "name": {
-      "en": "Cannon Morte"
+      "en": "Cannon Morte",
+      "de": "Kanonen-Morte"
     },
     "areas": [ 0 ],
-    "rooms": [],
+    "rooms": [
+      [ 6, 28 ],
+      [ 5, 32 ],
+      [ 6, 32 ]
+    ],
     "coordinates": []
   },
   {
     "number": 4,
     "name": {
-      "en": "Aello"
+      "en": "Aello",
+      "de": "Aello"
     },
     "areas": [ 0, 1, 2 ],
-    "rooms": [],
+    "rooms-incomplete": [
+      [ 6, 25 ]
+    ],
     "coordinates": []
   },
   {
@@ -50,7 +79,9 @@
       "en": "Dullahammer"
     },
     "areas": [ 0 ],
-    "rooms": [],
+    "rooms": [
+      [ 8, 26 ]
+    ],
     "coordinates": []
   },
   {

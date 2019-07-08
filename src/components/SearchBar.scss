@@ -11,6 +11,7 @@
     font-size: 13px;
     background: rgba(255,255,255,0.25);
     color: white;
+    border: 1px solid rgba(184,153,119,0.3);
   }
 
   ul {
@@ -27,6 +28,10 @@
     width: calc(100% - 58px);
     box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.35);
     z-index: 10;
+  }
+
+  ul:not(:empty) {
+    border: 1px solid rgba(184,153,119,0.3);
   }
 
   li {

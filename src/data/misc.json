@@ -1,6 +1,32 @@
 [
   {
     "name": {
+      "en": "MP Max Up"
+    },
+    "type": "Upgrade",
+    "subtype": "",
+    "rooms": [
+      [ 9, 30 ]
+    ]
+  },
+  {
+    "name": {
+      "en": "HP Max Up"
+    },
+    "type": "Upgrade",
+    "subtype": "",
+    "rooms": []
+  },
+  {
+    "name": {
+      "en": "Capacity Up"
+    },
+    "type": "Upgrade",
+    "subtype": "",
+    "rooms": []
+  },
+  {
+    "name": {
       "en": "Benjamin Judd (part I)"
     },
     "type": "NPC",
@@ -127,7 +153,7 @@
       "en": "Todd"
     },
     "type": "NPC",
-    "subtype": "Hairstylist",
+    "subtype": "Barber",
     "rooms": [
       [ 44, 15 ]
     ]
@@ -137,7 +163,12 @@
       "en": "Blue chests"
     },
     "type": "Chest",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 2, 28 ],
+      [ 5, 31 ],
+      [ 8, 31 ]
+    ]
   },
   {
     "name": {
@@ -170,6 +201,14 @@
       [ 72, 38 ],
       [ 96, 29 ],
       [ 103, 28 ] 
+    ]
+  },
+  {
+    "name": {
+      "en": "Bookcases"
+    },
+    "rooms": [
+      [ 8, 27 ]
     ]
   },
   {

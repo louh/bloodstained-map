@@ -13,12 +13,14 @@ const locale = 'en'
 
 const items = assembleSearchTerms()
 
-function makeSearchTerm (item, index, type) {
+function makeSearchTerm (item, index, type, keywords = []) {
   return {
     name: item.name[locale],
     type: type,
     index: index,
-    disambiguate: item.disambiguate || false
+    disambiguate: item.disambiguate || false,
+    // Additional keywords that will match
+    keywords: keywords
   }
 }
 
@@ -26,19 +28,23 @@ function assembleSearchTerms () {
   const items = []
 
   DEMONS.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'demon'))
+    // Allow match on demon number (you can search by unknown demon when all you have is its number)
+    const keywords = [
+      item.number.toString()
+    ]
+    items.push(makeSearchTerm(item, index, 'demon', keywords))
   })
 
   AREAS.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'area'))
+    items.push(makeSearchTerm(item, index, 'area', []))
   })
 
   SHARDS.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'shard'))
+    items.push(makeSearchTerm(item, index, 'shard', [ item.type ]))
   })
   
   ITEMS.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'item'))
+    items.push(makeSearchTerm(item, index, 'item', [ item.type, item.subtype ]))
   })
 
   // TODO: re-categorize type
@@ -110,7 +116,12 @@ function searchFilter (item, inputValue = '') {
   compareName = compareName.replace(/\/r$/, 'recipes')
   compareInput = compareInput.replace(/\/r$/, 'recipe')
 
-  return compareName.includes(compareInput)
+  // Also allow matching to alternate keywords
+  let matchKeywords = item.keywords
+    .map(keyword => keyword.trim().replace(/\s/g, '').toLowerCase())
+    .some(keyword => keyword.includes(compareInput))
+
+  return compareName.includes(compareInput) || matchKeywords
 }
 
 function SearchBar (props) {

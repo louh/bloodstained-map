@@ -1,10 +1,15 @@
 [
   {
     "name": {
-      "en": "Potion"
+      "en": "Potion",
+      "de": "Trank"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": true,
+    "rooms": [
+      [ 4, 26 ]
+    ]
   },
   {
     "name": {
@@ -675,7 +680,8 @@
   },
   {
     "name": {
-      "en": "Sugar"
+      "en": "Sugar",
+      "de": "Zucker"
     },
     "type": "Ingredient",
     "subtype": ""
@@ -793,7 +799,8 @@
   },
   {
     "name": {
-      "en": "Tomato"
+      "en": "Tomato",
+      "de": "Tomate"
     },
     "type": "Ingredient",
     "subtype": "",
@@ -1346,7 +1353,8 @@
   },
   {
     "name": {
-      "en": "Bronze"
+      "en": "Bronze",
+      "de": "Bronze"
     },
     "type": "Material",
     "subtype": "",
@@ -1553,7 +1561,8 @@
   },
   {
     "name": {
-      "en": "Cotton"
+      "en": "Cotton",
+      "de": "Baumwolle"
     },
     "type": "Material",
     "subtype": "",
@@ -1859,7 +1868,8 @@
   },
   {
     "name": {
-      "en": "Writhing Limb"
+      "en": "Writhing Limb",
+      "de": "Zuckende Gliedmaße"
     },
     "type": "Material",
     "subtype": "",
@@ -1924,7 +1934,8 @@
   },
   {
     "name": {
-      "en": "Monster Bird Tear"
+      "en": "Monster Bird Tear",
+      "de": "Monstervogelträne"
     },
     "type": "Material",
     "subtype": "",
@@ -2323,7 +2334,8 @@
   },
   {
     "name": {
-      "en": "Cannon Scrap"
+      "en": "Cannon Scrap",
+      "de": "Kanonenschrott"
     },
     "type": "Material",
     "subtype": "",
@@ -2987,10 +2999,14 @@
   },
   {
     "name": {
-      "en": "Kung Fu Shoes"
+      "en": "Kung Fu Shoes",
+      "de": "Kungfuschuhe"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "rooms": [
+      [ 1, 27 ]
+    ]
   },
   {
     "name": {
@@ -3050,10 +3066,14 @@
   },
   {
     "name": {
-      "en": "Knife"
+      "en": "Knife",
+      "de": "Messer"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "rooms": [
+      [ 1, 27 ]
+    ]
   },
   {
     "name": {
@@ -3160,10 +3180,14 @@
   },
   {
     "name": {
-      "en": "Short Sword"
+      "en": "Short Sword",
+      "de": "Kurzschwert"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "rooms": [
+      [ 7, 31 ]
+    ]
   },
   {
     "name": {
@@ -3994,7 +4018,8 @@
   },
   {
     "name": {
-      "en": "SP Rounds"
+      "en": "SP Rounds",
+      "de": "TM-Kugeln"
     },
     "type": "Bullets",
     "subtype": "",
@@ -4004,6 +4029,9 @@
         0.1,
         3
       ]
+    ],
+    "rooms": [
+      [ 4, 31, 5 ]
     ]
   },
   {
@@ -4125,7 +4153,8 @@
   },
   {
     "name": {
-      "en": "Aries' Horns"
+      "en": "Aries' Horns",
+      "de": "Aries' Hörner"
     },
     "type": "Head Armor",
     "subtype": ""
@@ -4393,10 +4422,14 @@
   },
   {
     "name": {
-      "en": "Tunic"
+      "en": "Tunic",
+      "de": "Tunika"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 8, 27 ]
+    ]
   },
   {
     "name": {
@@ -4407,10 +4440,14 @@
   },
   {
     "name": {
-      "en": "Country Dress"
+      "en": "Country Dress",
+      "de": "Bauernkleid"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 3, 25 ]
+    ]
   },
   {
     "name": {
@@ -4826,10 +4863,14 @@
   },
   {
     "name": {
-      "en": "Rusted Ring"
+      "en": "Rusted Ring",
+      "de": "Rostiger Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 8, 26 ]
+    ]
   },
   {
     "name": {
@@ -5060,7 +5101,8 @@
   },
   {
     "name": {
-      "en": "Scarf"
+      "en": "Scarf",
+      "de": "Schal"
     },
     "type": "Scarf",
     "subtype": ""
@@ -5371,10 +5413,14 @@
   },
   {
     "name": {
-      "en": "Galleon Map"
+      "en": "Galleon Map",
+      "de": "Galeonskarte"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 6, 32 ]
+    ]
   },
   {
     "name": {

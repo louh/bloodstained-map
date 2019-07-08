@@ -37,7 +37,8 @@
   },
   {
     "name": {
-      "en": "Cerulean Splash"
+      "en": "Cerulean Splash",
+      "de": "Himmelblauer Platscher"
     },
     "type": "CONJURE",
     "demons": [
@@ -643,7 +644,8 @@
   },
   {
     "name": {
-      "en": "Flame Cannon"
+      "en": "Flame Cannon",
+      "de": "Flammenkanone"
     },
     "type": "DIRECTIONAL",
     "demons": [
