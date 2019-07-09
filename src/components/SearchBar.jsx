@@ -223,6 +223,7 @@ function SearchBar (props) {
             const item = (selection.type === 'item') ? ITEMS[selection.index] : MISC[selection.index]
             if (item.chests) {
               item.chests.forEach((chest) => {
+                if (!chest.area) return
                 const geo = AREAS[chest.area].geo
                 if (geo) {
                   drawGeo(geo, AREAS[chest.area].name[locale])

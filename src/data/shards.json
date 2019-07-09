@@ -1,7 +1,8 @@
 [
   {
     "name": {
-      "en": "Thrashing Tentacle"
+      "en": "Thrashing Tentacle",
+      "de": "Schlagendes Tentakel"
     },
     "type": "CONJURE",
     "demons": [

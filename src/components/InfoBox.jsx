@@ -28,8 +28,8 @@ function InfoBox (props) {
         <h3>{info.name[locale]}</h3>
       )}
 
-      {note && (
-        <p>{note}</p>
+      {(note && note[locale]) && (
+        <p>{note[locale]}</p>
       )}
 
       {/* Quest items */}
@@ -61,7 +61,7 @@ function InfoBox (props) {
       {(chests || shop || alchemy || librarian || special) ? (
         <>
           <strong>Locations</strong>
-          {chests && chests.map(chest => <p key={chest.area}>Obtained from a chest in {AREAS[chest.area].name[locale]}.</p>)}
+          {chests && chests.map(chest => (chest.area ? <p key={chest.area}>Obtained from a chest in {AREAS[chest.area].name[locale]}.</p> : <p key={chest}>Obtained from a {chest.type} chest.</p>))}
           {alchemy && ((typeof alchemy === 'string') ? <p>Crafted from {info.alchemy} by Johannes.</p> : <p>Crafted by Johannes.</p>)}
           {shop && <p>Purchased from Dominique.</p>}
           {librarian && <p>Borrow from O.D.</p>}

@@ -7,18 +7,19 @@
     },
     "areas": [ 0, 1, 2 ],
     "rooms": [
-      [ 3, 27 ],
-      [ 5, 27 ],
-      [ 6, 27 ],
-      [ 4, 28 ],
-      [ 7, 28 ],
-      [ 2, 28 ],
-      [ 2, 29 ],
-      [ 2, 30 ],
-      [ 7, 31 ],
-      [ 7, 32 ]
-    ],
-    "coordinates": []
+      [ 3, 27, 1 ],
+      [ 5, 27, 1 ],
+      [ 6, 27, 1 ],
+      [ 4, 28, 1 ],
+      [ 7, 28, 1 ],
+      [ 2, 28, 1 ],
+      [ 2, 29, 1 ],
+      [ 2, 30, 1 ],
+      [ 7, 31, 1 ],
+      [ 7, 32, 1 ],
+      [ 10, 31, 1 ],
+      [ 10, 32, 1 ]
+    ]
   },
   {
     "number": 2,
@@ -28,15 +29,21 @@
     },
     "areas": [ 0 ],
     "rooms": [
-      [ 0, 27 ],
+      [ 0, 27, 1, { "story": true } ],
       [ 4, 25 ],
       [ 5, 26 ],
       [ 6, 26 ],
       [ 7, 26 ],
       [ 8, 26 ],
-      [ 3, 31 ]
-    ],
-    "coordinates": []
+      [ 3, 31 ],
+      [ 10, 32 ],
+      [ 13, 29, 3, { "story": true } ],
+      [ 12, 28, 1 ],
+      [ 8, 29, 1 ],
+      [ 8, 30, 1],
+      [ 10, 26, -1 ],
+      [ 11, 26, -1 ]
+    ]
   },
   {
     "number": 3,
@@ -46,11 +53,11 @@
     },
     "areas": [ 0 ],
     "rooms": [
-      [ 6, 28 ],
-      [ 5, 32 ],
-      [ 6, 32 ]
-    ],
-    "coordinates": []
+      [ 6, 28, 1 ],
+      [ 5, 32, 2 ],
+      [ 6, 32, 3 ],
+      [ 12, 30, 1 ]
+    ]
   },
   {
     "number": 4,
@@ -59,10 +66,10 @@
       "de": "Aello"
     },
     "areas": [ 0, 1, 2 ],
-    "rooms-incomplete": [
-      [ 6, 25 ]
-    ],
-    "coordinates": []
+    "rooms": [
+      [ 6, 25, 1 ],
+      [ 10, 26, 1 ]
+    ]
   },
   {
     "number": 5,
@@ -70,8 +77,10 @@
       "en": "Ghost"
     },
     "areas": [ 0, 2 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 12, 30, 1 ],
+      [ 12, 31, 1 ]
+    ]
   },
   {
     "number": 6,
@@ -80,9 +89,11 @@
     },
     "areas": [ 0 ],
     "rooms": [
-      [ 8, 26 ]
-    ],
-    "coordinates": []
+      [ 8, 26, 1 ],
+      [ 11, 32, 1 ],
+      [ 9, 28, 1 ],
+      [ 11, 26, 1 ]
+    ]
   },
   {
     "number": 7,
@@ -90,8 +101,7 @@
       "en": "Giant Rat"
     },
     "areas": [ 1 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 8,
@@ -99,8 +109,7 @@
       "en": "Bone Morte"
     },
     "areas": [ 1, 2 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 9,
@@ -108,8 +117,7 @@
       "en": "Bat"
     },
     "areas": [ 1, 2, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 10,
@@ -117,8 +125,7 @@
       "en": "Gieremund"
     },
     "areas": [ 2, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 11,
@@ -126,8 +133,7 @@
       "en": "Blood Grinder Knight"
     },
     "areas": [ 2, 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 12,
@@ -135,8 +141,7 @@
       "en": "Sabnock"
     },
     "areas": [ 2 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 13,
@@ -144,8 +149,7 @@
       "en": "Moco Weed"
     },
     "areas": [ 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 14,
@@ -153,8 +157,7 @@
       "en": "Toad"
     },
     "areas": [ 3, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 15,
@@ -162,8 +165,7 @@
       "en": "Plume Parma"
     },
     "areas": [ 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 16,
@@ -171,8 +173,7 @@
       "en": "Barbatos"
     },
     "areas": [ 2, 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 17,
@@ -181,8 +182,7 @@
     },
     "disambiguate": true,
     "areas": [ 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 18,
@@ -190,8 +190,7 @@
       "en": "Simian"
     },
     "areas": [ 3, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 19,
@@ -199,8 +198,7 @@
       "en": "Zagan"
     },
     "areas": [ 3 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 20,
@@ -208,8 +206,7 @@
       "en": "Poltergeist"
     },
     "areas": [ 0, 4, 5, 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 21,
@@ -217,8 +214,7 @@
       "en": "Ordog"
     },
     "areas": [ 3, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 22,
@@ -226,8 +222,7 @@
       "en": "Gargoyle"
     },
     "areas": [ 3, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 23,
@@ -235,8 +230,7 @@
       "en": "Killer Barber"
     },
     "areas": [ 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 24,
@@ -244,8 +238,7 @@
       "en": "Demon"
     },
     "areas": [ 4, 6, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 25,
@@ -254,8 +247,7 @@
     },
     "disambiguate": true,
     "areas": [ 4, 7, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 26,
@@ -263,8 +255,7 @@
       "en": "Nyabon"
     },
     "areas": [ 2, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 27,
@@ -272,8 +263,7 @@
       "en": "Scythe Mite"
     },
     "areas": [ 5 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 28,
@@ -282,8 +272,7 @@
     },
     "disambiguate": true,
     "areas": [ 4, 5 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 29,
@@ -291,8 +280,7 @@
       "en": "Buer Armor"
     },
     "areas": [ 3, 5, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 30,
@@ -300,8 +288,7 @@
       "en": "Wolfman"
     },
     "areas": [ 5 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 31,
@@ -309,8 +296,7 @@
       "en": "Thunder Elemental"
     },
     "areas": [ 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 32,
@@ -318,8 +304,7 @@
       "en": "Carriage Morte"
     },
     "areas": [ 6, 7 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 33,
@@ -328,8 +313,7 @@
     },
     "disambiguate": true,
     "areas": [ 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 34,
@@ -337,8 +321,7 @@
       "en": "Rul'sha"
     },
     "areas": [ 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 35,
@@ -346,8 +329,7 @@
       "en": "Decarabia"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 36,
@@ -355,8 +337,7 @@
       "en": "Shovel Armor"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 37,
@@ -364,8 +345,7 @@
       "en": "Malediction"
     },
     "areas": [ 4, 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 38,
@@ -373,8 +353,7 @@
       "en": "Celaeno"
     },
     "areas": [ 5, 7 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 39,
@@ -382,8 +361,7 @@
       "en": "Shield Outsider"
     },
     "areas": [ 4, 5 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 40,
@@ -391,8 +369,7 @@
       "en": "Puppy"
     },
     "areas": [ 7, 8 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 41,
@@ -400,8 +377,7 @@
       "en": "Lili"
     },
     "areas": [ 7 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 42,
@@ -409,8 +385,7 @@
       "en": "Assassin"
     },
     "areas": [ 7 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 43,
@@ -418,8 +393,7 @@
       "en": "Dragon"
     },
     "areas": [ 6, 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 44,
@@ -427,8 +401,12 @@
       "en": "Kunekune"
     },
     "areas": [ 7 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": [
+      [ 94, 25 ]
+    ],
+    "note": {
+      "en": "Kunekune only spawns in one place. There is a seat on the train on the Bridge of Evil you can sit in and look out the window. After some time, a silver-colored demon will appear in the distance and begin rapidly approaching you. Warning: there will be a jump scare! You will then fight Kunekune."
+    }
   },
   {
     "number": 45,
@@ -436,8 +414,7 @@
       "en": "Poison Toad"
     },
     "areas": [ 5, 8, 9, 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 46,
@@ -445,8 +422,7 @@
       "en": "Sidhe"
     },
     "areas": [ 8 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 47,
@@ -454,8 +430,7 @@
       "en": "Bomber Morte"
     },
     "areas": [ 8 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 48,
@@ -463,8 +438,7 @@
       "en": "Mimic"
     },
     "areas": [ 6, 8 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 49,
@@ -472,8 +446,7 @@
       "en": "Light Elemental"
     },
     "areas": [ 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 50,
@@ -481,8 +454,7 @@
       "en": "Ocypete"
     },
     "areas": [ 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 51,
@@ -490,8 +462,7 @@
       "en": "Cyhyraeth"
     },
     "areas": [ 2, 3, 4 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 52,
@@ -499,8 +470,7 @@
       "en": "Chair Mimic"
     },
     "areas": [ 6, 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 53,
@@ -508,8 +478,7 @@
       "en": "Leraje"
     },
     "areas": [ 4, 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 54,
@@ -518,8 +487,7 @@
     },
     "disambiguate": true,
     "areas": [ 2, 4, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 55,
@@ -527,8 +495,7 @@
       "en": "Lance Armor"
     },
     "areas": [ 4, 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 56,
@@ -536,8 +503,7 @@
       "en": "Tamako-Death"
     },
     "areas": [ 6 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 57,
@@ -545,8 +511,7 @@
       "en": "Triwheel Buer"
     },
     "areas": [ 6, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 58,
@@ -554,8 +519,7 @@
       "en": "Gamigin"
     },
     "areas": [ 4, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 59,
@@ -563,8 +527,7 @@
       "en": "Titania"
     },
     "areas": [ 6, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 60,
@@ -572,8 +535,7 @@
       "en": "Axe Outsider"
     },
     "areas": [ 6, 9, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 61,
@@ -581,8 +543,7 @@
       "en": "Scylla"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 62,
@@ -590,8 +551,7 @@
       "en": "Forneus"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 63,
@@ -599,8 +559,7 @@
       "en": "Deeseama"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 64,
@@ -608,8 +567,7 @@
       "en": "Water Leaper"
     },
     "areas": [ 9, 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 65,
@@ -617,8 +575,7 @@
       "en": "Glashtyn"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 66,
@@ -626,8 +583,7 @@
       "en": "Seeker"
     },
     "areas": [ 9 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 67,
@@ -635,8 +591,7 @@
       "en": "Archdemon"
     },
     "areas": [ 4, 9, 14 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 68,
@@ -644,8 +599,7 @@
       "en": "Amy"
     },
     "areas": [ 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 69,
@@ -653,8 +607,7 @@
       "en": "Allocer"
     },
     "areas": [ 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 70,
@@ -662,8 +615,7 @@
       "en": "Vul'sha"
     },
     "areas": [ 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 71,
@@ -671,8 +623,7 @@
       "en": "Living Fossil"
     },
     "areas": [ 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 72,
@@ -680,8 +631,7 @@
       "en": "Rocky"
     },
     "areas": [ 10 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 73,
@@ -689,8 +639,7 @@
       "en": "Dark Elemental"
     },
     "areas": [ 11 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 74,
@@ -698,8 +647,7 @@
       "en": "Lamashtu"
     },
     "areas": [ 11 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 75,
@@ -707,8 +655,7 @@
       "en": "Macaron"
     },
     "areas": [ 8, 9, 11 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 76,
@@ -716,8 +663,7 @@
       "en": "Blood Bug"
     },
     "areas": [ 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 77,
@@ -725,8 +671,7 @@
       "en": "Fire Elemental"
     },
     "areas": [ 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 78,
@@ -734,8 +679,7 @@
       "en": "Volcano Morte"
     },
     "areas": [ 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 79,
@@ -743,8 +687,7 @@
       "en": "Hellhound"
     },
     "areas": [ 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 80,
@@ -752,8 +695,7 @@
       "en": "Zepar"
     },
     "areas": [ 10, 12 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 81,
@@ -761,8 +703,7 @@
       "en": "Deathtrap"
     },
     "areas": [ 12, 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 82,
@@ -770,8 +711,7 @@
       "en": "Gusion"
     },
     "areas": [ 6, 8, 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 83,
@@ -779,8 +719,7 @@
       "en": "Gaap"
     },
     "areas": [ 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 84,
@@ -788,8 +727,7 @@
       "en": "Haagenti"
     },
     "areas": [ 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 85,
@@ -797,8 +735,7 @@
       "en": "Kamikaze"
     },
     "areas": [ 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 86,
@@ -806,8 +743,7 @@
       "en": "Ninja"
     },
     "areas": [ 13 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 87,
@@ -815,8 +751,7 @@
       "en": "Giant Moco"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 88,
@@ -824,8 +759,7 @@
       "en": "Giant Bat"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 89,
@@ -833,8 +767,7 @@
       "en": "Giant Toad"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 90,
@@ -842,8 +775,7 @@
       "en": "Giant Cannon"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 91,
@@ -851,8 +783,7 @@
       "en": "Giant Morte"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 92,
@@ -860,8 +791,7 @@
       "en": "Giant Buer"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 93,
@@ -869,8 +799,7 @@
       "en": "Chariot Buer"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 94,
@@ -878,8 +807,7 @@
       "en": "Marbas"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 95,
@@ -887,8 +815,7 @@
       "en": "Silver Wolfman"
     },
     "areas": [ 15 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 96,
@@ -901,8 +828,7 @@
       [ 65, 5 ],
       [ 66, 4 ],
       [ 66, 5 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 97,
@@ -923,8 +849,7 @@
       [ 103, 16 ],
       [ 103, 17 ],
       [ 103, 18 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 98,
@@ -932,8 +857,7 @@
       "en": "Ice Elemental"
     },
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 99,
@@ -941,8 +865,7 @@
       "en": "Tracer"
     },
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 100,
@@ -950,8 +873,7 @@
       "en": "Gusion Cannon"
     },
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 101,
@@ -959,8 +881,7 @@
       "en": "G Axe Outsider"
     },
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 102,
@@ -968,8 +889,7 @@
       "en": "Demon Lord"
     },
     "areas": [ 16 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 103,
@@ -977,8 +897,7 @@
       "en": "Eight Bit Zombie"
     },
     "areas": [ 17 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 104,
@@ -986,8 +905,7 @@
       "en": "Eight Bit Ghost"
     },
     "areas": [ 17 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 105,
@@ -995,8 +913,7 @@
       "en": "Eight Bit Skull"
     },
     "areas": [ 17 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 106,
@@ -1005,8 +922,7 @@
     },
     "type": "secret boss",
     "areas": [ 17 ],
-    "rooms": [],
-    "coordinates": []
+    "rooms": []
   },
   {
     "number": 107,
@@ -1018,7 +934,6 @@
     "rooms": [
       [ 33, 5 ]
     ],
-    "coordinates": [],
     "prerequisites": {
       "en": "Obtain Carpenter's Key."
     }
@@ -1033,7 +948,6 @@
     "rooms": [
       [ 56, 25 ]
     ],
-    "coordinates": [],
     "prerequisites": {
       "en": "Obtain Warhorse's Key."
     }
@@ -1048,7 +962,6 @@
     "rooms": [
       [ 59, 3]
     ],
-    "coordinates": [],
     "prerequisites": {
       "en": "Obtain Millionaire's Key."
     }
@@ -1056,15 +969,15 @@
   {
     "number": 110,
     "name": {
-      "en": "Vepar"
+      "en": "Vepar",
+      "de": "Vepar"
     },
     "type": "boss",
     "areas": [ 0 ],
     "rooms": [ 
       [ 13, 26 ],
       [ 14, 26 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 111,
@@ -1076,8 +989,7 @@
     "rooms": [
       [ 45, 21 ],
       [ 46, 21 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 112,
@@ -1092,8 +1004,7 @@
       [ 53, 16 ],
       [ 54, 15 ],
       [ 54, 16 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 113,
@@ -1105,8 +1016,7 @@
     "rooms": [
       [ 65, 19 ],
       [ 65, 20 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 114,
@@ -1144,8 +1054,7 @@
       [ 84, 21 ],
       [ 84, 22 ],
       [ 84, 23 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 115,
@@ -1157,8 +1066,7 @@
     "rooms": [
       [ 103, 24 ],
       [ 103, 25 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 116,
@@ -1170,8 +1078,7 @@
     "rooms": [
       [ 98, 28 ],
       [ 99, 28 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 117,
@@ -1182,8 +1089,7 @@
     "areas": [ 14 ],
     "rooms": [
       [ 61, 0 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 118,
@@ -1195,8 +1101,7 @@
     "rooms": [
       [ 57, 11 ],
       [ 58, 11]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 119,
@@ -1208,8 +1113,7 @@
     "rooms": [
       [ 77, 40 ],
       [ 77, 41 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 120,
@@ -1221,8 +1125,7 @@
     "rooms": [
       [ 30, 39 ],
       [ 31, 39 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 121,
@@ -1234,8 +1137,7 @@
     "rooms": [
       [ 46, 48 ],
       [ 47, 48 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 122,
@@ -1247,8 +1149,7 @@
     "rooms": [
       [ 32, 3 ],
       [ 33, 3 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 123,
@@ -1262,8 +1163,7 @@
       [ 112, 20 ],
       [ 113, 19 ],
       [ 113, 20 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 124,
@@ -1275,8 +1175,7 @@
     "rooms": [
       [ 111, 37 ],
       [ 112, 37 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 125,
@@ -1289,7 +1188,6 @@
       [ 105, 37 ],
       [ 106, 37 ]
     ],
-    "coordinates": [],
     "disambiguate": true
   },
   {
@@ -1301,8 +1199,7 @@
     "rooms": [
       [ 105, 37 ],
       [ 106, 37 ]
-    ],
-    "coordinates": []
+    ]
   },
   {
     "number": 127,
@@ -1312,9 +1209,8 @@
     "type": "secret boss",
     "areas": [ 16 ],
     "rooms": [
-      [ 115, 31]
+      [ 115, 31 ]
     ],
-    "coordinates": [],
     "prerequisites": {
       "en": "Enter this room while possessing the Tome of Conquest."
     }
@@ -1329,7 +1225,6 @@
     "rooms": [
       [ 61, 0 ]
     ],
-    "coordinates": [],
     "dlc": "IGA's Back Pack",
     "prerequisites": {
       "en": "???"

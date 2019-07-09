@@ -870,7 +870,8 @@
   },
   {
     "name": {
-      "en": "Sea Urchin"
+      "en": "Sea Urchin",
+      "de": "Seeigel"
     },
     "type": "Ingredient",
     "subtype": "",
@@ -1644,7 +1645,8 @@
   },
   {
     "name": {
-      "en": "Halite"
+      "en": "Halite",
+      "de": "Halit"
     },
     "type": "Material",
     "subtype": "",
@@ -3439,10 +3441,14 @@
   },
   {
     "name": {
-      "en": "Claymore"
+      "en": "Claymore",
+      "de": "Claymore"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "rooms": [
+      [ 13, 28 ]
+    ]
   },
   {
     "name": {
@@ -3689,7 +3695,13 @@
       "en": "Sanjiegun"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "rooms": [
+      [ 11, 31 ]
+    ],
+    "prerequisites": {
+      "en": "Requires High Jump (or mobility abilities with a similar reach)."
+    }
   },
   {
     "name": {
@@ -3741,10 +3753,14 @@
   },
   {
     "name": {
-      "en": "Whip"
+      "en": "Whip",
+      "de": "Peitsche"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "rooms": [
+      [ 10, 27, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.35 ] } ]
+    ]
   },
   {
     "name": {
@@ -3809,10 +3825,14 @@
   },
   {
     "name": {
-      "en": "Musketoon"
+      "en": "Musketoon",
+      "de": "Musketoon"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "rooms": [
+      [ 7, 30, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.8 ] } ]
+    ]
   },
   {
     "name": {
@@ -4031,7 +4051,8 @@
       ]
     ],
     "rooms": [
-      [ 4, 31, 5 ]
+      [ 4, 31, 5 ],
+      [ 7, 30, 5, { "type": "CHEST.WOODEN", "marker": [ 0.4, 0.8 ] } ]
     ]
   },
   {
@@ -4161,10 +4182,14 @@
   },
   {
     "name": {
-      "en": "Hairband"
+      "en": "Hairband",
+      "de": "Haarband"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 8, 30, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.8 ] } ]
+    ]
   },
   {
     "name": {
@@ -5041,7 +5066,13 @@
       "en": "Plunderer's Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 11, 31 ]
+    ],
+    "prerequisites": {
+      "en": "Requires High Jump (or mobility abilities with a similar reach)."
+    }
   },
   {
     "name": {
@@ -5109,10 +5140,14 @@
   },
   {
     "name": {
-      "en": "Tattered Scarf"
+      "en": "Tattered Scarf",
+      "de": "Ausgefranster Schal"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 9, 31 ]
+    ]
   },
   {
     "name": {
@@ -5526,7 +5561,9 @@
     },
     "type": "Nonexistent",
     "subtype": "",
-    "note": "This item does not exist!"
+    "note": {
+      "en": "This item does not exist!"
+    }
   },
   {
     "name": {
@@ -5735,21 +5772,36 @@
       "en": "Ramen/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 36, 11 ]
+    ]
   },
   {
     "name": {
       "en": "Curry Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 69, 32 ]
+    ],
+    "prerequisites": {
+      "en": "Obtain the Invert ability."
+    }
   },
   {
     "name": {
       "en": "Pasta Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 76, 17 ]
+    ],
+    "prerequisites": {
+      "en": "Obtain the Invert ability."
+    }
   },
   {
     "name": {
@@ -5763,55 +5815,81 @@
       "en": "Fish Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 62, 32 ]
+    ]
   },
   {
     "name": {
       "en": "Sweets/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 76, 12 ]
+    ]
   },
   {
     "name": {
       "en": "Cookies/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 69, 23 ]
+    ]
   },
   {
     "name": {
       "en": "Cake/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 47, 12 ],
+      [ 48, 12 ]
+    ],
+    "prerequisites": {
+      "en": "To reach this room, hit the bell in the room to the right until it drops onto the pile of rubble."
+    }
   },
   {
     "name": {
       "en": "Drink/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 66, 9 ]
+    ]
   },
   {
     "name": {
       "en": "Ultimate Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 57, 42 ]
+    ]
   },
   {
     "name": {
       "en": "Supreme Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "rooms": [
+      [ 55, 43 ]
+    ]
   },
   {
     "name": {
       "en": "Discount Card"
     },
     "type": "Key Item",
-    "subtype": ""
+    "subtype": "",
+    "shop": true
   }
 ]
