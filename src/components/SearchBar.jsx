@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Downshift from 'downshift'
-import deburr from 'lodash/deburr'
+import { deburr } from 'lodash-es'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'

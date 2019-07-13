@@ -2,6 +2,7 @@ import L from 'leaflet'
 import 'leaflet-rastercoords'
 import 'leaflet-draw'
 import bbox from '@turf/bbox'
+import { cloneDeep } from 'lodash-es'
 import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
 
 const TILES = '/tiles/{z}/{x}/{y}.png'
@@ -71,13 +72,41 @@ export function initMap (history) {
     // Expose globally for debugging
     window.map = map
 
-    // map.addEventListener('click', (e) => {
-    //   console.log(e)
-    //   console.log(rc.project(e.latlng))
-    // })
+    // DEBUG
+    // debug()
+    window.debug = debug
 
     resolve(map)
   })
+}
+
+function debug () {
+  map.addEventListener('click', (e) => {
+    console.log('event', e)
+    const coords = rc.project(e.latlng)
+    console.log('raster coords', rc.project(e.latlng))
+    const xy = getMapXYForRasterCoords(coords)
+    console.log('room x, y', xy)
+  })
+
+  const el = document.getElementById('debug-output')
+  const statusEl = document.getElementById('debug-status')
+  statusEl.textContent = 'Developer mode on'
+  statusEl.style.display = 'block'
+
+  map.addEventListener('mousemove', (e) => {
+    const coords = rc.project(e.latlng)
+    const xy = getMapXYForRasterCoords(coords)
+    if (xy) {
+      el.textContent = xy.join(', ')
+      const width = el.getBoundingClientRect().width
+      el.style.left = e.originalEvent.pageX - (width / 2) + 'px'
+      el.style.top = e.originalEvent.pageY + 6 + 'px'
+      el.style.display = 'block'
+    }
+  })
+
+  drawRoomGrid()
 }
 
 // export function setInitialView (history) {
@@ -140,6 +169,8 @@ const GRID_BASE_X = 1192.5
 const GRID_BASE_Y = 1324.5
 const GRID_WIDTH = 49.212 // 50
 const GRID_HEIGHT = 29.531 // 30
+const GRID_MAX_X = 118 // 1-indexed
+const GRID_MAX_Y = 49 // 1-indexed
 
 const getActualX = (x) => GRID_BASE_X + (x * GRID_WIDTH)
 const getActualY = (y) => GRID_BASE_Y + (y * GRID_HEIGHT)
@@ -153,10 +184,10 @@ export function drawRoomGeo ([x, y], label) {
 
   // Create geojson object of the room
   const geoTemplate = {
-    "type":"Feature",
+    "type": "Feature",
     "properties": {},
     "geometry": {
-      "type":"Polygon",
+      "type": "Polygon",
       "coordinates": [
         [
           [ leftX, bottomY ],
@@ -171,6 +202,75 @@ export function drawRoomGeo ([x, y], label) {
 
   // Draw!
   drawGeo(geoTemplate, label)
+}
+
+export function drawRoomGrid () {
+  const featureCollection = {
+    "type": "FeatureCollection",
+    "features": []
+  }
+  const lineTemplate = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+      "type": "LineString",
+      "coordinates": []
+    }
+  }
+  // Also draws up to max grid (rooms + 1) for far edge
+  for (let i = 0; i <= GRID_MAX_X; i++) {
+    const x = getActualX(i)
+    const y1 = getActualY(0)
+    const y2 = getActualY(GRID_MAX_Y)
+    const start = rc.unproject([ x, y1 ])
+    const end = rc.unproject([ x, y2 ])
+    const coords = [
+      [ start.lng, start.lat ],
+      [ end.lng, end.lat ]
+    ]
+    const lineGeo = cloneDeep(lineTemplate)
+    lineGeo.geometry.coordinates = coords
+    featureCollection.features.push(lineGeo)
+  }
+
+  for (let i = 0; i <= GRID_MAX_Y; i++) {
+    const y = getActualY(i)
+    const x1 = getActualX(0)
+    const x2 = getActualX(GRID_MAX_X)
+    const start = rc.unproject([ x1, y ])
+    const end = rc.unproject([ x2, y ])
+    const coords = [
+      [ start.lng, start.lat ],
+      [ end.lng, end.lat ]
+    ]
+    const lineGeo = cloneDeep(lineTemplate)
+    lineGeo.geometry.coordinates = coords
+    featureCollection.features.push(lineGeo)
+  }
+
+  const layer = L.geoJSON(featureCollection, {
+    style: {
+      color: 'white',
+      opacity: 0.25,
+      weight: 1,
+      className: 'debug-grid'
+    }
+  })
+
+  layer.addTo(map)
+}
+
+/**
+ * converts rastercoords's projected {x, y} value to map grid x, y
+ * @param {Object} coords = {x, y}
+ * @return {Array} = [ mapX, mapY ]
+ *    return null if out of bounds
+ */
+function getMapXYForRasterCoords (coords) {
+  const mapX = Math.floor((coords.x - GRID_BASE_X) / GRID_WIDTH)
+  const mapY = Math.floor((coords.y - GRID_BASE_Y) / GRID_HEIGHT)
+  if (mapX < 0 || mapY < 0 || mapX >= GRID_MAX_X || mapY >= GRID_MAX_Y) return null
+  return [ mapX, mapY ]
 }
 
 // Zoom to bounds

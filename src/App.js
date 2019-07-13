@@ -31,6 +31,8 @@ function App () {
         <Map />
       </div>
       <GitHubCorner />
+      <div id="debug-status" />
+      <div id="debug-output" />
     </div>
   )
 }

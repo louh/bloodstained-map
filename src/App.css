@@ -107,3 +107,37 @@ hr {
   color: white;
 }
 
+#debug-output {
+  display: none;
+  z-index: 3000;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-weight: bold;
+  font-family: courier, monospace;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+#debug-status {
+  display: none;
+  z-index: 3000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: courier, monospace;
+  padding: 0.25em 0.5em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.debug-grid {
+  /* Override leaflet setting of auto */
+  pointer-events: none !important;
+}
