@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Downshift from 'downshift'
+import { Howl } from 'howler'
 import { deburr } from 'lodash-es'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
@@ -52,6 +53,13 @@ function assembleSearchTerms () {
     items.push(makeSearchTerm(item, index, 'misc'))
   })
 
+  items.push({
+    name: 'Za Warudo',
+    type: 'easteregg',
+    hasActivated: false,
+    keywords: []
+  })
+
   return items
 }
 
@@ -82,6 +90,18 @@ function alphabetize (a, b) {
 function searchFilter (item, inputValue = '') {
   // False if input value isn't provided
   if (!inputValue.trim()) return false
+
+  // Handle easter egg separately
+  // Force secret search terms to match exactly after a certain length
+  // (do not match on partial)
+  if (item.type === 'easteregg') {
+    if (item.hasActivated) return false
+    if ((inputValue.length >= 4) && (inputValue.toLowerCase() === item.name.toLowerCase().substring(0, inputValue.length))) {
+      return true
+    } else {
+      return false
+    }
+  }
 
   // When comparing strings, both the compare name and input value are modified
   // to make easier comparisons. For instance:
@@ -124,6 +144,18 @@ function searchFilter (item, inputValue = '') {
   return compareName.includes(compareInput) || matchKeywords
 }
 
+function activateEasterEgg () {
+  // Plays audio
+  const sound = new Howl({
+    src: ['/timestop.mp3']
+  })
+  sound.play()
+
+  // Activate developer / debug mode
+  // (global)
+  window.debug()
+}
+
 function SearchBar (props) {
   const textInput = React.createRef()
 
@@ -140,6 +172,11 @@ function SearchBar (props) {
         if (!selection) return
 
         switch (selection.type) {
+          case 'easteregg':
+            activateEasterEgg()
+            // Side effect disables this after activating once
+            selection.hasActivated = true
+            break
           case 'demon':
             // ROOMS override AREAS
             // test roooms
