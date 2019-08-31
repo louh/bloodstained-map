@@ -1444,7 +1444,10 @@
       "en": "Shortcut"
     },
     "type": "SKILL",
-    "special": "White Shard Statues"
+    "special": "White Shard Statues",
+    "rooms": [
+      [ 31, 17 ]
+    ]
   },
   {
     "name": {

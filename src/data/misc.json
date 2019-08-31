@@ -6,7 +6,8 @@
     "type": "Upgrade",
     "subtype": "",
     "rooms": [
-      [ 9, 30, 1, { "type": "VISIBLE", "marker": [ 0.75, 0.8 ] } ]
+      [ 9, 30, 1, { "type": "VISIBLE", "marker": [ 0.75, 0.8 ] } ],
+      [ 41, 8, 1, { "type": "HIDDEN.BELL", "marker": [ 0.9, 0.5] } ]
     ]
   },
   {
@@ -15,7 +16,10 @@
     },
     "type": "Upgrade",
     "subtype": "",
-    "rooms": []
+    "rooms": [
+      [ 31, 17 ],
+      [ 50, 12, 1, { "type": "HIDDEN.WALL"} ]
+    ]
   },
   {
     "name": {
@@ -23,7 +27,9 @@
     },
     "type": "Upgrade",
     "subtype": "",
-    "rooms": []
+    "rooms": [
+      [ 0, 26 ]
+    ]
   },
   {
     "name": {
@@ -166,7 +172,8 @@
     "subtype": "",
     "rooms": [
       [ 7, 30, 1, { "type": "CHEST.WOODEN", "marker": [ 0.4, 0.8 ] } ],
-      [ 12, 26, 1, { "type": "CHEST.WOODEN", "marker": [ 0.75, 0.8 ], "contents": "Potion" } ]
+      [ 12, 26, 1, { "type": "CHEST.WOODEN", "marker": [ 0.75, 0.8 ], "contents": "Potion" } ],
+      [ 42, 7, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.5 ], "contents": "Potion" } ]
     ]
   },
   {
@@ -176,11 +183,18 @@
     "type": "Chest",
     "subtype": "",
     "rooms": [
-      [ 2, 28 ],
-      [ 5, 31 ],
-      [ 8, 31 ],
-      [ 12, 31 ],
-      [ 11, 28 ]
+      [ 2, 28, 1, { "type": "CHEST.BLUE" } ],
+      [ 5, 31, 1, { "type": "CHEST.BLUE" } ],
+      [ 8, 31, 1, { "type": "CHEST.BLUE" } ],
+      [ 12, 31, 1, { "type": "CHEST.BLUE" } ],
+      [ 11, 28, 1, { "type": "CHEST.BLUE" } ],
+      [ 38, 7, 1, { "type": "CHEST.BLUE", "marker": [ 0.4, 0.65 ], "contents": [ "100G", "Soy Sauce", "Cypress" ] } ],
+      [ 39, 4, 1, { "type": "CHEST.BLUE", "marker": [ 0.8, 0.4 ], "contents": [ "500G" ] } ],
+      [ 34, 4, 1, { "type": "CHEST.BLUE", "marker": [ 0.8, 0.2 ], "contents": [ "500G" ] } ],
+      [ 41, 10, 1, { "type": "CHEST.BLUE", "marker": [ 0.2, 0.2 ], "contents": [ "Mithridate", "Obsidian", "Iron", "Elm" ], "required": [ "Invert" ] } ],
+      [ 45, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
+      [ 46, 9, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
+      [ 51, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ]
     ],
     "note": {
       "en": "Each blue chest has a loot table of possible items, from which items are drawn at random. Unlike other chests, blue chests refill over time."
@@ -206,7 +220,11 @@
     "rooms": [
       [ 9, 30, 1, { "type": "CHEST.RED", "marker": [ 0.45, 0.8 ], "contents": "1000G" } ],
       [ 9, 26, 1, { "type": "CHEST.RED", "marker": [ 0.3, 0.8 ], "contents": "500G" } ],
-      [ 11, 27, 1, { "type": "CHEST.RED", "marker": [ 0.4, 0.8 ], "contents": "500G" } ]
+      [ 11, 27, 1, { "type": "CHEST.RED", "marker": [ 0.4, 0.8 ], "contents": "500G" } ],
+      [ 17, 26, 1, { "type": "CHEST.RED", "marker": [ 0.1, 0.5 ], "contents": "500G" } ],
+      [ 35, 14, 1, { "type": "CHEST.RED", "marker": [ 0.35, 0.75 ], "contents": "2000G" } ],
+      [ 35, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ],
+      [ 50, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ]
     ]
   },
   {

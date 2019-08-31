@@ -450,7 +450,10 @@
       "en": "Manju"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "rooms": [
+      [ 39, 6 ]
+    ]
   },
   {
     "name": {
@@ -1839,7 +1842,10 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": true,
+    "rooms": [
+      [ 23, 27, 1, { "type": "CHEST.GREEN", "marker": [ 0.3, 0.85 ] } ]
+    ]
   },
   {
     "name": {
@@ -2739,7 +2745,10 @@
         18,
         0.08
       ]
-    ]
+    ],
+    "note": {
+      "en": "Drop rate from Simian was raised from 3% to 8% in v1.09."
+    }
   },
   {
     "name": {
@@ -3082,7 +3091,10 @@
       "en": "Baselard"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "rooms": [
+      [ 26, 26, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.9 ] } ]
+    ]
   },
   {
     "name": {
@@ -3362,7 +3374,13 @@
       "en": "Macuahuitl"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "rooms": [
+      [ 42, 17, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.8 ] } ]
+    ],
+    "prerequisites": {
+      "en": "Requires Reflector Ray or Dimension Shift."
+    }
   },
   {
     "name": {
@@ -3866,7 +3884,10 @@
       "en": "Culverin"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "rooms": [
+      [ 0, 26, 1, { "type": "CHEST.GREEN" } ]
+    ]
   },
   {
     "name": {
@@ -4196,7 +4217,10 @@
       "en": "Pirate Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 12, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.5 ] } ]
+    ]
   },
   {
     "name": {
@@ -4312,7 +4336,10 @@
       "en": "Crow Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 31, 11, 1, { "type": "CHEST.GREEN", "marker": [ 0.65, 0.85 ] } ]
+    ]
   },
   {
     "name": {
@@ -4408,7 +4435,10 @@
       "en": "Kitsune Mask"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 36, 12, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.75 ] } ]
+    ]
   },
   {
     "name": {
@@ -4780,7 +4810,10 @@
       "en": "Elf Ears"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 24, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.8, 0.65 ] } ]
+    ]
   },
   {
     "name": {
@@ -4856,7 +4889,10 @@
       "en": "Dance Mask"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 45, 16, 1, { "type": "CHEST.GREEN" }]
+    ]
   },
   {
     "name": {
@@ -4884,7 +4920,10 @@
       "en": "Ofuda Talisman"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 41, 3, 1, { "type": "CHEST.GREEN", "marker": [ 0.8, 0.85 ] } ]
+    ]
   },
   {
     "name": {
@@ -5024,7 +5063,10 @@
       "en": "Rose Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 46, 16, 1, { "type": "HIDDEN.WALL" } ]
+    ]
   },
   {
     "name": {
@@ -5203,7 +5245,13 @@
       "en": "Talisman Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 37, 14, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.5 ] } ]
+    ],
+    "prerequisites": {
+      "en": "Requires Dimension Shift."
+    }
   },
   {
     "name": {
@@ -5531,6 +5579,9 @@
       {
         "area": 4
       }
+    ],
+    "rooms": [
+      [ 41, 7, 1, { "type": "CHEST.GREEN", "marker": [ 0.5, 0.5 ] } ]
     ]
   },
   {
@@ -5599,6 +5650,9 @@
       {
         "area": 13
       }
+    ],
+    "rooms": [
+      [ 39, 7, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.8 ] } ]
     ]
   },
   {
@@ -5622,6 +5676,9 @@
       {
         "area": 4
       }
+    ],
+    "rooms": [
+      [ 49, 13, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.6 ] } ]
     ]
   },
   {
@@ -5646,6 +5703,9 @@
       {
         "area": 0
       }
+    ],
+    "rooms": [
+      [ 8, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.9, 0.1 ] } ]
     ]
   },
   {
@@ -5737,7 +5797,10 @@
       "en": "Crimsonite Equipment/R"
     },
     "type": "Key Item",
-    "subtype": "Equipment Recipe"
+    "subtype": "Equipment Recipe",
+    "rooms": [
+      [ 35, 10, 1, { "type": "CHEST.GREEN", "marker": [ 0.7, 0.8 ] } ]
+    ]
   },
   {
     "name": {
@@ -5758,7 +5821,10 @@
       "en": "Very Fine Equipment/R"
     },
     "type": "Key Item",
-    "subtype": "Equipment Recipe"
+    "subtype": "Equipment Recipe",
+    "rooms": [
+      [ 49, 8, 1, { "type": "CHEST.GREEN" } ]
+    ]
   },
   {
     "name": {
@@ -5774,7 +5840,7 @@
     "type": "Key Item",
     "subtype": "Food Recipe",
     "rooms": [
-      [ 36, 11 ]
+      [ 36, 11, 1, { "type": "CHEST.GREEN", "marker": [ 0.45, 0.9 ] } ]
     ]
   },
   {

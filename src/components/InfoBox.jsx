@@ -76,7 +76,7 @@ function InfoBox (props) {
         </>
       )}
 
-      {(!chests && !demons && !quest && !shop && !alchemy && !rooms && !librarian && !areas && !note) && (
+      {(!chests && !demons && !quest && !shop && !alchemy && !rooms && !librarian && !areas && !note && type !== 'area') && (
         <p>Location information will be added soon! Please come back later.</p>
       )}
 
