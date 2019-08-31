@@ -267,12 +267,30 @@ function SearchBar (props) {
                 }
               })
             }
-            if (item.quest || item.shop || item.alchemy) {
-              // Quests are in Arvantville
-              const geo = AREAS[1].geo
-              if (geo) {
-                drawGeo(geo, AREAS[1].name[locale])
+            if (item.quest) {
+              switch (item.quest.npc) {
+                case 'Lindsay':
+                  drawRoomGeo([ 20, 27 ], 'Lindsay')
+                  break
+                case 'Susie':
+                  drawRoomGeo([ 18, 27 ], 'Susie')
+                  break
+                case 'Abigail':
+                  drawRoomGeo([ 18, 26 ], 'Abigail')
+                  break
+                // Quests are in Arvantville
+                default:
+                  const geo = AREAS[1].geo
+                  if (geo) {
+                    drawGeo(geo, AREAS[1].name[locale])
+                  }
               }
+            }
+            if (item.shop) {
+              drawRoomGeo([ 19, 27 ], 'Dominique')
+            }
+            if (item.alchemy) {
+              drawRoomGeo([ 21, 27 ], 'Johannes')
             }
             if (item.demons) {
               const demons = item.demons
