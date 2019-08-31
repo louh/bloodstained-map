@@ -45,7 +45,8 @@ function assembleSearchTerms () {
   })
   
   ITEMS.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'item', [ item.type, item.subtype ]))
+    const keywords = (item.keywords && item.keywords[locale]) ? [ ...item.keywords[locale] ] : []
+    items.push(makeSearchTerm(item, index, 'item', [ item.type, item.subtype, ...keywords ]))
   })
 
   // TODO: re-categorize type

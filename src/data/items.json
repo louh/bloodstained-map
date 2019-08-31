@@ -4699,8 +4699,20 @@
     "name": {
       "en": "Aegis Plate"
     },
+    "description": {
+      "en": "A breastplate that nullifies all damage from traps and hazardous environments."
+    },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "keywords": {
+      "en": [ "Spike Breaker" ]
+    },
+    "rooms": [
+      [ 81, 15, 1, { "type": "CHEST.GREEN", "required": [ "Invert" ] }]
+    ],
+    "prerequisites": {
+      "en": "Requires the Invert ability."
+    }
   },
   {
     "name": {
@@ -5853,7 +5865,7 @@
       [ 69, 32 ]
     ],
     "prerequisites": {
-      "en": "Obtain the Invert ability."
+      "en": "Requires the Invert ability."
     }
   },
   {
@@ -5866,7 +5878,7 @@
       [ 76, 17 ]
     ],
     "prerequisites": {
-      "en": "Obtain the Invert ability."
+      "en": "Requires the Invert ability."
     }
   },
   {

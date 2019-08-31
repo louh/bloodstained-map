@@ -11,7 +11,7 @@ function InfoBox (props) {
   if (!type || !info) return null
 
   const displayType = getType(type, info)
-  const { note, quest, demons, areas, chests, shop, alchemy, librarian, rooms, special, prerequisites, dlc } = info
+  const { description, note, quest, demons, areas, chests, shop, alchemy, librarian, rooms, special, prerequisites, dlc } = info
 
   return (
     <div id="info">
@@ -26,6 +26,10 @@ function InfoBox (props) {
         </h3>
       ) : (
         <h3>{info.name[locale]}</h3>
+      )}
+
+      {(description && description[locale]) && (
+        <p>{description[locale]}</p>
       )}
 
       {(note && note[locale]) && (
