@@ -80,33 +80,112 @@ export function initMap (history) {
   })
 }
 
+let debugSelectedRooms = []
+let selectedXY = ''
+
 function debug () {
   map.addEventListener('click', (e) => {
-    console.log('event', e)
     const coords = rc.project(e.latlng)
-    console.log('raster coords', rc.project(e.latlng))
     const xy = getMapXYForRasterCoords(coords)
-    console.log('room x, y', xy)
+    highlightSelectedRoom(xy, e.originalEvent.pageX, e.originalEvent.pageY)
   })
 
-  const el = document.getElementById('debug-output')
   const statusEl = document.getElementById('debug-status')
   statusEl.textContent = 'Developer mode on'
   statusEl.style.display = 'block'
 
   map.addEventListener('mousemove', (e) => {
+    // Get where too display
     const coords = rc.project(e.latlng)
     const xy = getMapXYForRasterCoords(coords)
-    if (xy) {
-      el.textContent = xy.join(', ')
-      const width = el.getBoundingClientRect().width
-      el.style.left = e.originalEvent.pageX - (width / 2) + 'px'
-      el.style.top = e.originalEvent.pageY + 6 + 'px'
-      el.style.display = 'block'
+    if (xy && debugSelectedRooms.length === 0) {
+      displayMapXYLabel(xy, e.originalEvent.pageX, e.originalEvent.pageY)
     }
   })
 
   drawRoomGrid()
+}
+
+/**
+ * Display the map xy label centered above page position posX, posY
+ * @param {Array} xy 
+ * @param {Number} posX 
+ * @param {Number} posY 
+ */
+function displayMapXYLabel (xy, posX, posY) {
+  const el = document.getElementById('debug-output')
+  if (!el) return
+  el.textContent = xy.join(', ')
+  const width = el.getBoundingClientRect().width
+  el.style.left = posX - (width / 2) + 'px'
+  el.style.top = posY + 6 + 'px'
+  el.style.display = 'block'
+}
+
+/**
+ * like drawRoomGeo() but just one selected room for debug viewing
+ * @param {Array} mapXY - x,y grid coords of room (not latlng)
+ */
+function highlightSelectedRoom (xy, posX, posY) {
+  const [x, y] = xy
+
+  // Coords
+  const leftX = getActualX(x)
+  const rightX = getActualX(x + 1)
+  const topY = getActualY(y)
+  const bottomY = getActualY(y + 1)
+
+  // Create geojson object of the room
+  const coords = [
+    [ leftX, bottomY ],
+    [ rightX, bottomY ],
+    [ rightX, topY ],
+    [ leftX, topY ],
+    [ leftX, bottomY ]
+  ]
+
+  const geojson = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        coords.map((coord) => {
+          var { lng, lat } = rc.unproject(coord)
+          return [ lng, lat ]
+        })
+      ]
+    }
+  }
+
+  // Clear existing
+  let shouldExit = false
+  while (debugSelectedRooms.length) {
+    const layer = debugSelectedRooms.pop()
+    layer.clearLayers()
+
+    // If the cleared room matches the one that was just clicked, stop
+    // highlighting any rooms and just return early
+    if (selectedXY === xy.join(', ')) {
+      shouldExit = true
+    }
+  }
+  if (shouldExit) return
+  selectedXY = ''
+
+  // Draw!
+  const layer = L.geoJSON(geojson, {
+    style: {
+      color: 'red',
+      weight: 4,
+      fillOpacity: 0
+    }
+  })
+
+  layer.addTo(map)
+  debugSelectedRooms.push(layer)
+  displayMapXYLabel(xy, posX, posY)
+  selectedXY = xy.join(', ')
 }
 
 // export function setInitialView (history) {
