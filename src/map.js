@@ -208,7 +208,11 @@ const collection = {
 export function clearGeoJsons () {
   while (geojsonLayers.length) {
     const layer = geojsonLayers.pop()
-    layer.clearLayers()
+    if (layer.clearLayers) {
+      layer.clearLayers()
+    } else if (layer.remove) {
+      layer.remove()
+    }
   }
   collection.features = []
 }
@@ -262,7 +266,7 @@ export function drawRoomGeo ([x, y], label) {
   const bottomY = getActualY(y + 1)
 
   // Create geojson object of the room
-  const geoTemplate = {
+  const geojson = {
     "type": "Feature",
     "properties": {},
     "geometry": {
@@ -280,7 +284,50 @@ export function drawRoomGeo ([x, y], label) {
   }
 
   // Draw!
-  drawGeo(geoTemplate, label)
+  drawGeo(geojson, label)
+}
+
+export function drawMarker (room, label) {
+  const [x, y, quantity, details] = room
+
+  // Coords
+  const leftX = getActualX(x)
+  const rightX = getActualX(x + 1)
+  const topY = getActualY(y)
+  const bottomY = getActualY(y + 1)
+
+  const markerPos = (details && details.marker) || [ 0.5, 0.5 ]
+  const markerX = leftX + (markerPos[0] * (rightX - leftX))
+  const markerY = topY + (markerPos[1] * (bottomY - topY))
+
+  const { lng, lat } = rc.unproject([ markerX, markerY ])
+  const geojson = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ lng, lat ]
+    }
+  }
+
+  var myIcon = L.icon({
+    iconUrl: 'marker.png',
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+    popupAnchor: [0, 0]
+  })
+
+  const layer = L.marker([ lat, lng ], { icon: myIcon })
+
+  // Don't bind a popup if there isn't a name
+  if (label) {
+    layer.bindPopup(label)
+  }
+
+  layer.addTo(map)
+
+  geojsonLayers.push(layer)
+  collection.features.push(geojson)
 }
 
 export function drawRoomGrid () {

@@ -7,7 +7,7 @@ import AREAS from '../data/areas.json'
 import SHARDS from '../data/shards.json'
 import ITEMS from '../data/items.json'
 import MISC from '../data/misc.json'
-import { drawGeo, drawRoomGeo, clearGeoJsons, zoomToGeoBounds } from '../map'
+import { drawGeo, drawRoomGeo, drawMarker, clearGeoJsons, zoomToGeoBounds } from '../map'
 import './SearchBar.scss'
 
 const locale = 'en'
@@ -199,7 +199,11 @@ function SearchBar (props) {
             if (DEMONS[selection.index].rooms && DEMONS[selection.index].rooms.length > 0) {
               DEMONS[selection.index].rooms.forEach((room) => {
                 // TODO: mark room with area name
-                drawRoomGeo(room, DEMONS[selection.index].name[locale])
+                if (DEMONS[selection.index].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0)) {
+                  drawMarker(room, DEMONS[selection.index].name[locale])
+                } else {
+                  drawRoomGeo(room, DEMONS[selection.index].name[locale])
+                }
               })
             } else {
               DEMONS[selection.index].areas.forEach((area) => {
@@ -241,7 +245,12 @@ function SearchBar (props) {
                 if (DEMONS[number - 1].rooms && DEMONS[number - 1].rooms.length > 0) {
                   DEMONS[number - 1].rooms.forEach((room) => {
                     // TODO: mark room with area name
-                    drawRoomGeo(room, DEMONS[number - 1].name[locale])
+                    if (DEMONS[number - 1].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0)) {
+                      drawMarker(room, DEMONS[number - 1].name[locale])
+                    } else {
+                      drawRoomGeo(room, DEMONS[number - 1].name[locale])
+                    }
+                    // drawRoomGeo(room, DEMONS[number - 1].name[locale])
                   })
                 } else {
                   DEMONS[number - 1].areas.forEach((area) => {
@@ -260,7 +269,8 @@ function SearchBar (props) {
             // test roooms
             if (shard.rooms) {
               shard.rooms.forEach((room) => {
-                drawRoomGeo(room, shard.name[locale])
+                drawMarker(room, shard.name[locale])
+                // drawRoomGeo(room, shard.name[locale])
               })
             }
 
@@ -278,7 +288,8 @@ function SearchBar (props) {
               item.chests.forEach((chest) => {
                 if (typeof chest.area === 'undefined' || typeof chest.room === 'undefined') return
                 if (chest.room) {
-                  drawRoomGeo(chest.room, getChestType(chest.type))
+                  drawMarker(chest.room, getChestType(chest.type))
+                  // drawRoomGeo(chest.room, getChestType(chest.type))
                 } else if (chest.area) {
                   const geo = AREAS[chest.area].geo
                   if (geo) {
@@ -290,13 +301,13 @@ function SearchBar (props) {
             if (item.quest) {
               switch (item.quest.npc) {
                 case 'Lindsay':
-                  drawRoomGeo([ 20, 27 ], 'Lindsay')
+                  drawMarker([ 20, 27 ], 'Lindsay')
                   break
                 case 'Susie':
-                  drawRoomGeo([ 18, 27 ], 'Susie')
+                  drawMarker([ 18, 27 ], 'Susie')
                   break
                 case 'Abigail':
-                  drawRoomGeo([ 18, 26 ], 'Abigail')
+                  drawMarker([ 18, 26 ], 'Abigail')
                   break
                 // Quests are in Arvantville
                 default:
@@ -307,10 +318,12 @@ function SearchBar (props) {
               }
             }
             if (item.shop) {
-              drawRoomGeo([ 19, 27 ], 'Dominique')
+              drawMarker([ 19, 27 ], 'Dominique')
+              // drawRoomGeo([ 19, 27 ], 'Dominique')
             }
             if (item.alchemy) {
-              drawRoomGeo([ 21, 27 ], 'Johannes')
+              drawMarker([ 21, 27 ], 'Dominique')
+              // drawRoomGeo([ 21, 27 ], 'Johannes')
             }
             if (item.demons) {
               const demons = item.demons
@@ -337,7 +350,8 @@ function SearchBar (props) {
             // test roooms
             if (item.rooms) {
               item.rooms.forEach((room) => {
-                drawRoomGeo(room, item.name[locale])
+                drawMarker(room, item.name[locale])
+                // drawRoomGeo(room, item.name[locale])
               })
             }
 
