@@ -199,7 +199,10 @@ function SearchBar (props) {
             if (DEMONS[selection.index].rooms && DEMONS[selection.index].rooms.length > 0) {
               DEMONS[selection.index].rooms.forEach((room) => {
                 // TODO: mark room with area name
-                if (DEMONS[selection.index].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0)) {
+                // re: drawing markers, should do this for any mob that has a specific location
+                // don't do it for bosses or for recurring mobs like medusa heads
+                // override for kunekune (temp)
+                if ((selection.index === 43) || (DEMONS[selection.index].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0))) {
                   drawMarker(room, DEMONS[selection.index].name[locale])
                 } else {
                   drawRoomGeo(room, DEMONS[selection.index].name[locale])
