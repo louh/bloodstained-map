@@ -28,7 +28,7 @@ function App () {
         </div>
       </div>
       <div className="right-pane">
-        <Map />
+        <Map onSelect={data => setState(data)} />
       </div>
       <GitHubCorner />
       <div id="debug-status" />
