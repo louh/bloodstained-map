@@ -164,7 +164,12 @@
       "en": "Uni Rice Bowl"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Rosaly!",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -192,7 +197,12 @@
       "en": "Chicken Casserole"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Lily",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -394,7 +404,12 @@
       "en": "Pizza"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Noel",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -422,7 +437,12 @@
       "en": "Forneus Meunière"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Enos",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -537,7 +557,12 @@
       "en": "Chocolate Cake"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Morris",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -647,7 +672,12 @@
       "en": "Rice"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Catharine",
+      "quantity": 5
+    }
   },
   {
     "name": {
@@ -1178,7 +1208,12 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "alchemy": true,
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Dario!",
+      "quantity": 5
+    }
   },
   {
     "name": {
@@ -1474,7 +1509,12 @@
         49,
         0.1
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Simon!",
+      "quantity": 5
+    }
   },
   {
     "name": {
@@ -1499,7 +1539,12 @@
         36,
         0.1
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Porter!",
+      "quantity": 5
+    }
   },
   {
     "name": {
@@ -1520,7 +1565,12 @@
         55,
         0.12
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Edward!",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -1557,7 +1607,12 @@
         "room": [ 104, 29 ],
         "type": "CHEST.BLUE"
       }
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Trevor!",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -1591,7 +1646,12 @@
         80,
         0.1
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Mathius!",
+      "quantity": 2
+    }
   },
   {
     "name": {
@@ -1604,7 +1664,12 @@
         71,
         0.08
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Soleiyu!",
+      "quantity": 2
+    }
   },
   {
     "name": {
@@ -1624,7 +1689,11 @@
         86,
         0.04
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Mitta!"
+    }
   },
   {
     "name": {
@@ -1665,7 +1734,12 @@
         16,
         0.05
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Annette!",
+      "quantity": 5
+    }
   },
   {
     "name": {
@@ -1884,7 +1958,11 @@
         98,
         0.06
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Carl!"
+    }
   },
   {
     "name": {
@@ -1897,7 +1975,11 @@
         77,
         0.04
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Sypha!"
+    }
   },
   {
     "name": {
@@ -1919,8 +2001,13 @@
     "type": "Material",
     "subtype": "",
     "shop": true,
-    "rooms": [
-      [ 23, 27, 1, { "type": "CHEST.GREEN", "marker": [ 0.3, 0.85 ] } ]
+    "chests": [
+      {
+        "area": 1,
+        "room": [ 23, 27 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.3, 0.85 ]
+      }
     ]
   },
   {
@@ -1948,7 +2035,11 @@
     "disambiguate": true,
     "demons": [
       106
-    ]
+    ],
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Beef Hot Pot"
+    }
   },
   {
     "name": {
@@ -3114,7 +3205,11 @@
       "en": "Toy Shoes"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Talia"
+    }
   },
   {
     "name": {
@@ -3168,8 +3263,13 @@
     },
     "type": "Weapon",
     "subtype": "Dagger",
-    "rooms": [
-      [ 26, 26, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.9 ] } ]
+    "chests": [
+      {
+        "area": 1,
+        "room": [ 26, 26 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.6, 0.9 ]
+      }
     ]
   },
   {
@@ -3177,7 +3277,11 @@
       "en": "Kukri"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Baked Dish"
+    }
   },
   {
     "name": {
@@ -3252,7 +3356,11 @@
       "en": "Misericorde"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Fluffy"
+    }
   },
   {
     "name": {
@@ -3330,7 +3438,11 @@
       "en": "Murgleis"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Saucy Strands"
+    }
   },
   {
     "name": {
@@ -3365,7 +3477,11 @@
       "en": "Dainsleif"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Food That Falls Apart"
+    }
   },
   {
     "name": {
@@ -3400,7 +3516,11 @@
       "en": "Bandit Blade"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Richter!"
+    }
   },
   {
     "name": {
@@ -3414,7 +3534,11 @@
       "en": "Sword Whip"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Julius!"
+    }
   },
   {
     "name": {
@@ -3429,7 +3553,18 @@
       "en": "Valkyrie Sword"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "chests": [
+      {
+        "area": 5,
+        "room": [ 83, 16 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0, 0.9 ]
+      }
+    ],
+    "prerequisites": {
+      "en": "Requires Dimension Shift."
+    }
   },
   {
     "name": {
@@ -3451,8 +3586,13 @@
     },
     "type": "Weapon",
     "subtype": "Club",
-    "rooms": [
-      [ 42, 17, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.8 ] } ]
+    "chests": [
+      {
+        "area": 4,
+        "room": [ 42, 17 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.25, 0.8 ]
+      }
     ],
     "prerequisites": {
       "en": "Requires Reflector Ray or Dimension Shift."
@@ -3582,7 +3722,11 @@
         60,
         0.04
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Spicy"
+    }
   },
   {
     "name": {
@@ -3631,7 +3775,11 @@
       "en": "Kaladanda"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Crispy Skin"
+    }
   },
   {
     "name": {
@@ -3680,14 +3828,26 @@
       "en": "Tsurumaru"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Fried Finger Food"
+    }
   },
   {
     "name": {
       "en": "Honebami"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "chests": [
+      {
+        "area": 7,
+        "room": [ 101, 24 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.75, 0.5 ]
+      }
+    ]
   },
   {
     "name": {
@@ -3714,7 +3874,11 @@
         85,
         0.04
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Breaded"
+    }
   },
   {
     "name": {
@@ -3794,7 +3958,7 @@
       [ 11, 31 ]
     ],
     "prerequisites": {
-      "en": "Requires High Jump (or mobility abilities with a similar reach)."
+      "en": "Requires High Jump or better mobility abilities."
     }
   },
   {
@@ -3802,7 +3966,11 @@
       "en": "Gondo-Shizunori"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Novel Idea"
+    }
   },
   {
     "name": {
@@ -3852,8 +4020,13 @@
     },
     "type": "Weapon",
     "subtype": "Whip",
-    "rooms": [
-      [ 10, 27, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.35 ] } ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 10, 27 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.25, 0.35 ]
+      }
     ]
   },
   {
@@ -3861,7 +4034,11 @@
       "en": "Thorn Whip"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Portable Snack"
+    }
   },
   {
     "name": {
@@ -3924,8 +4101,13 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
-    "rooms": [
-      [ 7, 30, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.8 ] } ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 7, 30 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.25, 0.8 ]
+      }
     ]
   },
   {
@@ -3961,9 +4143,16 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
-    "rooms": [
-      [ 0, 26, 1, { "type": "CHEST.GREEN" } ]
-    ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 0, 26 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
+    "prerequisites": {
+      "en": "Requires High Jump."
+    }
   },
   {
     "name": {
@@ -4147,9 +4336,16 @@
         3
       ]
     ],
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 7, 30 ],
+        "type": "CHEST.WOODEN",
+        "marker": [ 0.4, 0.8 ]
+      }
+    ],
     "rooms": [
-      [ 4, 31, 5 ],
-      [ 7, 30, 5, { "type": "CHEST.WOODEN", "marker": [ 0.4, 0.8 ] } ]
+      [ 4, 31, 5 ]
     ]
   },
   {
@@ -4284,8 +4480,13 @@
     },
     "type": "Head Armor",
     "subtype": "",
-    "rooms": [
-      [ 8, 30, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.8 ] } ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 8, 30 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.75, 0.8 ]
+      }
     ]
   },
   {
@@ -4294,8 +4495,13 @@
     },
     "type": "Head Armor",
     "subtype": "",
-    "rooms": [
-      [ 12, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.5 ] } ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 12, 25 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.75, 0.5 ]
+      }
     ]
   },
   {
@@ -4357,7 +4563,11 @@
       "en": "Cowboy Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Alba"
+    }
   },
   {
     "name": {
@@ -4413,9 +4623,17 @@
     },
     "type": "Head Armor",
     "subtype": "",
-    "rooms": [
-      [ 31, 11, 1, { "type": "CHEST.GREEN", "marker": [ 0.65, 0.85 ] } ]
-    ]
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 31, 11 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.65, 0.85 ]
+      }
+    ],
+    "prerequisites": {
+      "en": "Requires the Invert ability."
+    }
   },
   {
     "name": {
@@ -4470,7 +4688,11 @@
       "en": "Maid's Hairband"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Wanda"
+    }
   },
   {
     "name": {
@@ -4512,8 +4734,13 @@
     },
     "type": "Head Armor",
     "subtype": "",
-    "rooms": [
-      [ 36, 12, 1, { "type": "CHEST.GREEN", "marker": [ 0.25, 0.75 ] } ]
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 36, 12 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.25, 0.75 ]
+      }
     ]
   },
   {
@@ -4535,7 +4762,11 @@
       "en": "Recycle Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Life-changing"
+    }
   },
   {
     "name": {
@@ -4549,7 +4780,14 @@
       "en": "Valkyrie Tiara"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 15,
+        "room": [ 114, 20 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -4625,14 +4863,22 @@
       "en": "Brigandine"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Lisa!"
+    }
   },
   {
     "name": {
       "en": "Apron"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Yellow Kernels"
+    }
   },
   {
     "name": {
@@ -4721,7 +4967,11 @@
       "en": "Duelist's Guard"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Refreshing"
+    }
   },
   {
     "name": {
@@ -4748,7 +4998,11 @@
       "en": "Feather Robe"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Rolled-up Treat"
+    }
   },
   {
     "name": {
@@ -4783,8 +5037,12 @@
     "keywords": {
       "en": [ "Spike Breaker" ]
     },
-    "rooms": [
-      [ 81, 15, 1, { "type": "CHEST.GREEN", "required": [ "Invert" ] }]
+    "chests": [
+      {
+        "area": 5,
+        "room": [ 81, 15 ],
+        "type": "CHEST.GREEN"
+      }
     ],
     "prerequisites": {
       "en": "Requires the Invert ability."
@@ -4823,7 +5081,11 @@
       "en": "Majestic Plate"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Nadia"
+    }
   },
   {
     "name": {
@@ -4891,16 +5153,31 @@
       "en": "Valkyrie Dress"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 5,
+        "room": [ 84, 15 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
       "en": "Elf Ears"
     },
+    "description": {
+      "en": "Wearable ears that resemble those of a certain sylvan race."
+    },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 24, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.8, 0.65 ] } ]
+    "chests": [
+      {
+        "area": 1,
+        "room": [ 24, 25 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.8, 0.65 ]
+      }
     ]
   },
   {
@@ -4915,14 +5192,22 @@
       "en": "Convex Glasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Something Irresistible"
+    }
   },
   {
     "name": {
       "en": "Eye of Horus"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Norah"
+    }
   },
   {
     "name": {
@@ -4978,8 +5263,12 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 45, 16, 1, { "type": "CHEST.GREEN" }]
+    "chests": [
+      {
+        "area": 4,
+        "room": [ 45, 16 ],
+        "type": "CHEST.GREEN"
+      }
     ]
   },
   {
@@ -5001,7 +5290,10 @@
       "en": "Voice Changer"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 60, 30, 1, { "type": "HIDDEN.WALL" }]
+    ]
   },
   {
     "name": {
@@ -5009,8 +5301,13 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 41, 3, 1, { "type": "CHEST.GREEN", "marker": [ 0.8, 0.85 ] } ]
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 41, 3 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.8, 0.85 ]
+      }
     ]
   },
   {
@@ -5035,7 +5332,12 @@
         18,
         0.1
       ]
-    ]
+    ],
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of my husband!",
+      "quantity": 3
+    }
   },
   {
     "name": {
@@ -5049,7 +5351,11 @@
       "en": "Safe Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Caleb"
+    }
   },
   {
     "name": {
@@ -5110,7 +5416,11 @@
       "en": "Lethality Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving something with Sea Urchin"
+    }
   },
   {
     "name": {
@@ -5144,7 +5454,19 @@
       "en": "Silver Power Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 8,
+        "room": [ 96, 27 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.2, 0.6 ]
+      }
+    ],
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Rachel"
+    }
   },
   {
     "name": {
@@ -5161,7 +5483,15 @@
       "en": "Skull Necklace"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 8,
+        "room": [ 96, 29 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.2, 0.8 ]
+      }
+    ]
   },
   {
     "name": {
@@ -5182,14 +5512,22 @@
       "en": "Speed Belt"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Martha!"
+    }
   },
   {
     "name": {
       "en": "Cutpurse's Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Shawn!"
+    }
   },
   {
     "name": {
@@ -5209,7 +5547,11 @@
       "en": "Gold Power Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Lindsay",
+      "name": "Avenge the death of Juste!"
+    }
   },
   {
     "name": {
@@ -5223,14 +5565,24 @@
       "en": "Demon Necklace"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Risotto"
+    }
   },
   {
     "name": {
       "en": "Adversity Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "special": {
+      "en": "Benjamin in Arvantville after completing all of his quests."
+    },
+    "rooms": [
+      [ 20, 27 ]
+    ]
   },
   {
     "name": {
@@ -5244,21 +5596,33 @@
       "en": "Gambler's Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving Noodles in Broth"
+    }
   },
   {
     "name": {
       "en": "Warlock's Necklace"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of Dennis"
+    }
   },
   {
     "name": {
       "en": "Solomon's Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Abigail",
+      "name": "In Memory of George"
+    }
   },
   {
     "name": {
@@ -5319,7 +5683,11 @@
       "en": "Fangshi Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "quest": {
+      "npc": "Susie",
+      "name": "Craving a Miracle"
+    }
   },
   {
     "name": {
@@ -5334,8 +5702,13 @@
     },
     "type": "Scarf",
     "subtype": "",
-    "rooms": [
-      [ 37, 14, 1, { "type": "CHEST.GREEN", "marker": [ 0.75, 0.5 ] } ]
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 37, 14 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.78, 0.5 ]
+      }
     ],
     "prerequisites": {
       "en": "Requires Dimension Shift."
@@ -5649,6 +6022,9 @@
     "name": {
       "en": "Hair Apparent I"
     },
+    "description": {
+      "en": "A magazine issue that glamorizes the “French braid.”"
+    },
     "type": "Key Item",
     "subtype": "Hairstyle",
     "keywords": {
@@ -5665,6 +6041,9 @@
   {
     "name": {
       "en": "Hair Apparent II"
+    },
+    "description": {
+      "en": "A magazine issue that glamorizes “swept-back” hairstyles."
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
@@ -5684,6 +6063,9 @@
     "name": {
       "en": "Hair Apparent III"
     },
+    "description": {
+      "en": "A magazine issue that glamorizes “hair bunches.”"
+    },
     "type": "Key Item",
     "subtype": "Hairstyle",
     "keywords": {
@@ -5697,6 +6079,9 @@
   {
     "name": {
       "en": "Hair Apparent IV"
+    },
+    "description": {
+      "en": "A magazine issue that glamorizes the “double bun.”"
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
@@ -5724,6 +6109,9 @@
   {
     "name": {
       "en": "Hair Apparent VI"
+    },
+    "description": {
+      "en": "A magazine issue that glamorizes “boyish” hairstyles."
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
@@ -5759,6 +6147,9 @@
     "name": {
       "en": "Hair Apparent VIII"
     },
+    "description": {
+      "en": "A magazine issue that glamorizes “geisha” hairstyles."
+    },
     "type": "Key Item",
     "subtype": "Hairstyle",
     "keywords": {
@@ -5777,6 +6168,9 @@
     "name": {
       "en": "Hair Apparent IX"
     },
+    "description": {
+      "en": "A magazine issue that glamorizes “braided bangs.”"
+    },
     "type": "Key Item",
     "subtype": "Hairstyle",
     "keywords": {
@@ -5790,6 +6184,9 @@
   {
     "name": {
       "en": "Hair Apparent X"
+    },
+    "description": {
+      "en": "A magazine issue that glamorizes “vintage curls.”"
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
@@ -5809,6 +6206,9 @@
     "name": {
       "en": "Hair Apparent XI"
     },
+    "description": {
+      "en": "A magazine issue that glamorizes “high forehead” hairstyles."
+    },
     "type": "Key Item",
     "subtype": "Hairstyle",
     "keywords": {
@@ -5825,6 +6225,9 @@
   {
     "name": {
       "en": "Hair Apparent XII"
+    },
+    "description": {
+      "en": "A magazine issue that glamorizes “valkyrie” hairstyles."
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
@@ -5933,8 +6336,13 @@
     },
     "type": "Key Item",
     "subtype": "Equipment Recipe",
-    "rooms": [
-      [ 35, 10, 1, { "type": "CHEST.GREEN", "marker": [ 0.7, 0.8 ] } ]
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 35, 10 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.7, 0.8 ]
+      }
     ]
   },
   {
@@ -5957,8 +6365,12 @@
     },
     "type": "Key Item",
     "subtype": "Equipment Recipe",
-    "rooms": [
-      [ 49, 8, 1, { "type": "CHEST.GREEN" } ]
+    "chests": [
+      {
+        "area": 4,
+        "room": [ 49, 8 ],
+        "type": "CHEST.GREEN"
+      }
     ]
   },
   {
@@ -5974,8 +6386,13 @@
     },
     "type": "Key Item",
     "subtype": "Food Recipe",
-    "rooms": [
-      [ 36, 11, 1, { "type": "CHEST.GREEN", "marker": [ 0.45, 0.9 ] } ]
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 36, 11 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.45, 0.9 ]
+      }
     ]
   },
   {
@@ -6018,8 +6435,11 @@
     "type": "Key Item",
     "subtype": "Food Recipe",
     "rooms": [
-      [ 62, 32 ]
-    ]
+      [ 61, 33 ]
+    ],
+    "prerequisites": {
+      "en": "Requires High Jump or better mobility abilities."
+    }
   },
   {
     "name": {

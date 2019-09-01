@@ -37,18 +37,10 @@ function InfoBox (props) {
         <p>{note[locale]}</p>
       )}
 
-      {/* Quest items */}
-      {quest && (
-        <>
-          <strong>Quest reward</strong>
-          <p>Obtained from {quest.npc} for completing {quest.name}.</p>
-        </>
-      )}
-
       {/* Shards and items that drop from demons */}
       {demons && (
         <>
-          {(type === 'shard') && <strong>Obtained by defeating</strong>}
+          {(type === 'shard') && <strong>Obtain by defeating</strong>}
           {(type === 'item') && <strong>Drops from</strong>}
           {(demons.map(index => (
             <p key={index}>
@@ -63,14 +55,22 @@ function InfoBox (props) {
         </>
       )}
 
+      {/* Quest items */}
+      {quest && (
+        <>
+          <strong>Quest reward</strong>
+          <p>Obtain{(typeof quest.quantity !== 'undefined') && ` ×${quest.quantity}`} from {quest.npc} for completing “{quest.name}”.</p>
+        </>
+      )}
+
       {(chests || shop || alchemy || librarian || special) ? (
         <>
           <strong>Locations</strong>
-          {makeChestText(chests)}
           {alchemy && ((typeof alchemy === 'string') ? <p>Crafted from {info.alchemy} by Johannes.</p> : <p>Crafted by Johannes.</p>)}
           {shop && <p>Purchased from Dominique.</p>}
           {librarian && <p>Borrow from O.D.</p>}
-          {special && <p>Obtained from {special}.</p>}
+          {makeChestText(chests)}
+          {special && <p>Obtain from {special[locale]}.</p>}
         </>
       ) : null}
 
@@ -140,7 +140,7 @@ function getType (type, info) {
 function makeChestText (chests) {
   if (!chests || chests.length === 0) return null
 
-  const pattern = "Obtained from {chests} in {area}."
+  const pattern = "Found in {chests} in {area}."
 
   const grouped = {}
 

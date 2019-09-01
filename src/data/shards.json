@@ -1368,7 +1368,9 @@
       "en": "Silver Knight"
     },
     "type": "FAMILIAR",
-    "special": "Green Shard Statues"
+    "special": {
+      "en": "Green Shard Statues"
+    }
   },
   {
     "name": {
@@ -1444,7 +1446,9 @@
       "en": "Shortcut"
     },
     "type": "SKILL",
-    "special": "White Shard Statues",
+    "special": {
+      "en": "White Shard Statues"
+    },
     "rooms": [
       [ 31, 17 ]
     ]

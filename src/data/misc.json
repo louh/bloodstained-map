@@ -53,7 +53,7 @@
     "prerequisites": {
       "en": [
         "Complete “The Stranded Man” quest.",
-        "Obtain Invert shard. (you may be able to get here earlier with other abilities.)"
+        "Requires Invert. (you may be able to get here earlier with other abilities.)"
       ]
     }
   },
@@ -69,7 +69,7 @@
     "prerequisites": {
       "en": [
         "Complete “The Still Stranded Man” quest.",
-        "Obtain Dimension Shift shard."
+        "Requires Dimension Shift."
       ]
     }
   },
@@ -173,7 +173,8 @@
     "rooms": [
       [ 7, 30, 1, { "type": "CHEST.WOODEN", "marker": [ 0.4, 0.8 ] } ],
       [ 12, 26, 1, { "type": "CHEST.WOODEN", "marker": [ 0.75, 0.8 ], "contents": "Potion" } ],
-      [ 42, 7, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.5 ], "contents": "Potion" } ]
+      [ 42, 7, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.5 ], "contents": "Potion" } ],
+      [ 73, 24, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.6 ], "contents": "Potion" } ]
     ]
   },
   {
@@ -226,7 +227,8 @@
       [ 17, 26, 1, { "type": "CHEST.RED", "marker": [ 0.1, 0.5 ], "contents": "500G" } ],
       [ 35, 14, 1, { "type": "CHEST.RED", "marker": [ 0.35, 0.75 ], "contents": "2000G" } ],
       [ 35, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ],
-      [ 50, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ]
+      [ 50, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ],
+      [ 96, 25, 1, { "type": "CHEST.RED", "marker": [ 0.75, 0.6 ], "contents": "2000G" } ]
     ]
   },
   {
