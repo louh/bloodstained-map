@@ -366,8 +366,9 @@ export function showResult (selection, callback = () => {}) {
 export function getSelectionFromURL () {
   const params = new URLSearchParams(window.location.search)
   const term = params.get('q')
+  if (!term) return
   const items = getSearchTerms()
   const selection = items.filter((item) => searchFilter(item, term))[0]
-  console.log(selection)
+  if (!selection) return
   return selection
 }
