@@ -157,6 +157,21 @@ function activateEasterEgg () {
   window.debug()
 }
 
+function getChestType (type) {
+  switch (type) {
+    case 'CHEST.WOODEN':
+      return 'Wooden chest'
+    case 'CHEST.GREEN':
+      return 'Green chest'
+    case 'CHEST.RED':
+      return 'Red chest'
+    case 'CHEST.BLUE':
+      return 'Blue chest'
+    default:
+      return 'Chest'
+  }
+}
+
 function SearchBar (props) {
   const textInput = React.createRef()
 
@@ -261,10 +276,14 @@ function SearchBar (props) {
             const item = (selection.type === 'item') ? ITEMS[selection.index] : MISC[selection.index]
             if (item.chests) {
               item.chests.forEach((chest) => {
-                if (!chest.area) return
-                const geo = AREAS[chest.area].geo
-                if (geo) {
-                  drawGeo(geo, AREAS[chest.area].name[locale])
+                if (typeof chest.area === 'undefined' || typeof chest.room === 'undefined') return
+                if (chest.room) {
+                  drawRoomGeo(chest.room, getChestType(chest.type))
+                } else if (chest.area) {
+                  const geo = AREAS[chest.area].geo
+                  if (geo) {
+                    drawGeo(geo, AREAS[chest.area].name[locale])
+                  }
                 }
               })
             }

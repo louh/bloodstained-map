@@ -188,13 +188,15 @@
       [ 8, 31, 1, { "type": "CHEST.BLUE" } ],
       [ 12, 31, 1, { "type": "CHEST.BLUE" } ],
       [ 11, 28, 1, { "type": "CHEST.BLUE" } ],
-      [ 38, 7, 1, { "type": "CHEST.BLUE", "marker": [ 0.4, 0.65 ], "contents": [ "100G", "Soy Sauce", "Cypress" ] } ],
-      [ 39, 4, 1, { "type": "CHEST.BLUE", "marker": [ 0.8, 0.4 ], "contents": [ "500G" ] } ],
-      [ 34, 4, 1, { "type": "CHEST.BLUE", "marker": [ 0.8, 0.2 ], "contents": [ "500G" ] } ],
+      [ 34, 4, 1, { "type": "CHEST.BLUE", "area": 13, "marker": [ 0.8, 0.2 ], "contents": [ "500G" ] } ],
+      [ 38, 7, 1, { "type": "CHEST.BLUE", "area": 13, "marker": [ 0.4, 0.65 ], "contents": [ "100G", "Soy Sauce", "Cypress" ] } ],
+      [ 39, 4, 1, { "type": "CHEST.BLUE", "area": 13, "marker": [ 0.8, 0.4 ], "contents": [ "500G" ] } ],
       [ 41, 10, 1, { "type": "CHEST.BLUE", "marker": [ 0.2, 0.2 ], "contents": [ "Mithridate", "Obsidian", "Iron", "Elm" ], "required": [ "Invert" ] } ],
       [ 45, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
       [ 46, 9, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
-      [ 51, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ]
+      [ 51, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
+      [ 101, 29, 1, { "type": "CHEST.BLUE", "area": 8, "contents": [ "Curry Powder", "Damascus", "Black Pepper" ] } ],
+      [ 104, 29, 1, { "type": "CHEST.BLUE", "area": 8, "contents": [ "Curry Powder", "Damascus", "Black Pepper" ] } ]
     ],
     "note": {
       "en": "Each blue chest has a loot table of possible items, from which items are drawn at random. Unlike other chests, blue chests refill over time."

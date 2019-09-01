@@ -694,21 +694,73 @@
       "en": "Soy Sauce"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 34, 4 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.8, 0.2 ]
+      },
+      {
+        "area": 13,
+        "room": [ 38, 7 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.4, 0.65 ]
+      },
+      {
+        "area": 13,
+        "room": [ 39, 4 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.8, 0.4 ]
+      }
+    ]
   },
   {
     "name": {
       "en": "Miso"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 13,
+        "room": [ 34, 4 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.8, 0.2 ]
+      },
+      {
+        "area": 13,
+        "room": [ 38, 7 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.4, 0.65 ]
+      },
+      {
+        "area": 13,
+        "room": [ 39, 4 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.8, 0.4 ]
+      }
+    ]
   },
   {
     "name": {
       "en": "Black Pepper"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 8,
+        "room": [ 101, 29 ],
+        "type": "CHEST.BLUE"
+      },
+      {
+        "area": 8,
+        "room": [ 104, 29 ],
+        "type": "CHEST.BLUE"
+      }
+    ]
   },
   {
     "name": {
@@ -1209,6 +1261,18 @@
         21,
         0.03
       ]
+    ],
+    "chests": [
+      {
+        "area": 8,
+        "room": [ 101, 29 ],
+        "type": "CHEST.BLUE"
+      },
+      {
+        "area": 8,
+        "room": [ 104, 29 ],
+        "type": "CHEST.BLUE"
+      }
     ]
   },
   {
@@ -1481,6 +1545,18 @@
         60,
         0.12
       ]
+    ],
+    "chests": [
+      {
+        "area": 8,
+        "room": [ 101, 29 ],
+        "type": "CHEST.BLUE"
+      },
+      {
+        "area": 8,
+        "room": [ 104, 29 ],
+        "type": "CHEST.BLUE"
+      }
     ]
   },
   {
@@ -5575,9 +5651,14 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 1" ]
+    },
     "chests": [
       {
-        "area": 4
+        "area": 4,
+        "room": [ 49, 17 ],
+        "type": "CHEST.GREEN"
       }
     ]
   },
@@ -5587,13 +5668,16 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 2" ]
+    },
     "chests": [
       {
-        "area": 4
+        "area": 4,
+        "room": [ 41, 7 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.5, 0.5 ]
       }
-    ],
-    "rooms": [
-      [ 41, 7, 1, { "type": "CHEST.GREEN", "marker": [ 0.5, 0.5 ] } ]
     ]
   },
   {
@@ -5602,6 +5686,9 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 3" ]
+    },
     "quest": {
       "npc": "Lindsay",
       "name": "Avenge the death of Dan!"
@@ -5613,6 +5700,9 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 4" ]
+    },
     "quest": {
       "npc": "Susie",
       "name": "Craving a Classic Sweet"
@@ -5624,8 +5714,11 @@
     },
     "type": "Nonexistent",
     "subtype": "",
+    "keywords": {
+      "en": [ "Hair Apparent 5" ]
+    },
     "note": {
-      "en": "This item does not exist!"
+      "en": "This item does not exist in the game!"
     }
   },
   {
@@ -5634,9 +5727,14 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 6" ]
+    },
     "chests": [
       {
-        "area": 5
+        "area": 5,
+        "room": [ 79, 24 ],
+        "type": "CHEST.GREEN"
       }
     ]
   },
@@ -5646,9 +5744,14 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 7" ]
+    },
     "chests": [
       {
-        "area": 5
+        "area": 5,
+        "room": [ 79, 17 ],
+        "type": "CHEST.GREEN"
       }
     ]
   },
@@ -5658,13 +5761,16 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 8" ]
+    },
     "chests": [
       {
-        "area": 13
+        "area": 13,
+        "room": [ 39, 17 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.6, 0.8 ]
       }
-    ],
-    "rooms": [
-      [ 39, 7, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.8 ] } ]
     ]
   },
   {
@@ -5673,6 +5779,9 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 9" ]
+    },
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Edith"
@@ -5684,13 +5793,16 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 10" ]
+    },
     "chests": [
       {
-        "area": 4
+        "area": 4,
+        "room": [ 49, 13 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.6, 0.6 ]
       }
-    ],
-    "rooms": [
-      [ 49, 13, 1, { "type": "CHEST.GREEN", "marker": [ 0.6, 0.6 ] } ]
     ]
   },
   {
@@ -5699,9 +5811,14 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 11" ]
+    },
     "chests": [
       {
-        "area": 14
+        "area": 14,
+        "room": [ 55, 0 ],
+        "type": "CHEST.GREEN"
       }
     ]
   },
@@ -5711,14 +5828,20 @@
     },
     "type": "Key Item",
     "subtype": "Hairstyle",
+    "keywords": {
+      "en": [ "Hair Apparent 12" ]
+    },
     "chests": [
       {
-        "area": 0
+        "area": 0,
+        "room": [ 8, 25 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.9, 0.1 ]
       }
     ],
-    "rooms": [
-      [ 8, 25, 1, { "type": "CHEST.GREEN", "marker": [ 0.9, 0.1 ] } ]
-    ]
+    "prerequisites": {
+      "en": "Requires the Invert ability."
+    }
   },
   {
     "name": {

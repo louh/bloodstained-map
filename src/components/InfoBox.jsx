@@ -1,4 +1,5 @@
 import React from 'react'
+import { uniq } from 'lodash-es'
 import './InfoBox.scss'
 import DEMONS from '../data/demons.json'
 import AREAS from '../data/areas.json'
@@ -65,7 +66,7 @@ function InfoBox (props) {
       {(chests || shop || alchemy || librarian || special) ? (
         <>
           <strong>Locations</strong>
-          {chests && chests.map(chest => (chest.area ? <p key={chest.area}>Obtained from a chest in {AREAS[chest.area].name[locale]}.</p> : <p key={chest}>Obtained from a {chest.type} chest.</p>))}
+          {makeChestText(chests)}
           {alchemy && ((typeof alchemy === 'string') ? <p>Crafted from {info.alchemy} by Johannes.</p> : <p>Crafted by Johannes.</p>)}
           {shop && <p>Purchased from Dominique.</p>}
           {librarian && <p>Borrow from O.D.</p>}
@@ -73,7 +74,7 @@ function InfoBox (props) {
         </>
       ) : null}
 
-      {areas && (
+      {(type === 'demon') && areas && (
         <>
           <strong>Spawn areas</strong>
           {areas.map(index => <p key={index}>{AREAS[index].name[locale]}</p>)}
@@ -133,5 +134,57 @@ function getType (type, info) {
       return null
     default:
       return null
+  }
+}
+
+function makeChestText (chests) {
+  if (!chests || chests.length === 0) return null
+
+  const pattern = "Obtained from {chests} in {area}."
+
+  const grouped = {}
+
+  for (let i = 0; i < chests.length; i++) {
+    const chest = chests[i]
+    grouped[chest.type] = grouped[chest.type] || []
+    grouped[chest.type].push(chest.area)
+  }
+
+  const text = Object.entries(grouped).map(([ key, value ]) => {
+    const areas = uniq(value.sort()).map(areaId => {
+      if (locale === 'en') {
+        return (AREAS[areaId].article ? AREAS[areaId].article + ' ' : '') + AREAS[areaId].name['en']
+      } else {
+        return AREAS[areaId].name[locale]
+      }
+    })
+
+    // Non-serialized comma
+    // e.g. [1, 2, 3] => '1, 2 and 3'
+    // [1, 2] => '1 and 2'
+    const areaString = areas.reduce(
+      (res, v, i) => i === areas.length - 2 ? res + v + ' and ' : res + v + ( i === areas.length -1? '' : ', ')
+      , '')
+
+    const chestString = getChestType(key, value.length)
+
+    return pattern.replace('{chests}', chestString).replace('{area}', areaString)
+  })
+
+  return text.map(t => <p key={t}>{t}</p>)
+}
+
+function getChestType (type, length) {
+  switch (type) {
+    case 'CHEST.WOODEN':
+      return (length > 1) ? 'wooden chests' : 'a wooden chest'
+    case 'CHEST.GREEN':
+      return (length > 1) ? 'green chests' : 'a green chest'
+    case 'CHEST.RED':
+      return (length > 1) ? 'red chests' : 'a red chest'
+    case 'CHEST.BLUE':
+      return (length > 1) ? 'blue chests' : 'a blue chest'
+    default:
+      return (length > 1) ? 'chests' : 'a chest'
   }
 }

@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": {
       "en": "Galleon Minerva",
       "de": "Die Galeone Minerva"
@@ -45,6 +46,7 @@
     ]}}
   },
   {
+    "id": 1,
     "name": {
       "en": "Arvantville"
     },
@@ -69,9 +71,11 @@
     ]}}
   },
   {
+    "id": 2,
     "name": {
       "en": "Entrance"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 3754, 2029 ],
@@ -126,9 +130,11 @@
     ]}}
   },
   {
+    "id": 3,
     "name": {
       "en": "Garden of Silence"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 4886, 2059 ],
@@ -158,9 +164,11 @@
     ]}}
   },
   {
+    "id": 4,
     "name": {
       "en": "Dian Cécht Cathedral"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 4198, 1645 ],
@@ -226,9 +234,11 @@
     ]}}
   },
   {
+    "id": 5,
     "name": {
       "en": "Towers of Twin Dragons"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 5378, 1623 ],
@@ -254,6 +264,7 @@
     ]}}
   },
   {
+    "id": 6,
     "name": {
       "en": "Livre Ex Machina"
     },
@@ -322,9 +333,11 @@
     ]}}
   },
   {
+    "id": 7,
     "name": {
       "en": "Bridge of Evil"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 6560, 2059 ],
@@ -344,9 +357,11 @@
     ]}}
   },
   {
+    "id": 8,
     "name": {
       "en": "Underground Sorcery Lab"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 6068, 2148 ],
@@ -364,9 +379,11 @@
     ]}}
   },
   {
+    "id": 9,
     "name": {
       "en": "Forbidden Underground Waterway"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 4934, 2266 ],
@@ -520,9 +537,11 @@
     ]}}
   },
   {
+    "id": 10,
     "name": {
       "en": "Hidden Desert"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 5033, 2502 ],
@@ -574,9 +593,11 @@
     ]}}
   },
   {
+    "id": 11,
     "name": {
       "en": "Secret Sorcery Lab"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 2966, 2442 ],
@@ -606,9 +627,11 @@
     ]}}
   },
   {
+    "id": 12,
     "name": {
       "en": "Inferno Cave"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 3803, 2679 ],
@@ -641,9 +664,11 @@
     ]}}
   },
   {
+    "id": 13,
     "name": {
       "en": "Oriental Sorcery Lab"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 3107, 1410 ],
@@ -683,9 +708,11 @@
     ]}}
   },
   {
+    "id": 14,
     "name": {
       "en": "Hall of Termination"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 4147, 1438 ],
@@ -709,9 +736,11 @@
     ]}}
   },
   {
+    "id": 15,
     "name": {
       "en": "Den of Behemoths"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 7003, 1645 ],
@@ -757,9 +786,11 @@
     ]}}
   },
   {
+    "id": 16,
     "name": {
       "en": "Glacial Tomb"
     },
+    "article": "the",
     "geo": {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[
       [
         [ 7003, 2266 ],
@@ -816,6 +847,7 @@
     ]}}
   },
   {
+    "id": 17,
     "name": {
       "en": "8-bit Nightmare"
     },
