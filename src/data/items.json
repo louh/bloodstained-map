@@ -6,10 +6,16 @@
     },
     "type": "Supplies",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 200
+    },
     "alchemy": true,
-    "rooms": [
-      [ 4, 26 ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 4, 26 ],
+        "type": "CHEST.WOODEN"
+      }
     ]
   },
   {
@@ -18,14 +24,27 @@
     },
     "type": "Supplies",
     "subtype": "",
-    "alchemy": true
+    "shop": {
+      "price": 1000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Fine Healing Item/R"
+    }
   },
   {
     "name": {
       "en": "Ex Potion"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 10000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Ultimate Healing Item/R"
+    }
   },
   {
     "name": {
@@ -39,6 +58,9 @@
         0.06
       ]
     ],
+    "shop": {
+      "price": 100
+    },
     "alchemy": true
   },
   {
@@ -46,14 +68,28 @@
       "en": "High Ether"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 500,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Fine Healing Item/R"
+    }
   },
   {
     "name": {
       "en": "Ex Ether"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 5000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Ultimate Healing Item/R"
+    }
   },
   {
     "name": {
@@ -67,6 +103,9 @@
         0.1
       ]
     ],
+    "shop": {
+      "price": 300
+    },
     "alchemy": true
   },
   {
@@ -75,6 +114,9 @@
     },
     "type": "Supplies",
     "subtype": "",
+    "shop": {
+      "price": 300
+    },
     "alchemy": true
   },
   {
@@ -89,6 +131,9 @@
         0.1
       ]
     ],
+    "shop": {
+      "price": 300
+    },
     "alchemy": true
   },
   {
@@ -103,6 +148,9 @@
         0.05
       ]
     ],
+    "shop": {
+      "price": 2000
+    },
     "alchemy": true
   },
   {
@@ -110,7 +158,10 @@
       "en": "Waystone"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -118,6 +169,9 @@
     },
     "type": "Supplies",
     "subtype": "",
+    "shop": {
+      "price": 1000
+    },
     "alchemy": true
   },
   {
@@ -131,7 +185,14 @@
         17,
         0.08
       ]
-    ]
+    ],
+    "shop": {
+      "price": 200,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Faerie Healing Item/R"
+    }
   },
   {
     "name": {
@@ -144,21 +205,42 @@
         17,
         0.04
       ]
-    ]
+    ],
+    "shop": {
+      "price": 1000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Faerie Healing Item/R"
+    }
   },
   {
     "name": {
       "en": "Faerie Allheal"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 10000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Faerie Healing Item/R"
+    }
   },
   {
     "name": {
       "en": "Faerie Panacea"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 1000,
+      "craft": true
+    },
+    "alchemy": {
+      "recipe": "Faerie Healing Item/R"
+    }
   },
   {
     "name": {
@@ -166,7 +248,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 150,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -179,7 +265,11 @@
       "name": "Avenge the death of Rosaly!",
       "quantity": 3
     },
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -187,7 +277,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -195,7 +289,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 380,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -203,7 +301,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 780,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -216,7 +318,11 @@
       "name": "In Memory of Lily",
       "quantity": 3
     },
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 780,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -224,7 +330,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Curry Dish/R"
+    "cook": "Curry Dish/R",
+    "shop": {
+      "price": 600,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -232,7 +342,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ultimate Dish/R"
+    "cook": "Ultimate Dish/R",
+    "shop": {
+      "price": 3900,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -240,7 +354,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Curry Dish/R"
+    "cook": "Curry Dish/R",
+    "shop": {
+      "price": 900,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -248,7 +366,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Curry Dish/R"
+    "cook": "Curry Dish/R",
+    "shop": {
+      "price": 1100,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -256,7 +378,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Curry Dish/R"
+    "cook": "Curry Dish/R",
+    "shop": {
+      "price": 1450,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -264,7 +390,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 880,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -272,7 +402,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Pasta Dish/R"
+    "cook": "Pasta Dish/R",
+    "shop": {
+      "price": 1180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -280,7 +414,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Pasta Dish/R"
+    "cook": "Pasta Dish/R",
+    "shop": {
+      "price": 980,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -288,7 +426,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Pasta Dish/R"
+    "cook": "Pasta Dish/R",
+    "shop": {
+      "price": 1280,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -296,7 +438,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Pasta Dish/R"
+    "cook": "Pasta Dish/R",
+    "shop": {
+      "price": 1480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -304,7 +450,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Sweets/R"
+    "cook": "Sweets/R",
+    "shop": {
+      "price": 2180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -315,7 +465,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Sweets/R"
+    "cook": "Sweets/R",
+    "shop": {
+      "price": 2100,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -323,7 +477,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 1680,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -331,7 +489,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 1180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -339,7 +501,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 1000,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -347,7 +513,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 1180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -355,7 +525,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 450,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -363,7 +537,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 2280,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -371,7 +549,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Supreme Dish/R"
+    "cook": "Supreme Dish/R",
+    "shop": {
+      "price": 3480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -379,7 +561,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 1680,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -387,7 +573,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -395,7 +585,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -409,7 +603,11 @@
         0.01
       ]
     ],
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 1080,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -417,7 +615,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 1480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -425,7 +627,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 900,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -433,7 +639,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Meat Dish/R"
+    "cook": "Meat Dish/R",
+    "shop": {
+      "price": 1980,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -441,7 +651,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 320,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -454,7 +668,11 @@
       "name": "In Memory of Noel",
       "quantity": 3
     },
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -462,7 +680,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1280,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -470,7 +692,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1580,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -478,7 +704,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1080,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -491,7 +721,11 @@
       "name": "In Memory of Enos",
       "quantity": 3
     },
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -499,7 +733,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1280,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -507,7 +745,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Fish Dish/R"
+    "cook": "Fish Dish/R",
+    "shop": {
+      "price": 1980,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -515,7 +757,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -526,7 +772,11 @@
     "rooms": [
       [ 39, 6 ]
     ],
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -534,7 +784,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1280,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -542,7 +796,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -550,7 +808,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Supreme Dish/R"
+    "cook": "Supreme Dish/R",
+    "shop": {
+      "price": 1680,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -558,7 +820,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Sweets/R"
+    "cook": "Sweets/R",
+    "shop": {
+      "price": 1480,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -566,7 +832,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Sweets/R"
+    "cook": "Sweets/R",
+    "shop": {
+      "price": 980,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -574,7 +844,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cookies/R"
+    "cook": "Cookies/R",
+    "shop": {
+      "price": 400,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -582,7 +856,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cookies/R"
+    "cook": "Cookies/R",
+    "shop": {
+      "price": 600,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -590,7 +868,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cookies/R"
+    "cook": "Cookies/R",
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -598,7 +880,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 580,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -606,7 +892,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cake/R"
+    "cook": "Cake/R",
+    "shop": {
+      "price": 680,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -614,7 +904,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cake/R"
+    "cook": "Cake/R",
+    "shop": {
+      "price": 880,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -627,7 +921,11 @@
       "name": "In Memory of Morris",
       "quantity": 3
     },
-    "cook": "Cake/R"
+    "cook": "Cake/R",
+    "shop": {
+      "price": 980,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -635,7 +933,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Cake/R"
+    "cook": "Cake/R",
+    "shop": {
+      "price": 880,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -643,7 +945,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -651,7 +957,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 300,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -659,7 +969,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 180,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -667,7 +981,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 680,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -675,7 +993,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Drink/R"
+    "cook": "Drink/R",
+    "shop": {
+      "price": 300,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -683,7 +1005,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Drink/R"
+    "cook": "Drink/R",
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -691,7 +1017,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Drink/R"
+    "cook": "Drink/R",
+    "shop": {
+      "price": 400,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -705,7 +1035,11 @@
         0.04
       ]
     ],
-    "cook": "Drink/R"
+    "cook": "Drink/R",
+    "shop": {
+      "price": 700,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -713,7 +1047,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Supreme Dish/R"
+    "cook": "Supreme Dish/R",
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -721,7 +1059,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": "Ultimate Dish/R"
+    "cook": "Ultimate Dish/R",
+    "shop": {
+      "price": 4700,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -735,7 +1077,11 @@
         0.01
       ]
     ],
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1300,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -743,7 +1089,11 @@
     },
     "type": "Supplies",
     "subtype": "Food",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 1080,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -755,21 +1105,28 @@
       "npc": "Abigail",
       "name": "In Memory of Catharine",
       "quantity": 5
-    }
+    },
+    "farm": true
   },
   {
     "name": {
       "en": "Flour"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 200
+    }
   },
   {
     "name": {
       "en": "Egg"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -795,7 +1152,10 @@
       "de": "Zucker"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -889,7 +1249,10 @@
       "en": "Cinnamon"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -907,7 +1270,11 @@
         0.12,
         4
       ]
-    ]
+    ],
+    "shop": {
+      "price": 100,
+      "lategame": true
+    }
   },
   {
     "name": {
@@ -924,14 +1291,21 @@
         84,
         0.12
       ]
-    ]
+    ],
+    "shop": {
+      "price": 100,
+      "lategame": true
+    }
   },
   {
     "name": {
       "en": "Milk"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 198
+    }
   },
   {
     "name": {
@@ -951,14 +1325,16 @@
       "en": "Corn"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "farm": true
   },
   {
     "name": {
       "en": "Potato"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "farm": true
   },
   {
     "name": {
@@ -990,7 +1366,11 @@
         0.1,
         4
       ]
-    ]
+    ],
+    "shop": {
+      "price": 150,
+      "lategame": true
+    }
   },
   {
     "name": {
@@ -1056,14 +1436,20 @@
         82,
         0.08
       ]
-    ]
+    ],
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
       "en": "Cacao Bean"
     },
     "type": "Ingredient",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -1209,7 +1595,9 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -1217,7 +1605,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 150,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1231,7 +1623,11 @@
         0.12
       ]
     ],
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 150,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1239,7 +1635,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1247,7 +1647,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1255,7 +1659,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 1200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1263,7 +1671,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1271,7 +1683,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1279,7 +1695,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": "Ramen/R"
+    "cook": "Ramen/R",
+    "shop": {
+      "price": 800,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1292,6 +1712,10 @@
       "npc": "Lindsay",
       "name": "Avenge the death of Dario!",
       "quantity": 5
+    },
+    "shop": {
+      "price": 400,
+      "craft": true
     }
   },
   {
@@ -1300,7 +1724,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 150,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1314,7 +1742,11 @@
         25,
         0.02
       ]
-    ]
+    ],
+    "shop": {
+      "price": 400,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1322,7 +1754,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1330,7 +1766,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 250,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1338,7 +1778,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1346,7 +1790,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 400,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1354,7 +1802,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 300,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1362,7 +1814,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 700,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1403,7 +1859,11 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": true,
+    "shop": {
+      "price": 500,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1411,7 +1871,13 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "cook": true
+    "cook": {
+      "item": "Garlic"
+    },
+    "shop": {
+      "price": 200,
+      "craft": true
+    }
   },
   {
     "name": {
@@ -1419,7 +1885,9 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -1427,7 +1895,9 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -1435,7 +1905,9 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -1443,7 +1915,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 800
+    },
     "demons": [
       [
         5,
@@ -1466,7 +1940,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 150
+    }
   },
   {
     "name": {
@@ -1474,7 +1950,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 150
+    }
   },
   {
     "name": {
@@ -1482,7 +1960,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 150
+    }
   },
   {
     "name": {
@@ -1490,7 +1970,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 150
+    }
   },
   {
     "name": {
@@ -1498,7 +1980,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 150
+    },
     "demons": [
       [
         47,
@@ -1522,7 +2006,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 150
+    },
     "demons": [
       [
         5,
@@ -1541,7 +2027,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 338
+    },
     "demons": [
       [
         6,
@@ -1757,6 +2245,10 @@
     },
     "type": "Material",
     "subtype": "",
+    "shop": {
+      "price": 15000,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -1797,12 +2289,14 @@
     "type": "Material",
     "subtype": "",
     "demons": [
-      "Shop",
       [
         13,
         0.08
       ]
-    ]
+    ],
+    "shop": {
+      "price": 500
+    }
   },
   {
     "name": {
@@ -1884,7 +2378,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 50
+    },
     "demons": [
       [
         2,
@@ -2081,7 +2577,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true,
+    "shop": {
+      "price": 4000
+    },
     "chests": [
       {
         "area": 1,
@@ -2097,7 +2595,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 24000
+    }
   },
   {
     "name": {
@@ -2105,7 +2605,9 @@
     },
     "type": "Material",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 64000
+    }
   },
   {
     "name": {
@@ -3266,6 +3768,9 @@
     "rooms": [
       [ 1, 27 ]
     ],
+    "shop": {
+      "price": 600
+    },
     "alchemy": true
   },
   {
@@ -3274,6 +3779,9 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 1800
+    },
     "alchemy": true
   },
   {
@@ -3281,7 +3789,13 @@
       "en": "Lethal Boots"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "shop": {
+      "price": 2700
+    },
+    "alchemy": {
+      "item": "Battle Boots"
+    }
   },
   {
     "name": {
@@ -3300,35 +3814,50 @@
       "en": "Steam Boots"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Bunny Boots"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": {
+      "item": "Toy Shoes"
+    }
   },
   {
     "name": {
       "en": "Dragon Shoes"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Hermes Shoes"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": {
+      "item": "Dragon Shoes"
+    }
   },
   {
     "name": {
       "en": "Hell's Knells"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3340,6 +3869,9 @@
     "rooms": [
       [ 1, 27 ]
     ],
+    "shop": {
+      "price": 600
+    },
     "alchemy": true
   },
   {
@@ -3389,28 +3921,40 @@
       "en": "Swordbreaker"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Main Gauche"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "alchemy": {
+      "recipe": "Gold Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Carnwennan"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Mandau Pasir"
     },
     "type": "Weapon",
-    "subtype": "Dagger"
+    "subtype": "Dagger",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3418,6 +3962,9 @@
     },
     "type": "Weapon",
     "subtype": "Rapier",
+    "shop": {
+      "price": 1200
+    },
     "alchemy": true
   },
   {
@@ -3426,6 +3973,9 @@
     },
     "type": "Weapon",
     "subtype": "Rapier",
+    "shop": {
+      "price": 2700
+    },
     "alchemy": true
   },
   {
@@ -3439,7 +3989,10 @@
         46,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
@@ -3450,6 +4003,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Something Fluffy"
+    },
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
     }
   },
   {
@@ -3457,14 +4013,20 @@
       "en": "Kazikli"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "alchemy": {
+      "item": "Misericorde"
+    }
   },
   {
     "name": {
       "en": "Joyeuse"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3476,6 +4038,9 @@
     "rooms": [
       [ 7, 31 ]
     ],
+    "shop": {
+      "price": 600
+    },
     "alchemy": true
   },
   {
@@ -3490,6 +4055,9 @@
         0.08
       ]
     ],
+    "shop": {
+      "price": 2700
+    },
     "alchemy": true
   },
   {
@@ -3503,7 +4071,10 @@
         10,
         0.01
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Obsidian Equipment/R"
+    }
   },
   {
     "name": {
@@ -3524,7 +4095,10 @@
         37,
         0.03
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
@@ -3535,6 +4109,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Saucy Strands"
+    },
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
     }
   },
   {
@@ -3549,31 +4126,43 @@
       "en": "Blutgang"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Fragarach"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Hofud"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
-      "en": "Dainsleif"
+      "en": "Dáinsleif"
     },
     "type": "Weapon",
     "subtype": "Sword",
     "quest": {
       "npc": "Susie",
       "name": "Craving Food That Falls Apart"
+    },
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
     }
   },
   {
@@ -3581,28 +4170,40 @@
       "en": "Florenberg"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Almace"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Caladbolg"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Ridill"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3620,7 +4221,10 @@
       "en": "Blue Rose"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3665,6 +4269,9 @@
     },
     "type": "Weapon",
     "subtype": "Club",
+    "shop": {
+      "price": 1200
+    },
     "alchemy": true
   },
   {
@@ -3672,7 +4279,13 @@
       "en": "Morgenstern"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "shop": {
+      "price": 2700
+    },
+    "alchemy": {
+      "recipe": "Obsidian Equipment/R"
+    }
   },
   {
     "name": {
@@ -3690,6 +4303,9 @@
     ],
     "prerequisites": {
       "en": "Requires Reflector Ray or Dimension Shift."
+    },
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
     }
   },
   {
@@ -3697,7 +4313,10 @@
       "en": "Yagrush"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -3710,21 +4329,30 @@
         65,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Sharur"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "alchemy": {
+      "item": "Ayamur"
+    }
   },
   {
     "name": {
       "en": "Mistilteinn"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3738,7 +4366,10 @@
       "en": "Oracle Blade"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "item": "Flying Edge"
+    }
   },
   {
     "name": {
@@ -3758,7 +4389,10 @@
       "en": "Rhava Velar"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3777,6 +4411,9 @@
     "rooms": [
       [ 13, 28 ]
     ],
+    "shop": {
+      "price": 600
+    },
     "alchemy": true
   },
   {
@@ -3785,6 +4422,9 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 1800
+    },
     "alchemy": true
   },
   {
@@ -3792,7 +4432,13 @@
       "en": "Flamberge"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "shop": {
+      "price": 3600
+    },
+    "alchemy": {
+      "recipe": "Obsidian Equipment/R"
+    }
   },
   {
     "name": {
@@ -3805,7 +4451,10 @@
         11,
         0.02
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
@@ -3822,6 +4471,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Something Spicy"
+    },
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
     }
   },
   {
@@ -3836,35 +4488,50 @@
       "en": "Gram"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Gambanteinn"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Lohengrin"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Schedar"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Steel Lightning"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -3875,6 +4542,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Crispy Skin"
+    },
+    "alchemy": {
+      "recipe": "Gold Equipment/R"
     }
   },
   {
@@ -3882,28 +4552,40 @@
       "en": "Durandal"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Dies Irae"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Ukonvasara"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Eternal Blue"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -3911,6 +4593,9 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "shop": {
+      "price": 1200
+    },
     "alchemy": true
   },
   {
@@ -3919,6 +4604,9 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "shop": {
+      "price": 2700
+    },
     "alchemy": true
   },
   {
@@ -3930,6 +4618,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Fried Finger Food"
+    },
+    "alchemy": {
+      "recipe": "Obsidian Equipment/R"
     }
   },
   {
@@ -3945,14 +4636,20 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.75, 0.5 ]
       }
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Raikiri"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
@@ -3976,6 +4673,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Something Breaded"
+    },
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
     }
   },
   {
@@ -3997,14 +4697,20 @@
       "en": "Mikazuki"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Grand Izayoi"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -4012,6 +4718,9 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 1200
+    },
     "alchemy": true
   },
   {
@@ -4020,6 +4729,9 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 2700
+    },
     "alchemy": true
   },
   {
@@ -4033,7 +4745,13 @@
         55,
         0.08
       ]
-    ]
+    ],
+    "shop": {
+      "price": 4800
+    },
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
@@ -4046,7 +4764,10 @@
         36,
         0.06
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
@@ -4059,6 +4780,9 @@
     ],
     "prerequisites": {
       "en": "Requires High Jump or better mobility abilities."
+    },
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
     }
   },
   {
@@ -4070,6 +4794,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Novel Idea"
+    },
+    "alchemy": {
+      "item": "Honebami"
     }
   },
   {
@@ -4077,7 +4804,10 @@
       "en": "Leng Yan Ju"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": {
+      "item": "Gondo-Shizunori"
+    }
   },
   {
     "name": {
@@ -4090,28 +4820,40 @@
         80,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Niflheim"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Gungnir"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Gae Assail"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -4128,6 +4870,9 @@
         "marker": [ 0.25, 0.35 ]
       }
     ],
+    "shop": {
+      "price": 600
+    },
     "alchemy": true
   },
   {
@@ -4161,14 +4906,20 @@
       "en": "Black Cords"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Snakebite"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -4181,21 +4932,30 @@
         74,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Albireo"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "alchemy": {
+      "item": "Beast Killer"
+    }
   },
   {
     "name": {
       "en": "Andromeda"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -4212,6 +4972,9 @@
         "marker": [ 0.25, 0.8 ]
       }
     ],
+    "shop": {
+      "price": 300
+    },
     "alchemy": true
   },
   {
@@ -4220,6 +4983,9 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "shop": {
+      "price": 2700
+    },
     "alchemy": true
   },
   {
@@ -4227,7 +4993,10 @@
       "en": "Tanegashima"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
@@ -4240,7 +5009,10 @@
         53,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
+    }
   },
   {
     "name": {
@@ -4257,6 +5029,9 @@
     ],
     "prerequisites": {
       "en": "Requires High Jump."
+    },
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
     }
   },
   {
@@ -4264,21 +5039,30 @@
       "en": "Betelgeuse"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": {
+      "recipe": "Gold Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Verethragna"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": {
+      "item": "Betelgeuse"
+    }
   },
   {
     "name": {
       "en": "Adrasteia"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -4472,6 +5256,9 @@
     "rooms": [
       [ 4, 31, 5 ]
     ],
+    "shop": {
+      "price": 10
+    },
     "alchemy": true
   },
   {
@@ -4492,6 +5279,9 @@
         3
       ]
     ],
+    "shop": {
+      "price": 40
+    },
     "alchemy": true
   },
   {
@@ -4507,91 +5297,129 @@
         3
       ]
     ],
-    "alchemy": true
+    "alchemy": {
+      "recipe": "Obsidian Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Flame Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Elemental Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Ice Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Elemental Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Thunder Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Elemental Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Silver Bullets"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Silver"
+    }
   },
   {
     "name": {
       "en": "Weaponbane Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Special Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Shieldbane Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Special Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Poison Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Special Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Petrifying Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Special Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Curse Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Special Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Scattershot"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Potent Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Critical Rounds"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Potent Ammunition/R"
+    }
   },
   {
     "name": {
       "en": "Diamond Bullets"
     },
     "type": "Bullets",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Ultimate Ammunition/R"
+    }
   },
   {
     "name": {
@@ -4616,6 +5444,9 @@
         "marker": [ 0.75, 0.8 ]
       }
     ],
+    "shop": {
+      "price": 100
+    },
     "alchemy": true
   },
   {
@@ -4652,14 +5483,20 @@
       "en": "Circlet"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 400
+    }
   },
   {
     "name": {
       "en": "Garbo Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 900
+    }
   },
   {
     "name": {
@@ -4719,35 +5556,50 @@
       "en": "Flame Circlet"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Circlet"
+    }
   },
   {
     "name": {
       "en": "Ice Circlet"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Circlet"
+    }
   },
   {
     "name": {
       "en": "Thunder Circlet"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Circlet"
+    }
   },
   {
     "name": {
       "en": "Feather Crown"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Beret of Bravery"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -4785,28 +5637,40 @@
         56,
         0.08
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Witch's Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Cute Beast Beret"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Beast Beret"
+    }
   },
   {
     "name": {
       "en": "Bunny Ears"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Hairband"
+    }
   },
   {
     "name": {
@@ -4831,7 +5695,10 @@
       "en": "Gunslinger's Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -4858,7 +5725,10 @@
       "en": "Hermit's Beret"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -4880,14 +5750,20 @@
       "en": "Demon Horns"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Ancient Tiara"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
@@ -4905,7 +5781,10 @@
       "en": "Pleiades"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Legendary Equipment/R"
+    }
   },
   {
     "name": {
@@ -4931,6 +5810,9 @@
     "rooms": [
       [ 8, 27 ]
     ],
+    "shop": {
+      "price": 100
+    },
     "alchemy": true
   },
   {
@@ -4939,6 +5821,9 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 100
+    },
     "alchemy": true
   },
   {
@@ -4951,6 +5836,9 @@
     "rooms": [
       [ 3, 25 ]
     ],
+    "shop": {
+      "price": 100
+    },
     "alchemy": true
   },
   {
@@ -4959,6 +5847,9 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 400
+    },
     "alchemy": true
   },
   {
@@ -4967,6 +5858,9 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 400
+    },
     "alchemy": true
   },
   {
@@ -4981,6 +5875,9 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 900
+    },
     "alchemy": true
   },
   {
@@ -5006,6 +5903,9 @@
     "quest": {
       "npc": "Lindsay",
       "name": "Avenge the death of Lisa!"
+    },
+    "alchemy": {
+      "item": "Monster Fur"
     }
   },
   {
@@ -5017,6 +5917,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Yellow Kernels"
+    },
+    "alchemy": {
+      "item": "Cotton"
     }
   },
   {
@@ -5024,35 +5927,50 @@
       "en": "Kung Fu Vest"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Monster Fur"
+    }
   },
   {
     "name": {
       "en": "Tea Dress"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Dreadful Rag"
+    }
   },
   {
     "name": {
       "en": "Chainmail"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Leonine Pelt"
+    }
   },
   {
     "name": {
       "en": "Hound Vest"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Leonine Pelt"
+    }
   },
   {
     "name": {
       "en": "Mantua"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Leonine Pelt"
+    }
   },
   {
     "name": {
@@ -5072,7 +5990,10 @@
       "en": "Lamellar Armor"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Silver"
+    }
   },
   {
     "name": {
@@ -5092,14 +6013,20 @@
         39,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Steel Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Riding Habit"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": ["Hellhorse Hoof", "Hellhorse Mane"]
+    }
   },
   {
     "name": {
@@ -5110,6 +6037,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Something Refreshing"
+    },
+    "alchemy": {
+      "recipe": "Damascus Equipment/R"
     }
   },
   {
@@ -5117,7 +6047,10 @@
       "en": "Silver Breastplate"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Sinister Rag"
+    }
   },
   {
     "name": {
@@ -5130,7 +6063,10 @@
         42,
         0.05
       ]
-    ]
+    ],
+    "alchemy": {
+      "item": "Sinister Rag"
+    }
   },
   {
     "name": {
@@ -5141,6 +6077,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Rolled-up Treat"
+    },
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
     }
   },
   {
@@ -5148,21 +6087,30 @@
       "en": "Polonaise"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Wool"
+    }
   },
   {
     "name": {
       "en": "Knight's Cuirass"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": ["Platinum", "Mithril"]
+    }
   },
   {
     "name": {
       "en": "Crystal Armor"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Crystal"
+    }
   },
   {
     "name": {
@@ -5192,28 +6140,40 @@
       "en": "Dragon Armor"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Dragon Scale"
+    }
   },
   {
     "name": {
       "en": "Gold Breastplate"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Gold Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Spiked Breastplate"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Silk Dress"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -5224,6 +6184,9 @@
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Nadia"
+    },
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
     }
   },
   {
@@ -5237,7 +6200,10 @@
         78,
         0.04
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Gold Equipment/R"
+    }
   },
   {
     "name": {
@@ -5250,42 +6216,60 @@
         86,
         0.06
       ]
-    ]
+    ],
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Kalasiris"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Scarlet Dress"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Silk Dress"
+    }
   },
   {
     "name": {
       "en": "Imperial Armor"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Crystal Armor"
+    }
   },
   {
     "name": {
       "en": "Tatenashi"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Crimsonite Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Coronation Gown"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Cashmere Equipment/R"
+    }
   },
   {
     "name": {
@@ -5324,7 +6308,10 @@
       "en": "Eyeglasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 80
+    }
   },
   {
     "name": {
@@ -5353,28 +6340,51 @@
       "en": "Sunglasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 5,
+        "room": [ 79, 22 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
       "en": "Thick Glasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 2080
+    }
   },
   {
     "name": {
       "en": "Gauge Glasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 14,
+        "room": [ 57, 4 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
       "en": "Gebel's Glasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "special": {
+      "en": "Johannes after obtaining all shards."
+    },
+    "rooms": [
+      [ 21, 27 ]
+    ]
   },
   {
     "name": {
@@ -5394,7 +6404,14 @@
       "en": "Crow Mask"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 6,
+        "room": [ 67, 21 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -5415,14 +6432,27 @@
       "en": "Hyperventilator"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 5,
+        "room": [ 79, 19 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
       "en": "Nose Glasses"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "rooms": [
+      [ 66, 19, 1, { "type": "HIDDEN.OTHER" }]
+    ],
+    "prerequisites": {
+      "en": "Use Invert into the gap in the ceiling."
+    }
   },
   {
     "name": {
@@ -5430,8 +6460,12 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 60, 30, 1, { "type": "HIDDEN.WALL" }]
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 60, 30 ],
+        "type": "HIDDEN.WALL"
+      }
     ]
   },
   {
@@ -5456,8 +6490,12 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 8, 26 ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 8, 26 ],
+        "type": "CHEST.GREEN"
+      }
     ],
     "alchemy": true
   },
@@ -5478,6 +6516,9 @@
       "name": "Avenge the death of my husband!",
       "quantity": 3
     },
+    "shop": {
+      "price": 160
+    },
     "alchemy": true
   },
   {
@@ -5485,7 +6526,10 @@
       "en": "Necklace"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 400
+    }
   },
   {
     "name": {
@@ -5510,35 +6554,64 @@
         58,
         0.02
       ]
-    ]
+    ],
+    "chests": [
+      {
+        "area": 4,
+        "room": [ 55, 16 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
       "en": "Flame Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Ring"
+    }
   },
   {
     "name": {
       "en": "Ice Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Ring"
+    }
   },
   {
     "name": {
       "en": "Thunder Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "item": "Ring"
+    }
   },
   {
     "name": {
       "en": "Critical Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 72, 38 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
+    "rooms": [
+      [ 48, 34 ]
+    ]
   },
   {
     "name": {
@@ -5569,7 +6642,17 @@
       "en": "Traverser's Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 62, 32 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
+    "rooms": [
+      [ 65, 14 ]
+    ]
   },
   {
     "name": {
@@ -5616,8 +6699,17 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 46, 16, 1, { "type": "HIDDEN.WALL" } ]
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 43, 34 ],
+        "type": "CHEST.GREEN"
+      },
+      {
+        "area": 4,
+        "room": [ 46, 16 ],
+        "type": "HIDDEN.WALL"
+      }
     ]
   },
   {
@@ -5647,7 +6739,19 @@
       "en": "Weighted Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 10,
+        "room": [ 60, 46 ],
+        "type": "CHEST.GREEN"
+      },
+      {
+        "area": 16,
+        "room": [ 116, 33 ],
+        "type": "HIDDEN.WALL"
+      }
+    ]
   },
   {
     "name": {
@@ -5677,12 +6781,21 @@
     },
     "type": "Accessory",
     "subtype": "",
-    "rooms": [
-      [ 11, 31 ]
-    ],
-    "prerequisites": {
-      "en": "Requires High Jump (or mobility abilities with a similar reach)."
-    }
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 11, 31 ],
+        "type": "HIDDEN.WALL",
+        "prerequisites": {
+          "en": "Requires High Jump or better mobility abilities."
+        }
+      },
+      {
+        "area": 9,
+        "room": [ 39, 38 ],
+        "type": "HIDDEN.WALL"
+      }
+    ]
   },
   {
     "name": {
@@ -5700,7 +6813,14 @@
       "en": "Risk Ring"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 12,
+        "room": [ 43, 48 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -5731,7 +6851,14 @@
       "en": "Black Belt"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 72, 23 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -5772,7 +6899,10 @@
       "de": "Schal"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 100
+    }
   },
   {
     "name": {
@@ -5781,9 +6911,16 @@
     },
     "type": "Scarf",
     "subtype": "",
-    "rooms": [
-      [ 9, 31 ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 9, 31 ],
+        "type": "CHEST.GREEN"
+      }
     ],
+    "shop": {
+      "price": 160
+    },
     "alchemy": true
   },
   {
@@ -5822,7 +6959,17 @@
       "en": "Faerie Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 10,
+        "room": [ 55, 42 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
+    "alchemy": {
+      "recipe": "Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -5833,6 +6980,9 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Miracle"
+    },
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
     }
   },
   {
@@ -5840,7 +6990,18 @@
       "en": "Flame Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 12,
+        "room": [ 34, 46 ],
+        "type": "CHEST.GREEN",
+        "ability": "Invert"
+      }
+    ],
+    "alchemy": {
+      "recipe": "Very Fine Equipment/R"
+    }
   },
   {
     "name": {
@@ -5865,7 +7026,10 @@
       "en": "Over the Rainbow"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": {
+      "recipe": "Cashmere Equipment/R"
+    }
   },
   {
     "name": {
@@ -6160,8 +7324,12 @@
     },
     "type": "Key Item",
     "subtype": "",
-    "rooms": [
-      [ 57, 0 ]
+    "chests": [
+      { 
+        "area": 14,
+        "room": [ 57, 0 ],
+        "type": "CHEST.GREEN"
+      }
     ]
   },
   {
@@ -6657,6 +7825,9 @@
     },
     "type": "Key Item",
     "subtype": "",
-    "shop": true
+    "shop": {
+      "price": 100000,
+      "lategame": true
+    }
   }
 ]

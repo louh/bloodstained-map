@@ -12,7 +12,7 @@ function InfoBox (props) {
   if (!type || !info) return null
 
   const displayType = getType(type, info)
-  const { description, note, quest, demons, areas, chests, shop, alchemy, cook, librarian, rooms, special, prerequisites, dlc } = info
+  const { description, note, quest, demons, areas, chests, shop, alchemy, cook, farm, librarian, rooms, special, prerequisites, dlc } = info
 
   return (
     <div id="info">
@@ -63,12 +63,42 @@ function InfoBox (props) {
         </>
       )}
 
-      {(chests || shop || alchemy || cook || librarian || special) ? (
+      {/* Craftable */}
+      {(alchemy || cook) ? (
+        <>
+          <strong>Crafting</strong>
+          {alchemy &&
+            <p>
+              {(typeof alchemy === 'string') ? `Crafted by Johannes from ${info.alchemy}.` : 'Crafted by Johannes.'}
+              {(typeof alchemy.recipe !== 'undefined') ? ' Requires ' + alchemy.recipe + ' recipe.' : ''}
+              {(typeof alchemy.item !== 'undefined') ? ' Unlocked after acquiring ' + ((typeof alchemy.item === 'string') ? alchemy.item : (Array.isArray(alchemy.item) ? alchemy.item.join(' / ') : '')) + '.' : ''}
+            </p>
+          }
+          {cook &&
+            <p>Prepare with Johannes.
+              {(typeof cook === 'string') ? ' ' + cook + ' recipe required.' : (
+                (typeof cook !== 'undefined') ? ' Unlocked after acquiring ' + cook.item + '.' : ''
+              )}
+            </p>
+          }
+        </>
+      ) : null}
+
+      {(shop) ? (
+        <>
+          <strong>Shop</strong>
+          <p>
+            Purchased from Dominique{shop.price && ' (' + shop.price + 'G)'}.
+            {shop.craft && ' Available after crafting once.'}
+            {shop.lategame && ' Available after a certain amount of game progression.'}
+          </p>
+        </>
+      ) : null}
+
+      {(chests || librarian || farm || special) ? (
         <>
           <strong>Locations</strong>
-          {alchemy && ((typeof alchemy === 'string') ? <p>Crafted from {info.alchemy} by Johannes.</p> : <p>Crafted by Johannes.</p>)}
-          {cook && <p>Prepare with Johannes.{(typeof cook === 'string') ? ' ' + cook + ' recipe required.' : ''}</p>}
-          {shop && <p>Purchased from Dominique.</p>}
+          {farm && <p>Farmed with Harry.</p>}
           {librarian && <p>Borrow from O.D.</p>}
           {makeChestText(chests)}
           {special && <p>Obtain from {special[locale]}.</p>}
@@ -82,7 +112,7 @@ function InfoBox (props) {
         </>
       )}
 
-      {(!chests && !demons && !quest && !shop && !alchemy && !cook && !rooms && !librarian && !areas && !note && type !== 'area') && (
+      {(!chests && !demons && !quest && !shop && !alchemy && !cook && !farm && !rooms && !librarian && !areas && !note && type !== 'area') && (
         <p>Location information will be added soon! Please come back later.</p>
       )}
 
@@ -185,6 +215,8 @@ function getChestType (type, length) {
       return (length > 1) ? 'red chests' : 'a red chest'
     case 'CHEST.BLUE':
       return (length > 1) ? 'blue chests' : 'a blue chest'
+    case 'HIDDEN.WALL':
+      return (length > 1) ? 'breakable walls' : 'a breakable wall'
     default:
       return (length > 1) ? 'chests' : 'a chest'
   }

@@ -148,7 +148,8 @@ function searchFilter (item, inputValue = '') {
 function activateEasterEgg () {
   // Plays audio
   const sound = new Howl({
-    src: ['/timestop.mp3']
+    src: ['/timestop.mp3'],
+    volume: 0.35
   })
   sound.play()
 
@@ -167,6 +168,8 @@ function getChestType (type) {
       return 'Red chest'
     case 'CHEST.BLUE':
       return 'Blue chest'
+    case 'HIDDEN.WALL':
+      return 'Breakable wall'
     default:
       return 'Chest'
   }
@@ -266,7 +269,8 @@ function SearchBar (props) {
               })
             } else if (shard.alchemy) {
               // Arvantville (Johannes)
-              drawGeo(AREAS[1].geo, AREAS[1].name[locale])
+              drawMarker([ 21, 27 ], 'Johannes')
+              // drawGeo(AREAS[1].geo, AREAS[1].name[locale])
             }
 
             // test roooms
@@ -330,6 +334,9 @@ function SearchBar (props) {
             }
             if (item.cook) {
               drawMarker([ 21, 27 ], 'Johannes')
+            }
+            if (item.farm) {
+              drawMarker([ 19, 26 ], 'Harry')
             }
             if (item.demons) {
               const demons = item.demons
