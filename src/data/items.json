@@ -7,6 +7,7 @@
     "type": "Supplies",
     "subtype": "",
     "shop": true,
+    "alchemy": true,
     "rooms": [
       [ 4, 26 ]
     ]
@@ -16,7 +17,8 @@
       "en": "High Potion"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -36,7 +38,8 @@
         5,
         0.06
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -63,14 +66,16 @@
         27,
         0.1
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Holy Water"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -83,7 +88,8 @@
         22,
         0.1
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -96,7 +102,8 @@
         27,
         0.05
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -110,7 +117,8 @@
       "en": "Panacea"
     },
     "type": "Supplies",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -157,7 +165,8 @@
       "en": "Rice Ball"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
@@ -169,28 +178,32 @@
       "npc": "Lindsay",
       "name": "Avenge the death of Rosaly!",
       "quantity": 3
-    }
+    },
+    "cook": true
   },
   {
     "name": {
       "en": "Apple Risotto"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Egg on Rice"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Omurice"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
@@ -202,161 +215,187 @@
       "npc": "Abigail",
       "name": "In Memory of Lily",
       "quantity": 3
-    }
+    },
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Curry & Rice"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Curry Dish/R"
   },
   {
     "name": {
       "en": "Beef Curry"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ultimate Dish/R"
   },
   {
     "name": {
       "en": "Pork Curry"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Curry Dish/R"
   },
   {
     "name": {
       "en": "Chicken Curry"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Curry Dish/R"
   },
   {
     "name": {
       "en": "Seafood Curry"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Curry Dish/R"
   },
   {
     "name": {
       "en": "Macaroni Gratin"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Classic Spaghetti"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Pasta Dish/R"
   },
   {
     "name": {
       "en": "Pasta Carbonara"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Pasta Dish/R"
   },
   {
     "name": {
       "en": "Pasta Vongole"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Pasta Dish/R"
   },
   {
     "name": {
       "en": "Sea Urchin Pasta"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Pasta Dish/R"
   },
   {
     "name": {
       "en": "Berry Spaghetti"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Sweets/R"
   },
   {
     "name": {
       "en": "Shiruko Spaghetti"
     },
+    "description": {
+      "en": "A chance creation made with sweet red bean juice. Not for everyone..."
+    },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Sweets/R"
   },
   {
     "name": {
       "en": "Salt Ramen"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ramen/R"
   },
   {
     "name": {
       "en": "Soy Ramen"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ramen/R"
   },
   {
     "name": {
       "en": "Tonkotsu Ramen"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ramen/R"
   },
   {
     "name": {
       "en": "Miso Ramen"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ramen/R"
   },
   {
     "name": {
       "en": "Corn Chowder"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Steak"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Exquisite Steak"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Supreme Dish/R"
   },
   {
     "name": {
       "en": "Sukiyaki"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Chicken Sauté"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Garlic Chicken"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
@@ -369,35 +408,40 @@
         15,
         0.01
       ]
-    ]
+    ],
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Miso Cutlet"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Ginger Pork"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Meat Hot Pot"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Meat Dish/R"
   },
   {
     "name": {
       "en": "Fried Potatoes"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
@@ -409,28 +453,32 @@
       "npc": "Abigail",
       "name": "In Memory of Noel",
       "quantity": 3
-    }
+    },
+    "cook": true
   },
   {
     "name": {
       "en": "Fried Fish"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
       "en": "Fish & Chips"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
       "en": "Simmered Forneus"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
@@ -442,28 +490,32 @@
       "npc": "Abigail",
       "name": "In Memory of Enos",
       "quantity": 3
-    }
+    },
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
       "en": "Forneus in Garlic"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
       "en": "Fish Hot Pot"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Fish Dish/R"
   },
   {
     "name": {
       "en": "Flan"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
@@ -473,84 +525,96 @@
     "subtype": "Food",
     "rooms": [
       [ 39, 6 ]
-    ]
+    ],
+    "cook": true
   },
   {
     "name": {
       "en": "Apple Pie"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Lemon Cream Pie"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Strawberry Pie"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Supreme Dish/R"
   },
   {
     "name": {
       "en": "Strawberry Crepe"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Sweets/R"
   },
   {
     "name": {
       "en": "Chocolate Crepe"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Sweets/R"
   },
   {
     "name": {
       "en": "Cookies"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cookies/R"
   },
   {
     "name": {
       "en": "Chocolate Cookies"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cookies/R"
   },
   {
     "name": {
       "en": "Cinnamon Cookies"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cookies/R"
   },
   {
     "name": {
       "en": "Sponge Cake"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Chiffon Cake"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cake/R"
   },
   {
     "name": {
       "en": "Cheesecake"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cake/R"
   },
   {
     "name": {
@@ -562,63 +626,72 @@
       "npc": "Abigail",
       "name": "In Memory of Morris",
       "quantity": 3
-    }
+    },
+    "cook": "Cake/R"
   },
   {
     "name": {
       "en": "Strawberry Cake"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Cake/R"
   },
   {
     "name": {
       "en": "Scrambled Eggs"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Rolled Omelette"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Fried Egg"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Egg Soufflé"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
       "en": "Apple Juice"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Drink/R"
   },
   {
     "name": {
       "en": "Strawberry Au Lait"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Drink/R"
   },
   {
     "name": {
       "en": "Lemonade"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Drink/R"
   },
   {
     "name": {
@@ -631,21 +704,24 @@
         56,
         0.04
       ]
-    ]
+    ],
+    "cook": "Drink/R"
   },
   {
     "name": {
       "en": "Fruit Juice"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Supreme Dish/R"
   },
   {
     "name": {
       "en": "Nectar"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": "Ultimate Dish/R"
   },
   {
     "name": {
@@ -658,14 +734,16 @@
         73,
         0.01
       ]
-    ]
+    ],
+    "cook": true
   },
   {
     "name": {
       "en": "Macaroni & Cheese"
     },
     "type": "Supplies",
-    "subtype": "Food"
+    "subtype": "Food",
+    "cook": true
   },
   {
     "name": {
@@ -1139,7 +1217,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1152,7 +1230,8 @@
         7,
         0.12
       ]
-    ]
+    ],
+    "cook": true
   },
   {
     "name": {
@@ -1160,7 +1239,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1168,7 +1247,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1176,7 +1255,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": "Ramen/R"
   },
   {
     "name": {
@@ -1184,7 +1263,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": "Ramen/R"
   },
   {
     "name": {
@@ -1192,7 +1271,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": "Ramen/R"
   },
   {
     "name": {
@@ -1200,7 +1279,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": "Ramen/R"
   },
   {
     "name": {
@@ -1208,7 +1287,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true,
+    "cook": true,
     "quest": {
       "npc": "Lindsay",
       "name": "Avenge the death of Dario!",
@@ -1221,7 +1300,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1229,7 +1308,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true,
+    "cook": true,
     "demons": [
       [
         25,
@@ -1243,7 +1322,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1251,7 +1330,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1259,7 +1338,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1267,7 +1346,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1275,7 +1354,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1283,7 +1362,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1316,7 +1395,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": "Curry Dish/R"
   },
   {
     "name": {
@@ -1324,7 +1403,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1332,7 +1411,7 @@
     },
     "type": "Ingredient",
     "subtype": "",
-    "alchemy": true
+    "cook": true
   },
   {
     "name": {
@@ -1434,7 +1513,8 @@
         0.1,
         5
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -1676,7 +1756,8 @@
       "en": "Gold"
     },
     "type": "Material",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -3184,14 +3265,16 @@
     "subtype": "Shoes",
     "rooms": [
       [ 1, 27 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Battle Boots"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": true
   },
   {
     "name": {
@@ -3209,7 +3292,8 @@
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Talia"
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -3255,7 +3339,8 @@
     "subtype": "Dagger",
     "rooms": [
       [ 1, 27 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -3270,7 +3355,8 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.6, 0.9 ]
       }
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -3281,7 +3367,8 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Baked Dish"
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -3294,7 +3381,8 @@
         76,
         0.04
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -3329,14 +3417,16 @@
       "en": "Rapier"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Epée"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "alchemy": true
   },
   {
     "name": {
@@ -3385,7 +3475,8 @@
     "subtype": "Sword",
     "rooms": [
       [ 7, 31 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -3398,7 +3489,8 @@
         12,
         0.08
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -3418,7 +3510,8 @@
       "en": "Invisible Blade"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
@@ -3571,7 +3664,8 @@
       "en": "Mace"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "alchemy": true
   },
   {
     "name": {
@@ -3682,14 +3776,16 @@
     "subtype": "G Sword",
     "rooms": [
       [ 13, 28 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Pelekus"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
@@ -3814,14 +3910,16 @@
       "en": "Dull Blade"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Nodachi"
     },
     "type": "Weapon",
-    "subtype": "Katana"
+    "subtype": "Katana",
+    "alchemy": true
   },
   {
     "name": {
@@ -3913,14 +4011,16 @@
       "en": "Spear"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Lance"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": true
   },
   {
     "name": {
@@ -4027,7 +4127,8 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.25, 0.35 ]
       }
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4038,7 +4139,8 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Portable Snack"
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -4051,7 +4153,8 @@
         34,
         0.04
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4108,14 +4211,16 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.25, 0.8 ]
       }
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Blunderbuss"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": true
   },
   {
     "name": {
@@ -4180,140 +4285,160 @@
       "en": "Dawn Blade"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Blue Skies"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Boreal Rime Boots"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Oleanders"
     },
     "type": "Weapon",
-    "subtype": "Shoes"
+    "subtype": "Shoes",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Shield Weapon"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Encrypted Orchid"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Hikari"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Moonwake"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "God Cross"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Eu's Sword"
     },
     "type": "Weapon",
-    "subtype": "Sword"
+    "subtype": "Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Redbeast's Edge"
     },
     "type": "Weapon",
-    "subtype": "Rapier"
+    "subtype": "Rapier",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Prismatic Heart"
     },
     "type": "Weapon",
-    "subtype": "Club"
+    "subtype": "Club",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Deathbringer"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Claw of Onmoraki"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Blood Grinder"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Silent Calamity"
     },
     "type": "Weapon",
-    "subtype": "G Sword"
+    "subtype": "G Sword",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Sculptor's Chisel"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Black Dragon's Ode"
     },
     "type": "Weapon",
-    "subtype": "Spear"
+    "subtype": "Spear",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Renee's Requiem"
     },
     "type": "Weapon",
-    "subtype": "Firearm"
+    "subtype": "Firearm",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Ambivalence"
     },
     "type": "Weapon",
-    "subtype": "Whip"
+    "subtype": "Whip",
+    "alchemy": true
   },
   {
     "name": {
@@ -4346,7 +4471,8 @@
     ],
     "rooms": [
       [ 4, 31, 5 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4365,7 +4491,8 @@
         0.12,
         3
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4379,7 +4506,8 @@
         0.03,
         3
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4487,7 +4615,8 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.75, 0.8 ]
       }
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4502,7 +4631,8 @@
         "type": "CHEST.GREEN",
         "marker": [ 0.75, 0.5 ]
       }
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4543,7 +4673,8 @@
       "en": "Beast Beret"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -4567,7 +4698,8 @@
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Alba"
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -4798,14 +4930,16 @@
     "subtype": "",
     "rooms": [
       [ 8, 27 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Leather Chestguard"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -4816,21 +4950,24 @@
     "subtype": "",
     "rooms": [
       [ 3, 25 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Bronze Chestguard"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Chemise"
     },
     "type": "Body Armor",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -4843,7 +4980,8 @@
         11,
         0.04
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -4856,7 +4994,8 @@
         29,
         0.08
       ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -5319,7 +5458,8 @@
     "subtype": "",
     "rooms": [
       [ 8, 26 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
@@ -5337,7 +5477,8 @@
       "npc": "Lindsay",
       "name": "Avenge the death of my husband!",
       "quantity": 3
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -5355,7 +5496,8 @@
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Caleb"
-    }
+    },
+    "alchemy": true
   },
   {
     "name": {
@@ -5641,21 +5783,24 @@
     "subtype": "",
     "rooms": [
       [ 9, 31 ]
-    ]
+    ],
+    "alchemy": true
   },
   {
     "name": {
       "en": "Bat Wings"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
       "en": "Gunman's Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {
@@ -5669,7 +5814,8 @@
       "en": "Bunny Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "alchemy": true
   },
   {
     "name": {

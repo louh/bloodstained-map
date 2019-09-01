@@ -12,7 +12,7 @@ function InfoBox (props) {
   if (!type || !info) return null
 
   const displayType = getType(type, info)
-  const { description, note, quest, demons, areas, chests, shop, alchemy, librarian, rooms, special, prerequisites, dlc } = info
+  const { description, note, quest, demons, areas, chests, shop, alchemy, cook, librarian, rooms, special, prerequisites, dlc } = info
 
   return (
     <div id="info">
@@ -63,10 +63,11 @@ function InfoBox (props) {
         </>
       )}
 
-      {(chests || shop || alchemy || librarian || special) ? (
+      {(chests || shop || alchemy || cook || librarian || special) ? (
         <>
           <strong>Locations</strong>
           {alchemy && ((typeof alchemy === 'string') ? <p>Crafted from {info.alchemy} by Johannes.</p> : <p>Crafted by Johannes.</p>)}
+          {cook && <p>Prepare with Johannes.{(typeof cook === 'string') ? ' ' + cook + ' recipe required.' : ''}</p>}
           {shop && <p>Purchased from Dominique.</p>}
           {librarian && <p>Borrow from O.D.</p>}
           {makeChestText(chests)}
@@ -81,7 +82,7 @@ function InfoBox (props) {
         </>
       )}
 
-      {(!chests && !demons && !quest && !shop && !alchemy && !rooms && !librarian && !areas && !note && type !== 'area') && (
+      {(!chests && !demons && !quest && !shop && !alchemy && !cook && !rooms && !librarian && !areas && !note && type !== 'area') && (
         <p>Location information will be added soon! Please come back later.</p>
       )}
 

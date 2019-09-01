@@ -325,8 +325,11 @@ function SearchBar (props) {
               // drawRoomGeo([ 19, 27 ], 'Dominique')
             }
             if (item.alchemy) {
-              drawMarker([ 21, 27 ], 'Dominique')
+              drawMarker([ 21, 27 ], 'Johannes')
               // drawRoomGeo([ 21, 27 ], 'Johannes')
+            }
+            if (item.cook) {
+              drawMarker([ 21, 27 ], 'Johannes')
             }
             if (item.demons) {
               const demons = item.demons
