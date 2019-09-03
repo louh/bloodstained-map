@@ -720,7 +720,21 @@
     "shop": {
       "price": 1280,
       "craft": true
-    }
+    },
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 35, 28 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0, 1 ]
+      },
+      {
+        "area": 9,
+        "room": [ 36, 29 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.6, 0.65 ]
+      }
+    ]
   },
   {
     "name": {
@@ -2295,7 +2309,21 @@
       "npc": "Lindsay",
       "name": "Avenge the death of Mathius!",
       "quantity": 2
-    }
+    },
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 35, 28 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0, 1 ]
+      },
+      {
+        "area": 9,
+        "room": [ 36, 29 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.6, 0.65 ]
+      }
+    ]
   },
   {
     "name": {
@@ -2538,6 +2566,20 @@
         81,
         0.08
       ]
+    ],
+    "chests": [
+      {
+        "area": 9,
+        "room": [ 35, 28 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0, 1 ]
+      },
+      {
+        "area": 9,
+        "room": [ 36, 29 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.6, 0.65 ]
+      }
     ]
   },
   {
@@ -2580,6 +2622,14 @@
         77,
         0.12
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 40, 22 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.3, 0.5 ]
+      }
     ]
   },
   {
@@ -2610,6 +2660,14 @@
         31,
         0.05
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 40, 22 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.3, 0.5 ]
+      }
     ]
   },
   {
@@ -5965,6 +6023,14 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 40, 25 ],
+        "marker": [ 0.75, 0.5 ],
+        "type": "CHEST.GREEN"
+      }
+    ],
     "shop": {
       "price": 100
     },
@@ -7916,7 +7982,15 @@
       "en": "Meat Dish/R"
     },
     "type": "Key Item",
-    "subtype": "Food Recipe"
+    "subtype": "Food Recipe",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 40, 22 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.8, 0.5 ]
+      }
+    ]
   },
   {
     "name": {
