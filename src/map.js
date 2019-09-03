@@ -287,8 +287,8 @@ export function drawRoomGeo ([x, y], label) {
   drawGeo(geojson, label)
 }
 
-export function drawMarker (room, label) {
-  const [x, y, quantity, details] = room
+export function drawMarker (room, label, marker = [ 0.5, 0.5 ]) {
+  const [ x, y ] = room
 
   // Coords
   const leftX = getActualX(x)
@@ -296,9 +296,8 @@ export function drawMarker (room, label) {
   const topY = getActualY(y)
   const bottomY = getActualY(y + 1)
 
-  const markerPos = (details && details.marker) || [ 0.5, 0.5 ]
-  const markerX = leftX + (markerPos[0] * (rightX - leftX))
-  const markerY = topY + (markerPos[1] * (bottomY - topY))
+  const markerX = leftX + (marker[0] * (rightX - leftX))
+  const markerY = topY + (marker[1] * (bottomY - topY))
 
   const { lng, lat } = rc.unproject([ markerX, markerY ])
   const geojson = {

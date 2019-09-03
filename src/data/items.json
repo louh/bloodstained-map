@@ -58,6 +58,14 @@
         0.06
       ]
     ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 46, 24 ],
+        "type": "CHEST.WOODEN",
+        "marker": [ 0.5, 0.6 ]
+      }
+    ],
     "shop": {
       "price": 100
     },
@@ -102,6 +110,26 @@
         27,
         0.1
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 50, 18 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.75, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 19 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.25, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 23 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.5, 0.5 ]
+      }
     ],
     "shop": {
       "price": 300
@@ -159,6 +187,14 @@
     },
     "type": "Supplies",
     "subtype": "",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 43, 20 ],
+        "type": "CHEST.WOODEN",
+        "marker": [ 0.25, 0.5 ]
+      }
+    ],
     "shop": {
       "price": 100
     }
@@ -2056,6 +2092,26 @@
         32,
         0.08
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 50, 18 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.75, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 19 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.25, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 23 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.5, 0.5 ]
+      }
     ]
   },
   {
@@ -2077,6 +2133,26 @@
         49,
         0.1
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 50, 18 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.75, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 19 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.25, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 23 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.5, 0.5 ]
+      }
     ],
     "quest": {
       "npc": "Lindsay",
@@ -2399,6 +2475,26 @@
         3,
         0.04
       ]
+    ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 50, 18 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.75, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 19 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.25, 0.5 ]
+      },
+      {
+        "area": 2,
+        "room": [ 50, 23 ],
+        "type": "CHEST.BLUE",
+        "marker": [ 0.5, 0.5 ]
+      }
     ]
   },
   {
@@ -3790,6 +3886,14 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 51, 23 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.75, 0.65 ]
+      }
+    ],
     "shop": {
       "price": 2700
     },
@@ -4072,6 +4176,14 @@
         0.01
       ]
     ],
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 42, 22 ],
+        "type": "HIDDEN.WALL",
+        "marker": [ 0.1, 0.7 ]
+      }
+    ],
     "alchemy": {
       "recipe": "Obsidian Equipment/R"
     }
@@ -4285,7 +4397,14 @@
     },
     "alchemy": {
       "recipe": "Obsidian Equipment/R"
-    }
+    },
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 55, 23 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -4983,6 +5102,14 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 49, 23 ],
+        "type": "CHEST.GREEN",
+        "marker": [ 0.5, 0.5 ]
+      }
+    ],
     "shop": {
       "price": 2700
     },
@@ -5503,7 +5630,14 @@
       "en": "Santa Hat"
     },
     "type": "Head Armor",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 2,
+        "room": [ 50, 21 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -5511,7 +5645,17 @@
     },
     "type": "Head Armor",
     "subtype": "",
-    "alchemy": true
+    "alchemy": true,
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 61, 25 ],
+        "marker": [ 0.75, 0.65 ],
+        "type": "CHEST.GREEN",
+        "ability": [ "Craftwork" ],
+        "note": "Although you would normally use the Craftwork shard to move the Iron Maiden out of the way, it's also possible to knock the Blood Grinder Knight into it, which destroys the Iron Maiden."
+      }
+    ]
   },
   {
     "name": {
@@ -5930,7 +6074,14 @@
     "subtype": "",
     "alchemy": {
       "item": "Monster Fur"
-    }
+    },
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 61, 23 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -6732,7 +6883,15 @@
       "en": "Moon Belt"
     },
     "type": "Accessory",
-    "subtype": ""
+    "subtype": "",
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 70, 23 ],
+        "type": "CHEST.GREEN",
+        "ability": [ "Double Jump" ]
+      }
+    ]
   },
   {
     "name": {
@@ -6856,7 +7015,8 @@
       {
         "area": 3,
         "room": [ 72, 23 ],
-        "type": "CHEST.GREEN"
+        "type": "CHEST.GREEN",
+        "ability": [ "Invert", "Reflector Ray" ]
       }
     ]
   },
@@ -7586,7 +7746,15 @@
       "en": "Faerie Healing Item/R"
     },
     "type": "Key Item",
-    "subtype": "Recipe"
+    "subtype": "Recipe",
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 67, 24 ],
+        "marker": [ 0.75, 0.5 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -7628,7 +7796,15 @@
       "en": "Obsidian Equipment/R"
     },
     "type": "Key Item",
-    "subtype": "Equipment Recipe"
+    "subtype": "Equipment Recipe",
+    "chests": [
+      {
+        "area": 3,
+        "room": [ 59, 25 ],
+        "marker": [ 0.25, 0.65 ],
+        "type": "CHEST.GREEN"
+      }
+    ]
   },
   {
     "name": {
@@ -7705,7 +7881,7 @@
         "area": 13,
         "room": [ 36, 11 ],
         "type": "CHEST.GREEN",
-        "marker": [ 0.45, 0.9 ]
+        "marker": [ 0.4, 0.65 ]
       }
     ]
   },

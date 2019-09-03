@@ -176,7 +176,7 @@ export function showResult (selection, callback = () => {}) {
           // don't do it for bosses or for recurring mobs like medusa heads
           // override for kunekune (temp)
           if ((selection.index === 43) || (DEMONS[selection.index].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0))) {
-            drawMarker(room, DEMONS[selection.index].name[locale])
+            drawMarker(room, DEMONS[selection.index].name[locale], room[3] && room[3].marker)
           } else {
             drawRoomGeo(room, DEMONS[selection.index].name[locale])
           }
@@ -265,7 +265,7 @@ export function showResult (selection, callback = () => {}) {
         item.chests.forEach((chest) => {
           if (typeof chest.area === 'undefined' || typeof chest.room === 'undefined') return
           if (chest.room) {
-            drawMarker(chest.room, getChestType(chest.type))
+            drawMarker(chest.room, getChestType(chest.type), chest.marker)
             // drawRoomGeo(chest.room, getChestType(chest.type))
           } else if (chest.area) {
             const geo = AREAS[chest.area].geo

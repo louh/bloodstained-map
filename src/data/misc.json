@@ -174,6 +174,8 @@
       [ 7, 30, 1, { "type": "CHEST.WOODEN", "marker": [ 0.4, 0.8 ] } ],
       [ 12, 26, 1, { "type": "CHEST.WOODEN", "marker": [ 0.75, 0.8 ], "contents": "Potion" } ],
       [ 42, 7, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.5 ], "contents": "Potion" } ],
+      [ 43, 20, 1, { "type": "CHEST.WOODEN", "marker": [ 0.25, 0.5 ], "contents": "Waystone" } ],
+      [ 46, 24, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.6 ], "contents": "Ether" } ],
       [ 73, 24, 1, { "type": "CHEST.WOODEN", "marker": [ 0.5, 0.6 ], "contents": "Potion" } ]
     ]
   },
@@ -195,7 +197,12 @@
       [ 41, 10, 1, { "type": "CHEST.BLUE", "marker": [ 0.2, 0.2 ], "contents": [ "Mithridate", "Obsidian", "Iron", "Elm" ], "required": [ "Invert" ] } ],
       [ 45, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
       [ 46, 9, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
+      [ 50, 18, 1, { "type": "CHEST.BLUE", "marker": [ 0.75, 0.5 ], "contents": [ "Mithridate", "Obsidian", "Iron", "Elm" ] } ],
+      [ 50, 19, 1, { "type": "CHEST.BLUE", "marker": [ 0.25, 0.5 ], "contents": [ "Mithridate", "Obsidian", "Iron", "Elm" ] } ],
+      [ 50, 23, 1, { "type": "CHEST.BLUE", "contents": [ "Mithridate", "Obsidian", "Iron", "Elm", "50G" ] } ],
       [ 51, 11, 1, { "type": "CHEST.BLUE", "contents": [ "Sponge Cake", "Mithril", "Wool" ] } ],
+      [ 68, 24, 1, { "type": "CHEST.BLUE", "marker": [ 0.25, 0.5 ], "area": 3, "contents": [ "Ginger", "Steel" ] } ],
+      [ 70, 25, 1, { "type": "CHEST.BLUE", "marker": [ 1, 0.65 ], "area": 3, "contents": [ "Steel", "Hemp" ] } ],
       [ 101, 29, 1, { "type": "CHEST.BLUE", "area": 8, "contents": [ "Curry Powder", "Damascus", "Black Pepper" ] } ],
       [ 104, 29, 1, { "type": "CHEST.BLUE", "area": 8, "contents": [ "Curry Powder", "Damascus", "Black Pepper" ] } ]
     ],
@@ -221,14 +228,17 @@
     "type": "Chest",
     "subtype": "",
     "rooms": [
-      [ 9, 30, 1, { "type": "CHEST.RED", "marker": [ 0.45, 0.8 ], "contents": "1000G" } ],
-      [ 9, 26, 1, { "type": "CHEST.RED", "marker": [ 0.3, 0.8 ], "contents": "500G" } ],
-      [ 11, 27, 1, { "type": "CHEST.RED", "marker": [ 0.4, 0.8 ], "contents": "500G" } ],
+      [ 9, 30, 1, { "type": "CHEST.RED", "marker": [ 0.45, 0.65 ], "contents": "1000G" } ],
+      [ 9, 26, 1, { "type": "CHEST.RED", "marker": [ 0.3, 0.65 ], "contents": "500G" } ],
+      [ 11, 27, 1, { "type": "CHEST.RED", "marker": [ 0.4, 0.65 ], "contents": "500G" } ],
       [ 17, 26, 1, { "type": "CHEST.RED", "marker": [ 0.1, 0.5 ], "contents": "500G" } ],
-      [ 35, 14, 1, { "type": "CHEST.RED", "marker": [ 0.35, 0.75 ], "contents": "2000G" } ],
+      [ 35, 14, 1, { "type": "CHEST.RED", "marker": [ 0.35, 0.65 ], "contents": "2000G" } ],
       [ 35, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ],
+      [ 47, 25, 1, { "type": "CHEST.RED", "marker": [ 0.75, 0.5 ], "contents": "500G" } ],
       [ 50, 8, 1, { "type": "CHEST.RED", "contents": "2000G" } ],
-      [ 96, 25, 1, { "type": "CHEST.RED", "marker": [ 0.75, 0.6 ], "contents": "2000G" } ]
+      [ 63, 24, 1, { "type": "CHEST.RED", "contents": "500G" } ],
+      [ 69, 25, 1, { "type": "CHEST.RED", "marker": [ 0.25, 0.65 ], "contents": "500G" } ],
+      [ 96, 25, 1, { "type": "CHEST.RED", "marker": [ 0.75, 0.65 ], "contents": "2000G" } ]
     ]
   },
   {
