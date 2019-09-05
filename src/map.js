@@ -12,8 +12,8 @@ const RASTER_IMAGE_SIZE = [
   4096  // original height of image
 ]
 const INITIAL_VIEW = { lat: 66.5, lng: -6.5 }
-const INITIAL_ZOOM = 1
-const INITIAL_ZOOM_MOBILE = 1
+const INITIAL_ZOOM = 3
+const INITIAL_ZOOM_MOBILE = 2
 
 let map, rc
 
