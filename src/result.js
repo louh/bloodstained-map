@@ -345,7 +345,7 @@ export function showResult (selection, callback = () => {}) {
       // test roooms
       if (item.rooms) {
         item.rooms.forEach((room) => {
-          drawMarker(room, item.name[locale])
+          drawMarker(room, item.name[locale], room[3] && room[3].marker)
           // drawRoomGeo(room, item.name[locale])
         })
       }

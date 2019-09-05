@@ -7,7 +7,8 @@
     "subtype": "",
     "rooms": [
       [ 9, 30, 1, { "type": "VISIBLE", "marker": [ 0.75, 0.8 ] } ],
-      [ 41, 8, 1, { "type": "HIDDEN.BELL", "marker": [ 0.9, 0.5] } ]
+      [ 41, 8, 1, { "area": 4, "marker": [ 0.9, 0.5], "type": "HIDDEN.BELL" } ],
+      [ 43, 11, 1, { "area": 4, "type": "VISIBLE", "ability": [ "Double Jump "] } ]
     ]
   },
   {
@@ -17,8 +18,36 @@
     "type": "Upgrade",
     "subtype": "",
     "rooms": [
-      [ 31, 17 ],
-      [ 50, 12, 1, { "type": "HIDDEN.WALL"} ]
+      [ 3, 25, 1, { "area": 0, "marker": [ 0.25, 0.5 ], "type": "HIDDEN.WALL" } ],
+      [ 30, 26, 1, { "area": 1, "marker": [ 0.8, 0 ], "type": "HIDDEN.OFFSCREEN", "ability": [ "Invert" ] } ],
+      [ 31, 17, 1, { "area": 2, "marker": [ 0.25, 0.6 ] } ],
+      [ 50, 25, 1, { "area": 2, "note": "Located on other side of a door that must be opened from the Forbidden Underground Waterway." } ],
+
+      [ 54, 23, 1, { "area": 3, "marker": [ 0.25, 0.5 ], "check": true } ],
+      [ 62, 23, 1, { "area": 3, "check": true } ],
+      [ 66, 24, 1, { "area": 3, "check": true } ],
+      [ 41, 11, 1, { "area": 4, "marker": [ 1, 0.3 ], "type": "HIDDEN.BELL", "ability": [ "Double Jump"] } ],
+      [ 44, 11, 1, { "area": 4, "type": "VISIBLE", "ability": [ "Double Jump "] } ],
+      [ 45, 9, 1, { "area": 4, "marker": [ 1, 0 ], "type": "VISIBLE" }],
+      [ 50, 12, 1, { "area": 4, "marker": [ 0.8, 0 ], "type": "HIDDEN.WALL" } ],
+      [ 54, 6, 1, { "area": 4 } ],
+      [ 76, 20, 1, { "area": 5, "check": true } ],
+      [ 79, 10, 1, { "area": 5, "check": true } ],
+      [ 65, 17, 1, { "area": 6, "marker": [ 0.8, 0.6 ], "type": "VISIBLE", "ability": [ "Reflector Ray"] } ],
+      [ 71, 20, 1, { "area": 6, "marker": [ 0.8, 0.6 ], "type": "HIDDEN.WALL" } ],
+      [ 92, 24, 1, { "area": 7, "marker": [ 0.8, 0 ] } ],
+      [ 96, 28, 1, { "area": 8, "marker": [ 0.3, 0.6 ], "type": "VISIBLE" } ],
+      [ 103, 28, 1, { "area": 8, "marker": [ 0.5, 0.6 ], "type": "VISIBLE" } ],
+      [ 107, 26, 1, { "area": 8, "marker": [ 0.9, 0.8 ], "type": "HIDDEN.WALL" } ],
+      [ 44, 41, 1, { "area": 9, "check": true } ],
+      [ 63, 30, 1, { "area": 9, "check": true } ],
+      [ 71, 34, 1, { "area": 9, "check": true } ],
+      [ 74, 33, 1, { "area": 9, "check": true } ],
+      [ 64, 46, 1, { "area": 10, "check": true, "ability": [ "Invert" ] } ],
+      [ 72, 48, 1, { "area": 10, "check": true } ],
+      [ 56, 0, 1, { "area": 14, "check": true } ],
+      [ 111, 7, 1, { "area": 15, "check": true } ],
+      [ 111, 18, 1, { "area": 15, "check": true } ]
     ]
   },
   {

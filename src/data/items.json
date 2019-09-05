@@ -6043,8 +6043,12 @@
     },
     "type": "Body Armor",
     "subtype": "",
-    "rooms": [
-      [ 3, 25 ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 3, 25 ],
+        "type": "CHEST.GREEN"
+      }
     ],
     "shop": {
       "price": 100
