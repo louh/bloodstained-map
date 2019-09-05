@@ -6,7 +6,7 @@ import { cloneDeep } from 'lodash-es'
 import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
 
 const TILES = '/tiles/{z}/{x}/{y}.png'
-const TILES_RETINA = '/tiles/{z}/{x}/{y}.png'
+const TILES_RETINA = '/tiles/{z}/{x}/{y}@2x.png'
 const RASTER_IMAGE_SIZE = [
   8192, // original width of image
   4096  // original height of image
@@ -61,7 +61,7 @@ export function initMap (history) {
     L.tileLayer(window.devicePixelRatio > 1 ? TILES_RETINA : TILES, {
       attribution: false,
       maxZoom: 5,
-      minZoom: 3,
+      minZoom: 2,
       noWrap: true
     }).addTo(map)
   
