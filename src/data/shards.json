@@ -353,6 +353,9 @@
     "name": {
       "en": "Riga Storæma"
     },
+    "keywords": {
+      "en": [ "Riga Storaema" ]
+    },
     "type": "CONJURE",
     "demons": [
       [
@@ -378,14 +381,18 @@
       "en": "Va Schia"
     },
     "type": "CONJURE",
-    "alchemy": "Va Ischa"
+    "alchemy": {
+      "shard": "Va Ischa"
+    }
   },
   {
     "name": {
       "en": "Teps Salrenda"
     },
     "type": "CONJURE",
-    "alchemy": "Teps Oceus"
+    "alchemy": {
+      "shard": "Teps Oceus"
+    }
   },
   {
     "name": {
@@ -801,7 +808,9 @@
       "en": "Venom Mist"
     },
     "type": "DIRECTIONAL",
-    "alchemy": "Petra Breath"
+    "alchemy": {
+      "shard": "Petra Breath"
+    }
   },
   {
     "name": {
@@ -892,7 +901,9 @@
       "en": "Riga Dohin"
     },
     "type": "DIRECTIONAL",
-    "alchemy": "Riga Storæma"
+    "alchemy": {
+      "shard": "Riga Storæma"
+    }
   },
   {
     "name": {
@@ -911,7 +922,9 @@
       "en": "Tis Rozain"
     },
     "type": "DIRECTIONAL",
-    "alchemy": "Tis Raiff"
+    "alchemy": {
+      "shard": "Tis Raiff"
+    }
   },
   {
     "name": {
@@ -930,7 +943,9 @@
       "en": "Fald Taiab"
     },
     "type": "DIRECTIONAL",
-    "alchemy": "Fald Ciu"
+    "alchemy": {
+      "shard": "Fald Ciu"
+    }
   },
   {
     "name": {
@@ -1009,7 +1024,9 @@
       "en": "Augment Gold"
     },
     "type": "PASSIVE",
-    "alchemy": "Augment LCK"
+    "alchemy": {
+      "shard": "Augment LCK"
+    }
   },
   {
     "name": {
@@ -1096,14 +1113,18 @@
       "en": "Greatsword Expertise"
     },
     "type": "PASSIVE",
-    "alchemy": "Sword Expertise"
+    "alchemy": {
+      "shard": "Sword Expertise"
+    }
   },
   {
     "name": {
       "en": "Katana Expertise"
     },
     "type": "PASSIVE",
-    "alchemy": "Sword Expertise"
+    "alchemy": {
+      "shard": "Sword Expertise"
+    }
   },
   {
     "name": {
@@ -1258,7 +1279,9 @@
       "en": "Resist Magic"
     },
     "type": "PASSIVE",
-    "alchemy": "Resist Fire/Ice/Thunder"
+    "alchemy": {
+      "shard": "Resist Fire/Ice/Thunder"
+    }
   },
   {
     "name": {
@@ -1325,7 +1348,9 @@
       "en": "Regenerate"
     },
     "type": "PASSIVE",
-    "alchemy": "Healing"
+    "alchemy": {
+      "shard": "Healing"
+    }
   },
   {
     "name": {
@@ -1495,6 +1520,8 @@
       "en": "High Jump"
     },
     "type": "SKILL",
-    "alchemy": "Double Jump"
+    "alchemy": {
+      "shard": "Double Jump"
+    }
   }
 ]

@@ -30,7 +30,7 @@ function InfoBox (props) {
       )}
 
       {(description && description[locale]) && (
-        <p>{description[locale]}</p>
+        <p className="info-description">{description[locale]}</p>
       )}
 
       {(note && note[locale]) && (
@@ -69,7 +69,9 @@ function InfoBox (props) {
           <strong>Crafting</strong>
           {alchemy &&
             <p>
-              {(typeof alchemy === 'string') ? `Crafted by Johannes from ${info.alchemy}.` : 'Crafted by Johannes.'}
+              Crafted by Johannes
+              {(typeof alchemy.shard !== 'undefined' ? ` after obtaining ${alchemy.shard}` : '')}
+              {(typeof alchemy.materials !== 'undefined' ? ` from ${listThings(alchemy.materials.map(([item, quantity]) => `${item} ×${quantity}`))}.` : '.')}
               {(typeof alchemy.recipe !== 'undefined') ? ' Requires ' + alchemy.recipe + ' recipe.' : ''}
               {(typeof alchemy.item !== 'undefined') ? ' Unlocked after acquiring ' + ((typeof alchemy.item === 'string') ? alchemy.item : (Array.isArray(alchemy.item) ? alchemy.item.join(' / ') : '')) + '.' : ''}
             </p>
@@ -89,8 +91,8 @@ function InfoBox (props) {
           <strong>Shop</strong>
           <p>
             Purchased from Dominique{shop.price && ' (' + shop.price + 'G)'}.
-            {shop.craft && ' Available after crafting once.'}
-            {shop.lategame && ' Available after a certain amount of game progression.'}
+            {shop.craft && ' In stock after crafting once.'}
+            {shop.lategame && ' In stock after a certain amount of game progression.'}
           </p>
         </>
       ) : null}
@@ -190,19 +192,23 @@ function makeChestText (chests) {
       }
     })
 
-    // Non-serialized comma
-    // e.g. [1, 2, 3] => '1, 2 and 3'
-    // [1, 2] => '1 and 2'
-    const areaString = areas.reduce(
-      (res, v, i) => i === areas.length - 2 ? res + v + ' and ' : res + v + ( i === areas.length -1? '' : ', ')
-      , '')
-
+    const areaString = listThings(areas)
     const chestString = getChestType(key, value.length)
 
     return pattern.replace('{chests}', chestString).replace('{area}', areaString)
   })
 
   return text.map(t => <p key={t}>{t}</p>)
+}
+
+// Non-serialized comma
+// e.g. [1, 2, 3] => '1, 2 and 3'
+// [1, 2] => '1 and 2'
+function listThings (array, set = true) {
+  const c = set ? 'and' : 'or'
+  return array.reduce(
+    (res, v, i) => i === array.length - 2 ? res + v + ' ' + c + ' ' : res + v + ( i === array.length -1? '' : ', ')
+    , '')
 }
 
 function getChestType (type, length) {

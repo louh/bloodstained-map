@@ -4,12 +4,20 @@
       "en": "Potion",
       "de": "Trank"
     },
+    "description": {
+      "en": "Medicine for restoring a small amount of health."
+    },
     "type": "Supplies",
     "subtype": "",
     "shop": {
       "price": 200
     },
-    "alchemy": true,
+    "alchemy": {
+      "materials": [
+        [ "Small Webbing", 1 ],
+        [ "Melting Bone", 1 ]
+      ]
+    },
     "chests": [
       {
         "area": 0,
@@ -22,6 +30,9 @@
     "name": {
       "en": "High Potion"
     },
+    "description": {
+      "en": "Medicine for restoring a large amount of health."
+    },
     "type": "Supplies",
     "subtype": "",
     "shop": {
@@ -29,7 +40,10 @@
       "craft": true
     },
     "alchemy": {
-      "recipe": "Fine Healing Item/R"
+      "recipe": "Fine Healing Item/R",
+      "materials": [
+        [ "Potion", 4 ]
+      ]
     }
   },
   {
@@ -43,7 +57,11 @@
       "craft": true
     },
     "alchemy": {
-      "recipe": "Ultimate Healing Item/R"
+      "recipe": "Ultimate Healing Item/R",
+      "materials": [
+        [ "High Potion", 4 ],
+        [ "Panacea", 3 ]
+      ]
     }
   },
   {
@@ -69,7 +87,12 @@
     "shop": {
       "price": 100
     },
-    "alchemy": true
+    "alchemy": {
+      "materials": [
+        [ "Rat Nail", 1 ],
+        [ "Monster Bird Tear", 1 ]
+      ]
+    }
   },
   {
     "name": {
@@ -4161,6 +4184,10 @@
       "npc": "Abigail",
       "name": "In Memory of Talia"
     },
+    "shop": {
+      "price": 4800,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -4169,6 +4196,10 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -4179,6 +4210,10 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 10800,
+      "craft": true
+    },
     "alchemy": {
       "item": "Toy Shoes"
     }
@@ -4189,6 +4224,10 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4199,6 +4238,10 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 30000,
+      "craft": true
+    },
     "alchemy": {
       "item": "Dragon Shoes"
     }
@@ -4209,6 +4252,10 @@
     },
     "type": "Weapon",
     "subtype": "Shoes",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4242,6 +4289,10 @@
         "marker": [ 0.6, 0.9 ]
       }
     ],
+    "shop": {
+      "price": 2700,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -4253,6 +4304,10 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Baked Dish"
+    },
+    "shop": {
+      "price": 6000,
+      "craft": true
     },
     "alchemy": true
   },
@@ -4268,6 +4323,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -4276,6 +4335,10 @@
     },
     "type": "Weapon",
     "subtype": "Dagger",
+    "shop": {
+      "price": 10800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -4286,6 +4349,10 @@
     },
     "type": "Weapon",
     "subtype": "Dagger",
+    "shop": {
+      "price": 16800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Gold Equipment/R"
     }
@@ -4296,6 +4363,10 @@
     },
     "type": "Weapon",
     "subtype": "Dagger",
+    "shop": {
+      "price": 30000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -4306,6 +4377,10 @@
     },
     "type": "Weapon",
     "subtype": "Dagger",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4344,6 +4419,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -4358,6 +4437,10 @@
       "npc": "Susie",
       "name": "Craving Something Fluffy"
     },
+    "shop": {
+      "price": 14700,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4368,6 +4451,10 @@
     },
     "type": "Weapon",
     "subtype": "Rapier",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "item": "Misericorde"
     }
@@ -4378,6 +4465,10 @@
     },
     "type": "Weapon",
     "subtype": "Rapier",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4434,6 +4525,10 @@
         "marker": [ 0.1, 0.7 ]
       }
     ],
+    "shop": {
+      "price": 4800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Obsidian Equipment/R"
     }
@@ -4444,6 +4539,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -4458,6 +4557,10 @@
         0.03
       ]
     ],
+    "shop": {
+      "price": 9000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -4471,6 +4574,10 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving Saucy Strands"
+    },
+    "shop": {
+      "price": 10800,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
@@ -4489,6 +4596,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 12600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4499,6 +4610,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 14700,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4509,6 +4624,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4523,6 +4642,10 @@
       "npc": "Susie",
       "name": "Craving Food That Falls Apart"
     },
+    "shop": {
+      "price": 27000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4533,6 +4656,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 27000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4543,6 +4670,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 27000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4553,6 +4684,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 27000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4563,6 +4698,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4584,6 +4723,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4667,11 +4810,16 @@
         "area": 4,
         "room": [ 42, 17 ],
         "type": "CHEST.GREEN",
-        "marker": [ 0.25, 0.8 ]
+        "marker": [ 0.25, 0.8 ],
+        "ability": [ "Reflector Ray" ]
       }
     ],
     "prerequisites": {
       "en": "Requires Reflector Ray or Dimension Shift."
+    },
+    "shop": {
+      "price": 7500,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
@@ -4683,6 +4831,10 @@
     },
     "type": "Weapon",
     "subtype": "Club",
+    "shop": {
+      "price": 14700,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4699,6 +4851,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4709,6 +4865,10 @@
     },
     "type": "Weapon",
     "subtype": "Club",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "item": "Ayamur"
     }
@@ -4719,6 +4879,10 @@
     },
     "type": "Weapon",
     "subtype": "Club",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4759,6 +4923,10 @@
     },
     "type": "Weapon",
     "subtype": "Sword",
+    "shop": {
+      "price": 50700,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4821,6 +4989,10 @@
         0.02
       ]
     ],
+    "shop": {
+      "price": 4800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -4841,6 +5013,10 @@
       "npc": "Susie",
       "name": "Craving Something Spicy"
     },
+    "shop": {
+      "price": 6000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -4858,6 +5034,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 9000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -4868,6 +5048,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 10800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4878,6 +5062,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 12600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     },
@@ -4897,6 +5085,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 12600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -4907,6 +5099,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 12600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     },
@@ -4929,6 +5125,10 @@
       "npc": "Susie",
       "name": "Craving Crispy Skin"
     },
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Gold Equipment/R"
     }
@@ -4939,6 +5139,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -4949,6 +5153,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 30000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -4959,6 +5167,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -4969,6 +5181,10 @@
     },
     "type": "Weapon",
     "subtype": "G Sword",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -5005,6 +5221,10 @@
       "npc": "Susie",
       "name": "Craving Fried Finger Food"
     },
+    "shop": {
+      "price": 4800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Obsidian Equipment/R"
     }
@@ -5023,6 +5243,10 @@
         "marker": [ 0.75, 0.5 ]
       }
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -5033,6 +5257,10 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "shop": {
+      "price": 10800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -5068,6 +5296,10 @@
       "npc": "Susie",
       "name": "Craving Something Breaded"
     },
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -5092,6 +5324,10 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "shop": {
+      "price": 30000,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -5102,6 +5338,10 @@
     },
     "type": "Weapon",
     "subtype": "Katana",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -5159,6 +5399,10 @@
         0.06
       ]
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -5169,11 +5413,20 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
-    "rooms": [
-      [ 11, 31 ]
+    "chests": [
+      {
+        "area": 0,
+        "room": [ 11, 31 ],
+        "type": "CHEST.GREEN",
+        "ability": [ "High Jump" ]
+      }
     ],
     "prerequisites": {
       "en": "Requires High Jump or better mobility abilities."
+    },
+    "shop": {
+      "price": 9000,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Fine Equipment/R"
@@ -5189,6 +5442,10 @@
       "npc": "Susie",
       "name": "Craving a Novel Idea"
     },
+    "shop": {
+      "price": 12600,
+      "craft": true
+    },
     "alchemy": {
       "item": "Honebami"
     }
@@ -5199,6 +5456,10 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 14700,
+      "craft": true
+    },
     "alchemy": {
       "item": "Gondo-Shizunori"
     }
@@ -5215,6 +5476,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -5225,6 +5490,10 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -5235,6 +5504,10 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -5245,6 +5518,10 @@
     },
     "type": "Weapon",
     "subtype": "Spear",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -5279,6 +5556,10 @@
       "npc": "Susie",
       "name": "Craving a Portable Snack"
     },
+    "shop": {
+      "price": 2700,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -5293,6 +5574,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -5301,6 +5586,10 @@
     },
     "type": "Weapon",
     "subtype": "Whip",
+    "shop": {
+      "price": 10800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -5311,6 +5600,10 @@
     },
     "type": "Weapon",
     "subtype": "Whip",
+    "shop": {
+      "price": 14700,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -5327,6 +5620,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 19200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -5337,6 +5634,10 @@
     },
     "type": "Weapon",
     "subtype": "Whip",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "item": "Beast Killer"
     }
@@ -5347,6 +5648,10 @@
     },
     "type": "Weapon",
     "subtype": "Whip",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -5396,6 +5701,10 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "shop": {
+      "price": 4800,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -5412,6 +5721,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 7500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -5426,11 +5739,16 @@
       {
         "area": 0,
         "room": [ 0, 26 ],
-        "type": "CHEST.GREEN"
+        "type": "CHEST.GREEN",
+        "ability": [ "High Jump" ]
       }
     ],
     "prerequisites": {
       "en": "Requires High Jump."
+    },
+    "shop": {
+      "price": 14700,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Fine Equipment/R"
@@ -5442,6 +5760,10 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "shop": {
+      "price": 21600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Gold Equipment/R"
     }
@@ -5452,6 +5774,10 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "shop": {
+      "price": 24300,
+      "craft": true
+    },
     "alchemy": {
       "item": "Betelgeuse"
     }
@@ -5462,6 +5788,10 @@
     },
     "type": "Weapon",
     "subtype": "Firearm",
+    "shop": {
+      "price": 43200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -5699,6 +6029,10 @@
         3
       ]
     ],
+    "shop": {
+      "price": 90,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Obsidian Equipment/R"
     }
@@ -5709,6 +6043,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 160,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Elemental Ammunition/R"
     }
@@ -5719,6 +6057,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 160,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Elemental Ammunition/R"
     }
@@ -5729,6 +6071,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 160,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Elemental Ammunition/R"
     }
@@ -5739,6 +6085,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 250,
+      "craft": true
+    },
     "alchemy": {
       "item": "Silver"
     }
@@ -5749,6 +6099,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 360,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Special Ammunition/R"
     }
@@ -5759,6 +6113,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 360,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Special Ammunition/R"
     }
@@ -5769,6 +6127,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 360,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Special Ammunition/R"
     }
@@ -5779,6 +6141,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 360,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Special Ammunition/R"
     }
@@ -5789,6 +6155,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 360,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Special Ammunition/R"
     }
@@ -5799,6 +6169,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 490,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Potent Ammunition/R"
     }
@@ -5809,6 +6183,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 640,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Potent Ammunition/R"
     }
@@ -5819,6 +6197,10 @@
     },
     "type": "Bullets",
     "subtype": "",
+    "shop": {
+      "price": 1440,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Ultimate Ammunition/R"
     }
@@ -5865,6 +6247,10 @@
         "marker": [ 0.75, 0.5 ]
       }
     ],
+    "shop": {
+      "price": 900,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -5920,6 +6306,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 1600,
+      "craft": true
+    },
     "alchemy": true,
     "chests": [
       {
@@ -5955,6 +6345,10 @@
       "npc": "Abigail",
       "name": "In Memory of Alba"
     },
+    "shop": {
+      "price": 1600,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -5976,6 +6370,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 2500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Circlet"
     }
@@ -5986,6 +6384,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 2500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Circlet"
     }
@@ -5996,6 +6398,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 2500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Circlet"
     }
@@ -6006,6 +6412,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 2500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -6016,6 +6426,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 3600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -6057,6 +6471,10 @@
         0.08
       ]
     ],
+    "shop": {
+      "price": 3600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -6067,6 +6485,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 4900,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -6077,6 +6499,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 4900,
+      "craft": true
+    },
     "alchemy": {
       "item": "Beast Beret"
     }
@@ -6087,6 +6513,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 4900,
+      "craft": true
+    },
     "alchemy": {
       "item": "Hairband"
     }
@@ -6115,6 +6545,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 8100,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6145,6 +6579,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 14400,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6170,6 +6608,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 19600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6180,6 +6622,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 22500,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -6201,6 +6647,10 @@
     },
     "type": "Head Armor",
     "subtype": "",
+    "shop": {
+      "price": 25600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Legendary Equipment/R"
     }
@@ -6323,6 +6773,10 @@
         0.08
       ]
     ],
+    "shop": {
+      "price": 1200,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -6334,6 +6788,10 @@
     "quest": {
       "npc": "Lindsay",
       "name": "Avenge the death of Lisa!"
+    },
+    "shop": {
+      "price": 1600,
+      "craft": true
     },
     "alchemy": {
       "item": "Monster Fur"
@@ -6349,6 +6807,10 @@
       "npc": "Susie",
       "name": "Craving Yellow Kernels"
     },
+    "shop": {
+      "price": 1700,
+      "craft": true
+    },
     "alchemy": {
       "item": "Cotton"
     }
@@ -6359,6 +6821,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 2000,
+      "craft": true
+    },
     "alchemy": {
       "item": "Monster Fur"
     },
@@ -6376,6 +6842,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 2300,
+      "craft": true
+    },
     "alchemy": {
       "item": "Dreadful Rag"
     }
@@ -6386,6 +6856,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 2500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Leonine Pelt"
     }
@@ -6396,6 +6870,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 2700,
+      "craft": true
+    },
     "alchemy": {
       "item": "Leonine Pelt"
     }
@@ -6406,6 +6884,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 2800,
+      "craft": true
+    },
     "alchemy": {
       "item": "Leonine Pelt"
     }
@@ -6429,6 +6911,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 3600,
+      "craft": true
+    },
     "alchemy": {
       "item": "Silver"
     }
@@ -6452,6 +6938,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 4900,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Steel Equipment/R"
     }
@@ -6462,6 +6952,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 5100,
+      "craft": true
+    },
     "alchemy": {
       "item": ["Hellhorse Hoof", "Hellhorse Mane"]
     }
@@ -6476,6 +6970,10 @@
       "npc": "Susie",
       "name": "Craving Something Refreshing"
     },
+    "shop": {
+      "price": 5600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Damascus Equipment/R"
     }
@@ -6486,6 +6984,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 6400,
+      "craft": true
+    },
     "alchemy": {
       "item": "Sinister Rag"
     }
@@ -6502,6 +7004,10 @@
         0.05
       ]
     ],
+    "shop": {
+      "price": 6400,
+      "craft": true
+    },
     "alchemy": {
       "item": "Sinister Rag"
     }
@@ -6516,6 +7022,10 @@
       "npc": "Susie",
       "name": "Craving a Rolled-up Treat"
     },
+    "shop": {
+      "price": 6400,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6526,6 +7036,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 8100,
+      "craft": true
+    },
     "alchemy": {
       "item": "Wool"
     }
@@ -6536,6 +7050,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 8100,
+      "craft": true
+    },
     "alchemy": {
       "item": ["Platinum", "Mithril"]
     }
@@ -6546,6 +7064,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 10000,
+      "craft": true
+    },
     "alchemy": {
       "item": "Crystal"
     }
@@ -6579,6 +7101,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 12100,
+      "craft": true
+    },
     "alchemy": {
       "item": "Dragon Scale"
     }
@@ -6589,6 +7115,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 12100,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Gold Equipment/R"
     }
@@ -6599,6 +7129,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 14400,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     },
@@ -6618,6 +7152,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 14400,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -6631,6 +7169,10 @@
     "quest": {
       "npc": "Abigail",
       "name": "In Memory of Nadia"
+    },
+    "shop": {
+      "price": 16900,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Fine Equipment/R"
@@ -6648,6 +7190,10 @@
         0.04
       ]
     ],
+    "shop": {
+      "price": 16900,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Gold Equipment/R"
     }
@@ -6664,6 +7210,10 @@
         0.06
       ]
     ],
+    "shop": {
+      "price": 19600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6674,6 +7224,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 19600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -6684,6 +7238,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 22500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Silk Dress"
     }
@@ -6694,6 +7252,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 22500,
+      "craft": true
+    },
     "alchemy": {
       "item": "Crystal Armor"
     }
@@ -6704,6 +7266,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 25600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Crimsonite Equipment/R"
     }
@@ -6714,6 +7280,10 @@
     },
     "type": "Body Armor",
     "subtype": "",
+    "shop": {
+      "price": 25600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Cashmere Equipment/R"
     }
@@ -6988,6 +7558,10 @@
       "npc": "Abigail",
       "name": "In Memory of Caleb"
     },
+    "shop": {
+      "price": 800,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -7009,6 +7583,10 @@
         "type": "CHEST.GREEN"
       }
     ],
+    "shop": {
+      "price": 2080,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -7019,6 +7597,10 @@
     },
     "type": "Accessory",
     "subtype": "",
+    "shop": {
+      "price": 2480,
+      "craft": true
+    },
     "alchemy": {
       "item": "Ring"
     }
@@ -7029,6 +7611,10 @@
     },
     "type": "Accessory",
     "subtype": "",
+    "shop": {
+      "price": 2480,
+      "craft": true
+    },
     "alchemy": {
       "item": "Ring"
     }
@@ -7039,6 +7625,10 @@
     },
     "type": "Accessory",
     "subtype": "",
+    "shop": {
+      "price": 2480,
+      "craft": true
+    },
     "alchemy": {
       "item": "Ring"
     }
@@ -7241,9 +7831,7 @@
         "area": 0,
         "room": [ 11, 31 ],
         "type": "HIDDEN.WALL",
-        "prerequisites": {
-          "en": "Requires High Jump or better mobility abilities."
-        }
+        "ability": [ "High Jump" ]
       },
       {
         "area": 9,
@@ -7387,6 +7975,10 @@
     },
     "type": "Scarf",
     "subtype": "",
+    "shop": {
+      "price": 800,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -7395,6 +7987,10 @@
     },
     "type": "Scarf",
     "subtype": "",
+    "shop": {
+      "price": 1360,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -7402,7 +7998,14 @@
       "en": "Order-made Scarf"
     },
     "type": "Scarf",
-    "subtype": ""
+    "subtype": "",
+    "shop": {
+      "price": 2080,
+      "lategame": true
+    },
+    "note": {
+      "en": "Can be recolored when talking to Todd the Barber."
+    }
   },
   {
     "name": {
@@ -7410,6 +8013,10 @@
     },
     "type": "Scarf",
     "subtype": "",
+    "shop": {
+      "price": 2960,
+      "craft": true
+    },
     "alchemy": true
   },
   {
@@ -7426,6 +8033,10 @@
         "type": "CHEST.GREEN"
       }
     ],
+    "shop": {
+      "price": 5200,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Fine Equipment/R"
     }
@@ -7439,6 +8050,10 @@
     "quest": {
       "npc": "Susie",
       "name": "Craving a Miracle"
+    },
+    "shop": {
+      "price": 8080,
+      "craft": true
     },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
@@ -7459,6 +8074,10 @@
         "ability": "Invert"
       }
     ],
+    "shop": {
+      "price": 11600,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Very Fine Equipment/R"
     }
@@ -7487,6 +8106,10 @@
     },
     "type": "Scarf",
     "subtype": "",
+    "shop": {
+      "price": 18080,
+      "craft": true
+    },
     "alchemy": {
       "recipe": "Cashmere Equipment/R"
     }
