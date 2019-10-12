@@ -19,7 +19,7 @@
     "lodash-es": "4.17.15",
     "node-sass": "npm:sass@1.22.1",
     "react": "16.10.2",
-    "react-dom": "16.9.0",
+    "react-dom": "16.10.2",
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
