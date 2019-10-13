@@ -311,14 +311,41 @@ export function drawMarker (room, label, marker = [ 0.5, 0.5 ]) {
     }
   }
 
-  var myIcon = L.icon({
+  const myIcon = L.icon({
     iconUrl: 'marker.png',
     iconSize: [24, 24],
     iconAnchor: [12, 12],
     popupAnchor: [0, 0]
   })
 
-  const layer = L.marker([ lat, lng ], { icon: myIcon })
+  const dominiqueIcon = L.icon({
+    iconUrl: 'icon-dominique.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+    popupAnchor: [0, 0]
+  })
+
+  const johannesIcon = L.icon({
+    iconUrl: 'icon-johannes.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+    popupAnchor: [0, 0]
+  })
+
+  let icon
+  switch (label) {
+    case 'Dominique':
+      icon = dominiqueIcon
+      break
+    case 'Johannes':
+      icon = johannesIcon
+      break
+    default:
+      icon = myIcon
+      break
+  }
+
+  const layer = L.marker([ lat, lng ], { icon })
 
   // Don't bind a popup if there isn't a name
   if (label) {
