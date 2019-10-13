@@ -1,7 +1,7 @@
 import { deburr } from 'lodash-es'
 import { Howl } from 'howler'
 import DEMONS from './data/demons.json'
-import AREAS from './data/areas.json'
+import AREAS from './data/areas.yaml'
 import SHARDS from './data/shards.json'
 import ITEMS from './data/items.json'
 import MISC from './data/misc.json'

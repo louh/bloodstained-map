@@ -2,7 +2,7 @@ import React from 'react'
 import { uniq } from 'lodash-es'
 import './InfoBox.scss'
 import DEMONS from '../data/demons.json'
-import AREAS from '../data/areas.json'
+import AREAS from '../data/areas.yaml'
 
 const locale = 'en'
 
