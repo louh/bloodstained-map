@@ -3,7 +3,7 @@ import { Howl } from 'howler'
 import DEMONS from './data/demons.json'
 import AREAS from './data/areas.yaml'
 import SHARDS from './data/shards.yaml'
-import ITEMS from './data/items.json'
+import ITEMS from './data/items.yaml'
 import MISC from './data/misc.json'
 import { drawGeo, drawRoomGeo, drawMarker, clearGeoJsons, zoomToGeoBounds } from './map'
 
@@ -315,6 +315,8 @@ export function showResult (selection, callback = () => {}) {
           let number
           if (Array.isArray(demon)) {
             number = demon[0]
+          } else if (typeof demon === 'object') {
+            number = demon.id
           } else {
             number = demon
           }
@@ -345,7 +347,11 @@ export function showResult (selection, callback = () => {}) {
       // test roooms
       if (item.rooms) {
         item.rooms.forEach((room) => {
-          drawMarker(room, item.name[locale], room[3] && room[3].marker)
+          if (Array.isArray(room)) {
+            drawMarker(room, item.name[locale], room[3] && room[3].marker)
+          } else {
+            drawMarker(room.coords, item.name[locale], room.marker)
+          }
           // drawRoomGeo(room, item.name[locale])
         })
       }
