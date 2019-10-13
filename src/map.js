@@ -257,6 +257,28 @@ const GRID_HEIGHT = 29.531 // 30
 const GRID_MAX_X = 118 // 1-indexed
 const GRID_MAX_Y = 49 // 1-indexed
 
+// ICONS
+const myIcon = L.icon({
+  iconUrl: 'marker.png',
+  iconSize: [24, 24],
+  iconAnchor: [12, 12],
+  popupAnchor: [0, 0]
+})
+
+const dominiqueIcon = L.icon({
+  iconUrl: 'icon-dominique.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 16],
+  popupAnchor: [0, 0]
+})
+
+const johannesIcon = L.icon({
+  iconUrl: 'icon-johannes.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 16],
+  popupAnchor: [0, 0]
+})
+
 const getActualX = (x) => GRID_BASE_X + (x * GRID_WIDTH)
 const getActualY = (y) => GRID_BASE_Y + (y * GRID_HEIGHT)
 
@@ -310,27 +332,6 @@ export function drawMarker (room, label, marker = [ 0.5, 0.5 ]) {
       "coordinates": [ lng, lat ]
     }
   }
-
-  const myIcon = L.icon({
-    iconUrl: 'marker.png',
-    iconSize: [24, 24],
-    iconAnchor: [12, 12],
-    popupAnchor: [0, 0]
-  })
-
-  const dominiqueIcon = L.icon({
-    iconUrl: 'icon-dominique.png',
-    iconSize: [32, 32],
-    iconAnchor: [16, 16],
-    popupAnchor: [0, 0]
-  })
-
-  const johannesIcon = L.icon({
-    iconUrl: 'icon-johannes.png',
-    iconSize: [32, 32],
-    iconAnchor: [16, 16],
-    popupAnchor: [0, 0]
-  })
 
   let icon
   switch (label) {
