@@ -87,7 +87,9 @@ function debug () {
   map.addEventListener('click', (e) => {
     const coords = rc.project(e.latlng)
     const xy = getMapXYForRasterCoords(coords)
-    highlightSelectedRoom(xy, e.originalEvent.pageX, e.originalEvent.pageY)
+    if (xy) {
+      highlightSelectedRoom(xy, e.originalEvent.pageX, e.originalEvent.pageY)
+    }
   })
 
   const statusEl = document.getElementById('debug-status')
