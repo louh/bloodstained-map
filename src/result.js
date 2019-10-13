@@ -1,6 +1,6 @@
 import { deburr } from 'lodash-es'
 import { Howl } from 'howler'
-import DEMONS from './data/demons.json'
+import DEMONS from './data/demons.yaml'
 import AREAS from './data/areas.yaml'
 import SHARDS from './data/shards.yaml'
 import ITEMS from './data/items.yaml'
@@ -175,10 +175,10 @@ export function showResult (selection, callback = () => {}) {
           // re: drawing markers, should do this for any mob that has a specific location
           // don't do it for bosses or for recurring mobs like medusa heads
           // override for kunekune (temp)
-          if ((selection.index === 43) || (DEMONS[selection.index].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0))) {
-            drawMarker(room, DEMONS[selection.index].name[locale], room[3] && room[3].marker)
+          if ((selection.index === 43) || (DEMONS[selection.index].type !== 'boss' && (room.quantity && room.quantity > 0))) {
+            drawMarker(room.coords, DEMONS[selection.index].name[locale], room.marker)
           } else {
-            drawRoomGeo(room, DEMONS[selection.index].name[locale])
+            drawRoomGeo(room.coords, DEMONS[selection.index].name[locale])
           }
         })
       } else {
@@ -221,10 +221,10 @@ export function showResult (selection, callback = () => {}) {
           if (DEMONS[number - 1].rooms && DEMONS[number - 1].rooms.length > 0) {
             DEMONS[number - 1].rooms.forEach((room) => {
               // TODO: mark room with area name
-              if (DEMONS[number - 1].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0)) {
-                drawMarker(room, DEMONS[number - 1].name[locale])
+              if (DEMONS[number - 1].type !== 'boss' && (room.quantity && room.quantity > 0)) {
+                drawMarker(room.coords, DEMONS[number - 1].name[locale])
               } else {
-                drawRoomGeo(room, DEMONS[number - 1].name[locale])
+                drawRoomGeo(room.coords, DEMONS[number - 1].name[locale])
               }
               // drawRoomGeo(room, DEMONS[number - 1].name[locale])
             })
@@ -326,10 +326,10 @@ export function showResult (selection, callback = () => {}) {
           if (DEMONS[number - 1].rooms && DEMONS[number - 1].rooms.length > 0) {
             DEMONS[number - 1].rooms.forEach((room) => {
               // TODO: mark room with area name
-              if (DEMONS[number - 1].type !== 'boss' && (typeof room[2] !== 'undefined' && room[2] > 0)) {
-                drawMarker(room, DEMONS[number - 1].name[locale])
+              if (DEMONS[number - 1].type !== 'boss' && (room.quantity && room.quantity > 0)) {
+                drawMarker(room.coords, DEMONS[number - 1].name[locale])
               } else {
-                drawRoomGeo(room, DEMONS[number - 1].name[locale])
+                drawRoomGeo(room.coords, DEMONS[number - 1].name[locale])
               }
               // drawRoomGeo(room, DEMONS[number - 1].name[locale])
             })
@@ -347,12 +347,7 @@ export function showResult (selection, callback = () => {}) {
       // test roooms
       if (item.rooms) {
         item.rooms.forEach((room) => {
-          if (Array.isArray(room)) {
-            drawMarker(room, item.name[locale], room[3] && room[3].marker)
-          } else {
-            drawMarker(room.coords, item.name[locale], room.marker)
-          }
-          // drawRoomGeo(room, item.name[locale])
+          drawMarker(room.coords, item.name[locale], room.marker)
         })
       }
 

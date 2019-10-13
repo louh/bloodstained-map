@@ -1,0 +1,1925 @@
+---
+- number: 1
+  name:
+    en: Morte
+    de: Morte
+  areas:
+  - 0
+  - 1
+  - 2
+  rooms:
+  - coords: [3, 27]
+    quantity: 1
+  - coords: [5, 27]
+    quantity: 1
+  - coords: [6, 27]
+    quantity: 1
+  - coords: [4, 28]
+    quantity: 1
+  - coords: [7, 28]
+    quantity: 1
+  - coords: [2, 28]
+    quantity: 1
+  - coords: [2, 29]
+    quantity: 1
+  - coords: [2, 30]
+    quantity: 1
+  - coords: [7, 31]
+    quantity: 1
+  - coords: [7, 32]
+    quantity: 1
+  - coords: [10, 31]
+    quantity: 1
+  - coords: [10, 32]
+    quantity: 1
+  - coords: [15, 26]
+    quantity: 1
+  - coords: [17, 26]
+    quantity: 1
+  - coords: [22, 26]
+    quantity: 1
+  - coords: [23, 26]
+    quantity: 1
+  - coords: [35, 26]
+    quantity: -1
+  - coords: [36, 26]
+    quantity: -1
+  - coords: [37, 26]
+    quantity: -1
+  - coords: [42, 26]
+    quantity: -1
+  - coords: [43, 26]
+    quantity: -1
+  - coords: [44, 26]
+    quantity: -1
+- number: 2
+  name:
+    en: Seama
+    de: Meermo
+  areas:
+  - 0
+  rooms:
+  - story: true
+    coords: [0, 27]
+    quantity: 1
+  - coords: [4, 25]
+  - coords: [5, 26]
+  - coords: [6, 26]
+  - coords: [7, 26]
+  - coords: [8, 26]
+  - coords: [3, 31]
+  - coords: [10, 32]
+  - story: true
+    coords: [13, 29]
+    quantity: 3
+  - coords: [12, 28]
+    quantity: 1
+  - coords: [8, 29]
+    quantity: 1
+  - coords: [8, 30]
+    quantity: 1
+  - coords: [10, 26]
+    quantity: -1
+  - coords: [11, 26]
+    quantity: -1
+- number: 3
+  name:
+    en: Cannon Morte
+    de: Kanonen-Morte
+  areas:
+  - 0
+  rooms:
+  - coords: [6, 28]
+    quantity: 1
+  - coords: [5, 32]
+    quantity: 2
+  - coords: [6, 32]
+    quantity: 3
+  - coords: [12, 30]
+    quantity: 1
+- number: 4
+  name:
+    en: Aello
+    de: Aello
+  areas:
+  - 0
+  - 1
+  - 2
+  rooms:
+  - marker: [0.75, 0.3]
+    coords: [3, 25]
+    quantity: 1
+  - coords: [6, 25]
+    quantity: 1
+  - coords: [10, 26]
+    quantity: 1
+  - coords: [22, 25]
+    quantity: 1
+  - coords: [25, 26]
+    quantity: 1
+  - marker: [0.8, 0.4]
+    coords: [39, 24]
+    quantity: 1
+  - coords: [39, 25]
+    quantity: 1
+  - coords: [40, 25]
+    quantity: 1
+- number: 5
+  name:
+    en: Ghost
+  areas:
+  - 0
+  - 2
+  rooms:
+  - coords: [12, 30]
+    quantity: 1
+  - coords: [12, 31]
+    quantity: 1
+  - coords: [42, 26]
+    quantity: 1
+  - coords: [43, 26]
+    quantity: 1
+  - marker: [0.75, 0.33]
+    coords: [43, 22]
+    quantity: 1
+  - marker: [0.25, 0.33]
+    coords: [44, 20]
+    quantity: 1
+  - marker: [0.25, 0.33]
+    coords: [45, 24]
+    quantity: 1
+  - marker: [0.75, 0.33]
+    coords: [47, 24]
+    quantity: 1
+  - marker: [0, 0.33]
+    coords: [50, 23]
+    quantity: 1
+- number: 6
+  name:
+    en: Dullahammer
+  areas:
+  - 0
+  rooms:
+  - coords: [8, 26]
+    quantity: 1
+  - coords: [11, 32]
+    quantity: 1
+  - coords: [9, 28]
+    quantity: 1
+  - coords: [11, 26]
+    quantity: 1
+- number: 7
+  name:
+    en: Giant Rat
+  areas:
+  - 1
+  rooms:
+  - coords: [16, 26]
+    quantity: 1
+  - coords: [25, 27]
+    quantity: 1
+  - coords: [27, 27]
+    quantity: 1
+- number: 8
+  name:
+    en: Bone Morte
+  areas:
+  - 1
+  - 2
+  rooms:
+  - coords: [17, 26]
+    quantity: 1
+  - coords: [21, 26]
+    quantity: 1
+  - coords: [22, 25]
+    quantity: 1
+  - coords: [23, 25]
+    quantity: 1
+  - marker: [0.2, 0.5]
+    coords: [40, 24]
+    quantity: 1
+  - marker: [0, 0.4]
+    coords: [40, 25]
+    quantity: 1
+  - coords: [45, 26]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [46, 25]
+    quantity: 1
+  - marker: [0.75, 0.5]
+    coords: [46, 25]
+    quantity: 1
+  - coords: [49, 23]
+    quantity: 1
+  - coords: [49, 25]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [50, 19]
+    quantity: 1
+  - marker: [0.75, 0.5]
+    coords: [50, 19]
+    quantity: 1
+  - coords: [50, 23]
+    quantity: 1
+  - coords: [50, 24]
+    quantity: 1
+- number: 9
+  name:
+    en: Bat
+  areas:
+  - 1
+  - 2
+  - 9
+  rooms:
+  - coords: [21, 26]
+    quantity: 1
+  - coords: [22, 26]
+    quantity: 1
+  - coords: [23, 26]
+    quantity: 1
+  - coords: [31, 27]
+    quantity: 2
+  - coords: [33, 28]
+    quantity: 1
+  - coords: [35, 28]
+    quantity: 2
+  - coords: [35, 26]
+    quantity: 3
+  - coords: [36, 26]
+    quantity: 3
+  - coords: [37, 26]
+    quantity: 3
+  - coords: [37, 28]
+    quantity: 1
+  - coords: [37, 29]
+    quantity: 1
+  - marker: [0.25, 0.35]
+    coords: [37, 34]
+    quantity: 1
+  - marker: [0.3, 0.35]
+    coords: [37, 34]
+    quantity: 1
+  - marker: [0.4, 0.4]
+    coords: [37, 34]
+    quantity: 1
+  - marker: [0.75, 0.35]
+    coords: [38, 34]
+    quantity: 1
+  - marker: [0.4, 0.5]
+    coords: [38, 35]
+    quantity: 1
+  - coords: [39, 30]
+    quantity: 1
+  - coords: [39, 31]
+    quantity: 2
+  - coords: [40, 30]
+    quantity: 1
+  - coords: [41, 36]
+    quantity: 1
+  - coords: [41, 37]
+    quantity: 1
+  - coords: [41, 30]
+    quantity: 2
+  - coords: [42, 30]
+    quantity: 1
+  - coords: [43, 30]
+    quantity: 1
+  - marker: [0.8, 0.3]
+    coords: [41, 26]
+    quantity: 2
+  - marker: [0.2, 0.3]
+    coords: [42, 26]
+    quantity: 3
+  - marker: [0.5, 0.3]
+    coords: [43, 26]
+    quantity: 5
+  - coords: [45, 20]
+    quantity: 1
+  - coords: [45, 39]
+    quantity: 2
+  - coords: [45, 39]
+    quantity: 6
+  - coords: [46, 20]
+    quantity: 1
+  - coords: [48, 20]
+    quantity: 1
+  - coords: [49, 20]
+    quantity: 1
+  - coords: [49, 24]
+    quantity: 3
+  - coords: [50, 25]
+    quantity: 3
+- number: 10
+  name:
+    en: Gieremund
+  areas:
+  - 2
+  - 4
+  rooms:
+  - coords: [38, 20]
+    quantity: 1
+  - marker: [1, 0.6]
+    coords: [41, 26]
+    quantity: 1
+  - coords: [48, 22]
+    quantity: 1
+  - coords: [50, 25]
+    quantity: 1
+- number: 11
+  name:
+    en: Blood Grinder Knight
+  areas:
+  - 2
+  - 3
+  rooms:
+  - coords: [40, 21]
+    quantity: 1
+  - coords: [42, 21]
+    quantity: 1
+  - coords: [42, 22]
+    quantity: 1
+  - coords: [46, 20]
+    quantity: 1
+  - coords: [46, 24]
+    quantity: 1
+  - coords: [47, 22]
+    quantity: 1
+  - coords: [48, 20]
+    quantity: 1
+  - coords: [49, 22]
+    quantity: 1
+  - marker: [1, 0.65]
+    coords: [52, 22]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [55, 23]
+    quantity: 1
+  - coords: [60, 25]
+    quantity: 1
+- number: 12
+  name:
+    en: Sabnock
+  areas:
+  - 2
+  rooms:
+  - marker: [1, 0.6]
+    coords: [39, 26]
+    quantity: 1
+  - coords: [41, 21]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [51, 24]
+    quantity: 1
+- number: 13
+  name:
+    en: Moco Weed
+  areas:
+  - 3
+  rooms:
+  - marker: [0.5, 0.65]
+    coords: [52, 22]
+    quantity: 1
+  - marker: [0.5, 0.65]
+    coords: [53, 22]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [54, 22]
+    quantity: 1
+  - marker: [0.75, 0.5]
+    coords: [54, 22]
+    quantity: 1
+  - marker: [0.8, 0.65]
+    coords: [54, 24]
+    quantity: 1
+  - marker: [0.2, 0.65]
+    coords: [55, 24]
+    quantity: 1
+  - marker: [0.8, 0.65]
+    coords: [55, 24]
+    quantity: 1
+  - marker: [0.2, 0.65]
+    coords: [56, 24]
+    quantity: 1
+  - coords: [56, 23]
+    quantity: 1
+  - marker: [0.25, 0.4]
+    coords: [68, 25]
+    quantity: 1
+- number: 14
+  name:
+    en: Toad
+  areas:
+  - 3
+  - 9
+  rooms:
+  - coords: [57, 25]
+    quantity: 1
+  - coords: [58, 25]
+    quantity: 3
+  - coords: [59, 25]
+    quantity: 1
+  - coords: [60, 25]
+    quantity: 1
+  - marker: [0.75, 0.4]
+    coords: [68, 25]
+    quantity: 1
+  - coords: [72, 27]
+    quantity: 3
+- number: 15
+  name:
+    en: Plume Parma
+  areas:
+  - 3
+  rooms:
+  - coords: [55, 23]
+    quantity: 1
+  - marker: [0.2, 0.35]
+    coords: [55, 24]
+    quantity: 1
+  - marker: [0.8, 0.35]
+    coords: [55, 24]
+    quantity: 1
+  - coords: [56, 23]
+    quantity: 1
+  - coords: [58, 25]
+    quantity: 1
+  - coords: [59, 25]
+    quantity: 1
+  - coords: [60, 25]
+    quantity: 1
+  - coords: [68, 25]
+    quantity: 1
+- number: 16
+  name:
+    en: Barbatos
+  areas:
+  - 2
+  - 3
+  rooms:
+  - coords: [48, 21]
+    quantity: 1
+  - marker: [0.75, 0.65]
+    coords: [52, 22]
+    quantity: 1
+  - marker: [0.25, 0.65]
+    coords: [53, 22]
+    quantity: 1
+  - coords: [55, 23]
+    quantity: 1
+  - marker: [0.5, 0.65]
+    coords: [55, 24]
+    quantity: 1
+- number: 17
+  name:
+    en: Carabosse
+  disambiguate: true
+  areas:
+  - 3
+  rooms:
+  - coords: [64, 24]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [65, 24]
+    quantity: 1
+  - coords: [67, 24]
+    quantity: 1
+  - coords: [68, 24]
+    quantity: 1
+  - coords: [74, 24]
+    quantity: 1
+  - coords: [74, 25]
+    quantity: 1
+- number: 18
+  name:
+    en: Simian
+  areas:
+  - 3
+  - 4
+  rooms:
+  - coords: [41, 14]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [51, 12]
+    quantity: 1
+  - coords: [70, 23]
+    quantity: 1
+  - marker: [0.1, 0.65]
+    coords: [71, 25]
+    quantity: 1
+- number: 19
+  name:
+    en: Zagan
+  areas:
+  - 3
+  rooms:
+  - coords: [75, 25]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [72, 24]
+    quantity: 1
+- number: 20
+  name:
+    en: Poltergeist
+  areas:
+  - 0
+  - 4
+  - 5
+  - 6
+  rooms:
+  - coords: [1, 26]
+  - coords: [37, 19]
+    quantity: 1
+  - coords: [38, 18]
+    quantity: 1
+  - coords: [38, 20]
+    quantity: 1
+  - coords: [48, 18]
+    quantity: 1
+- number: 21
+  name:
+    en: Ordog
+  areas:
+  - 3
+  - 4
+  rooms:
+  - coords: [36, 17]
+    quantity: 1
+  - marker: [1, 0.9]
+    coords: [45, 16]
+    quantity: 1
+  - marker: [0.9, 0.65]
+    coords: [71, 25]
+    quantity: 1
+- number: 22
+  name:
+    en: Gargoyle
+  areas:
+  - 3
+  - 4
+  rooms:
+  - coords: [47, 16]
+    quantity: 1
+  - coords: [49, 17]
+    quantity: 1
+  - coords: [50, 17]
+    quantity: 1
+  - coords: [52, 11]
+    quantity: 1
+  - marker: [0.75, 0.5]
+    coords: [70, 24]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [72, 24]
+    quantity: 1
+- number: 23
+  name:
+    en: Killer Barber
+  areas:
+  - 4
+  rooms:
+  - coords: [37, 21]
+    quantity: 1
+  - coords: [38, 17]
+    quantity: 1
+  - coords: [39, 17]
+    quantity: 1
+  - coords: [41, 17]
+    quantity: 1
+  - coords: [47, 16]
+    quantity: 1
+  - coords: [48, 16]
+    quantity: 1
+- number: 24
+  name:
+    en: Demon
+  areas:
+  - 4
+  - 6
+  - 9
+  rooms:
+  - marker: [1, 0.1]
+    coords: [45, 16]
+    quantity: 1
+  - coords: [47, 16]
+    quantity: 1
+  - coords: [49, 16]
+    quantity: 1
+- number: 25
+  name:
+    en: Buer
+  disambiguate: true
+  areas:
+  - 4
+  - 7
+  - 9
+  rooms:
+  - coords: [37, 21]
+    quantity: 1
+  - marker: [0.8, 1]
+    coords: [37, 28]
+    quantity: 1
+  - coords: [38, 19]
+    quantity: 1
+  - coords: [41, 17]
+    quantity: 1
+  - coords: [107, 27]
+    quantity: 1
+  - coords: [107, 28]
+    quantity: 1
+- number: 26
+  name:
+    en: Nyabon
+  areas:
+  - 2
+  - 4
+  rooms:
+  - coords: [47, 20]
+    quantity: 1
+  - coords: [44, 16]
+    quantity: 1
+- number: 27
+  name:
+    en: Scythe Mite
+  areas:
+  - 5
+  rooms: []
+- number: 28
+  name:
+    en: Dullahammer Head
+  disambiguate: true
+  areas:
+  - 4
+  - 5
+  rooms:
+  - coords: [45, 7]
+    quantity: -1
+  - coords: [45, 8]
+    quantity: -1
+  - coords: [45, 9]
+    quantity: -1
+  - coords: [45, 10]
+    quantity: -1
+  - coords: [45, 11]
+    quantity: -1
+  - coords: [46, 7]
+    quantity: -1
+  - coords: [46, 8]
+    quantity: -1
+  - coords: [46, 9]
+    quantity: -1
+  - coords: [46, 10]
+    quantity: -1
+  - coords: [46, 11]
+    quantity: -1
+- number: 29
+  name:
+    en: Buer Armor
+  areas:
+  - 3
+  - 5
+  - 9
+  rooms:
+  - coords: [71, 24]
+    quantity: 1
+- number: 30
+  name:
+    en: Wolfman
+  areas:
+  - 5
+  rooms: []
+- number: 31
+  name:
+    en: Thunder Elemental
+  areas:
+  - 6
+  rooms: []
+- number: 32
+  name:
+    en: Carriage Morte
+  areas:
+  - 6
+  - 7
+  rooms:
+  - coords: [78, 25]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [98, 25]
+    quantity: 1
+- number: 33
+  name:
+    en: Dantalion
+  disambiguate: true
+  areas:
+  - 6
+  rooms: []
+- number: 34
+  name:
+    en: Rul'sha
+  areas:
+  - 6
+  rooms: []
+- number: 35
+  name:
+    en: Decarabia
+  areas:
+  - 9
+  rooms: []
+- number: 36
+  name:
+    en: Shovel Armor
+  areas:
+  - 9
+  rooms: []
+- number: 37
+  name:
+    en: Malediction
+  areas:
+  - 4
+  - 6
+  rooms:
+  - coords: [49, 8]
+    quantity: -1
+  - coords: [49, 9]
+    quantity: -1
+  - coords: [49, 10]
+    quantity: -1
+  - coords: [49, 11]
+    quantity: -1
+  - coords: [50, 8]
+    quantity: -1
+  - coords: [50, 9]
+    quantity: -1
+  - coords: [50, 10]
+    quantity: -1
+  - coords: [50, 11]
+    quantity: -1
+- number: 38
+  name:
+    en: Celaeno
+  areas:
+  - 5
+  - 7
+  rooms:
+  - coords: [95, 24]
+    quantity: 1
+  - coords: [96, 24]
+    quantity: 1
+  - coords: [98, 24]
+    quantity: 1
+- number: 39
+  name:
+    en: Shield Outsider
+  areas:
+  - 4
+  - 5
+  rooms:
+  - marker: [0, 0.5]
+    coords: [40, 22]
+    quantity: 1
+  - coords: [51, 11]
+    quantity: 1
+- number: 40
+  name:
+    en: Puppy
+  areas:
+  - 7
+  - 8
+  rooms:
+  - coords: [79, 25]
+    quantity: 1
+  - marker: [1, 0.2]
+    coords: [96, 28]
+    quantity: 1
+  - marker: [0, 0.5]
+    coords: [105, 28]
+    quantity: 1
+- number: 41
+  name:
+    en: Lili
+  areas:
+  - 7
+  rooms:
+  - farm: true
+    coords: [80, 25]
+    quantity: 2
+  - farm: true
+    coords: [78, 25]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [96, 25]
+    quantity: 1
+  - coords: [98, 25]
+    quantity: 1
+  - coords: [99, 25]
+    quantity: 1
+  - coords: [101, 24]
+    quantity: 1
+  - coords: [101, 25]
+    quantity: 1
+- number: 42
+  name:
+    en: Assassin
+  areas:
+  - 7
+  rooms:
+  - coords: [93, 24]
+    quantity: 1
+  - coords: [93, 25]
+    quantity: 1
+  - coords: [96, 25]
+    quantity: 1
+  - coords: [97, 25]
+    quantity: 1
+  - coords: [101, 24]
+    quantity: 1
+  - coords: [107, 26]
+    quantity: 1
+  - coords: [107, 27]
+    quantity: 1
+  - coords: [107, 29]
+    quantity: 1
+- number: 43
+  name:
+    en: Dragon
+  areas:
+  - 6
+  - 12
+  rooms:
+  - marker: [0.25, 0.5]
+    coords: [38, 48]
+    quantity: 1
+- number: 44
+  name:
+    en: Kunekune
+  areas:
+  - 7
+  rooms:
+  - coords: [94, 25]
+  note:
+    en: 'Kunekune only spawns in one place. There is a seat on the train on the Bridge
+      of Evil you can sit in and look out the window. After some time, a silver-colored
+      demon will appear in the distance and begin rapidly approaching you. Warning:
+      there will be a jump scare! You will then fight Kunekune.'
+- number: 45
+  name:
+    en: Poison Toad
+  areas:
+  - 5
+  - 8
+  - 9
+  - 10
+  rooms:
+  - coords: [100, 28]
+    quantity: 1
+  - coords: [100, 29]
+    quantity: 1
+  - coords: [101, 28]
+    quantity: 1
+  - coords: [101, 29]
+    quantity: 1
+- number: 46
+  name:
+    en: Sidhe
+  areas:
+  - 8
+  rooms:
+  - coords: [96, 27]
+    quantity: 1
+  - coords: [96, 28]
+    quantity: 1
+  - coords: [97, 27]
+    quantity: 1
+  - coords: [97, 28]
+    quantity: 1
+  - coords: [104, 28]
+    quantity: 1
+  - coords: [105, 28]
+    quantity: 1
+- number: 47
+  name:
+    en: Bomber Morte
+  areas:
+  - 8
+  rooms:
+  - coords: [96, 27]
+    quantity: 1
+  - coords: [96, 28]
+    quantity: 1
+  - coords: [100, 29]
+    quantity: 1
+  - coords: [104, 28]
+    quantity: 1
+  - coords: [105, 29]
+    quantity: 1
+- number: 48
+  name:
+    en: Mimic
+  areas:
+  - 6
+  - 8
+  rooms:
+  - coords: [96, 28]
+    quantity: 1
+- number: 49
+  name:
+    en: Light Elemental
+  areas:
+  - 4
+  rooms:
+  - marker: [1, 0.5]
+    coords: [45, 10]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [49, 10]
+    quantity: 1
+- number: 50
+  name:
+    en: Ocypete
+  areas:
+  - 4
+  rooms:
+  - marker: [1, 0.25]
+    coords: [45, 12]
+    quantity: 1
+  - marker: [1, 0]
+    coords: [49, 12]
+    quantity: 1
+- number: 51
+  name:
+    en: Cyhyraeth
+  areas:
+  - 2
+  - 3
+  - 4
+  rooms:
+  - coords: [41, 8]
+    quantity: 1
+  - coords: [42, 9]
+    quantity: 1
+  - coords: [37, 17]
+    quantity: 1
+  - marker: [0.3, 0.5]
+    coords: [38, 23]
+    quantity: 1
+  - coords: [48, 12]
+    quantity: 1
+  - marker: [0.5, 0.65]
+    coords: [71, 25]
+    quantity: 1
+- number: 52
+  name:
+    en: Chair Mimic
+  areas:
+  - 6
+  - 9
+  rooms: []
+- number: 53
+  name:
+    en: Leraje
+  areas:
+  - 4
+  - 6
+  rooms:
+  - coords: [44, 12]
+    quantity: 1
+  - coords: [49, 10]
+    quantity: 1
+  - coords: [50, 10]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [49, 8]
+    quantity: 1
+- number: 54
+  name:
+    en: Bloodbringer
+  disambiguate: true
+  areas:
+  - 2
+  - 4
+  - 14
+  rooms:
+  - marker: [0, 0.5]
+    coords: [40, 22]
+    quantity: 1
+  - marker: [1, 0.25]
+    coords: [49, 17]
+    quantity: 1
+- number: 55
+  name:
+    en: Lance Armor
+  areas:
+  - 4
+  - 6
+  rooms:
+  - coords: [42, 13]
+    quantity: 1
+  - coords: [43, 12]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [45, 8]
+    quantity: 1
+  - coords: [45, 9]
+    quantity: 1
+  - coords: [51, 12]
+    quantity: 1
+  - coords: [52, 12]
+    quantity: 1
+- number: 56
+  name:
+    en: Tamako-Death
+  areas:
+  - 6
+  rooms: []
+- number: 57
+  name:
+    en: Triwheel Buer
+  areas:
+  - 6
+  - 14
+  rooms: []
+- number: 58
+  name:
+    en: Gamigin
+  areas:
+  - 4
+  - 14
+  rooms:
+  - marker: [1, 0.5]
+    coords: [47, 9]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [51, 12]
+    quantity: 1
+- number: 59
+  name:
+    en: Titania
+  areas:
+  - 6
+  - 14
+  rooms: []
+- number: 60
+  name:
+    en: Axe Outsider
+  areas:
+  - 6
+  - 9
+  - 14
+  rooms:
+  - coords: [39, 22]
+    quantity: 1
+  - marker: [0.4, 0.65]
+    coords: [40, 36]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [41, 30]
+    quantity: 1
+  - marker: [0.65, 0.5]
+    coords: [43, 30]
+    quantity: 1
+- number: 61
+  name:
+    en: Scylla
+  areas:
+  - 9
+  rooms:
+  - marker: [0.65, 0.5]
+    coords: [38, 40]
+    quantity: 1
+  - marker: [0.25, 0.75]
+    coords: [38, 40]
+    quantity: 1
+  - marker: [1, 0.65]
+    coords: [38, 41]
+    quantity: 1
+- number: 62
+  name:
+    en: Forneus
+  areas:
+  - 9
+  rooms:
+  - coords: [33, 29]
+    quantity: 1
+  - coords: [35, 29]
+    quantity: 1
+  - coords: [36, 29]
+    quantity: 1
+  - coords: [41, 40]
+    quantity: 1
+- number: 63
+  name:
+    en: Deeseama
+  areas:
+  - 9
+  rooms:
+  - marker: [0.7, 0.35]
+    coords: [43, 40]
+    quantity: 1
+  - marker: [0.1, 0.65]
+    coords: [43, 40]
+    quantity: 1
+- number: 64
+  name:
+    en: Water Leaper
+  areas:
+  - 9
+  - 10
+  rooms:
+  - marker: [0.3, 0.65]
+    coords: [36, 34]
+    quantity: 1
+  - marker: [0.25, 0.65]
+    coords: [37, 34]
+    quantity: 1
+  - marker: [0.35, 0.7]
+    coords: [37, 34]
+    quantity: 1
+  - marker: [0.65, 0.5]
+    coords: [38, 35]
+    quantity: 1
+  - marker: [0.35, 0.5]
+    coords: [38, 36]
+    quantity: 1
+  - coords: [39, 31]
+    quantity: 1
+  - coords: [39, 32]
+    quantity: 1
+  - coords: [56, 45]
+    quantity: 1
+- number: 65
+  name:
+    en: Glashtyn
+  areas:
+  - 9
+  rooms:
+  - coords: [40, 41]
+    quantity: 1
+  - coords: [41, 41]
+    quantity: 1
+  - marker: [0.75, 0.5]
+    coords: [42, 41]
+    quantity: 1
+  - coords: [44, 41]
+    quantity: 1
+  - marker: [0.1, 0.5]
+    coords: [45, 39]
+    quantity: 1
+- number: 66
+  name:
+    en: Seeker
+  areas:
+  - 9
+  rooms:
+  - marker: [1, 0.65]
+    coords: [36, 34]
+    quantity: 1
+  - marker: [0.8, 1]
+    coords: [38, 33]
+    quantity: 1
+  - marker: [0.3, 0.65]
+    coords: [38, 34]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [38, 39]
+    quantity: 1
+  - marker: [0.5, 0.65]
+    coords: [39, 36]
+    quantity: 1
+  - marker: [0.4, 0.65]
+    coords: [42, 36]
+    quantity: 1
+  - marker: [0.5, 0.35]
+    coords: [56, 41]
+    quantity: 1
+- number: 67
+  name:
+    en: Archdemon
+  areas:
+  - 4
+  - 9
+  - 14
+  rooms:
+  - coords: [38, 33]
+    quantity: 1
+  - coords: [39, 30]
+    quantity: 1
+  - marker: [1, 0.35]
+    coords: [39, 36]
+    quantity: 1
+  - marker: [0.5, 0]
+    coords: [56, 44]
+    quantity: 1
+  - marker: [0.25, 0.65]
+    coords: [56, 40]
+    quantity: 1
+- number: 68
+  name:
+    en: Amy
+  areas:
+  - 10
+  rooms:
+  - marker: [0.5, 0.5]
+    coords: [59, 46]
+    quantity: 1
+- number: 69
+  name:
+    en: Allocer
+  areas:
+  - 10
+  rooms: []
+- number: 70
+  name:
+    en: Vul'sha
+  areas:
+  - 10
+  rooms: []
+- number: 71
+  name:
+    en: Living Fossil
+  areas:
+  - 10
+  rooms: []
+- number: 72
+  name:
+    en: Rocky
+  areas:
+  - 10
+  rooms: []
+- number: 73
+  name:
+    en: Dark Elemental
+  areas:
+  - 11
+  rooms:
+  - marker: [0.3, 0.8]
+    coords: [29, 38]
+    quantity: 1
+  - marker: [0.75, 0.1]
+    coords: [30, 41]
+    quantity: 1
+  - coords: [33, 37]
+    quantity: 1
+  - marker: [0.35, 1]
+    coords: [32, 38]
+    quantity: 1
+  - marker: [0.25, 0.5]
+    coords: [35, 41]
+    quantity: 1
+  - marker: [0.75, 0.65]
+    coords: [35, 42]
+    quantity: 1
+- number: 74
+  name:
+    en: Lamashtu
+  areas:
+  - 11
+  rooms:
+  - marker: [0.25, 0.5]
+    coords: [29, 40]
+    quantity: 1
+  - coords: [30, 40]
+    quantity: 1
+  - coords: [32, 41]
+    quantity: 1
+  - marker: [1, 0.75]
+    coords: [33, 37]
+    quantity: 1
+  - coords: [33, 40]
+    quantity: 1
+  - coords: [34, 40]
+    quantity: 1
+- number: 75
+  name:
+    en: Macaron
+  areas:
+  - 8
+  - 9
+  - 11
+  rooms:
+  - marker: [1, 0.5]
+    coords: [33, 40]
+    quantity: 1
+  - coords: [34, 42]
+    quantity: 1
+  - coords: [57, 42]
+    quantity: 1
+  - coords: [102, 28]
+    quantity: 1
+- number: 76
+  name:
+    en: Blood Bug
+  areas:
+  - 12
+  rooms:
+  - coords: [39, 47]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [39, 48]
+    quantity: 1
+  - marker: [0.5, 0.25]
+    coords: [40, 48]
+    quantity: 1
+  - coords: [41, 46]
+    quantity: 1
+  - marker: [0.65, 0.5]
+    coords: [43, 46]
+    quantity: 1
+  - marker: [0.4, 1]
+    coords: [44, 46]
+    quantity: 1
+  - coords: [51, 46]
+    quantity: 1
+  - coords: [51, 47]
+    quantity: 1
+- number: 77
+  name:
+    en: Fire Elemental
+  areas:
+  - 12
+  rooms:
+  - marker: [0.65, 0.25]
+    coords: [33, 46]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [34, 46]
+    quantity: 1
+  - coords: [34, 47]
+    quantity: 1
+  - coords: [35, 47]
+    quantity: 1
+  - marker: [1, 0]
+    coords: [41, 48]
+    quantity: 1
+  - marker: [0.5, 0]
+    coords: [45, 48]
+    quantity: 1
+- number: 78
+  name:
+    en: Volcano Morte
+  areas:
+  - 12
+  rooms:
+  - coords: [35, 46]
+    quantity: 1
+  - coords: [35, 48]
+    quantity: 1
+  - marker: [0.65, 0.3]
+    coords: [39, 48]
+    quantity: 1
+  - coords: [40, 47]
+    quantity: 1
+  - marker: [0.75, 0.65]
+    coords: [41, 48]
+    quantity: 1
+  - marker: [0.25, 0.65]
+    coords: [42, 48]
+    quantity: 1
+  - marker: [0.6, 0.5]
+    coords: [42, 48]
+    quantity: 1
+  - marker: [0.75, 0.35]
+    coords: [43, 47]
+    quantity: 1
+  - coords: [51, 48]
+    quantity: 1
+- number: 79
+  name:
+    en: Hellhound
+  areas:
+  - 12
+  rooms:
+  - marker: [0.25, 0.4]
+    coords: [37, 48]
+    quantity: 1
+  - marker: [0.35, 0.5]
+    coords: [44, 47]
+    quantity: 1
+- number: 80
+  name:
+    en: Zepar
+  areas:
+  - 10
+  - 12
+  rooms:
+  - coords: [34, 48]
+    quantity: 1
+  - coords: [48, 48]
+    quantity: 1
+  - marker: [0.75, 0.65]
+    coords: [49, 46]
+    quantity: 1
+  - marker: [0.35, 0.5]
+    coords: [49, 48]
+    quantity: 1
+  - marker: [0.1, 0.35]
+    coords: [50, 48]
+    quantity: 1
+- number: 81
+  name:
+    en: Deathtrap
+  areas:
+  - 12
+  - 13
+  rooms:
+  - coords: [39, 8]
+    quantity: 1
+  - marker: [1, 0.5]
+    coords: [39, 47]
+    quantity: 1
+  - marker: [0.4, 0.5]
+    coords: [45, 47]
+    quantity: 1
+- number: 82
+  name:
+    en: Gusion
+  areas:
+  - 6
+  - 8
+  - 13
+  rooms:
+  - coords: [35, 14]
+    quantity: 1
+  - coords: [38, 14]
+    quantity: 2
+  - coords: [39, 10]
+    quantity: 1
+  - coords: [39, 11]
+    quantity: 1
+  - coords: [39, 12]
+    quantity: 1
+  - coords: [39, 13]
+    quantity: 1
+  - coords: [35, 10]
+    quantity: 2
+  - coords: [36, 7]
+    quantity: 2
+  - coords: [37, 7]
+    quantity: 1
+  - coords: [38, 7]
+    quantity: 1
+  - coords: [36, 8]
+    quantity: 1
+  - coords: [37, 8]
+    quantity: 1
+  - coords: [38, 8]
+    quantity: 1
+  - coords: [39, 5]
+    quantity: 2
+  - coords: [40, 3]
+    quantity: 1
+  - coords: [41, 3]
+    quantity: 1
+  - coords: [102, 29]
+    quantity: 3
+  - coords: [103, 29]
+    quantity: 3
+- number: 83
+  name:
+    en: Gaap
+  areas:
+  - 13
+  rooms:
+  - coords: [35, 11]
+    quantity: 1
+  - coords: [37, 14]
+    quantity: 1
+  - coords: [35, 9]
+    quantity: 1
+  - coords: [38, 8]
+    quantity: 1
+  - coords: [36, 7]
+    quantity: 1
+  - coords: [34, 6]
+    quantity: 1
+  - coords: [41, 3]
+    quantity: 1
+- number: 84
+  name:
+    en: Haagenti
+  areas:
+  - 13
+  rooms:
+  - coords: [37, 14]
+    quantity: 1
+  - coords: [36, 11]
+    quantity: 1
+  - coords: [37, 8]
+    quantity: 1
+- number: 85
+  name:
+    en: Kamikaze
+  areas:
+  - 13
+  rooms:
+  - coords: [36, 7]
+    quantity: 1
+  - coords: [36, 6]
+    quantity: 1
+- number: 86
+  name:
+    en: Ninja
+  areas:
+  - 13
+  rooms:
+  - coords: [38, 11]
+    quantity: 1
+  - coords: [36, 8]
+    quantity: 2
+  - coords: [37, 8]
+    quantity: 1
+  - coords: [34, 7]
+    quantity: 1
+  - coords: [35, 6]
+    quantity: 1
+  - coords: [36, 6]
+    quantity: 1
+  - coords: [37, 6]
+    quantity: 1
+  - coords: [38, 6]
+    quantity: 1
+  - coords: [39, 3]
+    quantity: 1
+  - coords: [40, 3]
+    quantity: 1
+  - coords: [36, 4]
+    quantity: 1
+  - coords: [37, 4]
+    quantity: 1
+- number: 87
+  name:
+    en: Giant Moco
+  areas:
+  - 15
+  rooms: []
+- number: 88
+  name:
+    en: Giant Bat
+  areas:
+  - 15
+  rooms: []
+- number: 89
+  name:
+    en: Giant Toad
+  areas:
+  - 15
+  rooms: []
+- number: 90
+  name:
+    en: Giant Cannon
+  areas:
+  - 15
+  rooms: []
+- number: 91
+  name:
+    en: Giant Morte
+  areas:
+  - 15
+  rooms: []
+- number: 92
+  name:
+    en: Giant Buer
+  areas:
+  - 15
+  rooms: []
+- number: 93
+  name:
+    en: Chariot Buer
+  areas:
+  - 15
+  rooms: []
+- number: 94
+  name:
+    en: Marbas
+  areas:
+  - 15
+  rooms: []
+- number: 95
+  name:
+    en: Silver Wolfman
+  areas:
+  - 15
+  rooms: []
+- number: 96
+  name:
+    en: Abyssal Guardian
+  areas:
+  - 6
+  - 15
+  rooms-temp:
+  - - 65
+    - 4
+  - - 65
+    - 5
+  - - 66
+    - 4
+  - - 66
+    - 5
+- number: 97
+  name:
+    en: Harrier
+  areas:
+  - 15
+  rooms:
+  - coords: [100, 16]
+  - coords: [100, 17]
+  - coords: [100, 18]
+  - coords: [101, 16]
+  - coords: [101, 17]
+  - coords: [101, 18]
+  - coords: [102, 16]
+  - coords: [102, 17]
+  - coords: [102, 18]
+  - coords: [103, 16]
+  - coords: [103, 17]
+  - coords: [103, 18]
+- number: 98
+  name:
+    en: Ice Elemental
+  areas:
+  - 16
+  rooms: []
+- number: 99
+  name:
+    en: Tracer
+  areas:
+  - 16
+  rooms: []
+- number: 100
+  name:
+    en: Gusion Cannon
+  areas:
+  - 16
+  rooms: []
+- number: 101
+  name:
+    en: G Axe Outsider
+  areas:
+  - 16
+  rooms: []
+- number: 102
+  name:
+    en: Demon Lord
+  areas:
+  - 16
+  rooms: []
+- number: 103
+  name:
+    en: Eight Bit Zombie
+  areas:
+  - 17
+  rooms: []
+- number: 104
+  name:
+    en: Eight Bit Ghost
+  areas:
+  - 17
+  rooms: []
+- number: 105
+  name:
+    en: Eight Bit Skull
+  areas:
+  - 17
+  rooms: []
+- number: 106
+  name:
+    en: Eight Bit Overlord
+  type: secret boss
+  areas:
+  - 17
+  rooms: []
+- number: 107
+  name:
+    en: Master Carpenter
+  type: secret boss
+  areas:
+  - 13
+  rooms:
+  - coords: [33, 5]
+  prerequisites:
+    en: Obtain Carpenter's Key.
+- number: 108
+  name:
+    en: Revenant
+  type: secret boss
+  areas:
+  - 3
+  rooms:
+  - coords: [56, 25]
+  prerequisites:
+    en: Obtain Warhorse's Key.
+- number: 109
+  name:
+    en: Millionaire's Bane
+  type: secret boss
+  areas:
+  - 14
+  rooms:
+  - coords: [59, 3]
+  prerequisites:
+    en: Obtain Millionaire's Key.
+- number: 110
+  name:
+    en: Vepar
+    de: Vepar
+  type: boss
+  areas:
+  - 0
+  rooms:
+  - coords: [13, 26]
+  - coords: [14, 26]
+- number: 111
+  name:
+    en: Zangetsu
+  type: boss
+  areas:
+  - 2
+  rooms:
+  - coords: [45, 21]
+  - coords: [46, 21]
+- number: 112
+  name:
+    en: Craftwork
+  type: boss
+  disambiguate: true
+  areas:
+  - 4
+  rooms:
+  - coords: [53, 15]
+  - coords: [53, 16]
+  - coords: [54, 15]
+  - coords: [54, 16]
+- number: 113
+  name:
+    en: Andrealphus
+  type: boss
+  areas:
+  - 6
+  rooms:
+  - coords: [65, 19]
+  - coords: [65, 20]
+- number: 114
+  name:
+    en: Valac
+  type: boss
+  areas:
+  - 5
+  rooms:
+  - coords: [81, 17]
+  - coords: [81, 18]
+  - coords: [81, 19]
+  - coords: [81, 20]
+  - coords: [81, 21]
+  - coords: [81, 22]
+  - coords: [81, 23]
+  - coords: [82, 17]
+  - coords: [82, 18]
+  - coords: [82, 19]
+  - coords: [82, 20]
+  - coords: [82, 21]
+  - coords: [82, 22]
+  - coords: [82, 23]
+  - coords: [83, 17]
+  - coords: [83, 18]
+  - coords: [83, 19]
+  - coords: [83, 20]
+  - coords: [83, 21]
+  - coords: [83, 22]
+  - coords: [83, 23]
+  - coords: [84, 17]
+  - coords: [84, 18]
+  - coords: [84, 19]
+  - coords: [84, 20]
+  - coords: [84, 21]
+  - coords: [84, 22]
+  - coords: [84, 23]
+- number: 115
+  name:
+    en: Glutton Train
+  type: boss
+  areas:
+  - 7
+  rooms:
+  - coords: [102, 24]
+  - coords: [102, 25]
+  - coords: [103, 24]
+  - coords: [103, 25]
+- number: 116
+  name:
+    en: Bathin
+  type: boss
+  areas:
+  - 8
+  rooms:
+  - coords: [98, 28]
+  - coords: [99, 28]
+- number: 117
+  name:
+    en: Gebel
+  type: boss
+  areas:
+  - 14
+  rooms:
+  - coords: [61, 0]
+- number: 118
+  name:
+    en: Bloodless
+  type: boss
+  areas:
+  - 4
+  rooms:
+  - coords: [57, 11]
+  - coords: [58, 11]
+- number: 119
+  name:
+    en: Alfred
+  type: boss
+  areas:
+  - 10
+  rooms:
+  - coords: [77, 40]
+  - coords: [77, 41]
+- number: 120
+  name:
+    en: Doppelganger
+  type: boss
+  areas:
+  - 11
+  rooms:
+  - coords: [30, 39]
+  - coords: [31, 39]
+- number: 121
+  name:
+    en: Orobas
+  type: boss
+  areas:
+  - 12
+  rooms:
+  - coords: [46, 48]
+  - coords: [47, 48]
+- number: 122
+  name:
+    en: True Zangetsu
+  type: boss
+  areas:
+  - 13
+  rooms:
+  - coords: [32, 3]
+  - coords: [33, 3]
+- number: 123
+  name:
+    en: Valefar
+  type: boss
+  areas:
+  - 15
+  rooms:
+  - coords: [112, 19]
+  - coords: [112, 20]
+  - coords: [113, 19]
+  - coords: [113, 20]
+- number: 124
+  name:
+    en: Gremory
+  type: boss
+  areas:
+  - 16
+  rooms:
+  - coords: [111, 37]
+  - coords: [112, 37]
+- number: 125
+  name:
+    en: Dominique
+  type: boss
+  areas:
+  - 16
+  rooms:
+  - coords: [105, 37]
+  - coords: [106, 37]
+  disambiguate: true
+- number: 126
+  name:
+    en: Bael
+  areas:
+  - 16
+  rooms:
+  - coords: [105, 37]
+  - coords: [106, 37]
+- number: 127
+  name:
+    en: Orlok Dracule
+  type: secret boss
+  areas:
+  - 16
+  rooms:
+  - coords: [115, 31]
+  prerequisites:
+    en: Enter this room while possessing the Tome of Conquest.
+- number: 128
+  name:
+    en: IGA
+  type: boss
+  areas:
+  - 14
+  rooms:
+  - coords: [61, 0]
+  dlc: IGA's Back Pack
+  prerequisites:
+    en: "???"
