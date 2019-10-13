@@ -1,0 +1,615 @@
+---
+- name:
+    en: MP Max Up
+  type: Upgrade
+  rooms:
+  - coords: [9, 30]
+    type: VISIBLE
+    marker: [0.75, 0.8]
+  - coords: [41, 8]
+    area: 4
+    marker: [0.9, 0.5]
+    type: HIDDEN.BELL
+  - coords: [43, 11]
+    area: 4
+    type: VISIBLE
+    ability:
+    - Double Jump
+- name:
+    en: HP Max Up
+  type: Upgrade
+  rooms:
+  - coords: [3, 25]
+    area: 0
+    marker: [0.25, 0.5]
+    type: HIDDEN.WALL
+  - coords: [30, 26]
+    area: 1
+    marker: [0.8, 0]
+    type: HIDDEN.OFFSCREEN
+    ability:
+    - Invert
+  - coords: [31, 17]
+    area: 2
+    marker: [0.25, 0.6]
+  - coords: [50, 25]
+    area: 2
+    note: Located on other side of a door that must be opened from the Forbidden Underground Waterway.
+  - coords: [54, 23]
+    area: 3
+    marker: [0.25, 0.5]
+    check: true
+  - coords: [62, 23]
+    area: 3
+    check: true
+  - coords: [66, 24]
+    area: 3
+    check: true
+  - coords: [41, 11]
+    area: 4
+    marker: [1, 0.3]
+    type: HIDDEN.BELL
+    ability:
+    - Double Jump
+  - coords: [44, 11]
+    area: 4
+    type: VISIBLE
+    ability:
+    - Double Jump
+  - coords: [45, 9]
+    area: 4
+    marker: [1, 0]
+    type: VISIBLE
+  - coords: [50, 12]
+    area: 4
+    marker: [0.8, 0]
+    type: HIDDEN.WALL
+  - coords: [54, 6]
+    area: 4
+  - coords: [76, 20]
+    area: 5
+    check: true
+  - coords: [79, 10]
+    area: 5
+    check: true
+  - coords: [65, 17]
+    area: 6
+    marker: [0.8, 0.6]
+    type: VISIBLE
+    ability:
+    - Reflector Ray
+  - coords: [71, 20]
+    area: 6
+    marker: [0.8, 0.6]
+    type: HIDDEN.WALL
+  - coords: [92, 24]
+    area: 7
+    marker: [0.8, 0]
+  - coords: [96, 28]
+    area: 8
+    marker: [0.3, 0.6]
+    type: VISIBLE
+  - coords: [103, 28]
+    area: 8
+    marker: [0.5, 0.6]
+    type: VISIBLE
+  - coords: [107, 26]
+    area: 8
+    marker: [0.9, 0.8]
+    type: HIDDEN.WALL
+  - coords: [44, 41]
+    area: 9
+    check: true
+  - coords: [63, 30]
+    area: 9
+    check: true
+  - coords: [71, 34]
+    area: 9
+    check: true
+  - coords: [74, 33]
+    area: 9
+    check: true
+  - coords: [64, 46]
+    area: 10
+    check: true
+    ability:
+    - Invert
+  - coords: [72, 48]
+    area: 10
+    check: true
+  - coords: [56, 0]
+    area: 14
+    check: true
+  - coords: [111, 7]
+    area: 15
+    check: true
+  - coords: [111, 18]
+    area: 15
+    check: true
+- name:
+    en: Capacity Up
+  type: Upgrade
+  rooms:
+  - coords: [0, 26]
+- name:
+    en: Benjamin Judd (part I)
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [45, 22]
+- name:
+    en: Benjamin Judd (part II)
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [72, 35]
+  prerequisites:
+    en:
+    - Complete “The Stranded Man” quest.
+    - Requires Invert. (you may be able to get here earlier with other abilities.)
+- name:
+    en: Benjamin Judd (part III)
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [36, 14]
+  prerequisites:
+    en:
+    - Complete “The Still Stranded Man” quest.
+    - Requires Dimension Shift.
+- name:
+    en: Lindsay
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [20, 27]
+- name:
+    en: Susie
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [18, 27]
+- name:
+    en: Harry Benson
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [19, 26]
+- name:
+    en: Abigail
+  type: NPC
+  subtype: Quest
+  rooms:
+  - coords: [18, 26]
+- name:
+    en: Anne Knowles
+  type: NPC
+  rooms:
+  - coords: [19, 27]
+- name:
+    en: Dominique
+  type: NPC
+  subtype: Shop
+  rooms:
+  - coords: [19, 27]
+  disambiguate: true
+- name:
+    en: Johannes
+  type: NPC
+  subtype: Alchemy
+  rooms:
+  - coords: [21, 27]
+- name:
+    en: O.D.
+  type: NPC
+  subtype: Librarian
+  rooms:
+  - coords: [66, 18]
+- name:
+    en: Todd
+  type: NPC
+  subtype: Barber
+  rooms:
+  - coords: [44, 15]
+- name:
+    en: Wooden chests
+  type: Chest
+  rooms:
+  - coords: [7, 30]
+    type: CHEST.WOODEN
+    marker: [0.4, 0.8]
+  - coords: [12, 26]
+    type: CHEST.WOODEN
+    marker: [0.75, 0.8]
+    contents: Potion
+  - coords: [42, 7]
+    type: CHEST.WOODEN
+    marker: [0.5, 0.5]
+    contents: Potion
+  - coords: [43, 20]
+    type: CHEST.WOODEN
+    marker: [0.25, 0.5]
+    contents: Waystone
+  - coords: [46, 24]
+    type: CHEST.WOODEN
+    marker: [0.5, 0.6]
+    contents: Ether
+  - coords: [73, 24]
+    type: CHEST.WOODEN
+    marker: [0.5, 0.6]
+    contents: Potion
+  - coords: [53, 46]
+    type: CHEST.WOODEN
+    marker: [0.75, 0.65]
+    contents: Egg Soufflé
+- name:
+    en: Blue chests
+  type: Chest
+  rooms:
+  - coords: [2, 28]
+    type: CHEST.BLUE
+  - coords: [5, 31]
+    type: CHEST.BLUE
+  - coords: [8, 31]
+    type: CHEST.BLUE
+  - coords: [12, 31]
+    type: CHEST.BLUE
+  - coords: [11, 28]
+    type: CHEST.BLUE
+  - coords: [34, 4]
+    type: CHEST.BLUE
+    area: 13
+    marker: [0.8, 0.2]
+    contents:
+    - 500G
+  - coords: [35, 28]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0, 1]
+    contents:
+    - 500G
+    - Fried Fish
+    - Mahogany
+  - coords: [36, 29]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.6, 0.65]
+    contents:
+    - Fried Fish
+    - Mahogany
+    - Platinum
+  - coords: [36, 34]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.5, 0.65]
+    contents:
+    - Fried Fish
+    - Mahogany
+    - Platinum
+  - coords: [39, 41]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.1, 0.65]
+    contents:
+    - Fried Fish
+    - Mahogony
+    - Crystal
+    ability:
+    - Deep Sinker
+  - coords: [41, 40]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.5, 0.75]
+    contents:
+    - Fried Fish
+    - Mahogany
+    ability:
+    - Deep Sinker
+  - coords: [42, 36]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.5, 0.65]
+    contents:
+    - 1000G
+    - Mahogany
+    - Platinum
+  - coords: [42, 41]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.75, 0.65]
+    contents:
+    - Fried Fish
+    - Platinum
+    ability:
+    - Deep Sinker
+  - coords: [56, 43]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.25, 0.5]
+    contents:
+    - Platinum
+    - Mahogany
+  - coords: [56, 40]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.75, 0.3]
+    contents:
+    - Mahogany
+  - coords: [56, 41]
+    type: CHEST.BLUE
+    area: 9
+    marker: [0.75, 0.1]
+    contents:
+    - Fried Fish
+    - Platinum
+    - Mahogany
+  - coords: [33, 38]
+    type: CHEST.BLUE
+    area: 11
+    marker: [0.25, 0.1]
+    contents:
+    - Mahogany
+    - Crystal
+    - Silk
+  - coords: [35, 37]
+    type: CHEST.BLUE
+    area: 11
+    marker: [0.75, 0.65]
+    contents:
+    - Mahogany
+  - coords: [31, 41]
+    type: CHEST.BLUE
+    area: 11
+    marker: [0.65, 0.1]
+    contents:
+    - 500G
+  - coords: [33, 42]
+    type: CHEST.BLUE
+    area: 11
+    marker: [0.25, 0.65]
+    contents:
+    - Crystal
+  - coords: [35, 46]
+    type: CHEST.BLUE
+    area: 12
+    marker: [0.75, 0.5]
+    contents:
+    - Curry Powder
+    - Silk
+  - coords: [37, 48]
+    type: CHEST.BLUE
+    area: 12
+    marker: [0.5, 0.65]
+    contents:
+    - Curry Powder
+  - coords: [40, 47]
+    type: CHEST.BLUE
+    area: 12
+    marker: [0.75, 0.35]
+    contents:
+    - Silk
+  - coords: [47, 47]
+    type: CHEST.BLUE
+    area: 12
+    marker: [0.25, 0.55]
+    contents:
+    - Curry Powder
+    - Silk
+  - coords: [49, 47]
+    type: CHEST.BLUE
+    area: 12
+    marker: [0.5, 0.5]
+    contents:
+    - Silk
+  - coords: [38, 7]
+    type: CHEST.BLUE
+    area: 13
+    marker: [0.4, 0.65]
+    contents:
+    - 100G
+    - Soy Sauce
+    - Cypress
+  - coords: [39, 4]
+    type: CHEST.BLUE
+    area: 13
+    marker: [0.8, 0.4]
+    contents:
+    - 500G
+  - coords: [39, 25]
+    type: CHEST.BLUE
+    area: 2
+    marker: [0.3, 0.5]
+    contents:
+    - Iron
+    - Elm
+    - Bronze
+    - Cotton
+  - coords: [40, 22]
+    type: CHEST.BLUE
+    area: 2
+    marker: [0.3, 0.5]
+    contents:
+    - Emerald
+    - Ruby
+  - coords: [41, 10]
+    type: CHEST.BLUE
+    marker: [0.2, 0.2]
+    contents:
+    - Mithridate
+    - Obsidian
+    - Iron
+    - Elm
+    ability:
+    - Invert
+  - coords: [45, 11]
+    type: CHEST.BLUE
+    contents:
+    - Sponge Cake
+    - Mithril
+    - Wool
+  - coords: [46, 9]
+    type: CHEST.BLUE
+    contents:
+    - Sponge Cake
+    - Mithril
+    - Wool
+  - coords: [50, 18]
+    type: CHEST.BLUE
+    marker: [0.75, 0.5]
+    contents:
+    - Mithridate
+    - Obsidian
+    - Iron
+    - Elm
+  - coords: [50, 19]
+    type: CHEST.BLUE
+    marker: [0.25, 0.5]
+    contents:
+    - Mithridate
+    - Obsidian
+    - Iron
+    - Elm
+  - coords: [50, 23]
+    type: CHEST.BLUE
+    contents:
+    - Mithridate
+    - Obsidian
+    - Iron
+    - Elm
+    - 50G
+  - coords: [51, 11]
+    type: CHEST.BLUE
+    contents:
+    - Sponge Cake
+    - Mithril
+    - Wool
+  - coords: [68, 24]
+    type: CHEST.BLUE
+    area: 3
+    marker: [0.25, 0.5]
+    contents:
+    - Ginger
+    - Steel
+  - coords: [70, 25]
+    type: CHEST.BLUE
+    area: 3
+    marker: [1, 0.65]
+    contents:
+    - Steel
+    - Hemp
+  - coords: [101, 29]
+    type: CHEST.BLUE
+    area: 8
+    contents:
+    - Curry Powder
+    - Damascus
+    - Black Pepper
+  - coords: [104, 29]
+    type: CHEST.BLUE
+    area: 8
+    contents:
+    - Curry Powder
+    - Damascus
+    - Black Pepper
+  note:
+    en: Each blue chest has a loot table of possible items, from which items are drawn
+      at random. Unlike other chests, blue chests refill over time.
+- name:
+    en: Green chests
+  type: Chest
+  rooms:
+  - coords: [7, 30]
+    type: CHEST.GREEN
+    marker: [0.25, 0.8]
+  - coords: [10, 27]
+    type: CHEST.GREEN
+    marker: [0.25, 0.35]
+- name:
+    en: Red chests
+  type: Chest
+  rooms:
+  - coords: [9, 30]
+    type: CHEST.RED
+    marker: [0.45, 0.65]
+    contents: 1000G
+  - coords: [9, 26]
+    type: CHEST.RED
+    marker: [0.3, 0.65]
+    contents: 500G
+  - coords: [11, 27]
+    type: CHEST.RED
+    marker: [0.4, 0.65]
+    contents: 500G
+  - coords: [17, 26]
+    type: CHEST.RED
+    marker: [0.1, 0.5]
+    contents: 500G
+  - coords: [35, 14]
+    type: CHEST.RED
+    marker: [0.35, 0.65]
+    contents: 2000G
+  - coords: [35, 8]
+    type: CHEST.RED
+    contents: 2000G
+  - coords: [40, 23]
+    type: CHEST.RED
+    contents: 1000G
+    ability:
+    - Double Jump
+  - coords: [44, 41]
+    type: CHEST.RED
+    contents: 1000G
+    ability:
+    - Deep Sinker
+  - coords: [47, 25]
+    type: CHEST.RED
+    marker: [0.75, 0.5]
+    contents: 500G
+  - coords: [50, 8]
+    type: CHEST.RED
+    contents: 2000G
+  - coords: [63, 24]
+    type: CHEST.RED
+    contents: 500G
+  - coords: [69, 25]
+    type: CHEST.RED
+    marker: [0.25, 0.65]
+    contents: 500G
+  - coords: [96, 25]
+    type: CHEST.RED
+    marker: [0.75, 0.65]
+    contents: 2000G
+- name:
+    en: Secret rooms
+  note:
+    en: Hunting for 100% map completion? You might have missed these spots. See map
+      for locations.
+  rooms:
+  - coords: [9, 30]
+  - coords: [23, 27]
+  - coords: [36, 12]
+  - coords: [43, 48]
+  - coords: [44, 41]
+  - coords: [50, 21]
+  - coords: [55, 0]
+  - coords: [56, 0]
+  - coords: [57, 0]
+  - coords: [57, 4]
+  - coords: [59, 48]
+  - coords: [66, 7]
+  - coords: [69, 25]
+  - coords: [70, 6]
+  - coords: [72, 15]
+  - coords: [72, 35]
+  - coords: [72, 38]
+  - coords: [96, 29]
+  - coords: [103, 28]
+- name:
+    en: Bookcases
+  rooms:
+  - coords: [8, 27]
+- name:
+    en: Celeste's Room
+  type: Bonus room
+  rooms:
+  - coords: [67, 7]

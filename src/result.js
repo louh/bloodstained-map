@@ -4,7 +4,7 @@ import DEMONS from './data/demons.json'
 import AREAS from './data/areas.yaml'
 import SHARDS from './data/shards.yaml'
 import ITEMS from './data/items.yaml'
-import MISC from './data/misc.json'
+import MISC from './data/misc.yaml'
 import { drawGeo, drawRoomGeo, drawMarker, clearGeoJsons, zoomToGeoBounds } from './map'
 
 const locale = 'en'
