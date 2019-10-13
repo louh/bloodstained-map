@@ -1,0 +1,783 @@
+---
+- name:
+    en: Thrashing Tentacle
+    de: Schlagendes Tentakel
+  type: CONJURE
+  demons:
+  - id: 110
+    drop_rate: 1
+- name:
+    en: Bloodsteal
+  type: CONJURE
+  demons:
+  - id: 118
+    drop_rate: 1
+- name:
+    en: Draconic Rage
+  type: CONJURE
+  demons:
+  - id: 43
+    drop_rate: 0.05
+- name:
+    en: Cerulean Splash
+    de: Himmelblauer Platscher
+  type: CONJURE
+  demons:
+  - id: 2
+    drop_rate: 0.03
+- name:
+    en: Gale Crawler
+  type: CONJURE
+  demons:
+  - id: 4
+    drop_rate: 0.04
+- name:
+    en: Head Flail
+  type: CONJURE
+  demons:
+  - id: 6
+    drop_rate: 0.04
+- name:
+    en: Summon Rat
+  type: CONJURE
+  demons:
+  - id: 7
+    drop_rate: 0.04
+- name:
+    en: Summon Ghost
+  type: CONJURE
+  demons:
+  - id: 5
+    drop_rate: 0.02
+- name:
+    en: Summon Bat
+  type: CONJURE
+  demons:
+  - id: 9
+    drop_rate: 0.03
+  - id: 88
+    drop_rate: 0.05
+- name:
+    en: Summon Simian
+  type: CONJURE
+  demons:
+  - id: 18
+    drop_rate: 0.03
+- name:
+    en: Summon Gieremund
+  type: CONJURE
+  demons:
+  - id: 10
+    drop_rate: 0.04
+- name:
+    en: Summon Shovel Armor
+  type: CONJURE
+  demons:
+  - id: 36
+    drop_rate: 0.04
+- name:
+    en: Summon Water Leaper
+  type: CONJURE
+  demons:
+  - id: 64
+    drop_rate: 0.04
+- name:
+    en: Summon Buer
+  type: CONJURE
+  demons:
+  - id: 25
+    drop_rate: 0.04
+  - id: 29
+    drop_rate: 0.05
+- name:
+    en: Summon Insect
+  type: CONJURE
+  demons:
+  - id: 27
+    drop_rate: 0.04
+- name:
+    en: Summon Chair
+  type: CONJURE
+  demons:
+  - id: 52
+    drop_rate: 0.05
+- name:
+    en: Summon Tracer
+  type: CONJURE
+  demons:
+  - id: 99
+    drop_rate: 0.04
+- name:
+    en: Shuriken
+  type: CONJURE
+  demons:
+  - id: 86
+    drop_rate: 0.04
+- name:
+    en: Throw Spear
+  type: CONJURE
+  demons:
+  - id: 80
+    drop_rate: 0.04
+- name:
+    en: Flytrap
+  type: CONJURE
+  demons:
+  - id: 13
+    drop_rate: 0.04
+  - id: 87
+    drop_rate: 0.05
+- name:
+    en: Welcome Company
+  type: CONJURE
+  demons:
+  - id: 20
+    drop_rate: 0.04
+- name:
+    en: Throwing Axe
+  type: CONJURE
+  demons:
+  - id: 60
+    drop_rate: 0.04
+- name:
+    en: Axe Strike
+  type: CONJURE
+  demons:
+  - id: 101
+    drop_rate: 0.04
+- name:
+    en: Death Cry
+  type: CONJURE
+  demons:
+  - id: 51
+    drop_rate: 0.04
+- name:
+    en: Upbeat Heat
+  type: CONJURE
+  demons:
+  - id: 56
+    drop_rate: 0.04
+- name:
+    en: Toxic Storm
+  type: CONJURE
+  demons:
+  - id: 75
+    drop_rate: 0.05
+- name:
+    en: Summon Hellhound
+  type: CONJURE
+  demons:
+  - id: 79
+    drop_rate: 0.04
+- name:
+    en: Jackpot
+  type: CONJURE
+  demons:
+  - id: 109
+    drop_rate: 0.12
+- name:
+    en: Riga Storæma
+  keywords:
+    en:
+    - Riga Storaema
+  type: CONJURE
+  demons:
+  - id: 26
+    drop_rate: 0.05
+- name:
+    en: Va Ischa
+  type: CONJURE
+  demons:
+  - id: 62
+    drop_rate: 0.04
+- name:
+    en: Va Schia
+  type: CONJURE
+  alchemy:
+    shard: Va Ischa
+- name:
+    en: Teps Salrenda
+  type: CONJURE
+  alchemy:
+    shard: Teps Oceus
+- name:
+    en: Tis Raiff
+  type: CONJURE
+  demons:
+  - id: 70
+    drop_rate: 0.04
+- name:
+    en: Insatiable
+  type: CONJURE
+  demons:
+  - id: 128
+    drop_rate: 1
+- name:
+    en: Summon 8-bit Zombie
+  type: CONJURE
+  demons:
+  - id: 103
+    drop_rate: 0.04
+- name:
+    en: Summon 8-bit Ghost
+  type: CONJURE
+  demons:
+  - id: 104
+    drop_rate: 0.04
+- name:
+    en: 8-bit Flame
+  type: CONJURE
+  demons:
+  - id: 106
+    drop_rate: 0.04
+- name:
+    en: Craftwork
+  type: MANIPULATIVE
+  disambiguate: true
+  demons:
+  - id: 112
+    drop_rate: 1
+- name:
+    en: Accelerator
+  type: MANIPULATIVE
+  demons:
+  - id: 97
+    drop_rate: 1
+  prerequisites:
+    en: Defeat Harrier by outrunning him in a race through this room.
+- name:
+    en: Standstill
+  type: MANIPULATIVE
+  demons:
+  - id: 127
+    drop_rate: 1
+- name:
+    en: Beast Guardian
+  type: MANIPULATIVE
+  demons:
+  - id: 30
+    drop_rate: 0.05
+- name:
+    en: Feral Claws
+  type: MANIPULATIVE
+  demons:
+  - id: 95
+    drop_rate: 0.05
+- name:
+    en: Shadow Tracer
+  type: MANIPULATIVE
+  demons:
+  - id: 120
+    drop_rate: 1
+- name:
+    en: Bunnymorphosis
+  type: MANIPULATIVE
+  demons:
+  - id: 41
+    drop_rate: 0.04
+- name:
+    en: Healing
+  type: MANIPULATIVE
+  demons:
+  - id: 46
+    drop_rate: 0.04
+- name:
+    en: Sacred Shade
+  type: MANIPULATIVE
+  demons:
+  - id: 34
+    drop_rate: 0.04
+- name:
+    en: Summon Plume Parma
+  type: DIRECTIONAL
+  demons:
+  - id: 15
+    drop_rate: 0.04
+- name:
+    en: Reflector Ray
+  type: DIRECTIONAL
+  demons:
+  - id: 116
+    drop_rate: 1
+- name:
+    en: Aqua Stream
+  type: DIRECTIONAL
+  demons:
+  - id: 63
+    drop_rate: 0.1
+- name:
+    en: Dimension Shift
+  type: DIRECTIONAL
+  demons:
+  - id: 124
+    drop_rate: 1
+- name:
+    en: Inferno Breath
+  type: DIRECTIONAL
+  demons:
+  - id: 114
+    drop_rate: 1
+- name:
+    en: Hammer Knuckle
+  type: DIRECTIONAL
+  demons:
+  - id: 115
+    drop_rate: 1
+- name:
+    en: Gold Bullet
+  type: DIRECTIONAL
+  demons:
+  - id: 123
+    drop_rate: 1
+- name:
+    en: Flame Cannon
+    de: Flammenkanone
+  type: DIRECTIONAL
+  demons:
+  - id: 3
+    drop_rate: 0.02
+  - id: 90
+    drop_rate: 0.05
+- name:
+    en: Bone Toss
+  type: DIRECTIONAL
+  demons:
+  - id: 8
+    drop_rate: 0.04
+- name:
+    en: True Arrow
+  type: DIRECTIONAL
+  demons:
+  - id: 16
+    drop_rate: 0.04
+- name:
+    en: Release Toad
+  type: DIRECTIONAL
+  demons:
+  - id: 14
+    drop_rate: 0.03
+  - id: 89
+    drop_rate: 0.05
+- name:
+    en: Chaser Arrow
+  type: DIRECTIONAL
+  demons:
+  - id: 53
+    drop_rate: 0.04
+- name:
+    en: Directed Shield
+  type: DIRECTIONAL
+  demons:
+  - id: 39
+    drop_rate: 0.05
+- name:
+    en: Heretical Grinder
+  type: DIRECTIONAL
+  demons:
+  - id: 11
+    drop_rate: 0.04
+- name:
+    en: Lethargy
+  type: DIRECTIONAL
+  demons:
+  - id: 68
+    drop_rate: 0.05
+- name:
+    en: Petra Ray
+  type: DIRECTIONAL
+  demons:
+  - id: 22
+    drop_rate: 0.04
+- name:
+    en: Void Ray
+  type: DIRECTIONAL
+  demons:
+  - id: 96
+    drop_rate: 0.06
+- name:
+    en: Petra Breath
+  type: DIRECTIONAL
+  demons:
+  - id: 84
+    drop_rate: 0.05
+- name:
+    en: Acid Jet
+  type: DIRECTIONAL
+  demons:
+  - id: 21
+    drop_rate: 0.04
+- name:
+    en: Venom Mist
+  type: DIRECTIONAL
+  alchemy:
+    shard: Petra Breath
+- name:
+    en: Circular Ripper
+  type: DIRECTIONAL
+  demons:
+  - id: 35
+    drop_rate: 0.05
+- name:
+    en: Flying Dagger
+  type: DIRECTIONAL
+  demons:
+  - id: 42
+    drop_rate: 0.04
+- name:
+    en: Bolide Blast
+  type: DIRECTIONAL
+  demons:
+  - id: 47
+    drop_rate: 0.04
+- name:
+    en: Tornado Slicer
+  type: DIRECTIONAL
+  demons:
+  - id: 85
+    drop_rate: 0.05
+- name:
+    en: Flamethrower
+  type: DIRECTIONAL
+  demons:
+  - id: 78
+    drop_rate: 0.04
+- name:
+    en: Chisel Barrage
+  type: DIRECTIONAL
+  demons:
+  - id: 107
+    drop_rate: 0.15
+- name:
+    en: Ruinous Rood
+  type: DIRECTIONAL
+  demons:
+  - id: 108
+    drop_rate: 0.12
+- name:
+    en: Riga Dohin
+  type: DIRECTIONAL
+  alchemy:
+    shard: Riga Storæma
+- name:
+    en: Teps Oceus
+  type: DIRECTIONAL
+  demons:
+  - id: 38
+    drop_rate: 0.04
+- name:
+    en: Tis Rozain
+  type: DIRECTIONAL
+  alchemy:
+    shard: Tis Raiff
+- name:
+    en: Fald Ciu
+  type: DIRECTIONAL
+  demons:
+  - id: 102
+    drop_rate: 0.05
+- name:
+    en: Fald Taiab
+  type: DIRECTIONAL
+  alchemy:
+    shard: Fald Ciu
+- name:
+    en: 8-bit Fire Ball
+  type: DIRECTIONAL
+  demons:
+  - id: 105
+    drop_rate: 0.04
+- name:
+    en: Augment STR
+  type: PASSIVE
+  demons:
+  - id: 83
+    drop_rate: 0.04
+- name:
+    en: Augment CON
+  type: PASSIVE
+  demons:
+  - id: 69
+    drop_rate: 0.04
+- name:
+    en: Augment INT
+  type: PASSIVE
+  demons:
+  - id: 24
+    drop_rate: 0.05
+- name:
+    en: Augment MND
+  type: PASSIVE
+  demons:
+  - id: 59
+    drop_rate: 0.04
+- name:
+    en: Augment LCK
+  type: PASSIVE
+  demons:
+  - id: 81
+    drop_rate: 0.04
+- name:
+    en: Augment Gold
+  type: PASSIVE
+  alchemy:
+    shard: Augment LCK
+- name:
+    en: Kick Expertise
+  type: PASSIVE
+  demons:
+  - id: 58
+    drop_rate: 0.04
+- name:
+    en: Dagger Expertise
+  type: PASSIVE
+  demons:
+  - id: 23
+    drop_rate: 0.04
+- name:
+    en: Sword Expertise
+  type: PASSIVE
+  demons:
+  - id: 12
+    drop_rate: 0.04
+- name:
+    en: Spear Expertise
+  type: PASSIVE
+  demons:
+  - id: 55
+    drop_rate: 0.04
+- name:
+    en: Whip Expertise
+  type: PASSIVE
+  demons:
+  - id: 74
+    drop_rate: 0.04
+- name:
+    en: Firearm Expertise
+  type: PASSIVE
+  demons:
+  - id: 32
+    drop_rate: 0.05
+  - id: 93
+    drop_rate: 0.04
+  - id: 100
+    drop_rate: 0.04
+- name:
+    en: Greatsword Expertise
+  type: PASSIVE
+  alchemy:
+    shard: Sword Expertise
+- name:
+    en: Katana Expertise
+  type: PASSIVE
+  alchemy:
+    shard: Sword Expertise
+- name:
+    en: Alchemic Bounty
+  type: PASSIVE
+  demons:
+  - id: 19
+    drop_rate: 0.02
+- name:
+    en: Resist Slash
+  type: PASSIVE
+  demons:
+  - id: 61
+    drop_rate: 0.04
+- name:
+    en: Resist Thrust
+  type: PASSIVE
+  demons:
+  - id: 71
+    drop_rate: 0.05
+- name:
+    en: Resist Strike
+  type: PASSIVE
+  demons:
+  - id: 40
+    drop_rate: 0.05
+  - id: 72
+    drop_rate: 0.05
+- name:
+    en: Resist Fire
+  type: PASSIVE
+  demons:
+  - id: 77
+    drop_rate: 0.04
+- name:
+    en: Resist Ice
+  type: PASSIVE
+  demons:
+  - id: 98
+    drop_rate: 0.04
+- name:
+    en: Resist Thunder
+  type: PASSIVE
+  demons:
+  - id: 31
+    drop_rate: 0.04
+- name:
+    en: Resist Light
+  type: PASSIVE
+  demons:
+  - id: 49
+    drop_rate: 0.04
+- name:
+    en: Resist Darkness
+  type: PASSIVE
+  demons:
+  - id: 73
+    drop_rate: 0.04
+- name:
+    en: Resist Poison
+  type: PASSIVE
+  demons:
+  - id: 45
+    drop_rate: 0.03
+- name:
+    en: Resist Curses
+  type: PASSIVE
+  demons:
+  - id: 44
+    drop_rate: 0.12
+- name:
+    en: Resist Petrification
+  type: PASSIVE
+  demons:
+  - id: 37
+    drop_rate: 0.02
+- name:
+    en: Resist Magic
+  type: PASSIVE
+  alchemy:
+    shard: Resist Fire/Ice/Thunder
+- name:
+    en: Money is Power
+  type: PASSIVE
+  demons:
+  - id: 48
+    drop_rate: 0.04
+- name:
+    en: Red Remembrance
+  type: PASSIVE
+  demons:
+  - id: 76
+    drop_rate: 0.04
+- name:
+    en: Pickpocket
+  type: PASSIVE
+  demons:
+  - id: 82
+    drop_rate: 0.04
+- name:
+    en: Optimizer
+  type: PASSIVE
+  demons:
+  - id: 50
+    drop_rate: 0.04
+- name:
+    en: Words of Wisdom
+  type: PASSIVE
+  demons:
+  - id: 67
+    drop_rate: 0.05
+- name:
+    en: Regenerate
+  type: PASSIVE
+  alchemy:
+    shard: Healing
+- name:
+    en: Amphibian Speed
+  type: PASSIVE
+  demons:
+  - id: 65
+    drop_rate: 0.05
+- name:
+    en: Drain
+  type: PASSIVE
+  demons:
+  - id: 94
+    drop_rate: 0.05
+- name:
+    en: Detective's Eye
+  type: PASSIVE
+  demons:
+  - id: 66
+    drop_rate: 0.04
+- name:
+    en: Silver Knight
+  type: FAMILIAR
+  special:
+    en: Green Shard Statues
+- name:
+    en: Carabosse
+  disambiguate: true
+  type: FAMILIAR
+  demons:
+  - id: 17
+    drop_rate: 0.04
+- name:
+    en: Buer
+  disambiguate: true
+  type: FAMILIAR
+  demons:
+  - id: 57
+    drop_rate: 0.04
+  - id: 92
+    drop_rate: 0.05
+- name:
+    en: Bloodbringer
+  disambiguate: true
+  type: FAMILIAR
+  demons:
+  - id: 54
+    drop_rate: 0.04
+- name:
+    en: Dantalion
+  disambiguate: true
+  type: FAMILIAR
+  demons:
+  - id: 33
+    drop_rate: 0.04
+- name:
+    en: Dullahammer Head
+  disambiguate: true
+  type: FAMILIAR
+  demons:
+  - id: 28
+    drop_rate: 0.02
+- name:
+    en: Shortcut
+  type: SKILL
+  special:
+    en: White Shard Statues
+  note:
+    en: There are only four per playthrough. In order to obtain all eight, you will need to do so in New Game+.
+  rooms:
+  - [31, 17]
+  - [37, 18]
+  - [74, 33]
+  - [103, 28]
+- name:
+    en: Double Jump
+  type: SKILL
+  demons:
+  - id: 113
+    drop_rate: 1
+- name:
+    en: Deep Sinker
+  type: SKILL
+  prerequisites:
+    en: Defeat Alfred. The room containing the Deep Sinker shard will become accessible.
+  rooms:
+  - [77, 42]
+- name:
+    en: Invert
+  type: SKILL
+  demons:
+  - id: 121
+    drop_rate: 1
+- name:
+    en: High Jump
+  type: SKILL
+  alchemy:
+    shard: Double Jump

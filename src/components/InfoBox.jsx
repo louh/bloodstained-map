@@ -42,15 +42,25 @@ function InfoBox (props) {
         <>
           {(type === 'shard') && <strong>Obtain by defeating</strong>}
           {(type === 'item') && <strong>Drops from</strong>}
-          {(demons.map(index => (
-            <p key={index}>
-              {(Array.isArray(index)) ? (
-                // Third item in the array is if item drops in multiples.
-                DEMONS[index[0] - 1].name[locale] + ' (' + (index[1] * 100) + '%)' + (index[2] ? ' ×' + index[2] : '')
-              ) : (
-                DEMONS[index - 1].name[locale]
-              )}
-            </p>
+          {(demons.map(d => (
+            (Array.isArray(d)) ? (
+              // Third item in the array is if item drops in multiples.
+              <p key={d[0]}>
+                <span className="demon">{DEMONS[d[0] - 1].name[locale]}</span>
+                &nbsp;({d[1] * 100}%)
+                {d[2] ? ' ×' + d[2] : null}
+              </p>
+            ) : (typeof d === 'object') ? (
+              <p key={d.id}>
+                <span className="demon">{DEMONS[d.id - 1].name[locale]}</span>
+                &nbsp;({d.drop_rate * 100}%)
+                {d.quantity ? ' ×' + d[2] : null}
+              </p>
+            ) : (
+              <p key={d}>
+                <span className="demon">{DEMONS[d - 1].name[locale]}</span>
+              </p>
+            )
           )))}
         </>
       )}

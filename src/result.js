@@ -2,7 +2,7 @@ import { deburr } from 'lodash-es'
 import { Howl } from 'howler'
 import DEMONS from './data/demons.json'
 import AREAS from './data/areas.yaml'
-import SHARDS from './data/shards.json'
+import SHARDS from './data/shards.yaml'
 import ITEMS from './data/items.json'
 import MISC from './data/misc.json'
 import { drawGeo, drawRoomGeo, drawMarker, clearGeoJsons, zoomToGeoBounds } from './map'
@@ -213,7 +213,7 @@ export function showResult (selection, callback = () => {}) {
           if (Array.isArray(demon)) {
             number = demon[0]
           } else {
-            number = demon
+            number = demon.id
           }
 
           // Demons are indexed at 1, so we need to subtract 1 to look up by array index
