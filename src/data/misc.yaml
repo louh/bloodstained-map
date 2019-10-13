@@ -3,9 +3,16 @@
     en: MP Max Up
   type: Upgrade
   rooms:
+  - coords: [2, 29]
   - coords: [9, 30]
     type: VISIBLE
     marker: [0.75, 0.8]
+  - coords: [30, 26]
+  - coords: [31, 17]
+  - coords: [34, 8]
+  - coords: [38, 18]
+  - coords: [38, 36]
+  - coords: [40, 23]
   - coords: [41, 8]
     area: 4
     marker: [0.9, 0.5]
@@ -15,6 +22,24 @@
     type: VISIBLE
     ability:
     - Double Jump
+  - coords: [53, 8]
+  - coords: [56, 0]
+  - coords: [58, 23]
+  - coords: [59, 1]
+  - coords: [62, 4]
+  - coords: [63, 47]
+  - coords: [64, 43]
+  - coords: [65, 37]
+  - coords: [67, 46]
+  - coords: [69, 25]
+  - coords: [71, 34]
+  - coords: [76, 12]
+  - coords: [76, 10]
+  - coords: [79, 23]
+  - coords: [92, 24]
+  - coords: [96, 29]
+  - coords: [113, 37]
+  - coords: [116, 33]
 - name:
     en: HP Max Up
   type: Upgrade
@@ -128,9 +153,35 @@
     check: true
 - name:
     en: Capacity Up
+  keywords:
+    en:
+    - Ammo
   type: Upgrade
   rooms:
   - coords: [0, 26]
+  - coords: [21, 25]
+  - coords: [25, 25]
+  - coords: [42, 10]
+  - coords: [42, 17]
+  - coords: [40, 22]
+  - coords: [44, 22]
+  - coords: [45, 24]
+  - coords: [50, 21]
+  - coords: [46, 15]
+  - coords: [72, 25]
+  - coords: [68, 13]
+  - coords: [57, 9]
+  - coords: [58, 2]
+  - coords: [83, 24]
+  - coords: [70, 34]
+  - coords: [71, 36]
+  - coords: [57, 36]
+  - coords: [99, 13]
+  - coords: [107, 36]
+  - coords: [115, 6]
+    needs_verification: true
+  - coords: [112, 18]
+    needs_verification: true
 - name:
     en: Benjamin Judd (part I)
   type: NPC

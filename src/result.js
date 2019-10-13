@@ -35,7 +35,8 @@ export function getSearchTerms () {
 
   // TODO: re-categorize type
   MISC.forEach((item, index) => {
-    items.push(makeSearchTerm(item, index, 'misc'))
+    const keywords = (item.keywords && item.keywords[locale]) ? [ ...item.keywords[locale] ] : []
+    items.push(makeSearchTerm(item, index, 'misc', [ ...keywords ]))
   })
 
   items.push({
