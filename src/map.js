@@ -1,5 +1,5 @@
 import L from 'leaflet'
-import 'leaflet-rastercoords'
+import RasterCoords from 'leaflet-rastercoords'
 import 'leaflet-draw'
 import bbox from '@turf/bbox'
 import { cloneDeep } from 'lodash-es'
@@ -67,6 +67,7 @@ export function initMap (history) {
   
     // Use leaflet-rastercoords to convert pixel coordinates to map coordinates
     // This also automatically sets a boundary to the image
+    L.RasterCoords = RasterCoords
     rc = new L.RasterCoords(map, RASTER_IMAGE_SIZE)
   
     // Expose globally for debugging
