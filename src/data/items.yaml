@@ -577,7 +577,7 @@
   type: Supplies
   subtype: Food
   rooms:
-  - [39, 6]
+  - coords: [39, 6]
   cook: true
   shop:
     price: 500
@@ -2479,7 +2479,7 @@
   type: Weapon
   subtype: Shoes
   rooms:
-  - [1, 27]
+  - coords: [1, 27]
   shop:
     price: 600
   alchemy: true
@@ -2565,7 +2565,7 @@
   type: Weapon
   subtype: Dagger
   rooms:
-  - [1, 27]
+  - coords: [1, 27]
   shop:
     price: 600
   alchemy: true
@@ -2702,7 +2702,7 @@
   type: Weapon
   subtype: Sword
   rooms:
-  - [7, 31]
+  - coords: [7, 31]
   shop:
     price: 600
   alchemy: true
@@ -2995,7 +2995,7 @@
   type: Weapon
   subtype: G Sword
   rooms:
-  - [13, 28]
+  - coords: [13, 28]
   shop:
     price: 600
   alchemy: true
@@ -3228,8 +3228,8 @@
   type: Weapon
   subtype: Katana
   rooms:
-  - [32, 3]
-  - [33, 3]
+  - coords: [32, 3]
+  - coords: [33, 3]
   prerequisites:
     en: Defeat True Zangetsu.
 - name:
@@ -4093,7 +4093,7 @@
   type: Body Armor
   subtype: ''
   rooms:
-  - [8, 27]
+  - coords: [8, 27]
   shop:
     price: 100
   alchemy: true
@@ -4553,7 +4553,7 @@
   special:
     en: Johannes after obtaining all shards.
   rooms:
-  - [21, 27]
+  - coords: [21, 27]
 - name:
     en: Stone Mask
   type: Accessory
@@ -4705,7 +4705,7 @@
     room: [72, 38]
     type: CHEST.GREEN
   rooms:
-  - [48, 34]
+  - coords: [48, 34]
 - name:
     en: Assassin's Ring
   type: Accessory
@@ -4729,7 +4729,7 @@
     room: [62, 32]
     type: CHEST.GREEN
   rooms:
-  - [65, 14]
+  - coords: [65, 14]
 - name:
     en: Cursed Ring
   type: Accessory
@@ -4852,7 +4852,7 @@
   special:
     en: Benjamin in Arvantville after completing all of his quests.
   rooms:
-  - [20, 27]
+  - coords: [20, 27]
 - name:
     en: Black Belt
   type: Accessory
@@ -5003,14 +5003,14 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Sage's Tome
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Sentinel Tome
@@ -5024,7 +5024,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Fortune Tome
@@ -5038,7 +5038,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Heatstave Tome
@@ -5052,7 +5052,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Empyreal Tome
@@ -5066,7 +5066,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Corporeity Tome
@@ -5080,7 +5080,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Blessed Tome
@@ -5094,7 +5094,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Ancillary Tome
@@ -5108,7 +5108,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Tailwind Tome
@@ -5122,7 +5122,7 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Mastery Tome
@@ -5136,14 +5136,14 @@
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
 - name:
     en: Tome of Conquest
   type: Tome
   subtype: ''
   rooms:
-  - [66, 18]
+  - coords: [66, 18]
   librarian: true
   prerequisites:
     en: Reach 99% map completion.
@@ -5153,7 +5153,7 @@
   type: Key Item
   subtype: ''
   rooms:
-  - [6, 32]
+  - coords: [6, 32]
 - name:
     en: Passplate
   type: Key Item
@@ -5456,7 +5456,7 @@
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [76, 17]
+  - coords: [76, 17]
   prerequisites:
     en: Requires the Invert ability.
 - name:
@@ -5481,20 +5481,20 @@
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [76, 12]
+  - coords: [76, 12]
 - name:
     en: Cookies/R
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [69, 23]
+  - coords: [69, 23]
 - name:
     en: Cake/R
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [47, 12]
-  - [48, 12]
+  - coords: [47, 12]
+  - coords: [48, 12]
   prerequisites:
     en: To reach this room, hit the bell in the room to the right until it drops onto
       the pile of rubble.
@@ -5503,7 +5503,7 @@
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [66, 9]
+  - coords: [66, 9]
 - name:
     en: Ultimate Dish/R
   type: Key Item
@@ -5518,7 +5518,7 @@
   type: Key Item
   subtype: Food Recipe
   rooms:
-  - [55, 43]
+  - coords: [55, 43]
 - name:
     en: Discount Card
   type: Key Item
