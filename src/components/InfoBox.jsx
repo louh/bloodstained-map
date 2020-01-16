@@ -88,8 +88,8 @@ function InfoBox (props) {
           }
           {cook &&
             <p>Prepare with Johannes.
-              {(typeof cook === 'string') ? ' ' + cook + ' recipe required.' : (
-                (typeof cook !== 'undefined') ? ' Unlocked after acquiring ' + cook.item + '.' : ''
+              {(typeof cook.recipe !== 'undefined') ? ' ' + cook.recipe + ' recipe required.' : (
+                (typeof cook.item !== 'undefined') ? ' Unlocked after acquiring ' + cook.item + '.' : ''
               )}
             </p>
           }

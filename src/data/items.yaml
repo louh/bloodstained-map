@@ -246,7 +246,8 @@
     npc: Abigail
     name: In Memory of Lily
     quantity: 3
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 780
     craft: true
@@ -254,7 +255,8 @@
     en: Curry & Rice
   type: Supplies
   subtype: Food
-  cook: Curry Dish/R
+  cook:
+    recipe: Curry Dish/R
   shop:
     price: 600
     craft: true
@@ -262,7 +264,8 @@
     en: Beef Curry
   type: Supplies
   subtype: Food
-  cook: Ultimate Dish/R
+  cook:
+    recipe: Ultimate Dish/R
   shop:
     price: 3900
     craft: true
@@ -270,7 +273,8 @@
     en: Pork Curry
   type: Supplies
   subtype: Food
-  cook: Curry Dish/R
+  cook:
+    recipe: Curry Dish/R
   shop:
     price: 900
     craft: true
@@ -278,7 +282,8 @@
     en: Chicken Curry
   type: Supplies
   subtype: Food
-  cook: Curry Dish/R
+  cook:
+    recipe: Curry Dish/R
   shop:
     price: 1100
     craft: true
@@ -286,7 +291,8 @@
     en: Seafood Curry
   type: Supplies
   subtype: Food
-  cook: Curry Dish/R
+  cook:
+    recipe: Curry Dish/R
   shop:
     price: 1450
     craft: true
@@ -302,7 +308,8 @@
     en: Classic Spaghetti
   type: Supplies
   subtype: Food
-  cook: Pasta Dish/R
+  cook:
+    recipe: Pasta Dish/R
   shop:
     price: 1180
     craft: true
@@ -310,7 +317,8 @@
     en: Pasta Carbonara
   type: Supplies
   subtype: Food
-  cook: Pasta Dish/R
+  cook:
+    recipe: Pasta Dish/R
   shop:
     price: 980
     craft: true
@@ -318,7 +326,8 @@
     en: Pasta Vongole
   type: Supplies
   subtype: Food
-  cook: Pasta Dish/R
+  cook:
+    recipe: Pasta Dish/R
   shop:
     price: 1280
     craft: true
@@ -326,7 +335,8 @@
     en: Sea Urchin Pasta
   type: Supplies
   subtype: Food
-  cook: Pasta Dish/R
+  cook:
+    recipe: Pasta Dish/R
   shop:
     price: 1480
     craft: true
@@ -334,7 +344,8 @@
     en: Berry Spaghetti
   type: Supplies
   subtype: Food
-  cook: Sweets/R
+  cook:
+    recipe: Sweets/R
   shop:
     price: 2180
     craft: true
@@ -344,7 +355,8 @@
     en: A chance creation made with sweet red bean juice. Not for everyone...
   type: Supplies
   subtype: Food
-  cook: Sweets/R
+  cook:
+    recipe: Sweets/R
   shop:
     price: 2100
     craft: true
@@ -352,7 +364,8 @@
     en: Salt Ramen
   type: Supplies
   subtype: Food
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 1680
     craft: true
@@ -360,7 +373,8 @@
     en: Soy Ramen
   type: Supplies
   subtype: Food
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 1180
     craft: true
@@ -368,7 +382,8 @@
     en: Tonkotsu Ramen
   type: Supplies
   subtype: Food
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 1000
     craft: true
@@ -376,7 +391,8 @@
     en: Miso Ramen
   type: Supplies
   subtype: Food
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 1180
     craft: true
@@ -392,7 +408,8 @@
     en: Steak
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 2280
     craft: true
@@ -400,7 +417,8 @@
     en: Exquisite Steak
   type: Supplies
   subtype: Food
-  cook: Supreme Dish/R
+  cook:
+    recipe: Supreme Dish/R
   shop:
     price: 3480
     craft: true
@@ -408,7 +426,8 @@
     en: Sukiyaki
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 1680
     craft: true
@@ -416,7 +435,8 @@
     en: Chicken Sauté
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 800
     craft: true
@@ -424,7 +444,8 @@
     en: Garlic Chicken
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 800
     craft: true
@@ -435,7 +456,8 @@
   demons:
   - id: 15
     drop_rate: 0.01
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 1080
     craft: true
@@ -443,7 +465,8 @@
     en: Miso Cutlet
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 1480
     craft: true
@@ -451,7 +474,8 @@
     en: Ginger Pork
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 900
     craft: true
@@ -459,7 +483,8 @@
     en: Meat Hot Pot
   type: Supplies
   subtype: Food
-  cook: Meat Dish/R
+  cook:
+    recipe: Meat Dish/R
   shop:
     price: 1980
     craft: true
@@ -487,7 +512,8 @@
     en: Fried Fish
   type: Supplies
   subtype: Food
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1280
     craft: true
@@ -524,7 +550,8 @@
     en: Fish & Chips
   type: Supplies
   subtype: Food
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1580
     craft: true
@@ -532,7 +559,8 @@
     en: Simmered Forneus
   type: Supplies
   subtype: Food
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1080
     craft: true
@@ -544,7 +572,8 @@
     npc: Abigail
     name: In Memory of Enos
     quantity: 3
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1180
     craft: true
@@ -552,7 +581,8 @@
     en: Forneus in Garlic
   type: Supplies
   subtype: Food
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1280
     craft: true
@@ -560,7 +590,8 @@
     en: Fish Hot Pot
   type: Supplies
   subtype: Food
-  cook: Fish Dish/R
+  cook:
+    recipe: Fish Dish/R
   shop:
     price: 1980
     craft: true
@@ -602,7 +633,8 @@
     en: Strawberry Pie
   type: Supplies
   subtype: Food
-  cook: Supreme Dish/R
+  cook:
+    recipe: Supreme Dish/R
   shop:
     price: 1680
     craft: true
@@ -610,7 +642,8 @@
     en: Strawberry Crepe
   type: Supplies
   subtype: Food
-  cook: Sweets/R
+  cook:
+    recipe: Sweets/R
   shop:
     price: 1480
     craft: true
@@ -618,7 +651,8 @@
     en: Chocolate Crepe
   type: Supplies
   subtype: Food
-  cook: Sweets/R
+  cook:
+    recipe: Sweets/R
   shop:
     price: 980
     craft: true
@@ -626,7 +660,8 @@
     en: Cookies
   type: Supplies
   subtype: Food
-  cook: Cookies/R
+  cook:
+    recipe: Cookies/R
   shop:
     price: 400
     craft: true
@@ -634,7 +669,8 @@
     en: Chocolate Cookies
   type: Supplies
   subtype: Food
-  cook: Cookies/R
+  cook:
+    recipe: Cookies/R
   shop:
     price: 600
     craft: true
@@ -642,7 +678,8 @@
     en: Cinnamon Cookies
   type: Supplies
   subtype: Food
-  cook: Cookies/R
+  cook:
+    recipe: Cookies/R
   shop:
     price: 500
     craft: true
@@ -658,7 +695,8 @@
     en: Chiffon Cake
   type: Supplies
   subtype: Food
-  cook: Cake/R
+  cook:
+    recipe: Cake/R
   shop:
     price: 680
     craft: true
@@ -666,7 +704,8 @@
     en: Cheesecake
   type: Supplies
   subtype: Food
-  cook: Cake/R
+  cook:
+    recipe: Cake/R
   shop:
     price: 880
     craft: true
@@ -678,7 +717,8 @@
     npc: Abigail
     name: In Memory of Morris
     quantity: 3
-  cook: Cake/R
+  cook:
+    recipe: Cake/R
   shop:
     price: 980
     craft: true
@@ -686,7 +726,8 @@
     en: Strawberry Cake
   type: Supplies
   subtype: Food
-  cook: Cake/R
+  cook:
+    recipe: Cake/R
   shop:
     price: 880
     craft: true
@@ -731,7 +772,8 @@
     en: Apple Juice
   type: Supplies
   subtype: Food
-  cook: Drink/R
+  cook:
+    recipe: Drink/R
   shop:
     price: 300
     craft: true
@@ -739,7 +781,8 @@
     en: Strawberry Au Lait
   type: Supplies
   subtype: Food
-  cook: Drink/R
+  cook:
+    recipe: Drink/R
   shop:
     price: 500
     craft: true
@@ -747,7 +790,8 @@
     en: Lemonade
   type: Supplies
   subtype: Food
-  cook: Drink/R
+  cook:
+    recipe: Drink/R
   shop:
     price: 400
     craft: true
@@ -758,7 +802,8 @@
   demons:
   - id: 56
     drop_rate: 0.04
-  cook: Drink/R
+  cook:
+    recipe: Drink/R
   shop:
     price: 700
     craft: true
@@ -766,7 +811,8 @@
     en: Fruit Juice
   type: Supplies
   subtype: Food
-  cook: Supreme Dish/R
+  cook:
+    recipe: Supreme Dish/R
   shop:
     price: 500
     craft: true
@@ -774,7 +820,8 @@
     en: Nectar
   type: Supplies
   subtype: Food
-  cook: Ultimate Dish/R
+  cook:
+    recipe: Ultimate Dish/R
   shop:
     price: 4700
     craft: true
@@ -1126,7 +1173,8 @@
     en: Salt Broth
   type: Ingredient
   subtype: ''
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 1200
     craft: true
@@ -1134,7 +1182,8 @@
     en: Soy Broth
   type: Ingredient
   subtype: ''
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 800
     craft: true
@@ -1142,7 +1191,8 @@
     en: Tonkotsu Broth
   type: Ingredient
   subtype: ''
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 800
     craft: true
@@ -1150,7 +1200,8 @@
     en: Miso Broth
   type: Ingredient
   subtype: ''
-  cook: Ramen/R
+  cook:
+    recipe: Ramen/R
   shop:
     price: 800
     craft: true
@@ -1263,7 +1314,8 @@
     en: Curry Sauce
   type: Ingredient
   subtype: ''
-  cook: Curry Dish/R
+  cook:
+    recipe: Curry Dish/R
 - name:
     en: White Sauce
   type: Ingredient
