@@ -227,8 +227,9 @@ packages:
   '@asamuzakjp/nwsapi@2.3.9':
     resolution: {integrity: sha512-n8GuYSrI9bF7FFZ/SjhwevlHc8xaVlb/7HmHelnc/PZXBD2ZR49NnN9sMMuDdEGPeeRQ5d0hqlSlEpgCX3Wl0Q==}
 
-  '@babel/runtime@7.7.7':
-    resolution: {integrity: sha512-uCnC2JEVAu8AKB5do1WRIsvrdJ0flYx/A/9f/6chdacnEZ7LmavjdsDXr5ksYBegxtuTPR5Va9/+13QF/kFkCA==}
+  '@babel/runtime@7.29.13':
+    resolution: {integrity: sha512-v+oN26xP4YIlQsbQ/CbTH1WG5m/l/DjKKZNy/Kp3f/AFvbgt7Em/D0FeMM3O2hX0YzeN2M16W8lOpyhIkfCBcQ==}
+    engines: {node: '>=6.9.0'}
 
   '@csstools/color-helpers@6.1.2':
     resolution: {integrity: sha512-grhRy3OKmniaAEKXMjua5z/EODX0MSqBGjunw8+j/3HQjOnahs2AGhvEOIYVUWcU6ScApbhLhVrQTX8XqrMrow==}
@@ -408,11 +409,11 @@ packages:
   '@turf/bbox@6.0.1':
     resolution: {integrity: sha512-EGgaRLettBG25Iyx7VyUINsPpVj1x3nFQFiGS3ER8KCI1MximzNLsam3eXRabqQDjyAKyAE1bJ4EZEpGvspQxw==}
 
-  '@turf/helpers@6.1.4':
-    resolution: {integrity: sha512-vJvrdOZy1ngC7r3MDA7zIGSoIgyrkWcGnNIEaqn/APmw+bVLF2gAW7HIsdTxd12s5wQMqEpqIQrmrbRRZ0xC7g==}
+  '@turf/helpers@6.5.0':
+    resolution: {integrity: sha512-VbI1dV5bLFzohYYdgqwikdMVpe7pJ9X3E+dlr425wa2/sMJqYDhTO++ec38/pcPvPE6oD9WEEeU3Xu3gza+VPw==}
 
-  '@turf/meta@6.0.2':
-    resolution: {integrity: sha512-VA7HJkx7qF1l3+GNGkDVn2oXy4+QoLP6LktXAaZKjuT1JI0YESat7quUkbCMy4zP9lAUuvS4YMslLyTtr919FA==}
+  '@turf/meta@6.5.0':
+    resolution: {integrity: sha512-RrArvtsV0vdsCBegoBtOalgdSOfkBrTJ07VkpiCnq/491W67hnMWmDu7e6Ztw0C3WldRYTXkg3SumfdzZxLBHA==}
 
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
@@ -471,8 +472,8 @@ packages:
     resolution: {integrity: sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg==}
     engines: {node: '>=18'}
 
-  compute-scroll-into-view@1.0.11:
-    resolution: {integrity: sha512-uUnglJowSe0IPmWOdDtrlHXof5CTIJitfJEyITHBW6zDVOGu9Pjk5puaLM73SLcwak0L4hEjO7Td88/a6P5i7A==}
+  compute-scroll-into-view@1.0.20:
+    resolution: {integrity: sha512-UCB0ioiyj8CRjtrvaceBLqqhZCVP+1B8+NWQhmdsm0VXOJtobBCf1dBQmebCCo34qZmUwZfIH2MZLqNHazrfjg==}
 
   css-tree@3.2.1:
     resolution: {integrity: sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==}
@@ -710,8 +711,8 @@ packages:
     resolution: {integrity: sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prop-types@15.7.2:
-    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+  prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -722,15 +723,12 @@ packages:
     peerDependencies:
       react: ^19.3.1
 
-  react-is@16.9.0:
-    resolution: {integrity: sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==}
+  react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
   react@19.3.1:
     resolution: {integrity: sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==}
     engines: {node: '>=0.10.0'}
-
-  regenerator-runtime@0.13.2:
-    resolution: {integrity: sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==}
 
   require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
@@ -939,9 +937,7 @@ snapshots:
 
   '@asamuzakjp/nwsapi@2.3.9': {}
 
-  '@babel/runtime@7.7.7':
-    dependencies:
-      regenerator-runtime: 0.13.2
+  '@babel/runtime@7.29.13': {}
 
   '@csstools/color-helpers@6.1.2': {}
 
@@ -1041,14 +1037,14 @@ snapshots:
 
   '@turf/bbox@6.0.1':
     dependencies:
-      '@turf/helpers': 6.1.4
-      '@turf/meta': 6.0.2
+      '@turf/helpers': 6.5.0
+      '@turf/meta': 6.5.0
 
-  '@turf/helpers@6.1.4': {}
+  '@turf/helpers@6.5.0': {}
 
-  '@turf/meta@6.0.2':
+  '@turf/meta@6.5.0':
     dependencies:
-      '@turf/helpers': 6.1.4
+      '@turf/helpers': 6.5.0
 
   '@types/chai@5.2.3':
     dependencies:
@@ -1087,7 +1083,7 @@ snapshots:
 
   chai@6.3.0: {}
 
-  compute-scroll-into-view@1.0.11: {}
+  compute-scroll-into-view@1.0.20: {}
 
   css-tree@3.2.1:
     dependencies:
@@ -1116,11 +1112,11 @@ snapshots:
 
   downshift@4.0.8(react@19.3.1):
     dependencies:
-      '@babel/runtime': 7.7.7
-      compute-scroll-into-view: 1.0.11
-      prop-types: 15.7.2
+      '@babel/runtime': 7.29.13
+      compute-scroll-into-view: 1.0.20
+      prop-types: 15.8.1
       react: 19.3.1
-      react-is: 16.9.0
+      react-is: 16.13.1
 
   entities@9.0.0: {}
 
@@ -1298,11 +1294,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  prop-types@15.7.2:
+  prop-types@15.8.1:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-      react-is: 16.9.0
+      react-is: 16.13.1
 
   punycode@2.3.1: {}
 
@@ -1311,11 +1307,9 @@ snapshots:
       react: 19.3.1
       scheduler: 0.28.0
 
-  react-is@16.9.0: {}
+  react-is@16.13.1: {}
 
   react@19.3.1: {}
-
-  regenerator-runtime@0.13.2: {}
 
   require-from-string@2.0.2: {}
 
