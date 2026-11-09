@@ -4,16 +4,16 @@ This is a work in progress! Please join the [Bloodstained Discord](https://disco
 
 ## Development
 
-Use [nvm](https://github.com/nvm-sh/nvm) and Yarn Classic (1.x):
+Use [nvm](https://github.com/nvm-sh/nvm) and [pnpm](https://pnpm.io/installation):
 
 ```sh
 nvm install
 nvm use
-yarn install
-yarn start
+pnpm install
+pnpm start
 ```
 
-Run `yarn test` for the smoke test and `yarn build` to create the production site in `build/`.
+Run `pnpm test` for the smoke test and `pnpm build` to create the production site in `build/`.
 
 ## Special thanks to
 

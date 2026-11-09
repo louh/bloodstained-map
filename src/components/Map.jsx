@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { initMap } from '../map'
 import { showResult, getSelectionFromURL } from '../result'
 
-import '../../node_modules/leaflet/dist/leaflet.css'
+import 'leaflet/dist/leaflet.css'
 import './Map.css'
 
 class MapContainer extends Component {
