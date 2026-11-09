@@ -10,7 +10,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@turf/bbox": "6.5.0",
+    "@turf/bbox": "7.4.0",
     "downshift": "4.1.0",
     "es-toolkit": "1.53.2",
     "howler": "2.2.4",

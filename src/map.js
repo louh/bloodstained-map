@@ -1,7 +1,7 @@
 import L from 'leaflet'
 import RasterCoords from 'leaflet-rastercoords'
 import 'leaflet-draw'
-import bbox from '@turf/bbox'
+import { bbox } from '@turf/bbox'
 import { cloneDeep } from 'es-toolkit'
 import 'leaflet-draw/dist/leaflet.draw.css'
 

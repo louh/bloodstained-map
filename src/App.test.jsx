@@ -34,6 +34,7 @@ it('renders the map and selects a search result', async () => {
   await act(() => root.render(<App />))
   expect(div.querySelector('#map')).not.toBeNull()
   expect(window.map).toBeDefined()
+  const fitBounds = vi.spyOn(window.map, 'fitBounds')
 
   const input = div.querySelector('input')
   await act(() => {
@@ -45,8 +46,22 @@ it('renders the map and selects a search result', async () => {
   await act(() => result.dispatchEvent(new MouseEvent('click', { bubbles: true })))
   expect(div.querySelector('#info h3').textContent).toContain('Morte')
   expect(new URLSearchParams(window.location.search).get('q')).toBe('Morte')
+  const locations = []
+  window.map.eachLayer(layer => {
+    if (typeof layer.getLatLng === 'function') locations.push(layer.getLatLng())
+    if (typeof layer.getBounds === 'function') {
+      const bounds = layer.getBounds()
+      if (bounds.isValid()) locations.push(bounds.getSouthWest(), bounds.getNorthEast())
+    }
+  })
+  expect(locations.length).toBeGreaterThan(1)
+  expect(fitBounds).toHaveBeenLastCalledWith([
+    [Math.min(...locations.map(location => location.lat)), Math.min(...locations.map(location => location.lng))],
+    [Math.max(...locations.map(location => location.lat)), Math.max(...locations.map(location => location.lng))]
+  ], { padding: [20, 20] })
   expect(consoleError).not.toHaveBeenCalled()
   await act(() => root.unmount())
+  fitBounds.mockRestore()
   consoleError.mockRestore()
   div.remove()
 })
