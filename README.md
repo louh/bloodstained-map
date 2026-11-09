@@ -4,16 +4,23 @@ This is a work in progress!
 
 ## Development
 
-Use [nvm](https://github.com/nvm-sh/nvm) and [pnpm](https://pnpm.io/installation). Development requires Node 24.15.0 or later within the Node 24 release line:
+We use [pnpm](https://pnpm.io/installation) for package management. Install and run with:
 
 ```sh
-nvm install
-nvm use
 pnpm install
 pnpm start
 ```
 
 Run `pnpm test` for the smoke test and `pnpm build` to create the production site in `build/`.
+
+### Node versions
+
+You can use [nvm](https://github.com/nvm-sh/nvm) to automatically switch to the version of Node best supported (defined in `.nvmrc`).
+
+```sh
+nvm install
+nvm use
+```
 
 ## Special thanks to
 
