@@ -2,6 +2,19 @@
 
 This is a work in progress! Please join the [Bloodstained Discord](https://discord.gg/yKKQhzS) and contact me (saikofish#0306) or file an issue here if you have comments, suggestions, etc!
 
+## Development
+
+Use [nvm](https://github.com/nvm-sh/nvm) and Yarn Classic (1.x):
+
+```sh
+nvm install
+nvm use
+yarn install
+yarn start
+```
+
+Run `yarn test` for the smoke test and `yarn build` to create the production site in `build/`.
+
 ## Special thanks to
 
 - **LadyNyaako** for the map and graphics!
