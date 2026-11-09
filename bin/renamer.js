@@ -1,6 +1,5 @@
 const fs = require('node:fs')
 const path = require('node:path')
-const mkdirp = require('mkdirp')
 
 const z = 5
 const NUM_TILES = 512
@@ -30,11 +29,11 @@ async function renameImage ({ z, i }) {
 
   const destDir = path.join(__dirname, `../public/tiles/${z}/${x}/`)
 
-  mkdirp(destDir, function (err) {
+  fs.mkdir(destDir, { recursive: true }, function (err) {
     if (err) {
       console.error(err)
     } else {
-      const dest = `${destDir}${y}@2x.png`
+      const dest = path.join(destDir, `${y}@2x.png`)
       fs.rename(src, dest, function (err) {
         if (err) throw err
         console.log(`File renamed: ${src} -> ${dest}`)
