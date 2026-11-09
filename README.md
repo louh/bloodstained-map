@@ -4,7 +4,7 @@ This is a work in progress! Please join the [Bloodstained Discord](https://disco
 
 ## Development
 
-Use [nvm](https://github.com/nvm-sh/nvm) and [pnpm](https://pnpm.io/installation):
+Use [nvm](https://github.com/nvm-sh/nvm) and [pnpm](https://pnpm.io/installation). Development requires Node 24.15.0 or later within the Node 24 release line:
 
 ```sh
 nvm install
