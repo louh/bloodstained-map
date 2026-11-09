@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import Downshift from 'downshift'
 import './SearchBar.scss'
 import { getSearchTerms, searchFilter, showResult } from '../result.js'
@@ -20,7 +20,7 @@ function alphabetize (a, b) {
 }
 
 function SearchBar (props) {
-  const textInput = React.createRef()
+  const textInput = useRef(null)
 
   useEffect(() => {
     textInput.current.focus()
@@ -61,8 +61,8 @@ function SearchBar (props) {
                   .sort(alphabetize)
                   .map((item, index) => (
                     <li
+                      key={`${item.type}-${item.index}`}
                       {...getItemProps({
-                        key: `${item.type}-${item.index}`,
                         index,
                         item,
                         className: [

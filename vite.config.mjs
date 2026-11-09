@@ -1,18 +1,11 @@
 import { defineConfig } from 'vitest/config'
+import react from '@vitejs/plugin-react'
 import yaml from '@rollup/plugin-yaml'
 
 export default defineConfig({
-  plugins: [yaml()],
-  oxc: {
-    jsx: { runtime: 'classic' }
-  },
+  plugins: [react(), yaml()],
   build: {
     outDir: 'build'
-  },
-  optimizeDeps: {
-    rolldownOptions: {
-      transform: { jsx: { runtime: 'classic' } }
-    }
   },
   test: {
     environment: 'jsdom',
