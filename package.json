@@ -11,20 +11,20 @@
   },
   "dependencies": {
     "@turf/bbox": "6.0.1",
-    "downshift": "4.0.8",
+    "downshift": "4.0.11",
     "howler": "2.1.3",
     "leaflet": "1.6.0",
     "leaflet-draw": "1.0.4",
-    "leaflet-rastercoords": "1.0.3",
-    "lodash-es": "4.17.15",
+    "leaflet-rastercoords": "1.0.6",
+    "lodash-es": "4.17.23",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@rollup/plugin-yaml": "5.0.1",
     "@vitejs/plugin-react": "6.3.0",
-    "jsdom": "^27.0.0",
-    "mkdirp": "0.5.1",
+    "jsdom": "^27.0.1",
+    "mkdirp": "0.5.6",
     "vite": "8.3.7",
     "vitest": "5.1.0"
   },
