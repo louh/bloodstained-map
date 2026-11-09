@@ -2,7 +2,7 @@ import L from 'leaflet'
 import RasterCoords from 'leaflet-rastercoords'
 import 'leaflet-draw'
 import bbox from '@turf/bbox'
-import { cloneDeep } from 'lodash-es'
+import { cloneDeep } from 'es-toolkit'
 import 'leaflet-draw/dist/leaflet.draw.css'
 
 const TILES = '/tiles/{z}/{x}/{y}.png'

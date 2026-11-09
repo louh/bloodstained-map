@@ -1,8 +1,30 @@
 import { act } from 'react'
 import { createRoot } from 'react-dom/client'
+import { renderToStaticMarkup } from 'react-dom/server'
 import App from './App'
+import InfoBox from './components/InfoBox'
+import { searchFilter } from './result'
 
 globalThis.IS_REACT_ACT_ENVIRONMENT = true
+
+it('matches search terms without accents or ligatures', () => {
+  const item = { name: '\u00c6ther Cr\u00e8me', type: 'item', keywords: [] }
+  expect(searchFilter(item, 'aether creme')).toBe(true)
+  expect(searchFilter({ ...item, name: 'Aether Creme' }, '\u00e6ther cr\u00e8me')).toBe(true)
+})
+
+it('lists each chest area only once', () => {
+  const info = {
+    name: { en: 'Test item' },
+    chests: [
+      { type: 'CHEST.BLUE', area: 0 },
+      { type: 'CHEST.BLUE', area: 0 },
+      { type: 'CHEST.BLUE', area: 1 }
+    ]
+  }
+  const html = renderToStaticMarkup(<InfoBox type="item" info={info} />)
+  expect(html).toContain('Found in blue chests in Galleon Minerva and Arvantville.')
+})
 
 it('renders the map and selects a search result', async () => {
   const consoleError = vi.spyOn(console, 'error')

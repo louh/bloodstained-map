@@ -1,4 +1,4 @@
-import { deburr } from 'lodash-es'
+import { deburr } from 'es-toolkit/compat'
 import { Howl } from 'howler'
 import DEMONS from './data/demons.yaml'
 import AREAS from './data/areas.yaml'
