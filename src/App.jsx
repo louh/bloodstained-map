@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
-import Map from './components/Map'
-import SearchBar from './components/SearchBar'
-import InfoBox from './components/InfoBox'
-import GitHubCorner from './components/GitHubCorner'
+import { useState } from 'react'
+
+import { MapContainer } from './components/Map'
+import { SearchBar } from './components/SearchBar'
+import { InfoBox } from './components/InfoBox'
+import { GitHubCorner } from './components/GitHubCorner'
+
 import './App.css'
 
-function App () {
+export function App () {
   const [ state, setState ] = useState({ type: '', info: {} })
 
   return (
@@ -28,7 +30,7 @@ function App () {
         </div>
       </div>
       <div className="right-pane">
-        <Map onSelect={data => setState(data)} />
+        <MapContainer onSelect={data => setState(data)} />
       </div>
       <GitHubCorner />
       <div id="debug-status" />
@@ -36,5 +38,3 @@ function App () {
     </div>
   )
 }
-
-export default App

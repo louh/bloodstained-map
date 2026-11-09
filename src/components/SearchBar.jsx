@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import Downshift from 'downshift'
-import './SearchBar.scss'
+
 import { getSearchTerms, searchFilter, showResult } from '../result.js'
+
+import './SearchBar.css'
 
 const items = getSearchTerms()
 
@@ -19,8 +21,8 @@ function alphabetize (a, b) {
   return 0
 }
 
-function SearchBar (props) {
-  const textInput = React.createRef()
+export function SearchBar (props) {
+  const textInput = useRef(null)
 
   useEffect(() => {
     textInput.current.focus()
@@ -53,7 +55,7 @@ function SearchBar (props) {
       }) => (
         <div className="search">
           <label {...getLabelProps()}>What are you looking for?</label>
-          <input {...getInputProps({ spellCheck: 'false', placeholder: 'Enter search term' })} ref={textInput} />
+          <input {...getInputProps({ spellCheck: 'false', placeholder: 'Enter search term', ref: textInput })} />
           <ul {...getMenuProps()}>
             {isOpen
               ? items
@@ -61,8 +63,8 @@ function SearchBar (props) {
                   .sort(alphabetize)
                   .map((item, index) => (
                     <li
+                      key={`${item.type}-${item.index}`}
                       {...getItemProps({
-                        key: `${item.type}-${item.index}`,
                         index,
                         item,
                         className: [
@@ -81,5 +83,3 @@ function SearchBar (props) {
     </Downshift>
   )
 }
-
-export default SearchBar

@@ -1,9 +1,10 @@
+import { bbox } from '@turf/bbox'
+import { cloneDeep } from 'es-toolkit'
 import L from 'leaflet'
-import RasterCoords from 'leaflet-rastercoords'
 import 'leaflet-draw'
-import bbox from '@turf/bbox'
-import { cloneDeep } from 'lodash-es'
-import '../node_modules/leaflet-draw/dist/leaflet.draw.css'
+import RasterCoords from 'leaflet-rastercoords'
+
+import 'leaflet-draw/dist/leaflet.draw.css'
 
 const TILES = '/tiles/{z}/{x}/{y}.png'
 const TILES_RETINA = '/tiles/{z}/{x}/{y}@2x.png'

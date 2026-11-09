@@ -1,12 +1,13 @@
-import React from 'react'
-import { uniq } from 'lodash-es'
-import './InfoBox.scss'
+import { uniq } from 'es-toolkit'
+
 import DEMONS from '../data/demons.yaml'
 import AREAS from '../data/areas.yaml'
 
+import './InfoBox.css'
+
 const locale = 'en'
 
-function InfoBox (props) {
+export function InfoBox (props) {
   const { type, info } = props
 
   if (!type || !info) return null
@@ -153,8 +154,6 @@ function InfoBox (props) {
     </div>
   )
 }
-
-export default InfoBox
 
 function getType (type, info) {
   switch (type) {

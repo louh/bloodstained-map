@@ -1,6 +1,5 @@
-const fs = require('fs')
-const path = require('path')
-const mkdirp = require('mkdirp')
+import fs from 'node:fs'
+import path from 'node:path'
 
 const z = 5
 const NUM_TILES = 512
@@ -22,19 +21,19 @@ const NUM_PER_ROW = 32
 
 async function renameImage ({ z, i }) {
   const filename = `Complete-8K-Map-copy_${String(i).padStart(2, '0')}.png`
-  const src = path.join(__dirname, `../public/tiles/${z}/images/${filename}`)
+  const src = path.join(import.meta.dirname, `../public/tiles/${z}/images/${filename}`)
 
   const x = (i - 1) % NUM_PER_ROW
   // const x = (i - 1) % NUM_PER_ROW + 16
   const y = Math.floor((i - 1) / NUM_PER_ROW)
 
-  const destDir = path.join(__dirname, `../public/tiles/${z}/${x}/`)
+  const destDir = path.join(import.meta.dirname, `../public/tiles/${z}/${x}/`)
 
-  mkdirp(destDir, function (err) {
+  fs.mkdir(destDir, { recursive: true }, function (err) {
     if (err) {
       console.error(err)
     } else {
-      const dest = `${destDir}${y}@2x.png`
+      const dest = path.join(destDir, `${y}@2x.png`)
       fs.rename(src, dest, function (err) {
         if (err) throw err
         console.log(`File renamed: ${src} -> ${dest}`)
