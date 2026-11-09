@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+
 import Map from './components/Map'
 import SearchBar from './components/SearchBar'
 import InfoBox from './components/InfoBox'
 import GitHubCorner from './components/GitHubCorner'
+
 import './App.css'
 
 function App () {

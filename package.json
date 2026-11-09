@@ -7,7 +7,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "serve": "npx http-server build"
   },
   "dependencies": {
     "@turf/bbox": "7.4.0",

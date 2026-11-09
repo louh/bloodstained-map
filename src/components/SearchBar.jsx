@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react'
 import Downshift from 'downshift'
-import './SearchBar.css'
+
 import { getSearchTerms, searchFilter, showResult } from '../result.js'
+
+import './SearchBar.css'
 
 const items = getSearchTerms()
 

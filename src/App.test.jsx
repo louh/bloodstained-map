@@ -1,6 +1,7 @@
 import { act } from 'react'
 import { createRoot } from 'react-dom/client'
 import { renderToStaticMarkup } from 'react-dom/server'
+
 import App from './App'
 import InfoBox from './components/InfoBox'
 import { searchFilter } from './result'

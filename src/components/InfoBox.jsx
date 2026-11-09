@@ -1,8 +1,9 @@
-import React from 'react'
 import { uniq } from 'es-toolkit'
-import './InfoBox.css'
+
 import DEMONS from '../data/demons.yaml'
 import AREAS from '../data/areas.yaml'
+
+import './InfoBox.css'
 
 const locale = 'en'
 

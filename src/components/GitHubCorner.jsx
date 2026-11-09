@@ -2,7 +2,6 @@
  * React wrapper for new GitHub corners
  * Original:  https://github.com/tholman/github-corners
  */
-import React from 'react'
 import './GitHubCorner.css'
 
 const REPO_URL = 'https://github.com/louh/bloodstained-map/'

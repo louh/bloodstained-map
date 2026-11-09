@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import { initMap } from '../map'
 import { showResult, getSelectionFromURL } from '../result'
 
