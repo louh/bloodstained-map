@@ -1,6 +1,6 @@
 import React from 'react'
 import { uniq } from 'lodash-es'
-import './InfoBox.scss'
+import './InfoBox.css'
 import DEMONS from '../data/demons.yaml'
 import AREAS from '../data/areas.yaml'
 
