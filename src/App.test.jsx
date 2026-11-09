@@ -31,10 +31,12 @@ it('renders the map and selects a search result', async () => {
   const consoleError = vi.spyOn(console, 'error')
   const div = document.createElement('div')
   document.body.appendChild(div)
+  window.history.replaceState(null, '', '?q=Morte')
   const root = createRoot(div)
   await act(() => root.render(<App />))
   expect(div.querySelector('#map')).not.toBeNull()
   expect(window.map).toBeDefined()
+  expect(div.querySelector('#info h3').textContent).toContain('Morte')
   const fitBounds = vi.spyOn(window.map, 'fitBounds')
 
   const input = div.querySelector('input')
@@ -71,6 +73,7 @@ it('renders the map and selects a search result', async () => {
     [Math.min(...locations.map(location => location.lat)), Math.min(...locations.map(location => location.lng))],
     [Math.max(...locations.map(location => location.lat)), Math.max(...locations.map(location => location.lng))]
   ], { padding: [20, 20] })
+  expect(fitBounds).toHaveBeenCalledTimes(1)
   await act(() => {
     Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, 'value').set.call(input, 'Adrasteia')
     input.dispatchEvent(new Event('input', { bubbles: true }))
@@ -79,6 +82,7 @@ it('renders the map and selects a search result', async () => {
   await act(() => input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true })))
   expect(div.querySelector('#info h3').textContent).toContain('Adrasteia')
   expect(new URLSearchParams(window.location.search).get('q')).toBe('Adrasteia')
+  expect(fitBounds).toHaveBeenCalledTimes(2)
   await act(() => input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true })))
   expect(input.value).toBe('')
   expect(div.querySelector('#info h3').textContent).toContain('Adrasteia')

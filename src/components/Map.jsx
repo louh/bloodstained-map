@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { useEffect, useEffectEvent, useRef } from 'react'
 
 import { initMap } from '../map'
 import { showResult, getSelectionFromURL } from '../result'
@@ -6,31 +6,28 @@ import { showResult, getSelectionFromURL } from '../result'
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
 
-class MapContainer extends Component {
-  constructor (props) {
-    super(props)
+function MapContainer ({ onSelect }) {
+  const mapEl = useRef(null)
 
-    this.mapEl = React.createRef()
-  }
-
-  componentDidMount () {
-    if (!this.mapEl.current) return
-
-    initMap()
-
+  const showInitialSelection = useEffectEvent(() => {
     const selection = getSelectionFromURL()
     if (selection) {
-      showResult(selection, this.props.onSelect)
+      showResult(selection, onSelect)
     }
-  }
+  })
 
-  render () {
-    return (
-      <div className="map-container">
-        <div id="map" ref={this.mapEl} />
-      </div>
-    )
-  }
+  useEffect(() => {
+    if (!mapEl.current) return
+
+    initMap()
+    showInitialSelection()
+  }, [])
+
+  return (
+    <div className="map-container">
+      <div id="map" ref={mapEl} />
+    </div>
+  )
 }
 
 export default MapContainer
