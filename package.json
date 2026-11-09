@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@turf/bbox": "7.4.0",
-    "downshift": "4.1.0",
+    "downshift": "9.5.0",
     "es-toolkit": "1.53.2",
     "howler": "2.2.4",
     "leaflet": "1.9.4",

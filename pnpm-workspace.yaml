@@ -17,3 +17,4 @@ minimumReleaseAgeExclude:
   - '@vitejs/plugin-react@6.3.0'
   - rolldown@1.2.18
   - vite@8.3.7
+  - downshift@9.5.0
