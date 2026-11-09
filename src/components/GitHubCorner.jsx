@@ -6,7 +6,7 @@ import './GitHubCorner.css'
 
 const REPO_URL = 'https://github.com/louh/bloodstained-map/'
 
-const GitHubCorner = (props) => {
+export const GitHubCorner = (props) => {
   return (
     <div className="github-corner-container">
       <a href={REPO_URL} className="github-corner" aria-label="View source on GitHub" target="_blank" rel="noopener noreferrer">
@@ -15,5 +15,3 @@ const GitHubCorner = (props) => {
     </div>
   )
 }
-
-export default GitHubCorner

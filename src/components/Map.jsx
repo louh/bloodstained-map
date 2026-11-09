@@ -6,7 +6,7 @@ import { showResult, getSelectionFromURL } from '../result'
 import 'leaflet/dist/leaflet.css'
 import './Map.css'
 
-function MapContainer ({ onSelect }) {
+export function MapContainer ({ onSelect }) {
   const mapEl = useRef(null)
 
   const showInitialSelection = useEffectEvent(() => {
@@ -29,5 +29,3 @@ function MapContainer ({ onSelect }) {
     </div>
   )
 }
-
-export default MapContainer

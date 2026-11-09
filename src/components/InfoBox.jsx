@@ -7,7 +7,7 @@ import './InfoBox.css'
 
 const locale = 'en'
 
-function InfoBox (props) {
+export function InfoBox (props) {
   const { type, info } = props
 
   if (!type || !info) return null
@@ -154,8 +154,6 @@ function InfoBox (props) {
     </div>
   )
 }
-
-export default InfoBox
 
 function getType (type, info) {
   switch (type) {

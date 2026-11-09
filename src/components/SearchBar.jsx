@@ -21,7 +21,7 @@ function alphabetize (a, b) {
   return 0
 }
 
-function SearchBar (props) {
+export function SearchBar (props) {
   const textInput = useRef(null)
 
   useEffect(() => {
@@ -83,5 +83,3 @@ function SearchBar (props) {
     </Downshift>
   )
 }
-
-export default SearchBar
